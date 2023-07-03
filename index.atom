@@ -2,844 +2,814 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tg-archive.hyperdbg.org</id>
   <title>@hyperdbg - Telegram group archive</title>
-  <updated>2023-06-25T10:29:08.838886+00:00</updated>
+  <updated>2023-07-03T12:40:57.376910+00:00</updated>
   <link href="https://tg-archive.hyperdbg.org" rel="alternate"/>
   <generator>tg-archive 1.1.2</generator>
   <subtitle>Public archive of HyperDbg Telegram messages.</subtitle>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06_2.html#1289</id>
-    <title>@ricnar on 2023-06-25 09:30:21+00:00 (#1289)</title>
-    <updated>2023-06-25T10:29:08.841052+00:00</updated>
-    <content type="html">Thanks</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06_2.html#1289" rel="alternate"/>
-    <published>2023-06-25T09:30:21+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1831</id>
+    <title>@HughEverett on 2023-07-03 12:36:19+00:00 (#1831)</title>
+    <updated>2023-07-03T12:40:57.378222+00:00</updated>
+    <content type="html">Yeah, and also please consider this: In HyperDbg, we won't ignore the interrupts. We just save them somewhere in the memory and once the guest continues (we config VMCS to VM-exit on Interrupt Window Exiting events). So, after we continue HyperDbg from the 'i' command, it immediately re-injects the previous interrupts. Thus, a context-switch will happen right after continuing the core from an instrumented step-in.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1831" rel="alternate"/>
+    <published>2023-07-03T12:36:19+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06_2.html#1288</id>
-    <title>@ricnar on 2023-06-25 09:29:59+00:00 (#1288)</title>
-    <updated>2023-06-25T10:29:08.841047+00:00</updated>
-    <content type="html">I will try, maybe I will share a video with my experiences using it in some time</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06_2.html#1288" rel="alternate"/>
-    <published>2023-06-25T09:29:59+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1830</id>
+    <title>@ricnar on 2023-07-03 12:33:24+00:00 (#1830)</title>
+    <updated>2023-07-03T12:40:57.378217+00:00</updated>
+    <content type="html">only if is needed i use another with more cores</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1830" rel="alternate"/>
+    <published>2023-07-03T12:33:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06_2.html#1287</id>
-    <title>@ricnar on 2023-06-25 09:28:05+00:00 (#1287)</title>
-    <updated>2023-06-25T10:29:08.841041+00:00</updated>
-    <content type="html">This will be awesome for unpacking</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06_2.html#1287" rel="alternate"/>
-    <published>2023-06-25T09:28:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1829</id>
+    <title>@ricnar on 2023-07-03 12:33:01+00:00 (#1829)</title>
+    <updated>2023-07-03T12:40:57.378212+00:00</updated>
+    <content type="html">to avoid this</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1829" rel="alternate"/>
+    <published>2023-07-03T12:33:01+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06_2.html#1286</id>
-    <title>@HughEverett on 2023-06-25 09:27:47+00:00 (#1286)</title>
-    <updated>2023-06-25T10:29:08.841036+00:00</updated>
-    <content type="html">Yes, of course.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06_2.html#1286" rel="alternate"/>
-    <published>2023-06-25T09:27:47+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1828</id>
+    <title>@ricnar on 2023-07-03 12:32:56+00:00 (#1828)</title>
+    <updated>2023-07-03T12:40:57.378207+00:00</updated>
+    <content type="html">for this reason my start vm has only 1 procesor 1 core</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1828" rel="alternate"/>
+    <published>2023-07-03T12:32:56+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1285</id>
-    <title>@ricnar on 2023-06-25 09:27:12+00:00 (#1285)</title>
-    <updated>2023-06-25T10:29:08.841031+00:00</updated>
-    <content type="html">Another question the monitor option can monitor big sizes of memory like a complete section or two sections?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1285" rel="alternate"/>
-    <published>2023-06-25T09:27:12+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1827</id>
+    <title>@HughEverett on 2023-07-03 12:32:20+00:00 (#1827)</title>
+    <updated>2023-07-03T12:40:57.378202+00:00</updated>
+    <content type="html">yeah, agree. It's really hard to handle multi cores with different TLBs, EPTPs, CR3s, etc.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1827" rel="alternate"/>
+    <published>2023-07-03T12:32:20+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1284</id>
-    <title>@HughEverett on 2023-06-25 09:26:30+00:00 (#1284)</title>
-    <updated>2023-06-25T10:29:08.841026+00:00</updated>
-    <content type="html">Agree. That should be added to the to-do list.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1284" rel="alternate"/>
-    <published>2023-06-25T09:26:30+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1826</id>
+    <title>@ricnar on 2023-07-03 12:32:20+00:00 (#1826)</title>
+    <updated>2023-07-03T12:40:57.378198+00:00</updated>
+    <content type="html">you are tracing and a breakpoint is triggered by another core and jumps to its location</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1826" rel="alternate"/>
+    <published>2023-07-03T12:32:20+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1283</id>
-    <title>@ricnar on 2023-06-25 09:25:38+00:00 (#1283)</title>
-    <updated>2023-06-25T10:29:08.841021+00:00</updated>
-    <content type="html">Can be awesome</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1283" rel="alternate"/>
-    <published>2023-06-25T09:25:38+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1825</id>
+    <title>@ricnar on 2023-07-03 12:31:35+00:00 (#1825)</title>
+    <updated>2023-07-03T12:40:57.378192+00:00</updated>
+    <content type="html">in windbg using more than1 procesor 1 core drives you crazy when you are tracing or put breakpoints in kernel</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1825" rel="alternate"/>
+    <published>2023-07-03T12:31:35+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1282</id>
-    <title>@ricnar on 2023-06-25 09:24:37+00:00 (#1282)</title>
-    <updated>2023-06-25T10:29:08.841015+00:00</updated>
-    <content type="html">To combine the static análisis in ida with this tool</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1282" rel="alternate"/>
-    <published>2023-06-25T09:24:37+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1824</id>
+    <title>@HughEverett on 2023-07-03 12:30:03+00:00 (#1824)</title>
+    <updated>2023-07-03T12:40:57.378187+00:00</updated>
+    <content type="html">I mean once HyperDbg continues the system (e.g, pressing 'g', or 't') then all other processes might (and will) get the chance to run in the system.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1824" rel="alternate"/>
+    <published>2023-07-03T12:30:03+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1281</id>
-    <title>@HughEverett on 2023-06-25 09:24:35+00:00 (#1281)</title>
-    <updated>2023-06-25T10:29:08.841011+00:00</updated>
-    <content type="html">Not yet. We didn't write it, but that should be hard as we released HyperDbg SDK.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1281" rel="alternate"/>
-    <published>2023-06-25T09:24:35+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1823</id>
+    <title>@HughEverett on 2023-07-03 12:27:55+00:00 (#1823)</title>
+    <updated>2023-07-03T12:40:57.378181+00:00</updated>
+    <content type="html">I didn't get the point. Why do you use one core?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1823" rel="alternate"/>
+    <published>2023-07-03T12:27:55+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1280</id>
-    <title>@ricnar on 2023-06-25 09:23:49+00:00 (#1280)</title>
-    <updated>2023-06-25T10:29:08.841005+00:00</updated>
-    <content type="html">Can be great</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1280" rel="alternate"/>
-    <published>2023-06-25T09:23:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1279</id>
-    <title>@HughEverett on 2023-06-25 09:23:45+00:00 (#1279)</title>
-    <updated>2023-06-25T10:29:08.841000+00:00</updated>
-    <content type="html">The difference here with WinDbg is that break on READ/WRITE is implemented in EPT level; thus, we won't use Hardware Debug Registers for this purpose and as the result, there is no limitation on quantity or size. You can set as many monitors as you want with unlimited size.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1279" rel="alternate"/>
-    <published>2023-06-25T09:23:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1278</id>
-    <title>@ricnar on 2023-06-25 09:23:33+00:00 (#1278)</title>
-    <updated>2023-06-25T10:29:08.840995+00:00</updated>
-    <content type="html">Do you evaluate to write an ida pro plugin like windbg has ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1278" rel="alternate"/>
-    <published>2023-06-25T09:23:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1277</id>
-    <title>@ricnar on 2023-06-25 09:21:51+00:00 (#1277)</title>
-    <updated>2023-06-25T10:29:08.840990+00:00</updated>
-    <content type="html">I will try</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1277" rel="alternate"/>
-    <published>2023-06-25T09:21:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1276</id>
-    <title>@ricnar on 2023-06-25 09:21:42+00:00 (#1276)</title>
-    <updated>2023-06-25T10:29:08.840985+00:00</updated>
-    <content type="html">Thanks</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1276" rel="alternate"/>
-    <published>2023-06-25T09:21:42+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1275</id>
-    <title>@HughEverett on 2023-06-25 09:20:39+00:00 (#1275)</title>
-    <updated>2023-06-25T10:29:08.840974+00:00</updated>
-    <content type="html">The exact address is available at $context pseudo-register in script and in debugger:
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1822</id>
+    <title>@HughEverett on 2023-07-03 12:26:38+00:00 (#1822)</title>
+    <updated>2023-07-03T12:40:57.378165+00:00</updated>
+    <content type="html">The details of the implementation is described here: https://research.hyperdbg.org/assets/documents/kernel-debugger-design-1st-edition.pdf
 
-https://docs.hyperdbg.org/commands/extension-commands/monitor#context</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1275" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/extension-commands/monitor" rel="enclosure" type="application/octet-stream"/>
-    <published>2023-06-25T09:20:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1274</id>
-    <title>@HughEverett on 2023-06-25 09:19:04+00:00 (#1274)</title>
-    <updated>2023-06-25T10:29:08.840959+00:00</updated>
-    <content type="html">Yes, the breakpoint on READ/WRITE is done by using the '!monitor' command.
-
-The documentation:
-https://docs.hyperdbg.org/commands/extension-commands/monitor
-
-Example:
-https://docs.hyperdbg.org/using-hyperdbg/kernel-mode-debugging/examples/events/monitoring-accesses-to-structures</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1274" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/extension-commands/monitor" rel="enclosure" type="application/octet-stream"/>
-    <published>2023-06-25T09:19:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1273</id>
-    <title>@ricnar on 2023-06-25 09:10:01+00:00 (#1273)</title>
-    <updated>2023-06-25T10:29:08.840953+00:00</updated>
-    <content type="html">Which is the alternative?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1273" rel="alternate"/>
-    <published>2023-06-25T09:10:01+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1272</id>
-    <title>@ricnar on 2023-06-25 09:09:23+00:00 (#1272)</title>
-    <updated>2023-06-25T10:29:08.840948+00:00</updated>
-    <content type="html">How can be used to determine the exact place when a memory address is filled or used?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1272" rel="alternate"/>
-    <published>2023-06-25T09:09:23+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1271</id>
-    <title>@ricnar on 2023-06-25 09:08:19+00:00 (#1271)</title>
-    <updated>2023-06-25T10:29:08.840943+00:00</updated>
-    <content type="html">It doesn't have breakpoint on read or write?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1271" rel="alternate"/>
-    <published>2023-06-25T09:08:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1270</id>
-    <title>@HughEverett on 2023-06-25 08:20:06+00:00 (#1270)</title>
-    <updated>2023-06-25T10:29:08.840938+00:00</updated>
-    <content type="html">Wow, that's great. 👍</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1270" rel="alternate"/>
-    <published>2023-06-25T08:20:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1269</id>
-    <title>@HughEverett on 2023-06-25 08:19:25+00:00 (#1269)</title>
-    <updated>2023-06-25T10:29:08.840932+00:00</updated>
-    <content type="html">Can't you use a VMware nested virtualization?
-It's been a long time that I didn't test the physical COM capability of the HyperDbg, there might be some problems but sure, should be easily solvable once you have the facility to debug it.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1269" rel="alternate"/>
-    <published>2023-06-25T08:19:25+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1268</id>
-    <title>@HughEverett on 2023-06-25 08:16:51+00:00 (#1268)</title>
-    <updated>2023-06-25T10:29:08.840927+00:00</updated>
-    <content type="html">Unfortunately, no.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1268" rel="alternate"/>
-    <published>2023-06-25T08:16:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1267</id>
-    <title>@HughEverett on 2023-06-25 08:16:33+00:00 (#1267)</title>
-    <updated>2023-06-25T10:29:08.840921+00:00</updated>
-    <content type="html">No, it's compatible. Where did you see that? 🤨</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1267" rel="alternate"/>
-    <published>2023-06-25T08:16:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1266</id>
-    <title>@HughEverett on 2023-06-25 08:15:35+00:00 (#1266)</title>
-    <updated>2023-06-25T10:29:08.840915+00:00</updated>
-    <content type="html">Yes. It can be combined. You can also create several events with same conditions.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1266" rel="alternate"/>
-    <published>2023-06-25T08:15:35+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1265</id>
-    <title>@HughEverett on 2023-06-25 08:14:05+00:00 (#1265)</title>
-    <updated>2023-06-25T10:29:08.840909+00:00</updated>
-    <content type="html">No, 'lm' is a command, not the script function. But, if there is some Windows functions (that are HIGH_IRQL compatible), can be used as a new script function.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1265" rel="alternate"/>
-    <published>2023-06-25T08:14:05+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1264</id>
-    <title>@prekvapko on 2023-06-25 02:44:36+00:00 (#1264)</title>
-    <updated>2023-06-25T10:29:08.840901+00:00</updated>
-    <content type="html">for anyone not working with legacy hardware and interested in remote debugging:</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1264" rel="alternate"/>
-    <published>2023-06-25T02:44:36+00:00</published>
-  </entry>
+it might help knowing about some of the technical difficulties regarding this 'instrumentation step-in'.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1822" rel="alternate"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://research.hyperdbg.org/assets/documents/kernel-debugger-design-1st-edition.pdf" rel="enclosure" type="application/octet-stream"/>
+    <published>2023-07-03T12:26:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1821</id>
+    <title>@ricnar on 2023-07-03 12:25:54+00:00 (#1821)</title>
+    <updated>2023-07-03T12:40:57.378160+00:00</updated>
+    <content type="html">only if needed i change to other vm with more procesor cores</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1821" rel="alternate"/>
+    <published>2023-07-03T12:25:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1820</id>
+    <title>@ricnar on 2023-07-03 12:25:20+00:00 (#1820)</title>
+    <updated>2023-07-03T12:40:57.378155+00:00</updated>
+    <content type="html">for this reason my 1 procesor 1 core scenario by default is the best to start</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1820" rel="alternate"/>
+    <published>2023-07-03T12:25:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1819</id>
+    <title>@ricnar on 2023-07-03 12:24:58+00:00 (#1819)</title>
+    <updated>2023-07-03T12:40:57.378150+00:00</updated>
+    <content type="html">yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1819" rel="alternate"/>
+    <published>2023-07-03T12:24:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1818</id>
+    <title>@HughEverett on 2023-07-03 12:24:41+00:00 (#1818)</title>
+    <updated>2023-07-03T12:40:57.378145+00:00</updated>
+    <content type="html">It breaks the system.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1818" rel="alternate"/>
+    <published>2023-07-03T12:24:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1817</id>
+    <title>@HughEverett on 2023-07-03 12:24:33+00:00 (#1817)</title>
+    <updated>2023-07-03T12:40:57.378140+00:00</updated>
+    <content type="html">Based on the implementation, we masked the external interrupts to make this instrumentation step-in possible. No, what happens if a SYSCALL execute in the state when interrupts are masked?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1817" rel="alternate"/>
+    <published>2023-07-03T12:24:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1816</id>
+    <title>@ricnar on 2023-07-03 12:23:27+00:00 (#1816)</title>
+    <updated>2023-07-03T12:40:57.378135+00:00</updated>
+    <content type="html">it can be problematic</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1816" rel="alternate"/>
+    <published>2023-07-03T12:23:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1815</id>
+    <title>@HughEverett on 2023-07-03 12:23:21+00:00 (#1815)</title>
+    <updated>2023-07-03T12:40:57.378130+00:00</updated>
+    <content type="html">Imagine this scenario, you want to step-over a function that tries to write into a file.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1815" rel="alternate"/>
+    <published>2023-07-03T12:23:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1814</id>
+    <title>@ricnar on 2023-07-03 12:23:15+00:00 (#1814)</title>
+    <updated>2023-07-03T12:40:57.378126+00:00</updated>
+    <content type="html">yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1814" rel="alternate"/>
+    <published>2023-07-03T12:23:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1813</id>
+    <title>@HughEverett on 2023-07-03 12:22:38+00:00 (#1813)</title>
+    <updated>2023-07-03T12:40:57.378120+00:00</updated>
+    <content type="html">You got it right but the thing is, it's technically impossible to implement a guaranteed step-over. Because we're not sure what a function wants to do.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1813" rel="alternate"/>
+    <published>2023-07-03T12:22:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1812</id>
+    <title>@ricnar on 2023-07-03 12:20:21+00:00 (#1812)</title>
+    <updated>2023-07-03T12:40:57.378115+00:00</updated>
+    <content type="html">but the starting point is 1 procesor and 1 core</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1812" rel="alternate"/>
+    <published>2023-07-03T12:20:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1811</id>
+    <title>@ricnar on 2023-07-03 12:20:03+00:00 (#1811)</title>
+    <updated>2023-07-03T12:40:57.378110+00:00</updated>
+    <content type="html">if i need more cores  i change to another vm</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1811" rel="alternate"/>
+    <published>2023-07-03T12:20:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1810</id>
+    <title>@ricnar on 2023-07-03 12:19:35+00:00 (#1810)</title>
+    <updated>2023-07-03T12:40:57.378106+00:00</updated>
+    <content type="html">for this reason i have a one only processor vm with 1 only core to work</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1810" rel="alternate"/>
+    <published>2023-07-03T12:19:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1809</id>
+    <title>@ricnar on 2023-07-03 12:18:54+00:00 (#1809)</title>
+    <updated>2023-07-03T12:40:57.378101+00:00</updated>
+    <content type="html">to step over without all the cores disturbing</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1809" rel="alternate"/>
+    <published>2023-07-03T12:18:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1808</id>
+    <title>@ricnar on 2023-07-03 12:18:29+00:00 (#1808)</title>
+    <updated>2023-07-03T12:40:57.378094+00:00</updated>
+    <content type="html">the p command does not have the option like t (the i alternative)</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1808" rel="alternate"/>
+    <published>2023-07-03T12:18:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1807</id>
+    <title>@ricnar on 2023-07-03 12:17:57+00:00 (#1807)</title>
+    <updated>2023-07-03T12:40:57.378042+00:00</updated>
+    <content type="html">photo_2023-07-03_12-17-57.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1807" rel="alternate"/>
+    <link href="https://tg-archive.hyperdbg.org/media/1807.jpg" rel="enclosure" type="image/jpeg" length="22540"/>
+    <published>2023-07-03T12:17:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1805</id>
+    <title>@ricnar on 2023-07-03 12:10:18+00:00 (#1805)</title>
+    <updated>2023-07-03T12:40:57.378038+00:00</updated>
+    <content type="html">very difficult</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1805" rel="alternate"/>
+    <published>2023-07-03T12:10:18+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1804</id>
+    <title>@HughEverett on 2023-07-03 12:07:44+00:00 (#1804)</title>
+    <updated>2023-07-03T12:40:57.378033+00:00</updated>
+    <content type="html">Still, we could use Windows APIs to notify us about the entrypoint, but that's not the case. We need to have an API (Debug) independent starting mechanism in HyperDbg.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1804" rel="alternate"/>
+    <published>2023-07-03T12:07:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1803</id>
+    <title>@HughEverett on 2023-07-03 12:06:02+00:00 (#1803)</title>
+    <updated>2023-07-03T12:40:57.378028+00:00</updated>
+    <content type="html">I could fix it by using MBEC (mode based execution controls), but MBEC is quite a new feature in Intel processors. Thus, if I implement it like this, we won't support the '.start' command on Skylake (6 gen Intel) and older processors anymore.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1803" rel="alternate"/>
+    <published>2023-07-03T12:06:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1802</id>
+    <title>@ricnar on 2023-07-03 12:04:54+00:00 (#1802)</title>
+    <updated>2023-07-03T12:40:57.378023+00:00</updated>
+    <content type="html">🙁</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1802" rel="alternate"/>
+    <published>2023-07-03T12:04:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1801</id>
+    <title>@HughEverett on 2023-07-03 12:04:24+00:00 (#1801)</title>
+    <updated>2023-07-03T12:40:57.378018+00:00</updated>
+    <content type="html">And regular OS page table bits are also not usable. Because the entrypoint will be accessed several time by some functions in ntdll.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1801" rel="alternate"/>
+    <published>2023-07-03T12:04:24+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1800</id>
+    <title>@HughEverett on 2023-07-03 12:03:40+00:00 (#1800)</title>
+    <updated>2023-07-03T12:40:57.378013+00:00</updated>
+    <content type="html">For some unknown reasons, Debug Registers (which work with Virtual Addresses) won't work either.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1800" rel="alternate"/>
+    <published>2023-07-03T12:03:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1799</id>
+    <title>@HughEverett on 2023-07-03 12:02:53+00:00 (#1799)</title>
+    <updated>2023-07-03T12:40:57.378007+00:00</updated>
+    <content type="html">Sure we could intercept the page-fault, but there is no PFN (page frame number) available in the #PF handler. Thus, the physical address is unknown and we could not use EPT to intercept it.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1799" rel="alternate"/>
+    <published>2023-07-03T12:02:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1798</id>
+    <title>@HughEverett on 2023-07-03 12:01:37+00:00 (#1798)</title>
+    <updated>2023-07-03T12:40:57.378000+00:00</updated>
+    <content type="html">The problem here is, once the system wants to execute the target entrypoint, the address is not available on the RAM. Thus, it has to throw a #PF page-fault and brings the page in.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1798" rel="alternate"/>
+    <published>2023-07-03T12:01:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1797</id>
+    <title>@ricnar on 2023-07-03 12:01:06+00:00 (#1797)</title>
+    <updated>2023-07-03T12:40:57.377942+00:00</updated>
+    <content type="html">and if it starts in TLS code</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1797" rel="alternate"/>
+    <published>2023-07-03T12:01:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1796</id>
+    <title>@ricnar on 2023-07-03 12:00:20+00:00 (#1796)</title>
+    <updated>2023-07-03T12:40:57.377937+00:00</updated>
+    <content type="html">yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1796" rel="alternate"/>
+    <published>2023-07-03T12:00:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1795</id>
+    <title>@HughEverett on 2023-07-03 12:00:03+00:00 (#1795)</title>
+    <updated>2023-07-03T12:40:57.377932+00:00</updated>
+    <content type="html">I mean repeatedly testing it.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1795" rel="alternate"/>
+    <published>2023-07-03T12:00:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1794</id>
+    <title>@HughEverett on 2023-07-03 11:59:35+00:00 (#1794)</title>
+    <updated>2023-07-03T12:40:57.377927+00:00</updated>
+    <content type="html">Yeah, it works for me too. But I think if you keep testing it and running it, it might fail at some points.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1794" rel="alternate"/>
+    <published>2023-07-03T11:59:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1793</id>
+    <title>@ricnar on 2023-07-03 11:59:05+00:00 (#1793)</title>
+    <updated>2023-07-03T12:40:57.377922+00:00</updated>
+    <content type="html">updated</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1793" rel="alternate"/>
+    <published>2023-07-03T11:59:05+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1792</id>
+    <title>@ricnar on 2023-07-03 11:59:02+00:00 (#1792)</title>
+    <updated>2023-07-03T12:40:57.377917+00:00</updated>
+    <content type="html">windows 11</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1792" rel="alternate"/>
+    <published>2023-07-03T11:59:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1791</id>
+    <title>@HughEverett on 2023-07-03 11:59:00+00:00 (#1791)</title>
+    <updated>2023-07-03T12:40:57.377909+00:00</updated>
+    <content type="html">So, it's not stable. We have to find an alternative way.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1791" rel="alternate"/>
+    <published>2023-07-03T11:59:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1790</id>
+    <title>@ricnar on 2023-07-03 11:58:53+00:00 (#1790)</title>
+    <updated>2023-07-03T12:40:57.377833+00:00</updated>
+    <content type="html">photo_2023-07-03_11-58-53.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1790" rel="alternate"/>
+    <link href="https://tg-archive.hyperdbg.org/media/1790.jpg" rel="enclosure" type="image/jpeg" length="22963"/>
+    <published>2023-07-03T11:58:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1789</id>
+    <title>@HughEverett on 2023-07-03 11:58:45+00:00 (#1789)</title>
+    <updated>2023-07-03T12:40:57.377828+00:00</updated>
+    <content type="html">It might work but sometime, we might not win the race.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1789" rel="alternate"/>
+    <published>2023-07-03T11:58:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1788</id>
+    <title>@HughEverett on 2023-07-03 11:58:24+00:00 (#1788)</title>
+    <updated>2023-07-03T12:40:57.377823+00:00</updated>
+    <content type="html">This is not working anymore, specially in the latest version of Windows.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1788" rel="alternate"/>
+    <published>2023-07-03T11:58:24+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1787</id>
+    <title>@ricnar on 2023-07-03 11:58:05+00:00 (#1787)</title>
+    <updated>2023-07-03T12:40:57.377818+00:00</updated>
+    <content type="html">ah some special cases</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1787" rel="alternate"/>
+    <published>2023-07-03T11:58:05+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1786</id>
+    <title>@ricnar on 2023-07-03 11:57:50+00:00 (#1786)</title>
+    <updated>2023-07-03T12:40:57.377813+00:00</updated>
+    <content type="html">if the path has spaces put " "</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1786" rel="alternate"/>
+    <published>2023-07-03T11:57:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1785</id>
+    <title>@HughEverett on 2023-07-03 11:57:40+00:00 (#1785)</title>
+    <updated>2023-07-03T12:40:57.377808+00:00</updated>
+    <content type="html">I test tens of variants, intercepting #PF page-faults, setting EPT changed breakpoints on read/write. Setting regular OS paging bits. All of them failed.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1785" rel="alternate"/>
+    <published>2023-07-03T11:57:40+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1263</id>
-    <title>@ricnar on 2023-06-25 00:35:03+00:00 (#1263)</title>
-    <updated>2023-06-25T10:29:08.840814+00:00</updated>
-    <content type="html">photo_2023-06-25_00-35-03.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1263" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1263.jpg" rel="enclosure" type="image/jpeg" length="44932"/>
-    <published>2023-06-25T00:35:03+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1784</id>
+    <title>@ricnar on 2023-07-03 11:57:05+00:00 (#1784)</title>
+    <updated>2023-07-03T12:40:57.377803+00:00</updated>
+    <content type="html">it does not fail</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1784" rel="alternate"/>
+    <published>2023-07-03T11:57:05+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1262</id>
-    <title>@ricnar on 2023-06-25 00:24:56+00:00 (#1262)</title>
-    <updated>2023-06-25T10:29:08.840644+00:00</updated>
-    <content type="html">photo_2023-06-25_00-24-56.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1262" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1262.jpg" rel="enclosure" type="image/jpeg" length="121529"/>
-    <published>2023-06-25T00:24:56+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1783</id>
+    <title>@ricnar on 2023-07-03 11:57:00+00:00 (#1783)</title>
+    <updated>2023-07-03T12:40:57.377799+00:00</updated>
+    <content type="html">the last version i compiled</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1783" rel="alternate"/>
+    <published>2023-07-03T11:57:00+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1261</id>
-    <title>@ricnar on 2023-06-25 00:24:53+00:00 (#1261)</title>
-    <updated>2023-06-25T10:29:08.840639+00:00</updated>
-    <content type="html">i tried in w11 as target and it woks</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1261" rel="alternate"/>
-    <published>2023-06-25T00:24:53+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1782</id>
+    <title>@ricnar on 2023-07-03 11:56:42+00:00 (#1782)</title>
+    <updated>2023-07-03T12:40:57.377794+00:00</updated>
+    <content type="html">but it works to me</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1782" rel="alternate"/>
+    <published>2023-07-03T11:56:42+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1259</id>
-    <title>@prekvapko on 2023-06-24 21:35:11+00:00 (#1259)</title>
-    <updated>2023-06-25T10:29:08.840633+00:00</updated>
-    <content type="html">nevermind, ordered a motherboard with one.. (and a laptop to use as the debugger)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1259" rel="alternate"/>
-    <published>2023-06-24T21:35:11+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1781</id>
+    <title>@HughEverett on 2023-07-03 11:56:27+00:00 (#1781)</title>
+    <updated>2023-07-03T12:40:57.377789+00:00</updated>
+    <content type="html">Currently, I spent a entire week on fixing the '.start' command. Still no chance. 😞</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1781" rel="alternate"/>
+    <published>2023-07-03T11:56:27+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1258</id>
-    <title>@prekvapko on 2023-06-24 21:26:54+00:00 (#1258)</title>
-    <updated>2023-06-25T10:29:08.840628+00:00</updated>
-    <content type="html">apparently COM via pcie won't work</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1258" rel="alternate"/>
-    <published>2023-06-24T21:26:54+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1780</id>
+    <title>@HughEverett on 2023-07-03 11:56:24+00:00 (#1780)</title>
+    <updated>2023-07-03T12:40:57.377784+00:00</updated>
+    <content type="html">No, that's pretty okay. You feedback are really valuable.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1780" rel="alternate"/>
+    <published>2023-07-03T11:56:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1257</id>
-    <title>@prekvapko on 2023-06-24 21:25:54+00:00 (#1257)</title>
-    <updated>2023-06-25T10:29:08.840623+00:00</updated>
-    <content type="html">Are there any alternatives at all for Debugger mode to use anything but COM? My motherboard literally doesn't have any serial ports.. (for remote debugging)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1257" rel="alternate"/>
-    <published>2023-06-24T21:25:54+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1779</id>
+    <title>@ricnar on 2023-07-03 11:56:04+00:00 (#1779)</title>
+    <updated>2023-07-03T12:40:57.377779+00:00</updated>
+    <content type="html">there are only suggestions</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1779" rel="alternate"/>
+    <published>2023-07-03T11:56:04+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1778</id>
+    <title>@ricnar on 2023-07-03 11:55:52+00:00 (#1778)</title>
+    <updated>2023-07-03T12:40:57.377774+00:00</updated>
+    <content type="html">i am adding you lot of job sorry</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1778" rel="alternate"/>
+    <published>2023-07-03T11:55:52+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1777</id>
+    <title>@HughEverett on 2023-07-03 11:55:20+00:00 (#1777)</title>
+    <updated>2023-07-03T12:40:57.377769+00:00</updated>
+    <content type="html">I'll add it to the todo list.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1777" rel="alternate"/>
+    <published>2023-07-03T11:55:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1776</id>
+    <title>@ricnar on 2023-07-03 11:55:19+00:00 (#1776)</title>
+    <updated>2023-07-03T12:40:57.377764+00:00</updated>
+    <content type="html">perfect</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1776" rel="alternate"/>
+    <published>2023-07-03T11:55:19+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1775</id>
+    <title>@ricnar on 2023-07-03 11:55:04+00:00 (#1775)</title>
+    <updated>2023-07-03T12:40:57.377759+00:00</updated>
+    <content type="html">yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1775" rel="alternate"/>
+    <published>2023-07-03T11:55:04+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1774</id>
+    <title>@HughEverett on 2023-07-03 11:54:58+00:00 (#1774)</title>
+    <updated>2023-07-03T12:40:57.377753+00:00</updated>
+    <content type="html">and aliases will be saved into the config file.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1774" rel="alternate"/>
+    <published>2023-07-03T11:54:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1773</id>
+    <title>@ricnar on 2023-07-03 11:54:36+00:00 (#1773)</title>
+    <updated>2023-07-03T12:40:57.377748+00:00</updated>
+    <content type="html">to remember</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1773" rel="alternate"/>
+    <published>2023-07-03T11:54:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1772</id>
+    <title>@HughEverett on 2023-07-03 11:54:36+00:00 (#1772)</title>
+    <updated>2023-07-03T12:40:57.377742+00:00</updated>
+    <content type="html">yes.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1772" rel="alternate"/>
+    <published>2023-07-03T11:54:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1771</id>
+    <title>@ricnar on 2023-07-03 11:54:30+00:00 (#1771)</title>
+    <updated>2023-07-03T12:40:57.377697+00:00</updated>
+    <content type="html">maybe debug1</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1771" rel="alternate"/>
+    <published>2023-07-03T11:54:30+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1770</id>
+    <title>@ricnar on 2023-07-03 11:54:18+00:00 (#1770)</title>
+    <updated>2023-07-03T12:40:57.377692+00:00</updated>
+    <content type="html">can be useful too</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1770" rel="alternate"/>
+    <published>2023-07-03T11:54:18+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1769</id>
+    <title>@ricnar on 2023-07-03 11:54:11+00:00 (#1769)</title>
+    <updated>2023-07-03T12:40:57.377686+00:00</updated>
+    <content type="html">yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1769" rel="alternate"/>
+    <published>2023-07-03T11:54:11+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1768</id>
+    <title>@HughEverett on 2023-07-03 11:53:57+00:00 (#1768)</title>
+    <updated>2023-07-03T12:40:57.377681+00:00</updated>
+    <content type="html">for example, one might create an alias (called 'alias1'), let say ' .debug prepare serial 115200 com2'. After that, whenever the use types 'alias1', the same command will be executed. What do you think of it?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1768" rel="alternate"/>
+    <published>2023-07-03T11:53:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1767</id>
+    <title>@ricnar on 2023-07-03 11:53:29+00:00 (#1767)</title>
+    <updated>2023-07-03T12:40:57.377676+00:00</updated>
+    <content type="html">but this is not common</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1767" rel="alternate"/>
+    <published>2023-07-03T11:53:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1766</id>
+    <title>@ricnar on 2023-07-03 11:53:20+00:00 (#1766)</title>
+    <updated>2023-07-03T12:40:57.377671+00:00</updated>
+    <content type="html">if it changes i can type the complete command</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1766" rel="alternate"/>
+    <published>2023-07-03T11:53:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1765</id>
+    <title>@ricnar on 2023-07-03 11:52:51+00:00 (#1765)</title>
+    <updated>2023-07-03T12:40:57.377666+00:00</updated>
+    <content type="html">always</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1765" rel="alternate"/>
+    <published>2023-07-03T11:52:51+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1764</id>
+    <title>@ricnar on 2023-07-03 11:52:43+00:00 (#1764)</title>
+    <updated>2023-07-03T12:40:57.377661+00:00</updated>
+    <content type="html">and the debug command is the same</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1764" rel="alternate"/>
+    <published>2023-07-03T11:52:43+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1256</id>
-    <title>@ricnar on 2023-06-24 21:20:16+00:00 (#1256)</title>
-    <updated>2023-06-25T10:29:08.840617+00:00</updated>
-    <content type="html">I'm copying a w11 machine to this pc</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1256" rel="alternate"/>
-    <published>2023-06-24T21:20:16+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1763</id>
+    <title>@ricnar on 2023-07-03 11:52:34+00:00 (#1763)</title>
+    <updated>2023-07-03T12:40:57.377655+00:00</updated>
+    <content type="html">i have a scenario stored</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1763" rel="alternate"/>
+    <published>2023-07-03T11:52:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1762</id>
+    <title>@HughEverett on 2023-07-03 11:52:27+00:00 (#1762)</title>
+    <updated>2023-07-03T12:40:57.377650+00:00</updated>
+    <content type="html">isn't it better to handle it with some 'alias'ing commands?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1762" rel="alternate"/>
+    <published>2023-07-03T11:52:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1761</id>
+    <title>@ricnar on 2023-07-03 11:52:06+00:00 (#1761)</title>
+    <updated>2023-07-03T12:40:57.377644+00:00</updated>
+    <content type="html">it stored the last typed</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1761" rel="alternate"/>
+    <published>2023-07-03T11:52:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1760</id>
+    <title>@ricnar on 2023-07-03 11:51:15+00:00 (#1760)</title>
+    <updated>2023-07-03T12:40:57.377638+00:00</updated>
+    <content type="html">if you type the entire command it will be used and stored</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1760" rel="alternate"/>
+    <published>2023-07-03T11:51:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1759</id>
+    <title>@ricnar on 2023-07-03 11:50:47+00:00 (#1759)</title>
+    <updated>2023-07-03T12:40:57.377632+00:00</updated>
+    <content type="html">if you type only debug the last command is used</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1759" rel="alternate"/>
+    <published>2023-07-03T11:50:47+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1758</id>
+    <title>@ricnar on 2023-07-03 11:50:33+00:00 (#1758)</title>
+    <updated>2023-07-03T12:40:57.377627+00:00</updated>
+    <content type="html">but you can type the entire command if you want</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1758" rel="alternate"/>
+    <published>2023-07-03T11:50:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1757</id>
+    <title>@ricnar on 2023-07-03 11:50:07+00:00 (#1757)</title>
+    <updated>2023-07-03T12:40:57.377622+00:00</updated>
+    <content type="html">an error will be returned and you can type the entire command</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1757" rel="alternate"/>
+    <published>2023-07-03T11:50:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1756</id>
+    <title>@HughEverett on 2023-07-03 11:49:39+00:00 (#1756)</title>
+    <updated>2023-07-03T12:40:57.377617+00:00</updated>
+    <content type="html">What if the the target COMx port is different in the target machine? It happens to me a lot, where COM2 is not valid and I used COM1. How can we verify the correct COM port?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1756" rel="alternate"/>
+    <published>2023-07-03T11:49:39+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1255</id>
-    <title>@prekvapko on 2023-06-24 19:04:13+00:00 (#1255)</title>
-    <updated>2023-06-25T10:29:08.840609+00:00</updated>
-    <content type="html">Under debugger mode, is there support for Transparency towards kernel-mode drivers?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1255" rel="alternate"/>
-    <published>2023-06-24T19:04:13+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1755</id>
+    <title>@ricnar on 2023-07-03 11:49:36+00:00 (#1755)</title>
+    <updated>2023-07-03T12:40:57.377612+00:00</updated>
+    <content type="html">it remains stored the last debug command</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1755" rel="alternate"/>
+    <published>2023-07-03T11:49:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1754</id>
+    <title>@ricnar on 2023-07-03 11:49:00+00:00 (#1754)</title>
+    <updated>2023-07-03T12:40:57.377607+00:00</updated>
+    <content type="html">if you want to change you can type the complete command</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1754" rel="alternate"/>
+    <published>2023-07-03T11:49:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1753</id>
+    <title>@ricnar on 2023-07-03 11:48:06+00:00 (#1753)</title>
+    <updated>2023-07-03T12:40:57.377602+00:00</updated>
+    <content type="html">or .debug remote namedpipe \\.\pipe\HyperDbgPipe</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1753" rel="alternate"/>
+    <published>2023-07-03T11:48:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1752</id>
+    <title>@ricnar on 2023-07-03 11:47:48+00:00 (#1752)</title>
+    <updated>2023-07-03T12:40:57.377598+00:00</updated>
+    <content type="html">repeating internally .debug prepare serial 115200 com2</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1752" rel="alternate"/>
+    <published>2023-07-03T11:47:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1751</id>
+    <title>@ricnar on 2023-07-03 11:47:16+00:00 (#1751)</title>
+    <updated>2023-07-03T12:40:57.377593+00:00</updated>
+    <content type="html">only connecting with debug only</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1751" rel="alternate"/>
+    <published>2023-07-03T11:47:16+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1254</id>
-    <title>@prekvapko on 2023-06-24 18:11:24+00:00 (#1254)</title>
-    <updated>2023-06-25T10:29:08.840551+00:00</updated>
-    <content type="html">What is the reason VMI mode is incompatible with !vmcall (etc) on script/custom code modes?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1254" rel="alternate"/>
-    <published>2023-06-24T18:11:24+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1750</id>
+    <title>@ricnar on 2023-07-03 11:47:01+00:00 (#1750)</title>
+    <updated>2023-07-03T12:40:57.377587+00:00</updated>
+    <content type="html">for confortability the second time to use debug in target or the host could be repeat the last command debug</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1750" rel="alternate"/>
+    <published>2023-07-03T11:47:01+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1253</id>
-    <title>@prekvapko on 2023-06-24 17:26:24+00:00 (#1253)</title>
-    <updated>2023-06-25T10:29:08.840546+00:00</updated>
-    <content type="html">Also, can we combine code &amp; script actions?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1253" rel="alternate"/>
-    <published>2023-06-24T17:26:24+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1749</id>
+    <title>@ricnar on 2023-07-03 11:46:19+00:00 (#1749)</title>
+    <updated>2023-07-03T12:40:57.377576+00:00</updated>
+    <content type="html">i think</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1749" rel="alternate"/>
+    <published>2023-07-03T11:46:19+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1252</id>
-    <title>@prekvapko on 2023-06-24 17:24:43+00:00 (#1252)</title>
-    <updated>2023-06-25T10:29:08.840541+00:00</updated>
-    <content type="html">i.e. I want to retrieve a driver's base address in a script</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1252" rel="alternate"/>
-    <published>2023-06-24T17:24:43+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1748</id>
+    <title>@ricnar on 2023-07-03 11:46:11+00:00 (#1748)</title>
+    <updated>2023-07-03T12:40:57.377314+00:00</updated>
+    <content type="html">photo_2023-07-03_11-46-11.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1748" rel="alternate"/>
+    <link href="https://tg-archive.hyperdbg.org/media/1748.jpg" rel="enclosure" type="image/jpeg" length="46157"/>
+    <published>2023-07-03T11:46:11+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1251</id>
-    <title>@prekvapko on 2023-06-24 17:24:13+00:00 (#1251)</title>
-    <updated>2023-06-25T10:29:08.840536+00:00</updated>
-    <content type="html">Are there any scripting functions for retrieving a module base from lm?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1251" rel="alternate"/>
-    <published>2023-06-24T17:24:13+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1746</id>
+    <title>@ricnar on 2023-07-03 09:45:09+00:00 (#1746)</title>
+    <updated>2023-07-03T12:40:57.377307+00:00</updated>
+    <content type="html">If it happens again i will tell you</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1746" rel="alternate"/>
+    <published>2023-07-03T09:45:09+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1250</id>
-    <title>@HughEverett on 2023-06-24 12:35:33+00:00 (#1250)</title>
-    <updated>2023-06-25T10:29:08.840530+00:00</updated>
-    <content type="html">🤝</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1250" rel="alternate"/>
-    <published>2023-06-24T12:35:33+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1745</id>
+    <title>@ricnar on 2023-07-03 09:42:21+00:00 (#1745)</title>
+    <updated>2023-07-03T12:40:57.377302+00:00</updated>
+    <content type="html">seems to work now but in some moment it makes me type the sympath again</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1745" rel="alternate"/>
+    <published>2023-07-03T09:42:21+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1249</id>
-    <title>@prekvapko on 2023-06-24 12:34:29+00:00 (#1249)</title>
-    <updated>2023-06-25T10:29:08.840525+00:00</updated>
-    <content type="html">thanks for the help, Sina</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1249" rel="alternate"/>
-    <published>2023-06-24T12:34:29+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1744</id>
+    <title>@invlpg on 2023-07-03 09:40:12+00:00 (#1744)</title>
+    <updated>2023-07-03T12:40:57.377297+00:00</updated>
+    <content type="html">exactly</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1744" rel="alternate"/>
+    <published>2023-07-03T09:40:12+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1248</id>
-    <title>@prekvapko on 2023-06-24 12:34:26+00:00 (#1248)</title>
-    <updated>2023-06-25T10:29:08.840520+00:00</updated>
-    <content type="html">signed every image, now it works fine :)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1248" rel="alternate"/>
-    <published>2023-06-24T12:34:26+00:00</published>
-  </entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1743</id>
+    <title>@HughEverett on 2023-07-03 09:40:02+00:00 (#1743)</title>
+    <updated>2023-07-03T12:40:57.377292+00:00</updated>
+    <content type="html">yeah, there isn't any bug in HyperDbg. Being HyperDbg and having bugs is a contradiction itself. How could a debugger have a bug? Not possible. 🙂😅😁</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1743" rel="alternate"/>
+    <published>2023-07-03T09:40:02+00:00</published>
+  </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1247</id>
-    <title>@prekvapko on 2023-06-24 12:14:01+00:00 (#1247)</title>
-    <updated>2023-06-25T10:29:08.840515+00:00</updated>
-    <content type="html">Not like they sign drivers that expose arbitrary r/w and sometimes even kernel execute functionality (from um request) daily..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1247" rel="alternate"/>
-    <published>2023-06-24T12:14:01+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1246</id>
-    <title>@prekvapko on 2023-06-24 12:13:10+00:00 (#1246)</title>
-    <updated>2023-06-25T10:29:08.840510+00:00</updated>
-    <content type="html">True enough..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1246" rel="alternate"/>
-    <published>2023-06-24T12:13:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1245</id>
-    <title>@HughEverett on 2023-06-24 12:07:15+00:00 (#1245)</title>
-    <updated>2023-06-25T10:29:08.840504+00:00</updated>
-    <content type="html">Probably, yes. BTW, this is the main reason of a conflict on Twitter. 
-They even blacklist the Driver signature for ProcessHacker which doesn't have an arbitrary READ/WRITE. Now, you expect they let HyperDbg which has several arbitrary READ/WRITE to be signed? 😅😁
-
-https://twitter.com/processhacker/status/1442439527235153920?s=20</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1245" rel="alternate"/>
-    <published>2023-06-24T12:07:15+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1244</id>
-    <title>@prekvapko on 2023-06-24 12:02:30+00:00 (#1244)</title>
-    <updated>2023-06-25T10:29:08.840499+00:00</updated>
-    <content type="html">However I'm still pretty conflicted about this, sure, it's a hyper-visor assisted debugging tool, but that's not inherently bad. WinDbg runs in kernel-mode, but I assume it's because they expect the user to have test-signing and disabled PG as to not be potentially abused by malware...?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1244" rel="alternate"/>
-    <published>2023-06-24T12:02:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1243</id>
-    <title>@prekvapko on 2023-06-24 11:47:40+00:00 (#1243)</title>
-    <updated>2023-06-25T10:29:08.840494+00:00</updated>
-    <content type="html">😂</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1243" rel="alternate"/>
-    <published>2023-06-24T11:47:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1242</id>
-    <title>@prekvapko on 2023-06-24 11:47:36+00:00 (#1242)</title>
-    <updated>2023-06-25T10:29:08.840488+00:00</updated>
-    <content type="html">oh.. forgot to sign the last one</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1242" rel="alternate"/>
-    <published>2023-06-24T11:47:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1241</id>
-    <title>@prekvapko on 2023-06-24 11:47:14+00:00 (#1241)</title>
-    <updated>2023-06-25T10:29:08.840483+00:00</updated>
-    <content type="html">Signed all of them and still the issue persists.. weird</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1241" rel="alternate"/>
-    <published>2023-06-24T11:47:14+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1240</id>
-    <title>@HughEverett on 2023-06-24 10:54:49+00:00 (#1240)</title>
-    <updated>2023-06-25T10:29:08.840478+00:00</updated>
-    <content type="html">👍</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1240" rel="alternate"/>
-    <published>2023-06-24T10:54:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1239</id>
-    <title>@prekvapko on 2023-06-24 10:54:27+00:00 (#1239)</title>
-    <updated>2023-06-25T10:29:08.840473+00:00</updated>
-    <content type="html">That's probably why, thanks.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1239" rel="alternate"/>
-    <published>2023-06-24T10:54:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1238</id>
-    <title>@prekvapko on 2023-06-24 10:54:16+00:00 (#1238)</title>
-    <updated>2023-06-25T10:29:08.840468+00:00</updated>
-    <content type="html">I only submitted the kd driver</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1238" rel="alternate"/>
-    <published>2023-06-24T10:54:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1237</id>
-    <title>@prekvapko on 2023-06-24 10:54:04+00:00 (#1237)</title>
-    <updated>2023-06-25T10:29:08.840462+00:00</updated>
-    <content type="html">Oh.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1237" rel="alternate"/>
-    <published>2023-06-24T10:54:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1236</id>
-    <title>@HughEverett on 2023-06-24 10:53:23+00:00 (#1236)</title>
-    <updated>2023-06-25T10:29:08.840455+00:00</updated>
-    <content type="html">All of them are DLLs and drivers imported by hyperdbg.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1236" rel="alternate"/>
-    <published>2023-06-24T10:53:23+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1235</id>
-    <title>@HughEverett on 2023-06-24 10:52:58+00:00 (#1235)</title>
-    <updated>2023-06-25T10:29:08.840318+00:00</updated>
-    <content type="html">photo_2023-06-24_10-52-58.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1235" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1235.jpg" rel="enclosure" type="image/jpeg" length="92104"/>
-    <published>2023-06-24T10:52:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1233</id>
-    <title>@HughEverett on 2023-06-24 10:52:19+00:00 (#1233)</title>
-    <updated>2023-06-25T10:29:08.840313+00:00</updated>
-    <content type="html">+ One for Hyperlog and hprdbgrev.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1233" rel="alternate"/>
-    <published>2023-06-24T10:52:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1232</id>
-    <title>@HughEverett on 2023-06-24 10:50:54+00:00 (#1232)</title>
-    <updated>2023-06-25T10:29:08.840307+00:00</updated>
-    <content type="html">You have to submit three drivers. One for Serial Kd, one for hyperdbg HV, and one for HyperDbg Kd.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1232" rel="alternate"/>
-    <published>2023-06-24T10:50:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1231</id>
-    <title>@prekvapko on 2023-06-24 10:50:03+00:00 (#1231)</title>
-    <updated>2023-06-25T10:29:08.840302+00:00</updated>
-    <content type="html">I'll try resubmitting it I guess.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1231" rel="alternate"/>
-    <published>2023-06-24T10:50:03+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1230</id>
-    <title>@prekvapko on 2023-06-24 10:49:52+00:00 (#1230)</title>
-    <updated>2023-06-25T10:29:08.840297+00:00</updated>
-    <content type="html">It's odd, my other driver works fine.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1230" rel="alternate"/>
-    <published>2023-06-24T10:49:52+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1229</id>
-    <title>@prekvapko on 2023-06-24 10:49:41+00:00 (#1229)</title>
-    <updated>2023-06-25T10:29:08.840291+00:00</updated>
-    <content type="html">Yep, otherwise it'd show my certificate instead of microsoft's.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1229" rel="alternate"/>
-    <published>2023-06-24T10:49:41+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1228</id>
-    <title>@HughEverett on 2023-06-24 10:49:20+00:00 (#1228)</title>
-    <updated>2023-06-25T10:29:08.840283+00:00</updated>
-    <content type="html">Are you sure that you signed it correctly? I mean as long as I know the process of signing drivers for Windows 11 and probably Windows 10 22H2 is changed. After signing it, you have to upload it to the Microsoft portal, so they'll sign it and give a signed  version of it for download. Did you upload it there?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1228" rel="alternate"/>
-    <published>2023-06-24T10:49:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1227</id>
-    <title>@prekvapko on 2023-06-24 09:25:30+00:00 (#1227)</title>
-    <updated>2023-06-25T10:29:08.840203+00:00</updated>
-    <content type="html">photo_2023-06-24_09-25-30.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1227" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1227.jpg" rel="enclosure" type="image/jpeg" length="30345"/>
-    <published>2023-06-24T09:25:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1226</id>
-    <title>@prekvapko on 2023-06-24 09:25:18+00:00 (#1226)</title>
-    <updated>2023-06-25T10:29:08.840132+00:00</updated>
-    <content type="html">Interesting, Windows doesn't want to load it even though I just signed it..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1226" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1226.jpg" rel="enclosure" type="image/jpeg" length="17435"/>
-    <published>2023-06-24T09:25:18+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1225</id>
-    <title>@prekvapko on 2023-06-24 09:15:26+00:00 (#1225)</title>
-    <updated>2023-06-25T10:29:08.840127+00:00</updated>
-    <content type="html">Saw the last one on hyperdbg and thought i'd take a look</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1225" rel="alternate"/>
-    <published>2023-06-24T09:15:26+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1224</id>
-    <title>@prekvapko on 2023-06-24 09:15:15+00:00 (#1224)</title>
-    <updated>2023-06-25T10:29:08.840122+00:00</updated>
-    <content type="html">The articles on rayanfam were really great :)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1224" rel="alternate"/>
-    <published>2023-06-24T09:15:15+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1223</id>
-    <title>@prekvapko on 2023-06-24 09:14:53+00:00 (#1223)</title>
-    <updated>2023-06-25T10:29:08.840117+00:00</updated>
-    <content type="html">Also mainly for research purposes, been lurking around some virtualization related resources in the past weeks, to see how everything actually works</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1223" rel="alternate"/>
-    <published>2023-06-24T09:14:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1222</id>
-    <title>@prekvapko on 2023-06-24 09:14:11+00:00 (#1222)</title>
-    <updated>2023-06-25T10:29:08.840112+00:00</updated>
-    <content type="html">At the moment just trying to observe its capabilities, I followed some of the development throughout the years but never actually got to using it (since I only recently switched to latest Intel from AMD)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1222" rel="alternate"/>
-    <published>2023-06-24T09:14:11+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1221</id>
-    <title>@HughEverett on 2023-06-24 09:13:39+00:00 (#1221)</title>
-    <updated>2023-06-25T10:29:08.840107+00:00</updated>
-    <content type="html">After that, you can use it in your physical machine.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1221" rel="alternate"/>
-    <published>2023-06-24T09:13:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1220</id>
-    <title>@HughEverett on 2023-06-24 09:13:16+00:00 (#1220)</title>
-    <updated>2023-06-25T10:29:08.840102+00:00</updated>
-    <content type="html">If you want to develop anything in HyperDbg, it's better to test HyperDbg in a VMware Workstation machine with nested-virtualization.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1220" rel="alternate"/>
-    <published>2023-06-24T09:13:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1219</id>
-    <title>@prekvapko on 2023-06-24 09:11:54+00:00 (#1219)</title>
-    <updated>2023-06-25T10:29:08.840097+00:00</updated>
-    <content type="html">Hopefully HyperDbg won't start crashing my system randomly like Hyper-V (literally a bsod in every 3 minutes, not using VMs, just having the feature enabled)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1219" rel="alternate"/>
-    <published>2023-06-24T09:11:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1218</id>
-    <title>@prekvapko on 2023-06-24 09:10:08+00:00 (#1218)</title>
-    <updated>2023-06-25T10:29:08.840091+00:00</updated>
-    <content type="html">Thanks! I'll take a look once I get a bit more comfy with the tool :)</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1218" rel="alternate"/>
-    <published>2023-06-24T09:10:08+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1217</id>
-    <title>@HughEverett on 2023-06-24 09:09:05+00:00 (#1217)</title>
-    <updated>2023-06-25T10:29:08.840080+00:00</updated>
-    <content type="html">I don't think so, 
-I did the exact same thing in this branch by using MBEC for user-mode codes, but as I said, it's not in a working state yet but the code might be helpful: 
-https://github.com/HyperDbg/HyperDbg/tree/memory-introspection</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1217" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/tree/memory-introspection" rel="enclosure" type="application/octet-stream"/>
-    <published>2023-06-24T09:09:05+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1216</id>
-    <title>@HughEverett on 2023-06-24 09:07:51+00:00 (#1216)</title>
-    <updated>2023-06-25T10:29:08.840063+00:00</updated>
-    <content type="html">You can disable it directly by modifying the source code using this function: 
-https://github.com/HyperDbg/HyperDbg/blob/a571781e8651998b982a9f53edf8f3d3501a6b2e/hyperdbg/hprdbghv/code/vmm/ept/Ept.c#L299
-
-But, keep in mind that you need to handle #EPT Violations by your own as HyperDbg doesn't expect these EPT Violations.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1216" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/blob/a571781e8651998b982a9f53edf8f3d3501a6b2e/hyperdbg/hprdbghv/code/vmm/ept/Ept.c" rel="enclosure" type="application/octet-stream"/>
-    <published>2023-06-24T09:07:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1215</id>
-    <title>@prekvapko on 2023-06-24 09:07:02+00:00 (#1215)</title>
-    <updated>2023-06-25T10:29:08.840058+00:00</updated>
-    <content type="html">I understand the overhead is already huge..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1215" rel="alternate"/>
-    <published>2023-06-24T09:07:02+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1214</id>
-    <title>@prekvapko on 2023-06-24 09:06:28+00:00 (#1214)</title>
-    <updated>2023-06-25T10:29:08.840053+00:00</updated>
-    <content type="html">When running in VMI mode, do you think the consequences of disabling r/w protection on a large .data section chunk of a driver would be a huge hinder on performance?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1214" rel="alternate"/>
-    <published>2023-06-24T09:06:28+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1213</id>
-    <title>@HughEverett on 2023-06-24 09:04:39+00:00 (#1213)</title>
-    <updated>2023-06-25T10:29:08.840047+00:00</updated>
-    <content type="html">This is exactly the topic of a new feature we're working on right now. We want to add a lot of memory-controlling events to the HyperDbg. But, it's not in a working state yet and probably takes several months to finish. But, one idea is to memory allocation of the target driver maybe that would be helpful.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1213" rel="alternate"/>
-    <published>2023-06-24T09:04:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1212</id>
-    <title>@prekvapko on 2023-06-24 08:43:58+00:00 (#1212)</title>
-    <updated>2023-06-25T10:29:08.840042+00:00</updated>
-    <content type="html">considering disabling r/w protections on system drivers would not be such a good idea..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1212" rel="alternate"/>
-    <published>2023-06-24T08:43:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1211</id>
-    <title>@prekvapko on 2023-06-24 08:43:27+00:00 (#1211)</title>
-    <updated>2023-06-25T10:29:08.840036+00:00</updated>
-    <content type="html">The only viable idea that came to mind would be hooking the entire driver, and checking registers for a specific list of address ranges..</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1211" rel="alternate"/>
-    <published>2023-06-24T08:43:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1210</id>
-    <title>@prekvapko on 2023-06-24 08:42:14+00:00 (#1210)</title>
-    <updated>2023-06-25T10:29:08.840005+00:00</updated>
-    <content type="html">Also, while looking through hyperdbg's documentation, I've stumbled upon one area that kind of interests me, although executed in a different manner. https://docs.hyperdbg.org/using-hyperdbg/kernel-mode-debugging/examples/events/monitoring-accesses-to-structures
-
-I'm analyzing a kernel-mode driver that does a lot of changes within the operating system, and I'd like to try and see what kind of memory accesses and writes to, be it in ntoskrnl or other system drivers. What would be the best way to go about this? I've considered placed an EPT-Hook on some specific functions, but it's virtualized to a certain degree. They abuse a couple stuff for hijacking exception handling of the system, etc, and wanted to see if there's perhaps more things they touch that I'm not aware of</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1210" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/using-hyperdbg/kernel-mode-debugging/examples/events/monitoring-accesses-to-structures" rel="enclosure" type="application/octet-stream"/>
-    <published>2023-06-24T08:42:14+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1209</id>
-    <title>@HughEverett on 2023-06-24 08:39:57+00:00 (#1209)</title>
-    <updated>2023-06-25T10:29:08.840000+00:00</updated>
-    <content type="html">I know some people who signed HyperDbg but they use their signed version of HyperDbg privately.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1209" rel="alternate"/>
-    <published>2023-06-24T08:39:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1208</id>
-    <title>@prekvapko on 2023-06-24 08:38:37+00:00 (#1208)</title>
-    <updated>2023-06-25T10:29:08.839995+00:00</updated>
-    <content type="html">ah, that's a fair point</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1208" rel="alternate"/>
-    <published>2023-06-24T08:38:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1207</id>
-    <title>@HughEverett on 2023-06-24 08:38:09+00:00 (#1207)</title>
-    <updated>2023-06-25T10:29:08.839990+00:00</updated>
-    <content type="html">I'm pretty okay with sharing anything but I think it would be problematic for you. Because, as long as I know Microsoft is not interested in modifying its kernel memory by a thrid party driver and as a debugger, HyperDbg has the ability to do this. So, they will blacklist your signature and probably next time, they won't let you sign anything again.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1207" rel="alternate"/>
-    <published>2023-06-24T08:38:09+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1206</id>
-    <title>@prekvapko on 2023-06-24 08:29:21+00:00 (#1206)</title>
-    <updated>2023-06-25T10:29:08.839984+00:00</updated>
-    <content type="html">Signed it with my EV cert and perhaps could be of use to some people</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1206" rel="alternate"/>
-    <published>2023-06-24T08:29:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1205</id>
-    <title>@prekvapko on 2023-06-24 08:29:05+00:00 (#1205)</title>
-    <updated>2023-06-25T10:29:08.839979+00:00</updated>
-    <content type="html">@HughEverett Hey, would you mind if I shared a the signed kernel driver here?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1205" rel="alternate"/>
-    <published>2023-06-24T08:29:05+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1204</id>
-    <title>@prekvapko on 2023-06-24 08:27:59+00:00 (#1204)</title>
-    <updated>2023-06-25T10:29:08.839973+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1204" rel="alternate"/>
-    <published>2023-06-24T08:27:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1203</id>
-    <title>@Hagane_no_rekinjutsushi on 2023-06-22 18:48:59+00:00 (#1203)</title>
-    <updated>2023-06-25T10:29:08.839968+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1203" rel="alternate"/>
-    <published>2023-06-22T18:48:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1202</id>
-    <title>@archercreat on 2023-06-21 13:21:53+00:00 (#1202)</title>
-    <updated>2023-06-25T10:29:08.839962+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1202" rel="alternate"/>
-    <published>2023-06-21T13:21:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1201</id>
-    <title>@ricnar on 2023-06-21 11:23:04+00:00 (#1201)</title>
-    <updated>2023-06-25T10:29:08.839955+00:00</updated>
-    <content type="html">i will have more free time</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1201" rel="alternate"/>
-    <published>2023-06-21T11:23:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1200</id>
-    <title>@ricnar on 2023-06-21 11:22:54+00:00 (#1200)</title>
-    <updated>2023-06-25T10:29:08.839950+00:00</updated>
-    <content type="html">i will try on the weekend</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1200" rel="alternate"/>
-    <published>2023-06-21T11:22:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1199</id>
-    <title>@ricnar on 2023-06-21 11:22:40+00:00 (#1199)</title>
-    <updated>2023-06-25T10:29:08.839944+00:00</updated>
-    <content type="html">but if the problem is the processor will fail</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1199" rel="alternate"/>
-    <published>2023-06-21T11:22:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1198</id>
-    <title>@ricnar on 2023-06-21 11:22:22+00:00 (#1198)</title>
-    <updated>2023-06-25T10:29:08.839939+00:00</updated>
-    <content type="html">no</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1198" rel="alternate"/>
-    <published>2023-06-21T11:22:22+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1197</id>
-    <title>@HughEverett on 2023-06-21 11:22:10+00:00 (#1197)</title>
-    <updated>2023-06-25T10:29:08.839933+00:00</updated>
-    <content type="html">Did you test it in any other systems?</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1197" rel="alternate"/>
-    <published>2023-06-21T11:22:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1196</id>
-    <title>@ricnar on 2023-06-21 11:19:58+00:00 (#1196)</title>
-    <updated>2023-06-25T10:29:08.839928+00:00</updated>
-    <content type="html">i can't try in any target, it will fail</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1196" rel="alternate"/>
-    <published>2023-06-21T11:19:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1195</id>
-    <title>@ricnar on 2023-06-21 11:18:53+00:00 (#1195)</title>
-    <updated>2023-06-25T10:29:08.839922+00:00</updated>
-    <content type="html">hehe</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1195" rel="alternate"/>
-    <published>2023-06-21T11:18:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1194</id>
-    <title>@HughEverett on 2023-06-21 11:18:53+00:00 (#1194)</title>
-    <updated>2023-06-25T10:29:08.839915+00:00</updated>
-    <content type="html">Seems that the issue might be related to 9 gen processors, but it's kinda weird why you encountered error.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1194" rel="alternate"/>
-    <published>2023-06-21T11:18:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1193</id>
-    <title>@ricnar on 2023-06-21 11:18:51+00:00 (#1193)</title>
-    <updated>2023-06-25T10:29:08.839897+00:00</updated>
-    <content type="html">not here</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1193" rel="alternate"/>
-    <published>2023-06-21T11:18:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1192</id>
-    <title>@HughEverett on 2023-06-21 11:17:53+00:00 (#1192)</title>
-    <updated>2023-06-25T10:29:08.839228+00:00</updated>
-    <content type="html">@ricnar I tested HyperDbg on Win 10 1909 at it works perfectly.</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1192" rel="alternate"/>
-    <link href="https://tg-archive.hyperdbg.org/media/1192.jpg" rel="enclosure" type="image/jpeg" length="116254"/>
-    <published>2023-06-21T11:17:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1191</id>
-    <title>@HughEverett on 2023-06-21 11:00:24+00:00 (#1191)</title>
-    <updated>2023-06-25T10:29:08.839223+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1191" rel="alternate"/>
-    <published>2023-06-21T11:00:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1190</id>
-    <title>@HughEverett on 2023-06-21 11:00:12+00:00 (#1190)</title>
-    <updated>2023-06-25T10:29:08.839217+00:00</updated>
-    <content type="html">Hi everyone,
-
-Considering that this is a public group, we have taken the initiative to create an online version of the group at tg-archive.hyperdbg.org. This will ensure that the valuable contributions made by the community are preserved and easily accessible online.
-
-If any of you have privacy concerns regarding this online archive, please kindly inform me so that we can address them appropriately.
-
-Thank you</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1190" rel="alternate"/>
-    <published>2023-06-21T11:00:12+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1189</id>
-    <title>@lokieasyt on 2023-06-21 10:22:44+00:00 (#1189)</title>
-    <updated>2023-06-25T10:29:08.839208+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1189" rel="alternate"/>
-    <published>2023-06-21T10:22:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2023-06.html#1188</id>
-    <title>@ali99e on 2023-06-21 09:19:27+00:00 (#1188)</title>
-    <updated>2023-06-25T10:29:08.839177+00:00</updated>
-    <content type="html">You should go back to your roots, Try soft98 :D</content>
-    <link href="https://tg-archive.hyperdbg.org/2023-06.html#1188" rel="alternate"/>
-    <published>2023-06-21T09:19:27+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1742</id>
+    <title>@invlpg on 2023-07-03 09:37:28+00:00 (#1742)</title>
+    <updated>2023-07-03T12:40:57.377287+00:00</updated>
+    <content type="html">yea it is, im unable to reproduce it now 😅</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1742" rel="alternate"/>
+    <published>2023-07-03T09:37:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1741</id>
+    <title>@HughEverett on 2023-07-03 09:36:44+00:00 (#1741)</title>
+    <updated>2023-07-03T12:40:57.377282+00:00</updated>
+    <content type="html">Isn't it like this?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1741" rel="alternate"/>
+    <published>2023-07-03T09:36:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1740</id>
+    <title>@HughEverett on 2023-07-03 09:36:16+00:00 (#1740)</title>
+    <updated>2023-07-03T12:40:57.377277+00:00</updated>
+    <content type="html">As long as that ini file is there, HyperDbg uses that file. But if you remove that file (recompile &amp; clean everything), then you should set it again.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1740" rel="alternate"/>
+    <published>2023-07-03T09:36:16+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1739</id>
+    <title>@invlpg on 2023-07-03 09:35:40+00:00 (#1739)</title>
+    <updated>2023-07-03T12:40:57.377273+00:00</updated>
+    <content type="html">in debug mode</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1739" rel="alternate"/>
+    <published>2023-07-03T09:35:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1738</id>
+    <title>@invlpg on 2023-07-03 09:35:38+00:00 (#1738)</title>
+    <updated>2023-07-03T12:40:57.377268+00:00</updated>
+    <content type="html">yeah that's what happened to me too</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1738" rel="alternate"/>
+    <published>2023-07-03T09:35:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1737</id>
+    <title>@HughEverett on 2023-07-03 09:35:27+00:00 (#1737)</title>
+    <updated>2023-07-03T12:40:57.377262+00:00</updated>
+    <content type="html">What do you mean? Once you set the symbol path, one file 'config.ini' should be created there beside the exe file.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1737" rel="alternate"/>
+    <published>2023-07-03T09:35:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1736</id>
+    <title>@ricnar on 2023-07-03 09:34:53+00:00 (#1736)</title>
+    <updated>2023-07-03T12:40:57.377257+00:00</updated>
+    <content type="html">i compiled in debug mode</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1736" rel="alternate"/>
+    <published>2023-07-03T09:34:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1735</id>
+    <title>@ricnar on 2023-07-03 09:34:37+00:00 (#1735)</title>
+    <updated>2023-07-03T12:40:57.377252+00:00</updated>
+    <content type="html">i am using the debug version</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1735" rel="alternate"/>
+    <published>2023-07-03T09:34:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1734</id>
+    <title>@HughEverett on 2023-07-03 09:34:30+00:00 (#1734)</title>
+    <updated>2023-07-03T12:40:57.377247+00:00</updated>
+    <content type="html">😳</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1734" rel="alternate"/>
+    <published>2023-07-03T09:34:30+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1733</id>
+    <title>@ricnar on 2023-07-03 09:34:18+00:00 (#1733)</title>
+    <updated>2023-07-03T12:40:57.377242+00:00</updated>
+    <content type="html">i need to reapply every time</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1733" rel="alternate"/>
+    <published>2023-07-03T09:34:18+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1732</id>
+    <title>@invlpg on 2023-07-03 09:33:28+00:00 (#1732)</title>
+    <updated>2023-07-03T12:40:57.377235+00:00</updated>
+    <content type="html">yeah sorry it saves it, i was just overwriting the file</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1732" rel="alternate"/>
+    <published>2023-07-03T09:33:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1731</id>
+    <title>@HughEverett on 2023-07-03 09:32:58+00:00 (#1731)</title>
+    <updated>2023-07-03T12:40:57.377226+00:00</updated>
+    <content type="html">No, it should be applied, otherwise, it's a bug.</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1731" rel="alternate"/>
+    <published>2023-07-03T09:32:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2023-07.html#1730</id>
+    <title>@HughEverett on 2023-07-03 09:32:46+00:00 (#1730)</title>
+    <updated>2023-07-03T12:40:57.377194+00:00</updated>
+    <content type="html">What do you mean?</content>
+    <link href="https://tg-archive.hyperdbg.org/2023-07.html#1730" rel="alternate"/>
+    <published>2023-07-03T09:32:46+00:00</published>
   </entry>
 </feed>
