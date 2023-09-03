@@ -1,0 +1,1055 @@
+
+Microsoft (R) Windows Debugger Version 10.0.22621.1778 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Waiting to reconnect...
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 10:31:00.210 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (1 procs) Free x64
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff804`4ac00000 PsLoadedModuleList = 0xfffff804`4b045f30
+System Uptime: 0 days 0:00:01.983
+KDTARGET: Refreshing KD connection
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+Shutdown occurred at (Tue Jun 20 10:40:22.551 2023 (UTC - 3:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 10:40:22.673 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (1 procs) Free x64
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff803`5ce00000 PsLoadedModuleList = 0xfffff803`5d245f30
+System Uptime: 0 days 0:00:01.851
+KDTARGET: Refreshing KD connection
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x29:
+fffff808`7bb28cf9 cc              int     3
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x29:
+fffff808`7bb28cf9 cc              int     3
+0: kd> g
+KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x0000003b
+                       (0x00000000C000001D,0xFFFFF8087BB28D52,0xFFFFC907DEC1A840,0x0000000000000000)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPointWithStatus:
+fffff803`5cfcbc90 cc              int     3
+0: kd> g
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+Shutdown occurred at (Tue Jun 20 11:21:12.389 2023 (UTC - 3:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 11:21:12.534 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (1 procs) Free x64
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff807`13000000 PsLoadedModuleList = 0xfffff807`13445f30
+System Uptime: 0 days 0:00:01.046
+KDTARGET: Refreshing KD connection
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`131cbc90 cc              int     3
+0: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`131cbc90 cc              int     3
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`131cbc90 cc              int     3
+0: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`131cbc90 cc              int     3
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`131cbc90 cc              int     3
+0: kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x29:
+fffff805`81978cf9 cc              int     3
+0: kd> k
+ # Child-SP          RetAddr               Call Site
+00 ffff8283`1fbbee90 ffff8283`1fbbee90     hprdbghv!AsmVmxSaveState+0x29 [D:\a\HyperDbg\HyperDbg\hyperdbg\hprdbghv\code\assembly\AsmVmxContextState.asm @ 39] 
+01 ffff8283`1fbbee98 00000000`00000002     0xffff8283`1fbbee90
+02 ffff8283`1fbbeea0 00000000`00000000     0x2
+0: kd> .reload 
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 11:28:41.673 2023 (UTC - 3:00)), ptr64 TRUE
+Loading Kernel Symbols
+.................................................
+
+Press ctrl-c (cdb, kd, ntsd) or ctrl-break (windbg) to abort symbol loads that take too long.
+Run !sym noisy before .reload to track down problems loading symbols.
+
+..............
+................................................................
+...........................................................
+Loading User Symbols
+......................................
+Loading unloaded module list
+.......
+0: kd> lm
+start             end                 module name
+00007ff6`895c0000 00007ff6`89876000   hyperdbg_cli   (deferred)             
+00007ffa`a0ab0000 00007ffa`a0f1d000   pdbex      (deferred)             
+00007ffa`a0f20000 00007ffa`a11f8000   symbol_parser   (deferred)             
+00007ffa`a1200000 00007ffa`a13a0000   hprdbgrev   (deferred)             
+00007ffa`a13a0000 00007ffa`a1589000   script_engine   (deferred)             
+00007ffa`a1590000 00007ffa`a1a6d000   HPRDBGCTRL   (deferred)             
+00007ffa`b84a0000 00007ffa`b8694000   dbghelp    (deferred)             
+00007ffa`bc2d0000 00007ffa`bc4a5000   urlmon     (deferred)             
+00007ffa`bdb60000 00007ffa`bde07000   iertutil   (deferred)             
+00007ffa`c36e0000 00007ffa`c376f000   apphelp    (deferred)             
+00007ffa`c4e40000 00007ffa`c4e4c000   CRYPTBASE   (deferred)             
+00007ffa`c5490000 00007ffa`c54a0000   UMPDC      (deferred)             
+00007ffa`c54a0000 00007ffa`c54b1000   kernel_appcore   (deferred)             
+00007ffa`c54c0000 00007ffa`c550a000   powrprof   (deferred)             
+00007ffa`c5530000 00007ffa`c554e000   profapi    (deferred)             
+00007ffa`c5740000 00007ffa`c57de000   msvcp_win   (deferred)             
+00007ffa`c57e0000 00007ffa`c5801000   win32u     (deferred)             
+00007ffa`c58c0000 00007ffa`c59ba000   ucrtbase   (deferred)             
+00007ffa`c59e0000 00007ffa`c5c85000   KERNELBASE   (deferred)             
+00007ffa`c5c90000 00007ffa`c5d14000   bcryptPrimitives   (deferred)             
+00007ffa`c5d70000 00007ffa`c64eb000   windows_storage   (deferred)             
+00007ffa`c64f0000 00007ffa`c6688000   gdi32full   (deferred)             
+00007ffa`c6690000 00007ffa`c672e000   msvcrt     (deferred)             
+00007ffa`c6730000 00007ffa`c67d9000   shcore     (deferred)             
+00007ffa`c67e0000 00007ffa`c6806000   GDI32      (deferred)             
+00007ffa`c6810000 00007ffa`c6862000   SHLWAPI    (deferred)             
+00007ffa`c6870000 00007ffa`c6922000   KERNEL32   (deferred)             
+00007ffa`c6930000 00007ffa`c6ac4000   USER32     (deferred)             
+00007ffa`c6ad0000 00007ffa`c6b67000   sechost    (deferred)             
+00007ffa`c6fc0000 00007ffa`c702f000   WS2_32     (deferred)             
+00007ffa`c7030000 00007ffa`c7366000   combase    (deferred)             
+00007ffa`c7420000 00007ffa`c744e000   IMM32      (deferred)             
+00007ffa`c78c0000 00007ffa`c78c8000   PSAPI      (deferred)             
+00007ffa`c7930000 00007ffa`c79d3000   ADVAPI32   (deferred)             
+00007ffa`c7a00000 00007ffa`c7b57000   ole32      (deferred)             
+00007ffa`c7bf0000 00007ffa`c7cb5000   OLEAUT32   (deferred)             
+00007ffa`c7cc0000 00007ffa`c7ddf000   RPCRT4     (deferred)             
+00007ffa`c85e0000 00007ffa`c87d0000   ntdll      (pdb symbols)          c:\symbols\ntdll.pdb\BF51864800EAAA852CE7A7AF426B3F011\ntdll.pdb
+ffffac9f`b9c00000 ffffac9f`b9fa2000   win32kfull   (deferred)             
+ffffac9f`b9fb0000 ffffac9f`ba252000   win32kbase   (deferred)             
+ffffac9f`ba260000 ffffac9f`ba2a8000   cdd        (deferred)             
+ffffac9f`baa00000 ffffac9f`baa8c000   win32k     (deferred)             
+fffff805`80020000 fffff805`8003f000   dump_lsi_sas   (deferred)             
+fffff805`80060000 fffff805`8007d000   dump_dumpfve   (deferred)             
+fffff805`80090000 fffff805`800c0000   cdrom      (deferred)             
+fffff805`800d0000 fffff805`800e5000   filecrypt   (deferred)             
+fffff805`800f0000 fffff805`800fe000   tbs        (deferred)             
+fffff805`80100000 fffff805`8010a000   Null       (deferred)             
+fffff805`80110000 fffff805`8011a000   Beep       (deferred)             
+fffff805`80120000 fffff805`80131000   vmrawdsk   (deferred)             
+fffff805`80140000 fffff805`804b1000   dxgkrnl    (deferred)             
+fffff805`804c0000 fffff805`804d6000   watchdog   (deferred)             
+fffff805`804e0000 fffff805`804f6000   BasicDisplay   (deferred)             
+fffff805`80500000 fffff805`80511000   BasicRender   (deferred)             
+fffff805`80520000 fffff805`8053c000   Npfs       (deferred)             
+fffff805`80540000 fffff805`80551000   Msfs       (deferred)             
+fffff805`80560000 fffff805`80586000   tdx        (deferred)             
+fffff805`80590000 fffff805`805a0000   TDI        (deferred)             
+fffff805`805b0000 fffff805`805be000   ws2ifsl    (deferred)             
+fffff805`805c0000 fffff805`80619000   netbt      (deferred)             
+fffff805`80620000 fffff805`80633000   afunix     (deferred)             
+fffff805`80640000 fffff805`806e7000   afd        (deferred)             
+fffff805`806f0000 fffff805`8070a000   vwififlt   (deferred)             
+fffff805`80710000 fffff805`8073b000   pacer      (deferred)             
+fffff805`80740000 fffff805`80754000   netbios    (deferred)             
+fffff805`80760000 fffff805`807db000   rdbss      (deferred)             
+fffff805`807e0000 fffff805`80874000   csc        (deferred)             
+fffff805`80880000 fffff805`80892000   nsiproxy   (deferred)             
+fffff805`808a0000 fffff805`808ad000   npsvctrig   (deferred)             
+fffff805`808b0000 fffff805`808c0000   mssmbios   (deferred)             
+fffff805`808d0000 fffff805`808da000   gpuenergydrv   (deferred)             
+fffff805`808e0000 fffff805`8090c000   dfsc       (deferred)             
+fffff805`80910000 fffff805`80928000   monitor    (deferred)             
+fffff805`80930000 fffff805`80946000   bam        (deferred)             
+fffff805`80950000 fffff805`8099f000   ahcache    (deferred)             
+fffff805`809a0000 fffff805`80a2d000   Vid        (deferred)             
+fffff805`80a30000 fffff805`80a4f000   winhvr     (deferred)             
+fffff805`80a50000 fffff805`80a61000   CompositeBus   (deferred)             
+fffff805`80a70000 fffff805`80a7d000   kdnic      (deferred)             
+fffff805`80a80000 fffff805`80a95000   umbus      (deferred)             
+fffff805`80aa0000 fffff805`80ac3000   i8042prt   (deferred)             
+fffff805`80ad0000 fffff805`80ae4000   kbdclass   (deferred)             
+fffff805`80af0000 fffff805`80af9000   vmmouse    (deferred)             
+fffff805`80b00000 fffff805`80b13000   mouclass   (deferred)             
+fffff805`80b20000 fffff805`80b3f000   parport    (deferred)             
+fffff805`80b40000 fffff805`80b5c000   serial     (deferred)             
+fffff805`80b60000 fffff805`80b6f000   serenum    (deferred)             
+fffff805`80b70000 fffff805`80b7f000   fdc        (deferred)             
+fffff805`80b80000 fffff805`80b8a000   vm3dmp_loader   (deferred)             
+fffff805`80b90000 fffff805`80be2000   vm3dmp     (deferred)             
+fffff805`80bf0000 fffff805`80bff000   CmBatt     (deferred)             
+fffff805`80c00000 fffff805`80c10000   BATTC      (deferred)             
+fffff805`80c20000 fffff805`80c5e000   intelppm   (deferred)             
+fffff805`80c60000 fffff805`80c6d000   NdisVirtualBus   (deferred)             
+fffff805`80c70000 fffff805`80c7c000   swenum     (deferred)             
+fffff805`80c80000 fffff805`80cf8000   ks         (deferred)             
+fffff805`80d00000 fffff805`80d0e000   rdpbus     (deferred)             
+fffff805`80d10000 fffff805`80d6b000   udfs       (deferred)             
+fffff805`80d70000 fffff805`80d83000   HIDPARSE   (deferred)             
+fffff805`80da0000 fffff805`80dae000   dump_diskdump   (deferred)             
+fffff805`80dd0000 fffff805`80ded000   crashdmp   (deferred)             
+fffff805`80e00000 fffff805`80e8f000   mrxsmb     (deferred)             
+fffff805`80e90000 fffff805`80ed5000   mrxsmb20   (deferred)             
+fffff805`80ee0000 fffff805`80ef8000   lltdio     (deferred)             
+fffff805`80f00000 fffff805`80f19000   mslldp     (deferred)             
+fffff805`80f20000 fffff805`80f3b000   rspndr     (deferred)             
+fffff805`80f40000 fffff805`80f5d000   wanarp     (deferred)             
+fffff805`80f60000 fffff805`810a4000   HTTP       (deferred)             
+fffff805`810b0000 fffff805`810ca000   mpsdrv     (deferred)             
+fffff805`810d0000 fffff805`81123000   srvnet     (deferred)             
+fffff805`81130000 fffff805`811f5000   srv2       (deferred)             
+fffff805`81200000 fffff805`8120a000   vmmemctl   (deferred)             
+fffff805`81210000 fffff805`81224000   mmcss      (deferred)             
+fffff805`81230000 fffff805`81282000   mrxsmb10   (deferred)             
+fffff805`81290000 fffff805`812b7000   Ndu        (deferred)             
+fffff805`81330000 fffff805`8140a000   dxgmms2    (deferred)             
+fffff805`81410000 fffff805`8141d000   rdpvideominiport   (deferred)             
+fffff805`81450000 fffff805`81487000   wcifs      (deferred)             
+fffff805`81490000 fffff805`81507000   cldflt     (deferred)             
+fffff805`81510000 fffff805`8153f000   rdpdr      (deferred)             
+fffff805`81540000 fffff805`8155a000   storqosflt   (deferred)             
+fffff805`81560000 fffff805`81587000   tsusbhub   (deferred)             
+fffff805`81590000 fffff805`815b5000   bowser     (deferred)             
+fffff805`815c0000 fffff805`815f8000   winquic    (deferred)             
+fffff805`81800000 fffff805`8182c000   vmhgfs     (deferred)             
+fffff805`81830000 fffff805`81852000   rasl2tp    (deferred)             
+fffff805`81860000 fffff805`81880000   raspptp    (deferred)             
+fffff805`81890000 fffff805`818a3000   condrv     (deferred)             
+fffff805`818b0000 fffff805`818cc000   raspppoe   (deferred)             
+fffff805`818d0000 fffff805`818df000   ndistapi   (deferred)             
+fffff805`818e0000 fffff805`8191a000   ndiswan    (deferred)             
+fffff805`81920000 fffff805`8193c000   WdNisDrv   (deferred)             
+fffff805`81940000 fffff805`81957000   hprdbgkd   (deferred)             
+fffff805`81960000 fffff805`8196b000   hyperlog   (deferred)             
+fffff805`81970000 fffff805`819f6000   hprdbghv   (private pdb symbols)  c:\symbols\hprdbghv.pdb\CD299968B52442318710EFF6CE521E681\hprdbghv.pdb
+fffff805`81a00000 fffff805`81a0e000   kdserial   (deferred)             
+fffff805`823c0000 fffff805`82496000   peauth     (deferred)             
+fffff805`824a0000 fffff805`82535000   srv        (deferred)             
+fffff805`82540000 fffff805`82554000   tcpipreg   (deferred)             
+fffff805`82560000 fffff805`8257d000   rassstp    (deferred)             
+fffff805`82580000 fffff805`825c1000   NDProxy    (deferred)             
+fffff805`825d0000 fffff805`825f7000   AgileVpn   (deferred)             
+fffff807`12f5c000 fffff807`13000000   hal        (deferred)             
+fffff807`13000000 fffff807`13ab5000   nt         (pdb symbols)          c:\symbols\ntkrnlmp.pdb\2146E84F70B609E577618A477DC70B541\ntkrnlmp.pdb
+fffff807`16200000 fffff807`16247000   kd_02_8086   (deferred)             
+fffff807`16250000 fffff807`16299000   kdcom      (deferred)             
+fffff807`162a0000 fffff807`164a1000   mcupdate_GenuineIntel   (deferred)             
+fffff807`164b0000 fffff807`164c1000   werkernel   (deferred)             
+fffff807`164d0000 fffff807`164f9000   ksecdd     (deferred)             
+fffff807`16500000 fffff807`16561000   msrpc      (deferred)             
+fffff807`16570000 fffff807`16597000   tm         (deferred)             
+fffff807`165a0000 fffff807`165ba000   PSHED      (deferred)             
+fffff807`165c0000 fffff807`165cb000   BOOTVID    (deferred)             
+fffff807`165d0000 fffff807`165de000   cmimcext   (deferred)             
+fffff807`165e0000 fffff807`165ec000   ntosext    (deferred)             
+fffff807`165f0000 fffff807`165ff000   SleepStudyHelper   (deferred)             
+fffff807`16690000 fffff807`166f8000   CLFS       (deferred)             
+fffff807`16700000 fffff807`16805000   clipsp     (deferred)             
+fffff807`16810000 fffff807`16881000   FLTMGR     (deferred)             
+fffff807`16890000 fffff807`1696f000   CI         (deferred)             
+fffff807`16970000 fffff807`16a2f000   cng        (deferred)             
+fffff807`16a30000 fffff807`16b05000   Wdf01000   (deferred)             
+fffff807`16b10000 fffff807`16b23000   WDFLDR     (deferred)             
+fffff807`16b30000 fffff807`16b40000   WppRecorder   (deferred)             
+fffff807`16b50000 fffff807`16b75000   acpiex     (deferred)             
+fffff807`16b80000 fffff807`16bc9000   mssecflt   (deferred)             
+fffff807`16bd0000 fffff807`16bea000   SgrmAgent   (deferred)             
+fffff807`16bf0000 fffff807`16cbc000   ACPI       (deferred)             
+fffff807`16cc0000 fffff807`16ccc000   WMILIB     (deferred)             
+fffff807`16cf0000 fffff807`16d4b000   intelpep   (deferred)             
+fffff807`16d50000 fffff807`16d67000   WindowsTrustedRT   (deferred)             
+fffff807`16d70000 fffff807`16d7b000   WindowsTrustedRTProxy   (deferred)             
+fffff807`16d80000 fffff807`16d95000   pcw        (deferred)             
+fffff807`16da0000 fffff807`16dab000   msisadrv   (deferred)             
+fffff807`16db0000 fffff807`16e1e000   pci        (deferred)             
+fffff807`16e20000 fffff807`16e33000   vdrvroot   (deferred)             
+fffff807`16e40000 fffff807`16e81000   ucx01000   (deferred)             
+fffff807`16e90000 fffff807`16ec3000   pdc        (deferred)             
+fffff807`16ed0000 fffff807`16ee9000   CEA        (deferred)             
+fffff807`16ef0000 fffff807`16f20000   partmgr    (deferred)             
+fffff807`16f30000 fffff807`16fd5000   spaceport   (deferred)             
+fffff807`16fe0000 fffff807`16feb000   intelide   (deferred)             
+fffff807`16ff0000 fffff807`17003000   PCIIDEX    (deferred)             
+fffff807`17010000 fffff807`1702a000   volmgr     (deferred)             
+fffff807`17030000 fffff807`1707e000   sdbus      (deferred)             
+fffff807`17080000 fffff807`170e3000   volmgrx    (deferred)             
+fffff807`170f0000 fffff807`17108000   vsock      (deferred)             
+fffff807`17110000 fffff807`1712c000   vmci       (deferred)             
+fffff807`17130000 fffff807`17148000   urscx01000   (deferred)             
+fffff807`17150000 fffff807`1716f000   mountmgr   (deferred)             
+fffff807`17170000 fffff807`1718f000   lsi_sas    (deferred)             
+fffff807`17190000 fffff807`17234000   storport   (deferred)             
+fffff807`17240000 fffff807`1724d000   atapi      (deferred)             
+fffff807`17250000 fffff807`1728b000   ataport    (deferred)             
+fffff807`17290000 fffff807`172ab000   EhStorClass   (deferred)             
+fffff807`172b0000 fffff807`172ca000   fileinfo   (deferred)             
+fffff807`172d0000 fffff807`1730d000   Wof        (deferred)             
+fffff807`17310000 fffff807`1738e000   WdFilter   (deferred)             
+fffff807`17390000 fffff807`1762c000   Ntfs       (deferred)             
+fffff807`17630000 fffff807`17663000   usbccgp    (deferred)             
+fffff807`17670000 fffff807`1767e000   USBD       (deferred)             
+fffff807`17680000 fffff807`1768d000   urschipidea   (deferred)             
+fffff807`17690000 fffff807`176ad000   usbehci    (deferred)             
+fffff807`176b0000 fffff807`1772a000   USBPORT    (deferred)             
+fffff807`17730000 fffff807`177ba000   usbhub     (deferred)             
+fffff807`177c0000 fffff807`17860000   UsbHub3    (deferred)             
+fffff807`17870000 fffff807`1787d000   Fs_Rec     (deferred)             
+fffff807`17880000 fffff807`179f1000   ndis       (deferred)             
+fffff807`17a00000 fffff807`17a94000   NETIO      (deferred)             
+fffff807`17aa0000 fffff807`17ad2000   ksecpkg    (deferred)             
+fffff807`17ae0000 fffff807`17dcc000   tcpip      (deferred)             
+fffff807`17dd0000 fffff807`17e4a000   fwpkclnt   (deferred)             
+fffff807`17e50000 fffff807`17e80000   wfplwfs    (deferred)             
+fffff807`17e90000 fffff807`17f59000   fvevol     (deferred)             
+fffff807`17f60000 fffff807`17f6b000   volume     (deferred)             
+fffff807`17f70000 fffff807`17fdd000   volsnap    (deferred)             
+fffff807`17fe0000 fffff807`18069000   USBXHCI    (deferred)             
+fffff807`18070000 fffff807`18095000   USBSTOR    (deferred)             
+fffff807`180a0000 fffff807`180b8000   uaspstor   (deferred)             
+fffff807`180c0000 fffff807`180de000   sdstor     (deferred)             
+fffff807`180e0000 fffff807`1812e000   rdyboost   (deferred)             
+fffff807`18130000 fffff807`18156000   mup        (deferred)             
+fffff807`18160000 fffff807`18172000   iorate     (deferred)             
+fffff807`181a0000 fffff807`181bc000   disk       (deferred)             
+fffff807`181c0000 fffff807`1822c000   CLASSPNP   (deferred)             
+
+Unloaded modules:
+fffff805`81420000 fffff805`8144b000   luafv.sys
+fffff805`80000000 fffff805`8000f000   dump_storport.sys
+fffff805`80030000 fffff805`80050000   dump_lsi_sas.sys
+fffff805`80070000 fffff805`8008e000   dump_dumpfve.sys
+fffff805`80910000 fffff805`8092e000   dam.sys 
+fffff807`16cd0000 fffff807`16ce1000   WdBoot.sys
+fffff807`18180000 fffff807`18191000   hwpolicy.sys
+0: kd> .reload /f
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 11:29:29.829 2023 (UTC - 3:00)), ptr64 TRUE
+Loading Kernel Symbols
+...............................................................
+...........................................................
+
+Press ctrl-c (cdb, kd, ntsd) or ctrl-break (windbg) to abort symbol loads that take too long.
+Run !sym noisy before .reload to track down problems loading symbols.
+
+.....
+...........................................................
+Loading User Symbols
+.*** WARNING: Unable to verify checksum for hyperdbg-cli.exe
+.....*** WARNING: Unable to verify checksum for HPRDBGCTRL.dll
+................*** WARNING: Unable to verify checksum for script-engine.dll
+.*** WARNING: Unable to verify checksum for hprdbgrev.dll
+.*** WARNING: Unable to verify checksum for symbol-parser.dll
+..........*** WARNING: Unable to verify checksum for pdbex.dll
+
+
+Press ctrl-c (cdb, kd, ntsd) or ctrl-break (windbg) to abort symbol loads that take too long.
+Run !sym noisy before .reload to track down problems loading symbols.
+
+....
+Loading unloaded module list
+.......
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+clipsp                 The system cannot find the file specified
+vsock                  The system cannot find the file specified
+vmci                   The system cannot find the file specified
+WdFilter               The system cannot find the file specified
+vmrawdsk               The system cannot find the file specified
+vmmouse                The system cannot find the file specified
+vm3dmp_loader          The system cannot find the file specified
+vm3dmp                 The system cannot find the file specified
+vmmemctl               The system cannot find the file specified
+peauth                 The system cannot find the file specified
+vmhgfs                 The system cannot find the file specified
+WdNisDrv               The system cannot find the file specified
+hprdbgkd               The system cannot find the file specified
+hyperlog               The system cannot find the file specified
+kdserial               The system cannot find the file specified
+
+You can troubleshoot most symbol related issues by turning on symbol loading diagnostics (!sym noisy) and repeating the command that caused symbols to be loaded.
+You should also verify that your symbol search path (.sympath) is correct.
+0: kd> k
+ # Child-SP          RetAddr               Call Site
+00 ffff8283`1fbbee90 ffff8283`1fbbee90     hprdbghv!AsmVmxSaveState+0x29 [D:\a\HyperDbg\HyperDbg\hyperdbg\hprdbghv\code\assembly\AsmVmxContextState.asm @ 39] 
+01 ffff8283`1fbbee98 00000000`00000002     0xffff8283`1fbbee90
+02 ffff8283`1fbbeea0 00000000`00000000     0x2
+0: kd> x *!VmxVirtualizeCurrentSystem
+fffff805`8198abb0 hprdbghv!VmxVirtualizeCurrentSystem (void *)
+0: kd> u fffff805`8198abb0
+hprdbghv!VmxVirtualizeCurrentSystem [D:\a\HyperDbg\HyperDbg\hyperdbg\hprdbghv\code\vmm\vmx\Vmx.c @ 412]:
+fffff805`8198abb0 48894c2408      mov     qword ptr [rsp+8],rcx
+fffff805`8198abb5 4883ec68        sub     rsp,68h
+fffff805`8198abb9 48c744245000000000 mov   qword ptr [rsp+50h],0
+fffff805`8198abc2 e8292dffff      call    hprdbghv!KeGetCurrentProcessorNumber (fffff805`8197d8f0)
+fffff805`8198abc7 89442440        mov     dword ptr [rsp+40h],eax
+fffff805`8198abcb 8b442440        mov     eax,dword ptr [rsp+40h]
+fffff805`8198abcf 4869c0e8010000  imul    rax,rax,1E8h
+fffff805`8198abd6 488b0d9b360600  mov     rcx,qword ptr [hprdbghv!g_GuestState (fffff805`819ee278)]
+windbg> .open -a fffff8058198abb0
+0: kd> p
+hprdbghv!AsmVmxSaveState+0x2a:
+fffff805`81978cfa eb00            jmp     hprdbghv!AsmVmxRestoreState (fffff805`81978cfc)
+0: kd> ub rip
+hprdbghv!AsmVmxSaveState+0x12 [D:\a\HyperDbg\HyperDbg\hyperdbg\hprdbghv\code\assembly\AsmVmxContextState.asm @ 28]:
+fffff805`81978ce2 4154            push    r12
+fffff805`81978ce4 4155            push    r13
+fffff805`81978ce6 4156            push    r14
+fffff805`81978ce8 4157            push    r15
+fffff805`81978cea 4881ec00010000  sub     rsp,100h
+fffff805`81978cf1 488bcc          mov     rcx,rsp
+fffff805`81978cf4 e8b71e0100      call    hprdbghv!VmxVirtualizeCurrentSystem (fffff805`8198abb0)
+fffff805`81978cf9 cc              int     3
+0: kd> g
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+Shutdown occurred at (Tue Jun 20 13:54:32.830 2023 (UTC - 3:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+KDTARGET: Refreshing KD connection
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 13:54:43.349 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (2 procs) Free x64
+Product: WinNt, suite: TerminalServer SingleUserTS
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff807`7a000000 PsLoadedModuleList = 0xfffff807`7a445f30
+Debug session time: Tue Jun 20 13:54:44.002 2023 (UTC - 3:00)
+System Uptime: 0 days 0:00:28.722
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+1: kd> lm
+start             end                 module name
+fffff807`7a000000 fffff807`7aab5000   nt         (pdb symbols)          c:\symbols\ntkrnlmp.pdb\2146E84F70B609E577618A477DC70B541\ntkrnlmp.pdb
+fffff808`ec8d0000 fffff808`ec8e6000   BasicDisplay   (deferred)             
+fffff808`ec8f0000 fffff808`ec901000   BasicRender   (deferred)             
+fffff808`ec910000 fffff808`ec92c000   Npfs       (deferred)             
+fffff808`ec930000 fffff808`ec941000   Msfs       (deferred)             
+fffff808`ec950000 fffff808`ec976000   tdx        (deferred)             
+fffff808`ec980000 fffff808`ec990000   TDI        (deferred)             
+fffff808`ec9a0000 fffff808`ec9ae000   ws2ifsl    (deferred)             
+fffff808`ec9b0000 fffff808`eca09000   netbt      (deferred)             
+fffff808`eca10000 fffff808`eca23000   afunix     (deferred)             
+fffff808`eca30000 fffff808`ecad7000   afd        (deferred)             
+fffff808`ecae0000 fffff808`ecafa000   vwififlt   (deferred)             
+fffff808`ecb00000 fffff808`ecb2b000   pacer      (deferred)             
+fffff808`ecb30000 fffff808`ecb44000   netbios    (deferred)             
+fffff808`ecb50000 fffff808`ecbcb000   rdbss      (deferred)             
+fffff808`ecbd0000 fffff808`ecc64000   csc        (deferred)             
+fffff808`ecc70000 fffff808`ecc82000   nsiproxy   (deferred)             
+fffff808`ecc90000 fffff808`ecc9d000   npsvctrig   (deferred)             
+fffff808`ecca0000 fffff808`eccb0000   mssmbios   (deferred)             
+fffff808`eccc0000 fffff808`eccca000   gpuenergydrv   (deferred)             
+fffff808`eccd0000 fffff808`eccfc000   dfsc       (deferred)             
+fffff808`ecd20000 fffff808`ecd36000   bam        (deferred)             
+fffff808`ecd40000 fffff808`ecd8f000   ahcache    (deferred)             
+fffff808`ed380000 fffff808`ed40d000   Vid        (deferred)             
+fffff808`ed410000 fffff808`ed42f000   winhvr     (deferred)             
+fffff808`ed430000 fffff808`ed441000   CompositeBus   (deferred)             
+fffff808`ed450000 fffff808`ed45d000   kdnic      (deferred)             
+
+Unloaded modules:
+fffff808`ecd00000 fffff808`ecd1e000   dam.sys 
+fffff807`7cad0000 fffff807`7cae1000   WdBoot.sys
+fffff807`7df80000 fffff807`7df91000   hwpolicy.sys
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x24:
+fffff807`76d28d04 cc              int     3
+0: kd> u rip
+hprdbghv!AsmVmxSaveState+0x24 [C:\Users\ricnar\Desktop\aca\HyperDbg\hyperdbg\hprdbghv\code\assembly\AsmVmxContextState.asm @ 38]:
+fffff807`76d28d04 cc              int     3
+fffff807`76d28d05 e846200100      call    hprdbghv!VmxVirtualizeCurrentSystem (fffff807`76d3ad50)
+fffff807`76d28d0a cc              int     3
+fffff807`76d28d0b eb00            jmp     hprdbghv!AsmVmxRestoreState (fffff807`76d28d0d)
+hprdbghv!AsmVmxRestoreState [C:\Users\ricnar\Desktop\aca\HyperDbg\hyperdbg\hprdbghv\code\assembly\AsmVmxContextState.asm @ 51]:
+fffff807`76d28d0d 4881c400010000  add     rsp,100h
+fffff807`76d28d14 415f            pop     r15
+fffff807`76d28d16 415e            pop     r14
+fffff807`76d28d18 415d            pop     r13
+0: kd> t
+hprdbghv!AsmVmxSaveState+0x25:
+fffff807`76d28d05 e846200100      call    hprdbghv!VmxVirtualizeCurrentSystem (fffff807`76d3ad50)
+0: kd> t
+hprdbghv!AsmVmxSaveState+0x24:
+fffff807`76d28d04 cc              int     3
+1: kd> t
+hprdbghv!AsmVmxSaveState+0x25:
+fffff807`76d28d05 e846200100      call    hprdbghv!VmxVirtualizeCurrentSystem (fffff807`76d3ad50)
+1: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem:
+fffff807`76d3ad50 48894c2408      mov     qword ptr [rsp+8],rcx
+1: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem+0x9:
+fffff807`76d3ad59 cc              int     3
+1: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem+0xa:
+fffff807`76d3ad5a 48c744245000000000 mov   qword ptr [rsp+50h],0
+1: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem+0x13:
+fffff807`76d3ad63 e8882cffff      call    hprdbghv!KeGetCurrentProcessorNumber (fffff807`76d2d9f0)
+1: kd> t
+hprdbghv!KeGetCurrentProcessorNumber:
+fffff807`76d2d9f0 658a042584010000 mov     al,byte ptr gs:[184h]
+1: kd> t
+hprdbghv!KeGetCurrentProcessorNumber+0x8:
+fffff807`76d2d9f8 0fb6c0          movzx   eax,al
+1: kd> t
+hprdbghv!KeGetCurrentProcessorNumber+0xb:
+fffff807`76d2d9fb c3              ret
+1: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem+0x18:
+fffff807`76d3ad68 89442440        mov     dword ptr [rsp+40h],eax
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1c:
+fffff807`76d3ad6c 8b442440        mov     eax,dword ptr [rsp+40h]
+1: kd> t
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+1: kd> t
+nt!DbgBreakPointWithStatus+0x1:
+fffff807`7a1cbc91 c3              ret
+1: kd> t
+nt!KdCheckForDebugBreak+0x86b28:
+fffff807`7a1e6a0c 90              nop
+1: kd> t
+nt!KdCheckForDebugBreak+0x86b29:
+fffff807`7a1e6a0d e9f094f7ff      jmp     nt!KdCheckForDebugBreak+0x1e (fffff807`7a15ff02)
+1: kd> t
+nt!KdCheckForDebugBreak+0x1e:
+fffff807`7a15ff02 4883c428        add     rsp,28h
+1: kd> t
+nt!KdCheckForDebugBreak+0x22:
+fffff807`7a15ff06 c3              ret
+1: kd> t
+nt!KeAccumulateTicks+0x1b80d3:
+fffff807`7a1fa7a3 90              nop
+1: kd> t
+nt!KeAccumulateTicks+0x1b80d4:
+fffff807`7a1fa7a4 e9787fe4ff      jmp     nt!KeAccumulateTicks+0x51 (fffff807`7a042721)
+1: kd> u rip
+nt!KeAccumulateTicks+0x1b80d4:
+fffff807`7a1fa7a4 e9787fe4ff      jmp     nt!KeAccumulateTicks+0x51 (fffff807`7a042721)
+fffff807`7a1fa7a9 cc              int     3
+fffff807`7a1fa7aa a801            test    al,1
+fffff807`7a1fa7ac 0f848d84e4ff    je      nt!KiCheckForTimerExpiration+0x18f (fffff807`7a042c3f)
+fffff807`7a1fa7b2 4180fe02        cmp     r14b,2
+fffff807`7a1fa7b6 0f838384e4ff    jae     nt!KiCheckForTimerExpiration+0x18f (fffff807`7a042c3f)
+fffff807`7a1fa7bc 65488b042520000000 mov   rax,qword ptr gs:[20h]
+fffff807`7a1fa7c5 488b90b8610000  mov     rdx,qword ptr [rax+61B8h]
+1: kd> gu
+nt!KeClockInterruptNotify+0xc07:
+fffff807`7a044477 488b7308        mov     rsi,qword ptr [rbx+8]
+1: kd> gu
+fffff807`79f5f28c 0f1f440000      nop     dword ptr [rax+rax]
+1: kd> gu
+Single step exception - code 80000004 (first chance)
+First chance exceptions are reported before any exception handling.
+This exception may be expected and handled.
+hprdbghv!VmxVirtualizeCurrentSystem+0x2e:
+fffff807`76d3ad7e 4803c8          add     rcx,rax
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x39:
+fffff807`76d3ad89 33c0            xor     eax,eax
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x7f:
+fffff807`76d3adcf 488b4c2448      mov     rcx,qword ptr [rsp+48h]
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0xd9:
+fffff807`76d3ae29 488b4c2448      mov     rcx,qword ptr [rsp+48h]
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0xe8:
+fffff807`76d3ae38 7549            jne     hprdbghv!VmxVirtualizeCurrentSystem+0x133 (fffff807`76d3ae83)
+1: kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x133:
+fffff807`76d3ae83 33c0            xor     eax,eax
+1: kd> r
+rax=0000000000000001 rbx=ffff9c800a302f80 rcx=ffffc787fcf84200
+rdx=0000000000000000 rsi=ffff9c800a305a20 rdi=ffff9c800a300180
+rip=fffff80776d3ae83 rsp=ffffac8a01e30a10 rbp=ffffac8a01e30d40
+ r8=ffffac8a02909090  r9=ffffac8a02909098 r10=fffff80776d29d30
+r11=0000000000000000 r12=0000000000000000 r13=0000000000000000
+r14=ffffac8a01e30e70 r15=0000000000000001
+iopl=0         nv up ei pl nz na pe nc
+cs=0010  ss=0018  ds=002b  es=002b  fs=0053  gs=002b             efl=00000202
+hprdbghv!VmxVirtualizeCurrentSystem+0x133:
+fffff807`76d3ae83 33c0            xor     eax,eax
+1: kd> t
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+0: kd> t
+nt!DbgBreakPointWithStatus+0x1:
+fffff807`7a1cbc91 c3              ret
+0: kd> t
+hprdbghv!VmxVirtualizeCurrentSystem+0x171:
+fffff807`76d3aec1 488b542470      mov     rdx,qword ptr [rsp+70h]
+1: kd> t
+hprdbghv!VmxSetupVmcs:
+fffff807`76d3a520 4889542410      mov     qword ptr [rsp+10h],rdx
+1: kd> t
+nt!KdCheckForDebugBreak+0x86b28:
+fffff807`7a1e6a0c 90              nop
+0: kd> t
+hprdbghv!VmxSetupVmcs+0xa:
+fffff807`76d3a52a 57              push    rdi
+1: kd> gu
+Single step exception - code 80000004 (first chance)
+First chance exceptions are reported before any exception handling.
+This exception may be expected and handled.
+nt!KdCheckForDebugBreak+0x86b29:
+fffff807`7a1e6a0d e9f094f7ff      jmp     nt!KdCheckForDebugBreak+0x1e (fffff807`7a15ff02)
+0: kd> t
+nt!KdCheckForDebugBreak+0x1e:
+fffff807`7a15ff02 4883c428        add     rsp,28h
+0: kd> gu
+nt!KeAccumulateTicks+0x1b80d3:
+fffff807`7a1fa7a3 90              nop
+0: kd> gu
+nt!KeClockInterruptNotify+0x98c:
+fffff807`7a0441fc 488b7308        mov     rsi,qword ptr [rbx+8]
+0: kd> gu
+fffff807`79f5d562 0f1f440000      nop     dword ptr [rax+rax]
+0: kd> gu
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x2a:
+fffff807`76d28d0a cc              int     3
+1: kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+1: kd> g
+Single step exception - code 80000004 (first chance)
+First chance exceptions are reported before any exception handling.
+This exception may be expected and handled.
+hprdbghv!VmxVirtualizeCurrentSystem:
+fffff807`76d3ad50 48894c2408      mov     qword ptr [rsp+8],rcx
+0: kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!VmxVirtualizeCurrentSystem+0x9:
+fffff807`76d3ad59 cc              int     3
+0: kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x2a:
+fffff807`76d28d0a cc              int     3
+0: kd> g
+KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x0000003b
+                       (0x00000000C000001D,0xFFFFF80776D28D72,0xFFFFAC8A02908820,0x0000000000000000)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+nt!DbgBreakPointWithStatus:
+fffff807`7a1cbc90 cc              int     3
+0: kd> g
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+Shutdown occurred at (Tue Jun 20 14:28:51.308 2023 (UTC - 3:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 14:28:51.439 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (1 procs) Free x64
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff807`47800000 PsLoadedModuleList = 0xfffff807`47c45f30
+System Uptime: 0 days 0:00:01.133
+KDTARGET: Refreshing KD connection
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Forcing a debugger reconnect...
+Shutdown occurred at (Tue Jun 20 14:30:07.851 2023 (UTC - 3:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Connected to target 192.168.127.128 on port 50000 on local IP 192.168.127.1.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 18362 x64 target at (Tue Jun 20 14:30:07.991 2023 (UTC - 3:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Symbol search path is: SRV*c:\Symbols*http://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 18362 MP (1 procs) Free x64
+Edition build lab: 18362.1.amd64fre.19h1_release.190318-1202
+Machine Name:
+Kernel base = 0xfffff800`68600000 PsLoadedModuleList = 0xfffff800`68a45f30
+System Uptime: 0 days 0:00:01.081
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff800`687cbc90 cc              int     3
+kd> g
+KDTARGET: Refreshing KD connection
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff800`687cbc90 cc              int     3
+kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff800`687cbc90 cc              int     3
+kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff800`687cbc90 cc              int     3
+kd> g
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPointWithStatus:
+fffff800`687cbc90 cc              int     3
+kd> g
+Break instruction exception - code 80000003 (first chance)
+hprdbghv!AsmVmxSaveState+0x24:
+fffff800`643c8d04 cc              int     3
+kd> t
+hprdbghv!AsmVmxSaveState+0x25:
+fffff800`643c8d05 e846200100      call    hprdbghv!VmxVirtualizeCurrentSystem (fffff800`643dad50)
+kd> t
+hprdbghv!VmxVirtualizeCurrentSystem:
+fffff800`643dad50 48894c2408      mov     qword ptr [rsp+8],rcx
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x9:
+fffff800`643dad59 cc              int     3
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0xa:
+fffff800`643dad5a 48c744245000000000 mov   qword ptr [rsp+50h],0
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x13:
+fffff800`643dad63 e8882cffff      call    hprdbghv!KeGetCurrentProcessorNumber (fffff800`643cd9f0)
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1c:
+fffff800`643dad6c 8b442440        mov     eax,dword ptr [rsp+40h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x39:
+fffff800`643dad89 33c0            xor     eax,eax
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x7f:
+fffff800`643dadcf 488b4c2448      mov     rcx,qword ptr [rsp+48h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0xd9:
+fffff800`643dae29 488b4c2448      mov     rcx,qword ptr [rsp+48h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x133:
+fffff800`643dae83 33c0            xor     eax,eax
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x171:
+fffff800`643daec1 488b542470      mov     rdx,qword ptr [rsp+70h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x180:
+fffff800`643daed0 33c0            xor     eax,eax
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1c6:
+fffff800`643daf16 488b442448      mov     rax,qword ptr [rsp+48h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1cf:
+fffff800`643daf1f 0f01c2          vmlaunch
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1d2:
+fffff800`643daf22 488b442448      mov     rax,qword ptr [rsp+48h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1db:
+fffff800`643daf2b b800440000      mov     eax,4400h
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x1e5:
+fffff800`643daf35 488b442450      mov     rax,qword ptr [rsp+50h]
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x231:
+fffff800`643daf81 0f01c4          vmxoff
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x234:
+fffff800`643daf84 c7442430d9010000 mov     dword ptr [rsp+30h],1D9h
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x276:
+fffff800`643dafc6 32c0            xor     al,al
+kd> p
+hprdbghv!VmxVirtualizeCurrentSystem+0x278:
+fffff800`643dafc8 4883c468        add     rsp,68h
+kd> p
+hprdbghv!AsmVmxSaveState+0x2a:
+fffff800`643c8d0a cc              int     3
