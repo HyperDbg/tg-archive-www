@@ -6,751 +6,750 @@
     <description>Public archive of HyperDbg Telegram messages.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>tg-archive 1.1.2</generator>
-    <lastBuildDate>Sun, 03 Sep 2023 14:00:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Nov 2023 12:19:29 +0000</lastBuildDate>
     <item>
-      <title>@HughEverett on 2023-09-03 13:55:41+00:00 (#4700)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4700</link>
-      <description>Okay 👍</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4700</guid>
-      <pubDate>Sun, 03 Sep 2023 13:55:41 +0000</pubDate>
+      <title>@hokhhv on 2023-11-27 10:20:09+00:00 (#5370)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5370</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5370</guid>
+      <pubDate>Mon, 27 Nov 2023 10:20:09 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-03 13:54:15+00:00 (#4699)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4699</link>
-      <description>I'll make an issue later .  the sample I have problem is packed by themida</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4699</guid>
-      <pubDate>Sun, 03 Sep 2023 13:54:15 +0000</pubDate>
+      <title>@5603858752 on 2023-11-27 02:37:23+00:00 (#5369)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5369</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5369</guid>
+      <pubDate>Mon, 27 Nov 2023 02:37:23 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 13:23:11+00:00 (#4698)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4698</link>
-      <description>photo_2023-09-03_13-23-11.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4698</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4698.jpg" length="17785" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 13:23:11 +0000</pubDate>
+      <title>@zipadded on 2023-11-26 13:55:41+00:00 (#5368)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5368</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5368</guid>
+      <pubDate>Sun, 26 Nov 2023 13:55:41 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-03 13:22:09+00:00 (#4697)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4697</link>
-      <description>what will happen use t after eb ?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4697</guid>
-      <pubDate>Sun, 03 Sep 2023 13:22:09 +0000</pubDate>
+      <title>@6909012772 on 2023-11-22 20:57:31+00:00 (#5367)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5367</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5367</guid>
+      <pubDate>Wed, 22 Nov 2023 20:57:31 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 13:20:11+00:00 (#4696)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4696</link>
-      <description>@xmaple555 Here's the result. I couldn't reproduce the error that you mentioned.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4696</guid>
-      <pubDate>Sun, 03 Sep 2023 13:20:11 +0000</pubDate>
+      <title>@HughEverett on 2023-11-22 06:20:33+00:00 (#5366)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5366</link>
+      <description>HyperDbg v0.7 is released! 
+
+Check out: https://github.com/HyperDbg/HyperDbg/releases/tag/v0.7.0
+
+Starting from HyperDbg v0.7 (this version), events are guaranteed to keep the debuggee in a halt state (in the Debugger Mode); thus, nothing will change during its execution and the context (registers and memory) remain untouched.
+
+Added
+- HyperDbg now applies events immediately as implemented in the "instant events" mechanism
+- The Event Forwarding mechanism is now supported in the Debugger Mode
+- The Event Forwarding mechanism now supports external modules (DLLs)
+- event_clear(EventId) function in script engine
+- HyperDbg now supports string inputs for strlen and other related functions thanks to @xmaple555
+- New semantic tests for the script engine (50 to 59) is added mainly for testing new string and memory comparison functions
+- strlen and wcslen functions now support string and wide-character string as the input
+- strcmp(Str1, Str2), wcscmp(WStr1, WStr2) and memcmp(Ptr1, Ptr2, Num) functions in script engine thanks to @xmaple555
+- The debug break interception (#DB) manipulation option is added to the 'test' command
+- The '.pagein' command, now supports address ranges (length in bytes) to bring multiple pages into the RAM
+
+Changed
+- Fix the problem with the "less than" and the "greater than" operators for signed numbers thanks to @xmaple555
+- Fix the problem checking for alternative names thanks to @xmaple555
+- Fix the crash by turning off the breakpoints while a breakpoint is still active thanks to @xmaple555
+- Fix the crash on reading symbols on remote debuggee thanks to @xmaple555
+- The 'prealloc' command is updated with new instant-event preallocated pools
+- Fix wrong removing of EPT Hook (hidden breakpoints)
+- The 'event' command, no longer continues debuggee for clearing events, instead just disables the event and removes the effects of the event when debuggee continues
+- $id pseudo-register changed to $event_id
+- $tag pseudo-register changed to $event_tag
+- $stage pseudo-register changed to $event_stage
+- Fix adding pseudo-registers with underscore in the script engine
+- Fix the boolean expression interpretation in if conditions in the script engine
+- HyperDbg now intercepts all debug breaks (#DBs) if it's not explicitly asked not to by using the 'test' command
+- Fix '%d' bug in script engine</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5366</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/releases/tag/v0.7.0" length="0" type="application/octet-stream"/>
+      <pubDate>Wed, 22 Nov 2023 06:20:33 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 13:19:34+00:00 (#4695)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4695</link>
-      <description>photo_2023-09-03_13-19-34.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4695</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4695.jpg" length="10895" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 13:19:34 +0000</pubDate>
+      <title>@HughEverett on 2023-11-22 06:13:36+00:00 (#5365)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5365</link>
+      <description>This one is added (with an 'l' option), like:
+.pagein 0x7fff1234 l 8000</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5365</guid>
+      <pubDate>Wed, 22 Nov 2023 06:13:36 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 13:19:34+00:00 (#4694)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4694</link>
-      <description>photo_2023-09-03_13-19-34.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4694</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4694.jpg" length="161978" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 13:19:34 +0000</pubDate>
+      <title>@ricnar on 2023-11-21 07:53:08+00:00 (#5364)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5364</link>
+      <description>animation.gif.mp4</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5364</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5364.mp4" length="138780" type="video/mp4"/>
+      <pubDate>Tue, 21 Nov 2023 07:53:08 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 13:19:33+00:00 (#4693)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4693</link>
-      <description>photo_2023-09-03_13-19-33.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4693</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4693.jpg" length="160543" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 13:19:33 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 16:46:59+00:00 (#5363)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5363</link>
+      <description>New video from @ricnar:
+
+https://youtu.be/KVxV6epwMPc?si=1QS54Y-bi01U4Q40</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5363</guid>
+      <pubDate>Mon, 20 Nov 2023 16:46:59 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:38:02+00:00 (#4692)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4692</link>
-      <description>thanks</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4692</guid>
-      <pubDate>Sun, 03 Sep 2023 12:38:02 +0000</pubDate>
+      <title>@ComradeOcelot on 2023-11-20 14:57:58+00:00 (#5362)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5362</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5362</guid>
+      <pubDate>Mon, 20 Nov 2023 14:57:58 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:37:44+00:00 (#4691)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4691</link>
-      <description>the dump command seems to work perfect</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4691</guid>
-      <pubDate>Sun, 03 Sep 2023 12:37:44 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:55:54+00:00 (#5361)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5361</link>
+      <description>That's why HyperDbg even doesn't let the user to specify the 'pid' parameter for the memory READ/WRITE commands while the debugee is halted in the Debugger Mode.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5361</guid>
+      <pubDate>Mon, 20 Nov 2023 13:55:54 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:37:28+00:00 (#4690)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4690</link>
-      <description>i see</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4690</guid>
-      <pubDate>Sun, 03 Sep 2023 12:37:28 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:54:39+00:00 (#5360)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5360</link>
+      <description>I think it's too complex to be handled as a VMX-root based solution. If it was supposed to run in the VMX non-root mode in PASSIVE_LEVEL, it was easy to implement but it's a pain (and not guaranteed to work) if we want to check another process in the VMX root-mode.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5360</guid>
+      <pubDate>Mon, 20 Nov 2023 13:54:39 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 12:33:48+00:00 (#4689)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4689</link>
-      <description>Yes, but it's a little bit complicated as in the current design the scripts are evaluated in the kernel-mode. Probably we need to re-write the script engine to support these kinds of scenarios.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4689</guid>
-      <pubDate>Sun, 03 Sep 2023 12:33:48 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:48:41+00:00 (#5359)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5359</link>
+      <description>Maybe I'm just thinking of some way to check the point of failure and warn about it.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5359</guid>
+      <pubDate>Mon, 20 Nov 2023 13:48:41 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:31:01+00:00 (#4688)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4688</link>
+      <title>@ricnar on 2023-11-20 13:42:33+00:00 (#5358)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5358</link>
+      <description>when monitor is repeated</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5358</guid>
+      <pubDate>Mon, 20 Nov 2023 13:42:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:42:14+00:00 (#5357)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5357</link>
+      <description>if monitor was used previously in the same target and a new pid is detected and advertise can be showed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5357</guid>
+      <pubDate>Mon, 20 Nov 2023 13:42:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:40:51+00:00 (#5356)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5356</link>
+      <description>if the phyisical address is the same or not</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5356</guid>
+      <pubDate>Mon, 20 Nov 2023 13:40:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:40:33+00:00 (#5355)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5355</link>
+      <description>maybe it cant tested the pid and checks the old pagein and the new pagein and put and advertise</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5355</guid>
+      <pubDate>Mon, 20 Nov 2023 13:40:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:37:46+00:00 (#5354)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5354</link>
+      <description>start clear path xxxxxxxxx</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5354</guid>
+      <pubDate>Mon, 20 Nov 2023 13:37:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:37:33+00:00 (#5353)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5353</link>
+      <description>in start</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5353</guid>
+      <pubDate>Mon, 20 Nov 2023 13:37:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:37:31+00:00 (#5352)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5352</link>
+      <description>maybe an option</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5352</guid>
+      <pubDate>Mon, 20 Nov 2023 13:37:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2023-11-20 13:35:30+00:00 (#5351)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5351</link>
+      <description>That's possible but what if the process is not actually closed? E.g., it modified the page attributes of the .code segment and instructions? In this scenario if another process uses the same physical address, a new physical address will be allocated for the process that modified the code.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5351</guid>
+      <pubDate>Mon, 20 Nov 2023 13:35:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:34:04+00:00 (#5350)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5350</link>
+      <description>but when executes the start command is in the context of the new process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5350</guid>
+      <pubDate>Mon, 20 Nov 2023 13:34:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2023-11-20 13:33:23+00:00 (#5349)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5349</link>
+      <description>The complexity of implementing it this way is too high. Because as you might know HyperDbg is not able to switch to other processes in vmx-root mode.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5349</guid>
+      <pubDate>Mon, 20 Nov 2023 13:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:33:23+00:00 (#5348)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5348</link>
+      <description>when start</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5348</guid>
+      <pubDate>Mon, 20 Nov 2023 13:33:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:33:20+00:00 (#5347)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5347</link>
+      <description>to clear all</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5347</guid>
+      <pubDate>Mon, 20 Nov 2023 13:33:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:33:13+00:00 (#5346)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5346</link>
+      <description>or an option</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5346</guid>
+      <pubDate>Mon, 20 Nov 2023 13:33:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ricnar on 2023-11-20 13:32:36+00:00 (#5345)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5345</link>
       <description>maybe</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4688</guid>
-      <pubDate>Sun, 03 Sep 2023 12:31:01 +0000</pubDate>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5345</guid>
+      <pubDate>Mon, 20 Nov 2023 13:32:36 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:29:54+00:00 (#4687)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4687</link>
-      <description>one large script</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4687</guid>
-      <pubDate>Sun, 03 Sep 2023 12:29:54 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:32:32+00:00 (#5344)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5344</link>
+      <description>when hyperdbg executes the start command</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5344</guid>
+      <pubDate>Mon, 20 Nov 2023 13:32:32 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:29:46+00:00 (#4686)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4686</link>
-      <description>catch the fault, repeat etc</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4686</guid>
-      <pubDate>Sun, 03 Sep 2023 12:29:46 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:29:00+00:00 (#5343)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5343</link>
+      <description>I don't know anything about this but I think maybe there should be one more check to see if it is a process with a new pid to discard the previous events and values.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5343</guid>
+      <pubDate>Mon, 20 Nov 2023 13:29:00 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:29:35+00:00 (#4685)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4685</link>
-      <description>you can make the complete process</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4685</guid>
-      <pubDate>Sun, 03 Sep 2023 12:29:35 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:27:03+00:00 (#5342)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5342</link>
+      <description>but is a new process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5342</guid>
+      <pubDate>Mon, 20 Nov 2023 13:27:03 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:29:27+00:00 (#4684)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4684</link>
-      <description>ina script</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4684</guid>
-      <pubDate>Sun, 03 Sep 2023 12:29:27 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:26:21+00:00 (#5341)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5341</link>
+      <description>I mean there is no way we could understand that Windows creates a new physical address for the target process.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5341</guid>
+      <pubDate>Mon, 20 Nov 2023 13:26:21 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 12:27:54+00:00 (#4683)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4683</link>
-      <description>The problem here is, the 'CR2' for page-fault is only one register in Intel processors which mean we can only inject one page address for the page-fault.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4683</guid>
-      <pubDate>Sun, 03 Sep 2023 12:27:54 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:24:30+00:00 (#5340)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5340</link>
+      <description>If hyperdbg would follow the new physical address, the monitor command should work, I calculate without knowing that if it doesn't work it is because it keeps the previous one and Windows has a new one</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5340</guid>
+      <pubDate>Mon, 20 Nov 2023 13:24:30 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 12:26:47+00:00 (#4682)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4682</link>
-      <description>🤔</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4682</guid>
-      <pubDate>Sun, 03 Sep 2023 12:26:47 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:24:01+00:00 (#5339)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5339</link>
+      <description>I mean how could we know that Windows changes the physical address? 
+And is it even necessary? Because the physical address remains unaffected in the process lifetime.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5339</guid>
+      <pubDate>Mon, 20 Nov 2023 13:24:01 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:25:36+00:00 (#4681)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4681</link>
-      <description>will be possible to make an script to page an entire range, maybe the script can page one by one pagein 1 , g page in 2 g tiil the entire range is completed but automatically</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4681</guid>
-      <pubDate>Sun, 03 Sep 2023 12:25:36 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:22:50+00:00 (#5338)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5338</link>
+      <description>No, it won't. How could we know that?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5338</guid>
+      <pubDate>Mon, 20 Nov 2023 13:22:50 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:23:57+00:00 (#4680)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4680</link>
-      <description>the err pages</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4680</guid>
-      <pubDate>Sun, 03 Sep 2023 12:23:57 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:22:23+00:00 (#5337)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5337</link>
+      <description>Generally, HyperDbg is supposed to be unaware of the operating system. Though, we in some scenarios we didn't follow this rule. Like in the '.process' command where we actually parse everything based on the _EPROCESS.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5337</guid>
+      <pubDate>Mon, 20 Nov 2023 13:22:23 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 12:23:53+00:00 (#4679)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4679</link>
-      <description>the dump works but skips some not paged sections</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4679</guid>
-      <pubDate>Sun, 03 Sep 2023 12:23:53 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:19:08+00:00 (#5336)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5336</link>
+      <description>What I don't understand is why if Windows changes the physical address, doesn't Hyperdbg also change and use the new one?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5336</guid>
+      <pubDate>Mon, 20 Nov 2023 13:19:08 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:52:32+00:00 (#4678)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4678</link>
-      <description>yes, but all addresses should be available in the memory (not paged-out). (The exact limitation that we had, so we made the '.pagein' to solve it).</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4678</guid>
-      <pubDate>Sun, 03 Sep 2023 11:52:32 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:17:45+00:00 (#5335)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5335</link>
+      <description>Because otherwise HyperDbg doesn't have any clue about Windows memory manager.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5335</guid>
+      <pubDate>Mon, 20 Nov 2023 13:17:45 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:51:08+00:00 (#4677)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4677</link>
-      <description>photo_2023-09-03_11-51-08.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4677</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4677.jpg" length="54320" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:51:08 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:16:56+00:00 (#5334)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5334</link>
+      <description>Yes, it's also written in the documentation that it's the responsibility of the user to take care of their EPT hooks in the scenarios when Windows wants to re-map (change) the physical address e.g. when process is closed.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5334</guid>
+      <pubDate>Mon, 20 Nov 2023 13:16:56 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:50:54+00:00 (#4676)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4676</link>
-      <description>photo_2023-09-03_11-50-54.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4676</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4676.jpg" length="53188" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:50:54 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:04:02+00:00 (#5333)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5333</link>
+      <description>i think monitor have some value hooked to the previous value</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5333</guid>
+      <pubDate>Mon, 20 Nov 2023 13:04:02 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:50:36+00:00 (#4675)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4675</link>
-      <description>dump</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4675</guid>
-      <pubDate>Sun, 03 Sep 2023 11:50:36 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 13:03:22+00:00 (#5332)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5332</link>
+      <description>Thanks, I will check and fix it.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5332</guid>
+      <pubDate>Mon, 20 Nov 2023 13:03:22 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:50:34+00:00 (#4674)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4674</link>
-      <description>but works without the point too</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4674</guid>
-      <pubDate>Sun, 03 Sep 2023 11:50:34 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:00:15+00:00 (#5330)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5330</link>
+      <description>and is the same</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5330</guid>
+      <pubDate>Mon, 20 Nov 2023 13:00:15 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:50:26+00:00 (#4673)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4673</link>
-      <description>it works</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4673</guid>
-      <pubDate>Sun, 03 Sep 2023 11:50:26 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 13:00:11+00:00 (#5329)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5329</link>
+      <description>and i apply</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5329</guid>
+      <pubDate>Mon, 20 Nov 2023 13:00:11 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:50:23+00:00 (#4672)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4672</link>
-      <description>photo_2023-09-03_11-50-23.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4672</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4672.jpg" length="112451" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:50:23 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:59:54+00:00 (#5328)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5328</link>
+      <description>and after i recieve your suggestion of clear the event</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5328</guid>
+      <pubDate>Mon, 20 Nov 2023 12:59:54 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:48:29+00:00 (#4671)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4671</link>
-      <description>photo_2023-09-03_11-48-29.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4671</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4671.jpg" length="28899" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:48:29 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:59:29+00:00 (#5327)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5327</link>
+      <description>and so on</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5327</guid>
+      <pubDate>Mon, 20 Nov 2023 12:59:29 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:47:42+00:00 (#4670)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4670</link>
-      <description>sorry</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4670</guid>
-      <pubDate>Sun, 03 Sep 2023 11:47:42 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:59:24+00:00 (#5326)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5326</link>
+      <description>the second none</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5326</guid>
+      <pubDate>Mon, 20 Nov 2023 12:59:24 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:47:40+00:00 (#4669)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4669</link>
-      <description>.dump</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4669</guid>
-      <pubDate>Sun, 03 Sep 2023 11:47:40 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:59:19+00:00 (#5325)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5325</link>
+      <description>in the video you can see the first time worked</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5325</guid>
+      <pubDate>Mon, 20 Nov 2023 12:59:19 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:47:24+00:00 (#4668)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4668</link>
-      <description>🤨🤨</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4668</guid>
-      <pubDate>Sun, 03 Sep 2023 11:47:24 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:58:48+00:00 (#5324)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5324</link>
+      <description>the video is uploading</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5324</guid>
+      <pubDate>Mon, 20 Nov 2023 12:58:48 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:47:12+00:00 (#4667)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4667</link>
-      <description>ops the point</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4667</guid>
-      <pubDate>Sun, 03 Sep 2023 11:47:12 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:58:23+00:00 (#5322)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5322</link>
+      <description>yes</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5322</guid>
+      <pubDate>Mon, 20 Nov 2023 12:58:23 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:46:50+00:00 (#4666)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4666</link>
-      <description>photo_2023-09-03_11-46-50.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4666</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4666.jpg" length="31284" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:46:50 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:58:17+00:00 (#5321)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5321</link>
+      <description>i sent the program</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5321</guid>
+      <pubDate>Mon, 20 Nov 2023 12:58:17 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:45:32+00:00 (#4665)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4665</link>
-      <description>i see</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4665</guid>
-      <pubDate>Sun, 03 Sep 2023 11:45:32 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:58:00+00:00 (#5320)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5320</link>
+      <description>is in spanish but you can see the comands</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5320</guid>
+      <pubDate>Mon, 20 Nov 2023 12:58:00 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:45:12+00:00 (#4664)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4664</link>
-      <description>oh</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4664</guid>
-      <pubDate>Sun, 03 Sep 2023 11:45:12 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:57:50+00:00 (#5319)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5319</link>
+      <description>includes the fail</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5319</guid>
+      <pubDate>Mon, 20 Nov 2023 12:57:50 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:45:11+00:00 (#4663)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4663</link>
-      <description>Use the '.dump' or the 'dump' which is for virtual memory.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4663</guid>
-      <pubDate>Sun, 03 Sep 2023 11:45:11 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:57:44+00:00 (#5318)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5318</link>
+      <description>this is the video</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5318</guid>
+      <pubDate>Mon, 20 Nov 2023 12:57:44 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:44:49+00:00 (#4662)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4662</link>
-      <description>not virtual memory</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4662</guid>
-      <pubDate>Sun, 03 Sep 2023 11:44:49 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:57:19+00:00 (#5317)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5317</link>
+      <description>it does not work</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5317</guid>
+      <pubDate>Mon, 20 Nov 2023 12:57:19 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:44:43+00:00 (#4661)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4661</link>
-      <description>No, you're using '!dump', the '!dump' creates the dump from physical memory</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4661</guid>
-      <pubDate>Sun, 03 Sep 2023 11:44:43 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:57:06+00:00 (#5316)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5316</link>
+      <description>the second attempt in a new process with events cleared</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5316</guid>
+      <pubDate>Mon, 20 Nov 2023 12:57:06 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:42:34+00:00 (#4660)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4660</link>
-      <description>i will retry</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4660</guid>
-      <pubDate>Sun, 03 Sep 2023 11:42:34 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:57:00+00:00 (#5315)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5315</link>
+      <description>Got it, I have to test it.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5315</guid>
+      <pubDate>Mon, 20 Nov 2023 12:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:42:29+00:00 (#4659)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4659</link>
-      <description>the dump is garbage</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4659</guid>
-      <pubDate>Sun, 03 Sep 2023 11:42:29 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:56:47+00:00 (#5314)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5314</link>
+      <description>in the first process it worked</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5314</guid>
+      <pubDate>Mon, 20 Nov 2023 12:56:47 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:42:14+00:00 (#4658)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4658</link>
-      <description>i'm dumping from header and MZ not appear</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4658</guid>
-      <pubDate>Sun, 03 Sep 2023 11:42:14 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:56:33+00:00 (#5313)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5313</link>
+      <description>the first instruction executed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5313</guid>
+      <pubDate>Mon, 20 Nov 2023 12:56:33 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:42:00+00:00 (#4657)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4657</link>
-      <description>photo_2023-09-03_11-42-00.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4657</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4657.jpg" length="179427" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 11:42:00 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:56:25+00:00 (#5312)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5312</link>
+      <description>if skips the X</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5312</guid>
+      <pubDate>Mon, 20 Nov 2023 12:56:25 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:41:57+00:00 (#4656)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4656</link>
-      <description>the dump is not well</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4656</guid>
-      <pubDate>Sun, 03 Sep 2023 11:41:57 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:56:12+00:00 (#5311)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5311</link>
+      <description>the second time</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5311</guid>
+      <pubDate>Mon, 20 Nov 2023 12:56:12 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-03 11:22:51+00:00 (#4655)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4655</link>
-      <description>I didn't get what you mean. 🤔
-Basically, we intercept interrupts by using the Exception Bitmap in VMCS in the target guest. And injecting event which is done by using the 'event_inject' function is also done by using hypervisor facilities.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4655</guid>
-      <pubDate>Sun, 03 Sep 2023 11:22:51 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:56:06+00:00 (#5310)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5310</link>
+      <description>it skips the monitor range</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5310</guid>
+      <pubDate>Mon, 20 Nov 2023 12:56:06 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:14:03+00:00 (#4654)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4654</link>
-      <description>event_inject</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4654</guid>
-      <pubDate>Sun, 03 Sep 2023 11:14:03 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:55:57+00:00 (#5309)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5309</link>
+      <description>and fails</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5309</guid>
+      <pubDate>Mon, 20 Nov 2023 12:55:57 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:13:58+00:00 (#4653)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4653</link>
-      <description>and the part of the script?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4653</guid>
-      <pubDate>Sun, 03 Sep 2023 11:13:58 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:55:55+00:00 (#5308)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5308</link>
+      <description>and then what was the error?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5308</guid>
+      <pubDate>Mon, 20 Nov 2023 12:55:55 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:13:49+00:00 (#4652)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4652</link>
-      <description>in this case 3 of software interrupt</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4652</guid>
-      <pubDate>Sun, 03 Sep 2023 11:13:49 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:55:24+00:00 (#5307)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5307</link>
+      <description>and reapply monitor</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5307</guid>
+      <pubDate>Mon, 20 Nov 2023 12:55:24 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:13:35+00:00 (#4651)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4651</link>
-      <description>i can guess the event part hyperdbg hooks the idt and catches the idt entrie</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4651</guid>
-      <pubDate>Sun, 03 Sep 2023 11:13:35 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:55:17+00:00 (#5306)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5306</link>
+      <description>i cleared the event of the previous process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5306</guid>
+      <pubDate>Mon, 20 Nov 2023 12:55:17 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 11:13:03+00:00 (#4650)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4650</link>
-      <description>can you explain the part event_inject</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4650</guid>
-      <pubDate>Sun, 03 Sep 2023 11:13:03 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:55:13+00:00 (#5305)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5305</link>
+      <description>Is it the reason for the error?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5305</guid>
+      <pubDate>Mon, 20 Nov 2023 12:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 10:34:42+00:00 (#4649)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4649</link>
-      <description>photo_2023-09-03_10-34-42.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4649</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4649.jpg" length="56963" type="image/jpeg"/>
-      <pubDate>Sun, 03 Sep 2023 10:34:42 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:54:58+00:00 (#5304)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5304</link>
+      <description>I mean in the second process, if the first process is closed, you need to apply a new '!monitor' event.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5304</guid>
+      <pubDate>Mon, 20 Nov 2023 12:54:58 +0000</pubDate>
     </item>
     <item>
-      <title>@ricnar on 2023-09-03 10:34:39+00:00 (#4648)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4648</link>
-      <description>Compiled to try the dump option</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4648</guid>
-      <pubDate>Sun, 03 Sep 2023 10:34:39 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:54:40+00:00 (#5303)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5303</link>
+      <description>monitor didn't work the second time</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5303</guid>
+      <pubDate>Mon, 20 Nov 2023 12:54:40 +0000</pubDate>
     </item>
     <item>
-      <title>@6433115198 on 2023-09-02 19:48:00+00:00 (#4647)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4647</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4647</guid>
-      <pubDate>Sat, 02 Sep 2023 19:48:00 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:54:12+00:00 (#5302)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5302</link>
+      <description>but this is a problem</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5302</guid>
+      <pubDate>Mon, 20 Nov 2023 12:54:12 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-02 18:46:52+00:00 (#4646)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4646</link>
-      <description>I used to debug it like this up until now, and it perfectly works in all cases. There might be better innovative ways but right now, the best way that I'm known of is this.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4646</guid>
-      <pubDate>Sat, 02 Sep 2023 18:46:52 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:53:53+00:00 (#5301)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5301</link>
+      <description>Windows allocates the same physical address for both of the processes to avoid resource waste.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5301</guid>
+      <pubDate>Mon, 20 Nov 2023 12:53:53 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-02 18:43:07+00:00 (#4645)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4645</link>
-      <description>so do you suggest that only use LogInfo  to debug while developing hyperdbgkd ?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4645</guid>
-      <pubDate>Sat, 02 Sep 2023 18:43:07 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:53:30+00:00 (#5300)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5300</link>
+      <description>the second attempt is a new process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5300</guid>
+      <pubDate>Mon, 20 Nov 2023 12:53:30 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-02 18:39:29+00:00 (#4644)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4644</link>
-      <description>I use serial device for debugging HyperDbg, you have functions like LogInfo() which you can use them like a printf debugging style kind of debugger.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4644</guid>
-      <pubDate>Sat, 02 Sep 2023 18:39:29 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:53:12+00:00 (#5299)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5299</link>
+      <description>the first process is closed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5299</guid>
+      <pubDate>Mon, 20 Nov 2023 12:53:12 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-02 18:38:22+00:00 (#4643)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4643</link>
-      <description>It's basically the reason why WinDbg is not a good debugger for debugging HyperDbg. Only sometimes it works and you cannot perform multiple steppings because in most of the cases after 4, 5 or more instructions it will be halted and never returns again. The reason why is because WinDbg is not designed to debug VMX-root mode routines like this.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4643</guid>
-      <pubDate>Sat, 02 Sep 2023 18:38:22 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:52:49+00:00 (#5298)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5298</link>
+      <description>And also one thing to keep in mind is if two processes are open then the second process uses the same physical address.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5298</guid>
+      <pubDate>Mon, 20 Nov 2023 12:52:49 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-02 18:34:57+00:00 (#4642)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4642</link>
-      <description>both hyperdbg and windbg use pipename to attach</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4642</guid>
-      <pubDate>Sat, 02 Sep 2023 18:34:57 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:52:49+00:00 (#5297)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5297</link>
+      <description>the next attempt will fail</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5297</guid>
+      <pubDate>Mon, 20 Nov 2023 12:52:49 +0000</pubDate>
     </item>
     <item>
-      <title>@montagne1337 on 2023-09-02 18:33:49+00:00 (#4641)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4641</link>
-      <description>hey, how did you even manage to kernel debug in visual studio, I tried many many ways but all of them unsuccessful</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4641</guid>
-      <pubDate>Sat, 02 Sep 2023 18:33:49 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:52:41+00:00 (#5296)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5296</link>
+      <description>it one attempt is succesfulle</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5296</guid>
+      <pubDate>Mon, 20 Nov 2023 12:52:41 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-02 17:38:49+00:00 (#4640)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4640</link>
-      <description>photo_2023-09-02_17-38-49.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4640</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/4640.jpg" length="110965" type="image/jpeg"/>
-      <pubDate>Sat, 02 Sep 2023 17:38:49 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:51:54+00:00 (#5295)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5295</link>
+      <description>one worked the next failed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5295</guid>
+      <pubDate>Mon, 20 Nov 2023 12:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-02 17:38:29+00:00 (#4639)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4639</link>
-      <description>now I can use windbg to debug hyperdbgkd. I want to trace KdDispatchAndPerformCommandsFromDebugger, but the problem is that it takes too long for the commands like step-into in VS community .</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4639</guid>
-      <pubDate>Sat, 02 Sep 2023 17:38:29 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:51:44+00:00 (#5294)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5294</link>
+      <description>two consecutive attepts in the same target in different process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5294</guid>
+      <pubDate>Mon, 20 Nov 2023 12:51:44 +0000</pubDate>
     </item>
     <item>
-      <title>@AugustKit on 2023-09-02 07:06:04+00:00 (#4638)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4638</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4638</guid>
-      <pubDate>Sat, 02 Sep 2023 07:06:04 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:51:25+00:00 (#5293)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5293</link>
+      <description>in a new process</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5293</guid>
+      <pubDate>Mon, 20 Nov 2023 12:51:25 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-01 19:51:09+00:00 (#4637)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4637</link>
-      <description>I'll dm you the sample later</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4637</guid>
-      <pubDate>Fri, 01 Sep 2023 19:51:09 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:51:11+00:00 (#5292)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5292</link>
+      <description>bot the next attempt failed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5292</guid>
+      <pubDate>Mon, 20 Nov 2023 12:51:11 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-01 18:04:38+00:00 (#4636)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4636</link>
-      <description>I also see the issue, you mentioned before, but couldn't reproduce that. 🤔
-Can you give me a simple example of a scenario (preferably kernel-mode only) so I can reproduce it?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4636</guid>
-      <pubDate>Fri, 01 Sep 2023 18:04:38 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:51:00+00:00 (#5291)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5291</link>
+      <description>theprevious process is closed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5291</guid>
+      <pubDate>Mon, 20 Nov 2023 12:51:00 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-09-01 18:03:03+00:00 (#4635)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4635</link>
-      <description>Hi, 
-You can use the command 'test breakpoint off', so HyperDbg won't intercept the breakpoints anymore, thus re-inject it for other debuggers like windbg or x64dbg.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4635</guid>
-      <pubDate>Fri, 01 Sep 2023 18:03:03 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:50:50+00:00 (#5290)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5290</link>
+      <description>i reopened</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5290</guid>
+      <pubDate>Mon, 20 Nov 2023 12:50:50 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-09-01 14:25:32+00:00 (#4634)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-09.html#4634</link>
-      <description>hi, how can I debug hyperdbgkd while debugger mode? is it able to windbg and hyperdbg attach remote kernel at the same time ?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-09.html#4634</guid>
-      <pubDate>Fri, 01 Sep 2023 14:25:32 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:50:47+00:00 (#5289)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5289</link>
+      <description>but the process is not open</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5289</guid>
+      <pubDate>Mon, 20 Nov 2023 12:50:47 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 15:32:31+00:00 (#4633)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4633</link>
-      <description>that is user-mode process memory address</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4633</guid>
-      <pubDate>Wed, 30 Aug 2023 15:32:31 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:50:29+00:00 (#5288)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5288</link>
+      <description>Honestly, didn't get what you trying to do 🤔
+Why do you need clear the event at this stage? Because as long as the process is open, the physical address remains the same.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5288</guid>
+      <pubDate>Mon, 20 Nov 2023 12:50:29 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 15:31:11+00:00 (#4632)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4632</link>
-      <description>What is '0x12345678' ? Is it a random address?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4632</guid>
-      <pubDate>Wed, 30 Aug 2023 15:31:11 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:47:11+00:00 (#5287)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5287</link>
+      <description>The process didn't closed. Windows just assigns new physical addresses if the process completely closes.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5287</guid>
+      <pubDate>Mon, 20 Nov 2023 12:47:11 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 15:30:56+00:00 (#4631)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4631</link>
-      <description>!epthook ntprotectvirtualmemory script {
-if(dq(@r8) == 21000){
-printf("Process name: %s\n", $pname);
-printf("PID: %x\n", $pid);
-pause();
-  }
-}
-,and then
-eb 0x12345678 90 eb fd 
-g
-
-this work properly</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4631</guid>
-      <pubDate>Wed, 30 Aug 2023 15:30:56 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:47:03+00:00 (#5286)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5286</link>
+      <description>i will make this only if changes</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5286</guid>
+      <pubDate>Mon, 20 Nov 2023 12:47:03 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 15:30:12+00:00 (#4630)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4630</link>
-      <description>hyperdbg gets stuck and cannot use ctrl + c to interrupt</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4630</guid>
-      <pubDate>Wed, 30 Aug 2023 15:30:12 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:46:17+00:00 (#5285)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5285</link>
+      <description>ah</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5285</guid>
+      <pubDate>Mon, 20 Nov 2023 12:46:17 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 15:29:29+00:00 (#4629)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4629</link>
-      <description>!epthook ntprotectvirtualmemory script {
-if(dq(@r8) == 21000){
-printf("Process name: %s\n", $pname);
-printf("PID: %x\n", $pid);
-pause();
-  }
-}
-
-,and then
-
-bp 0x12345678
-eb @eip 90 90 
-t</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4629</guid>
-      <pubDate>Wed, 30 Aug 2023 15:29:29 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:46:11+00:00 (#5284)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5284</link>
+      <description>how?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5284</guid>
+      <pubDate>Mon, 20 Nov 2023 12:46:11 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 15:17:01+00:00 (#4627)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4627</link>
-      <description>Like,
-kHyperDbg&gt; r eip
-rip=0xfff12345
-
-And then:
-
-kHyperDbg&gt; eb 0xfff12345 90 90</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4627</guid>
-      <pubDate>Wed, 30 Aug 2023 15:17:01 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:45:59+00:00 (#5283)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5283</link>
+      <description>because the physical address didn't change. Uses the same physical address.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5283</guid>
+      <pubDate>Mon, 20 Nov 2023 12:45:59 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 15:15:37+00:00 (#4626)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4626</link>
-      <description>So what if you use the 'r @eip', and after that, use the value of @eip as a constant address and modify it?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4626</guid>
-      <pubDate>Wed, 30 Aug 2023 15:15:37 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:44:34+00:00 (#5282)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5282</link>
+      <description>it didn't let me</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5282</guid>
+      <pubDate>Mon, 20 Nov 2023 12:44:34 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 15:01:14+00:00 (#4625)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4625</link>
-      <description>I just realized , "eb 0x123456 90" works properly. "eb @eip 90" doesn't work</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4625</guid>
-      <pubDate>Wed, 30 Aug 2023 15:01:14 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:43:46+00:00 (#5281)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5281</link>
+      <description>photo_2023-11-20_12-43-46.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5281</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5281.jpg" length="52875" type="image/jpeg"/>
+      <pubDate>Mon, 20 Nov 2023 12:43:46 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 14:57:57+00:00 (#4624)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4624</link>
-      <description>Got it. I will check it tomorrow.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4624</guid>
-      <pubDate>Wed, 30 Aug 2023 14:57:57 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:43:21+00:00 (#5280)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5280</link>
+      <description>photo_2023-11-20_12-43-21.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5280</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5280.jpg" length="30451" type="image/jpeg"/>
+      <pubDate>Mon, 20 Nov 2023 12:43:21 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:56:11+00:00 (#4623)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4623</link>
-      <description>I recap what I have done. I use epthook to ntprotectvirtualmemory in kernel to attach a target process, and then bp the return address in user-mode to return back to user-mode, and then use eb @eip 90 to patch instructions to nop</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4623</guid>
-      <pubDate>Wed, 30 Aug 2023 05:56:11 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:42:04+00:00 (#5279)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5279</link>
+      <description>i will try</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5279</guid>
+      <pubDate>Mon, 20 Nov 2023 12:42:04 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 05:17:45+00:00 (#4622)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4622</link>
-      <description>So, you used an '!epthook' and once it's triggered, you want to patch the current running instruction? Am I right? I also assume that you didn't use the '!syscall' for this purpose.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4622</guid>
-      <pubDate>Wed, 30 Aug 2023 05:17:45 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:41:48+00:00 (#5278)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5278</link>
+      <description>So if the physical address is changed then you should remove that event and re-apply the '!monitor' event.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5278</guid>
+      <pubDate>Mon, 20 Nov 2023 12:41:48 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:15:57+00:00 (#4621)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4621</link>
-      <description>User.mod instructions</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4621</guid>
-      <pubDate>Wed, 30 Aug 2023 05:15:57 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:40:12+00:00 (#5277)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5277</link>
+      <description>it changed the physical address</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5277</guid>
+      <pubDate>Mon, 20 Nov 2023 12:40:12 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:15:33+00:00 (#4620)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4620</link>
-      <description>No</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4620</guid>
-      <pubDate>Wed, 30 Aug 2023 05:15:33 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:40:02+00:00 (#5276)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5276</link>
+      <description>photo_2023-11-20_12-40-02.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5276</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5276.jpg" length="87032" type="image/jpeg"/>
+      <pubDate>Mon, 20 Nov 2023 12:40:02 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 05:15:25+00:00 (#4619)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4619</link>
-      <description>You want to patch a system-call?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4619</guid>
-      <pubDate>Wed, 30 Aug 2023 05:15:25 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:40:00+00:00 (#5275)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5275</link>
+      <description>it failed</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5275</guid>
+      <pubDate>Mon, 20 Nov 2023 12:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:15:02+00:00 (#4618)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4618</link>
-      <description>Pro 16</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4618</guid>
-      <pubDate>Wed, 30 Aug 2023 05:15:02 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:39:09+00:00 (#5274)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5274</link>
+      <description>EPT works based on guest physical addresses</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5274</guid>
+      <pubDate>Mon, 20 Nov 2023 12:39:09 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:14:54+00:00 (#4617)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4617</link>
-      <description>Yes</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4617</guid>
-      <pubDate>Wed, 30 Aug 2023 05:14:54 +0000</pubDate>
+      <title>@HughEverett on 2023-11-20 12:38:48+00:00 (#5273)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5273</link>
+      <description>If the physical address is changed, then it cannot intercept the 'x' of the '!monitor'</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5273</guid>
+      <pubDate>Mon, 20 Nov 2023 12:38:48 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 05:14:49+00:00 (#4616)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4616</link>
-      <description>Are you using VMware Workstation?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4616</guid>
-      <pubDate>Wed, 30 Aug 2023 05:14:49 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:38:23+00:00 (#5272)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5272</link>
+      <description>i will retry till fail</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5272</guid>
+      <pubDate>Mon, 20 Nov 2023 12:38:23 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:14:36+00:00 (#4615)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4615</link>
-      <description>Epthook to syscall to attach target process</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4615</guid>
-      <pubDate>Wed, 30 Aug 2023 05:14:36 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:38:15+00:00 (#5271)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5271</link>
+      <description>photo_2023-11-20_12-38-15.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5271</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5271.jpg" length="73636" type="image/jpeg"/>
+      <pubDate>Mon, 20 Nov 2023 12:38:15 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2023-08-30 05:13:46+00:00 (#4614)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4614</link>
-      <description>How did you attach to the target process?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4614</guid>
-      <pubDate>Wed, 30 Aug 2023 05:13:46 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:38:13+00:00 (#5270)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5270</link>
+      <description>now it worked</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5270</guid>
+      <pubDate>Mon, 20 Nov 2023 12:38:13 +0000</pubDate>
     </item>
     <item>
-      <title>@xmaple555 on 2023-08-30 05:13:30+00:00 (#4613)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4613</link>
-      <description>I want to patch user mode process instructions to nop</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4613</guid>
-      <pubDate>Wed, 30 Aug 2023 05:13:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2023-08-30 05:12:34+00:00 (#4612)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4612</link>
-      <description>I just checked the document</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4612</guid>
-      <pubDate>Wed, 30 Aug 2023 05:12:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2023-08-30 05:12:05+00:00 (#4611)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4611</link>
-      <description>Sry it is debugger mode</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4611</guid>
-      <pubDate>Wed, 30 Aug 2023 05:12:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:11:57+00:00 (#4610)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4610</link>
-      <description>As you're not changing anything special.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4610</guid>
-      <pubDate>Wed, 30 Aug 2023 05:11:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:11:30+00:00 (#4609)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4609</link>
-      <description>So, the RIP or EIP makes sense in context of thread. While you are local debugging, changing the memory based on registers doesn't make sense.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4609</guid>
-      <pubDate>Wed, 30 Aug 2023 05:11:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:10:50+00:00 (#4608)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4608</link>
-      <description>In VMI Mode, registers are all considered as zero.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4608</guid>
-      <pubDate>Wed, 30 Aug 2023 05:10:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:10:09+00:00 (#4607)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4607</link>
-      <description>VMI Mode is the equivalent of Local Kernel Debugging in WinDbg.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4607</guid>
-      <pubDate>Wed, 30 Aug 2023 05:10:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:09:36+00:00 (#4606)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4606</link>
-      <description>😅😅😅
-No, I mean it doesn't make sense to change @eip in the VMI Mode.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4606</guid>
-      <pubDate>Wed, 30 Aug 2023 05:09:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2023-08-30 05:09:08+00:00 (#4605)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4605</link>
-      <description>😂 forget exact name</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4605</guid>
-      <pubDate>Wed, 30 Aug 2023 05:09:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:08:28+00:00 (#4604)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4604</link>
-      <description>VMI Mode? 🤨</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4604</guid>
-      <pubDate>Wed, 30 Aug 2023 05:08:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2023-08-30 05:07:30+00:00 (#4603)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4603</link>
-      <description>I will check.signature later</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4603</guid>
-      <pubDate>Wed, 30 Aug 2023 05:07:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2023-08-30 05:07:08+00:00 (#4602)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4602</link>
-      <description>Vmi mode or remote kernel debug mode</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4602</guid>
-      <pubDate>Wed, 30 Aug 2023 05:07:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:06:28+00:00 (#4601)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4601</link>
-      <description>What is the signature of HyperDbg? kHyperDbg?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4601</guid>
-      <pubDate>Wed, 30 Aug 2023 05:06:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2023-08-30 05:05:48+00:00 (#4600)</title>
-      <link>https://tg-archive.hyperdbg.org/2023-08_2.html#4600</link>
-      <description>Are you using hyperdbg in debygger mode?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-08_2.html#4600</guid>
-      <pubDate>Wed, 30 Aug 2023 05:05:48 +0000</pubDate>
+      <title>@ricnar on 2023-11-20 12:36:53+00:00 (#5269)</title>
+      <link>https://tg-archive.hyperdbg.org/2023-11.html#5269</link>
+      <description>photo_2023-11-20_12-36-53.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2023-11.html#5269</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/5269.jpg" length="41914" type="image/jpeg"/>
+      <pubDate>Mon, 20 Nov 2023 12:36:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
