@@ -6,4 +6,4 @@ Make sure to not delete the following files and folders on the next commit :
 - README.md
 - CNAME
 
-Last update : 08/04/2023
+Last update : 04/20/2023
