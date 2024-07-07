@@ -2,875 +2,907 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tg-archive.hyperdbg.org</id>
   <title>@hyperdbg - Telegram group archive</title>
-  <updated>2024-06-21T04:17:12.033823+00:00</updated>
+  <updated>2024-07-07T08:38:56.957082+00:00</updated>
   <link href="https://tg-archive.hyperdbg.org" rel="alternate"/>
   <generator>tg-archive 1.1.3</generator>
   <subtitle>Public archive of HyperDbg Telegram messages.</subtitle>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6909</id>
-    <title>@HughEverett on 2024-06-21 02:45:39+00:00 (#6909)</title>
-    <updated>2024-06-21T04:17:12.037081+00:00</updated>
-    <content type="html">祁 同伟 
-This is an English-speaking group. Please send your messages in English only. You may use an online translator if needed.
-___
-这是一个英语群组。请仅以英语发送您的消息。如有需要，您可以使用在线翻译。</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6909"/>
-    <published>2024-06-21T02:45:39+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7126</id>
+    <title>@Some00ne on 2024-07-07 08:36:41+00:00 (#7126)</title>
+    <updated>2024-07-07T08:38:56.959595+00:00</updated>
+    <content type="html">I'm using it in the VMI, with script of course</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7126"/>
+    <published>2024-07-07T08:36:41+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6908</id>
-    <title>@6190448061 on 2024-06-21 02:05:57+00:00 (#6908)</title>
-    <updated>2024-06-21T04:17:12.037076+00:00</updated>
-    <content type="html">有没有自己人讲讲😊</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6908"/>
-    <published>2024-06-21T02:05:57+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7125</id>
+    <title>@Some00ne on 2024-07-07 08:36:13+00:00 (#7125)</title>
+    <updated>2024-07-07T08:38:56.959586+00:00</updated>
+    <content type="html">No actually I'm going to use the  !epthook command, but I faced a problem that the command cannot identify the system call function that I passed to it, so I thought it's a problem related to PatchGaurd</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7125"/>
+    <published>2024-07-07T08:36:13+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6907</id>
-    <title>@6190448061 on 2024-06-21 02:05:48+00:00 (#6907)</title>
-    <updated>2024-06-21T04:17:12.037071+00:00</updated>
-    <content type="html">看不懂英语</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6907"/>
-    <published>2024-06-21T02:05:48+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7124</id>
+    <title>@HughEverett on 2024-07-07 08:34:27+00:00 (#7124)</title>
+    <updated>2024-07-07T08:38:56.959576+00:00</updated>
+    <content type="html">Other commands are perfectly fine with PatchGuard.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7124"/>
+    <published>2024-07-07T08:34:27+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6906</id>
-    <title>@6190448061 on 2024-06-21 02:05:41+00:00 (#6906)</title>
-    <updated>2024-06-21T04:17:12.037066+00:00</updated>
-    <content type="html">群里天天都在聊啥</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6906"/>
-    <published>2024-06-21T02:05:41+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7123</id>
+    <title>@HughEverett on 2024-07-07 08:34:10+00:00 (#7123)</title>
+    <updated>2024-07-07T08:38:56.959567+00:00</updated>
+    <content type="html">BTW, why do you need to disable PatchGuard? The only command that is not PatchGuard compatible in HyperDbg is the '!syscall'. Are you going to intercepts system-calls?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7123"/>
+    <published>2024-07-07T08:34:10+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6905</id>
-    <title>@395437265 on 2024-06-20 18:46:44+00:00 (#6905)</title>
-    <updated>2024-06-21T04:17:12.037061+00:00</updated>
-    <content type="html">yes, understood</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6905"/>
-    <published>2024-06-20T18:46:44+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7122</id>
+    <title>@HughEverett on 2024-07-07 08:33:21+00:00 (#7122)</title>
+    <updated>2024-07-07T08:38:56.959557+00:00</updated>
+    <content type="html">As long as I remember, you could boot EfiGuard from a USB.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7122"/>
+    <published>2024-07-07T08:33:21+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6904</id>
-    <title>@HughEverett on 2024-06-20 18:46:23+00:00 (#6904)</title>
-    <updated>2024-06-21T04:17:12.037055+00:00</updated>
-    <content type="html">It just doesn't show you once it's not within the range but not showing you doesn't mean it didn't happen.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6904"/>
-    <published>2024-06-20T18:46:23+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7121</id>
+    <title>@Some00ne on 2024-07-07 06:36:08+00:00 (#7121)</title>
+    <updated>2024-07-07T08:38:56.959548+00:00</updated>
+    <content type="html">Is there's any other option to disable the PatchGaurd in my local machine</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7121"/>
+    <published>2024-07-07T06:36:08+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6903</id>
-    <title>@395437265 on 2024-06-20 18:45:26+00:00 (#6903)</title>
-    <updated>2024-06-21T04:17:12.037050+00:00</updated>
-    <content type="html">i see..</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6903"/>
-    <published>2024-06-20T18:45:26+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7120</id>
+    <title>@Some00ne on 2024-07-07 06:35:48+00:00 (#7120)</title>
+    <updated>2024-07-07T08:38:56.959539+00:00</updated>
+    <content type="html">Yeah, the last seen is long time ago</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7120"/>
+    <published>2024-07-07T06:35:48+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6902</id>
-    <title>@HughEverett on 2024-06-20 18:45:16+00:00 (#6902)</title>
-    <updated>2024-06-21T04:17:12.037045+00:00</updated>
-    <content type="html">Once you try to hook 001995a4, HyperDbg will automatically hook the entire page boundary (00199000 to 00199fff) for you.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6902"/>
-    <published>2024-06-20T18:45:16+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7119</id>
+    <title>@HughEverett on 2024-07-07 06:28:02+00:00 (#7119)</title>
+    <updated>2024-07-07T08:38:56.959529+00:00</updated>
+    <content type="html">@Mattiwatti  The original author is in the group but not sure if he still checks his Telegram since he rarely uses this app.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7119"/>
+    <published>2024-07-07T06:28:02+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6901</id>
-    <title>@HughEverett on 2024-06-20 18:44:10+00:00 (#6901)</title>
-    <updated>2024-06-21T04:17:12.037040+00:00</updated>
-    <content type="html">It does not make that much difference.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6901"/>
-    <published>2024-06-20T18:44:10+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7118</id>
+    <title>@Some00ne on 2024-07-07 06:22:21+00:00 (#7118)</title>
+    <updated>2024-07-07T08:38:56.959516+00:00</updated>
+    <content type="html">My laptop is Lenovo IdeaPad</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7118"/>
+    <published>2024-07-07T06:22:21+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6900</id>
-    <title>@395437265 on 2024-06-20 18:43:42+00:00 (#6900)</title>
-    <updated>2024-06-21T04:17:12.037035+00:00</updated>
-    <content type="html">or will it fail ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6900"/>
-    <published>2024-06-20T18:43:42+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6899</id>
-    <title>@395437265 on 2024-06-20 18:43:34+00:00 (#6899)</title>
-    <updated>2024-06-21T04:17:12.037029+00:00</updated>
-    <content type="html">will try to add if condition now</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6899"/>
-    <published>2024-06-20T18:43:34+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6898</id>
-    <title>@HughEverett on 2024-06-20 18:43:33+00:00 (#6898)</title>
-    <updated>2024-06-21T04:17:12.037024+00:00</updated>
-    <content type="html">The rate of access is too high</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6898"/>
-    <published>2024-06-20T18:43:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6897</id>
-    <title>@HughEverett on 2024-06-20 18:43:24+00:00 (#6897)</title>
-    <updated>2024-06-21T04:17:12.037019+00:00</updated>
-    <content type="html">Ah, so that's the reason</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6897"/>
-    <published>2024-06-20T18:43:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6896</id>
-    <title>@395437265 on 2024-06-20 18:42:36+00:00 (#6896)</title>
-    <updated>2024-06-21T04:17:12.037015+00:00</updated>
-    <content type="html">aha...
-!monitor w 199000 l fff pid  1a00 script {
-  printf("Buffer accessed\n");
-}
-i get a ton of accesses, but at least it shows something</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6896"/>
-    <published>2024-06-20T18:42:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6895</id>
-    <title>@HughEverett on 2024-06-20 18:40:07+00:00 (#6895)</title>
-    <updated>2024-06-21T04:17:12.037009+00:00</updated>
-    <content type="html">Or from 199000 to 199fff</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6895"/>
-    <published>2024-06-20T18:40:07+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6894</id>
-    <title>@HughEverett on 2024-06-20 18:39:39+00:00 (#6894)</title>
-    <updated>2024-06-21T04:17:12.037004+00:00</updated>
-    <content type="html">No, the page boundary start from PAGE_ALIGN(001995A4) which means you need sth like:
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7117</id>
+    <title>@Some00ne on 2024-07-07 06:21:58+00:00 (#7117)</title>
+    <updated>2024-07-07T08:38:56.959378+00:00</updated>
+    <content type="html">Hello guys, I need some help here
 
-00199000 l fff</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6894"/>
-    <published>2024-06-20T18:39:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6893</id>
-    <title>@395437265 on 2024-06-20 18:38:27+00:00 (#6893)</title>
-    <updated>2024-06-21T04:17:12.036999+00:00</updated>
-    <content type="html">i need to montor 001995A4+4kb ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6893"/>
-    <published>2024-06-20T18:38:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6892</id>
-    <title>@395437265 on 2024-06-20 18:37:10+00:00 (#6892)</title>
-    <updated>2024-06-21T04:17:12.036993+00:00</updated>
-    <content type="html">what i need to do to achieve it ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6892"/>
-    <published>2024-06-20T18:37:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6891</id>
-    <title>@HughEverett on 2024-06-20 18:35:13+00:00 (#6891)</title>
-    <updated>2024-06-21T04:17:12.036981+00:00</updated>
-    <content type="html">And also not sure if you already knew it or not but the $context pseudo-register shows you the address of the memory accessed by the instruction that triggered the hook.
+I'm trying to install EfiGaurd to disable PatchGaurd in my local machine,
+But I cannot find the option to add a boot option, or enter the boot setup.
 
-https://docs.hyperdbg.org/commands/extension-commands/monitor#context</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6891"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/extension-commands/monitor"/>
-    <published>2024-06-20T18:35:13+00:00</published>
+I disabled the secure boot and make it legacy, but the problem still the same.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7117"/>
+    <link href="https://tg-archive.hyperdbg.org/media/7117.jpg"/>
+    <published>2024-07-07T06:21:58+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6890</id>
-    <title>@HughEverett on 2024-06-20 18:32:25+00:00 (#6890)</title>
-    <updated>2024-06-21T04:17:12.036976+00:00</updated>
-    <content type="html">Yes. Get a printf from it</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6890"/>
-    <published>2024-06-20T18:32:25+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7116</id>
+    <title>@HughEverett on 2024-07-07 06:01:20+00:00 (#7116)</title>
+    <updated>2024-07-07T08:38:56.959369+00:00</updated>
+    <content type="html">Could you please make a GitHub issue with the sequence of commands I could reproduce the error? 
+If there are multiple ways of reproducing error (e.g., it crashes with both 1 and 3 length) make sure to include all sequences separately so all of them will be fixed.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7116"/>
+    <published>2024-07-07T06:01:20+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6889</id>
-    <title>@395437265 on 2024-06-20 18:32:11+00:00 (#6889)</title>
-    <updated>2024-06-21T04:17:12.036971+00:00</updated>
-    <content type="html">all 4kb ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6889"/>
-    <published>2024-06-20T18:32:11+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7115</id>
+    <title>@HughEverett on 2024-07-07 05:57:31+00:00 (#7115)</title>
+    <updated>2024-07-07T08:38:56.959360+00:00</updated>
+    <content type="html">Didn't get it 🤔
+It doesn't work with 1 in the '!monitor'?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7115"/>
+    <published>2024-07-07T05:57:31+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6888</id>
-    <title>@HughEverett on 2024-06-20 18:32:01+00:00 (#6888)</title>
-    <updated>2024-06-21T04:17:12.036966+00:00</updated>
-    <content type="html">Can you check the entire page boundary?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6888"/>
-    <published>2024-06-20T18:32:01+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7114</id>
+    <title>@395437265 on 2024-07-06 19:38:32+00:00 (#7114)</title>
+    <updated>2024-07-07T08:38:56.959350+00:00</updated>
+    <content type="html">so i need to remove 017CA56B monitor first. i definetly know  that 017CA56B is calling 8ef7b0</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7114"/>
+    <published>2024-07-06T19:38:32+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6887</id>
-    <title>@395437265 on 2024-06-20 18:31:42+00:00 (#6887)</title>
-    <updated>2024-06-21T04:17:12.036962+00:00</updated>
-    <content type="html">i also wonder :D</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6887"/>
-    <published>2024-06-20T18:31:42+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7113</id>
+    <title>@395437265 on 2024-07-06 19:37:22+00:00 (#7113)</title>
+    <updated>2024-07-07T08:38:56.959340+00:00</updated>
+    <content type="html">!monitor x 017CA56B l 3 script { is just reading some registers</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7113"/>
+    <published>2024-07-06T19:37:22+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6886</id>
-    <title>@HughEverett on 2024-06-20 18:31:32+00:00 (#6886)</title>
-    <updated>2024-06-21T04:17:12.036956+00:00</updated>
-    <content type="html">Why? 🤔</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6886"/>
-    <published>2024-06-20T18:31:32+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6885</id>
-    <title>@HughEverett on 2024-06-20 18:30:58+00:00 (#6885)</title>
-    <updated>2024-06-21T04:17:12.036952+00:00</updated>
-    <content type="html">So, each access to this 4kb cause a VM-exit, but HyperDbg filters it and only show you the accesses on your target address range.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6885"/>
-    <published>2024-06-20T18:30:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6884</id>
-    <title>@395437265 on 2024-06-20 18:30:47+00:00 (#6884)</title>
-    <updated>2024-06-21T04:17:12.036947+00:00</updated>
-    <content type="html">mmm
-!monitor w 001995A4 l 4 script {
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7112</id>
+    <title>@395437265 on 2024-07-06 19:36:50+00:00 (#7112)</title>
+    <updated>2024-07-07T08:38:56.959331+00:00</updated>
+    <content type="html">ah... so:
+if i put monitor on !monitor x 017CA56B l 3 script {....
+and then run for some while and put monitor
+ !monitor x  8ef7b0 l 1 script {
+results to:
 
-    printf("BUF ACCESSED BY %s stack:%x\n",$pname,@esp);
-    printf("BUF CONTENT \n");
-    for (i = 0; i &lt; 10; i++){
-      printf("%x ",db(001995A4+i));
-    }
-    printf("\n");
+trigger
+(22:36:23.619 - core : 0 - vmx-root? yes)        [+] Information (IdtEmulationhandleHostInterrupt:182) | Page-fault received, CR2: 8ef7b0
+(22:36:23.619 - core : 0 - vmx-root? yes)        [+] Information (IdtEmulationhandleHostInterrupt:182) | Page-fault received, CR2: 8ef7b0
+(22:36:23.619 - core : 0 - vmx-root? yes)        [+] Information (IdtEmulationhandleHostInterrupt:182) | Page-fault received, CR2: 8ef7b0
+(22:36:23.619 - core : 0 - vmx-root? yes)        [+] Information (IdtEmulationhandleHostInterrupt:182) | Page-fault rece
 
-}
+loop.
 
-this script works perfect</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6884"/>
-    <published>2024-06-20T18:30:47+00:00</published>
+any ideas ?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7112"/>
+    <published>2024-07-06T19:36:50+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6883</id>
-    <title>@HughEverett on 2024-06-20 18:30:00+00:00 (#6883)</title>
-    <updated>2024-06-21T04:17:12.036941+00:00</updated>
-    <content type="html">So, that's the reason. HyperDbg puts hook on entire 4 kb granularity of the page boundary. Not just 4 bytes. Because it's how EPT works.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6883"/>
-    <published>2024-06-20T18:30:00+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7111</id>
+    <title>@395437265 on 2024-07-06 19:32:11+00:00 (#7111)</title>
+    <updated>2024-07-07T08:38:56.959321+00:00</updated>
+    <content type="html">ok.. looks like its working with l 4</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7111"/>
+    <published>2024-07-06T19:32:11+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6882</id>
-    <title>@395437265 on 2024-06-20 18:28:27+00:00 (#6882)</title>
-    <updated>2024-06-21T04:17:12.036937+00:00</updated>
-    <content type="html">i think so.. there is buffer prepared for network sending</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6882"/>
-    <published>2024-06-20T18:28:27+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7110</id>
+    <title>@395437265 on 2024-07-06 19:30:37+00:00 (#7110)</title>
+    <updated>2024-07-07T08:38:56.959311+00:00</updated>
+    <content type="html">(switched to process before)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7110"/>
+    <published>2024-07-06T19:30:37+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6881</id>
-    <title>@HughEverett on 2024-06-20 18:27:49+00:00 (#6881)</title>
-    <updated>2024-06-21T04:17:12.036931+00:00</updated>
-    <content type="html">Is it (the entire 4kb of the target page) located on a page with high rate of memory access?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6881"/>
-    <published>2024-06-20T18:27:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6880</id>
-    <title>@395437265 on 2024-06-20 18:22:19+00:00 (#6880)</title>
-    <updated>2024-06-21T04:17:12.036926+00:00</updated>
-    <content type="html">!monitor w 001995A4 l 4 pid  01cc script {
-  if (db(001995A4) == c3){
-    pause();
-  }
-}
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7109</id>
+    <title>@395437265 on 2024-07-06 19:29:23+00:00 (#7109)</title>
+    <updated>2024-07-07T08:38:56.959288+00:00</updated>
+    <content type="html">@HughEverett 
+0: kHyperDbg&gt; !monitor x  8ef7b0 l 1 script {
+&gt; printf("trigger\n");
+&gt; }
+err, invalid address (c0000005)
+address may be paged-out or unavailable on the page table due to 'demand paging'
+please refer to https://docs.hyperdbg.org/tips-and-tricks/considerations/accessing-invalid-address for further information
 
-why this script is slow as hell? it freezes debugee process. if i remove if condition its more less ok</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6880"/>
-    <published>2024-06-20T18:22:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6879</id>
-    <title>@HughEverett on 2024-06-20 16:35:26+00:00 (#6879)</title>
-    <updated>2024-06-21T04:17:12.036921+00:00</updated>
-    <content type="html">In the Debugger Mode, traps/bps are intercepted.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6879"/>
-    <published>2024-06-20T16:35:26+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6878</id>
-    <title>@HughEverett on 2024-06-20 16:35:02+00:00 (#6878)</title>
-    <updated>2024-06-21T04:17:12.036916+00:00</updated>
-    <content type="html">In VMI mode, traps/breakpoints are not intercepted by default.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6878"/>
-    <published>2024-06-20T16:35:02+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6877</id>
-    <title>@HughEverett on 2024-06-20 16:34:30+00:00 (#6877)</title>
-    <updated>2024-06-21T04:17:12.036911+00:00</updated>
-    <content type="html">No, it's the case for HyperDbg. Windows (OS) doesn't have any details about the presence of a top-level (ring -1) debugger.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6877"/>
-    <published>2024-06-20T16:34:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6876</id>
-    <title>@instw0 on 2024-06-20 16:32:44+00:00 (#6876)</title>
-    <updated>2024-06-21T04:17:12.036906+00:00</updated>
-    <content type="html">and trap and breakpoint are not disabled in the hypervisor.... does windows think that the debugger is connected?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6876"/>
-    <published>2024-06-20T16:32:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6875</id>
-    <title>@HughEverett on 2024-06-20 16:31:31+00:00 (#6875)</title>
-    <updated>2024-06-21T04:17:12.036901+00:00</updated>
-    <content type="html">And also post your function here if it's possible. I'm gonna check it too.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6875"/>
-    <published>2024-06-20T16:31:31+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6874</id>
-    <title>@HughEverett on 2024-06-20 16:31:09+00:00 (#6874)</title>
-    <updated>2024-06-21T04:17:12.036895+00:00</updated>
-    <content type="html">It's easier to modify a user-mode application and introspect it's behavior. Try to make a similar check function check in user-mode.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6874"/>
-    <published>2024-06-20T16:31:09+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6873</id>
-    <title>@HughEverett on 2024-06-20 16:29:50+00:00 (#6873)</title>
-    <updated>2024-06-21T04:17:12.036890+00:00</updated>
-    <content type="html">I think you need to create a user-mode application with the same technique.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6873"/>
-    <published>2024-06-20T16:29:50+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6872</id>
-    <title>@instw0 on 2024-06-20 16:29:47+00:00 (#6872)</title>
-    <updated>2024-06-21T04:17:12.036885+00:00</updated>
-    <content type="html">driver obfuckate vmprotect</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6872"/>
-    <published>2024-06-20T16:29:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6871</id>
-    <title>@instw0 on 2024-06-20 16:29:28+00:00 (#6871)</title>
-    <updated>2024-06-21T04:17:12.036879+00:00</updated>
-    <content type="html">yes</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6871"/>
-    <published>2024-06-20T16:29:28+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6870</id>
-    <title>@HughEverett on 2024-06-20 16:29:21+00:00 (#6870)</title>
-    <updated>2024-06-21T04:17:12.036873+00:00</updated>
-    <content type="html">Are you analyzing a driver?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6870"/>
-    <published>2024-06-20T16:29:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6869</id>
-    <title>@instw0 on 2024-06-20 16:28:51+00:00 (#6869)</title>
-    <updated>2024-06-21T04:17:12.036867+00:00</updated>
-    <content type="html">kernel</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6869"/>
-    <published>2024-06-20T16:28:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6868</id>
-    <title>@HughEverett on 2024-06-20 16:28:44+00:00 (#6868)</title>
-    <updated>2024-06-21T04:17:12.036819+00:00</updated>
-    <content type="html">User-mode try/catch?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6868"/>
-    <published>2024-06-20T16:28:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6867</id>
-    <title>@HughEverett on 2024-06-20 16:28:13+00:00 (#6867)</title>
-    <updated>2024-06-21T04:17:12.036814+00:00</updated>
-    <content type="html">Depends on how CPU behaves in this case. If it triggers immediately then you need to inject a #DB.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6867"/>
-    <published>2024-06-20T16:28:13+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6866</id>
-    <title>@HughEverett on 2024-06-20 16:26:58+00:00 (#6866)</title>
-    <updated>2024-06-21T04:17:12.036801+00:00</updated>
-    <content type="html">Still don't understand what you're trying to do but if you want to trigger an exception in your target user-mode app, you need to inject an event in HyperDbg by using these functions:
+0: kHyperDbg&gt;
 
-https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject
 
-And:
+0: kHyperDbg&gt; u2 8ef7b0
+00000000`008ef7b0    83 EC 18                            sub esp, 0x18
+00000000`008ef7b3    8B 44 24 1C                         mov eax, dword ptr ss:[esp+0x1C]
+00000000`008ef7b7    53                                  push ebx
+00000000`008ef7b8    55                                  push ebp
+00000000`008ef7b9    56                                  push esi
+00000000`008ef7ba    8B 30                               mov esi, dword ptr ds:[eax]
+...
 
-https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject_error_code
-
-These are the functions that deliver exception to the guest debuggee application. The assembly code you used in your event will cause division by zero in HyperDbg's VMM which is simply handled in VMX root-mode and it's ignored by HyperDbg's division by zero exception handler.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6866"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject"/>
-    <published>2024-06-20T16:26:58+00:00</published>
+0: kHyperDbg&gt; bp 8ef7b0
+what im doing wrong ?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7109"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/tips-and-tricks/considerations/accessing-invalid-address"/>
+    <published>2024-07-06T19:29:23+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6865</id>
-    <title>@HughEverett on 2024-06-20 16:22:37+00:00 (#6865)</title>
-    <updated>2024-06-21T04:17:12.036797+00:00</updated>
-    <content type="html">Larry you can follow this discussion, it's probably the problem with verifying packets.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6865"/>
-    <published>2024-06-20T16:22:37+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7108</id>
+    <title>@HughEverett on 2024-07-06 16:28:28+00:00 (#7108)</title>
+    <updated>2024-07-07T08:38:56.959279+00:00</updated>
+    <content type="html">It's not ready yet. These days I'm working on it together with another team member. I'll let you guys know once it's finished.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7108"/>
+    <published>2024-07-06T16:28:28+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6864</id>
-    <title>@HughEverett on 2024-06-20 16:21:52+00:00 (#6864)</title>
-    <updated>2024-06-21T04:17:12.036792+00:00</updated>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7107</id>
+    <title>@Reverser69 on 2024-07-06 14:56:54+00:00 (#7107)</title>
+    <updated>2024-07-07T08:38:56.959269+00:00</updated>
+    <content type="html">Anyone tried hyperdbg gui?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7107"/>
+    <published>2024-07-06T14:56:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7106</id>
+    <title>@395437265 on 2024-07-05 19:43:37+00:00 (#7106)</title>
+    <updated>2024-07-07T08:38:56.959259+00:00</updated>
+    <content type="html">one more issue in github :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7106"/>
+    <published>2024-07-05T19:43:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7105</id>
+    <title>@395437265 on 2024-07-05 18:32:10+00:00 (#7105)</title>
+    <updated>2024-07-07T08:38:56.959249+00:00</updated>
+    <content type="html">ah.. i know only in general what are those interrupts :D not details, so i have to believe You :D</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7105"/>
+    <published>2024-07-05T18:32:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7104</id>
+    <title>@HughEverett on 2024-07-05 18:30:40+00:00 (#7104)</title>
+    <updated>2024-07-07T08:38:56.959239+00:00</updated>
+    <content type="html">Using IPIs by itself is okay but since HyperDbg is highly dependent on NMIs, changing it to IPIs will probably break lots of its functionalities. That's why I didn't dare to change it to IPIs yet. 😅</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7104"/>
+    <published>2024-07-05T18:30:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7103</id>
+    <title>@HughEverett on 2024-07-05 18:28:54+00:00 (#7103)</title>
+    <updated>2024-07-07T08:38:56.959229+00:00</updated>
+    <content type="html">This one is really hard to solve. 😅
+
+In HyperDbg we use NMIs for halting cores. This mechanism should be changed to IPIs instead of NMIs.
+The reason why it doesn't support immediately clearing of events is because we might halt the core in the middle of handling an event and conclude to remove them. In that case, the event will trigger BSOD since its structures are freed. But, using IPIs will make sure that handling one event will be finished, and then another VM-exit happens which will halt the core.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7103"/>
+    <published>2024-07-05T18:28:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7102</id>
+    <title>@HughEverett on 2024-07-05 18:24:03+00:00 (#7102)</title>
+    <updated>2024-07-07T08:38:56.959220+00:00</updated>
+    <content type="html">But generally you have tons of options, you could disable/enable events instead of clearing them. Or use a nop+jmp infinite loop at the @RIP register.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7102"/>
+    <published>2024-07-05T18:24:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7101</id>
+    <title>@395437265 on 2024-07-05 18:22:52+00:00 (#7101)</title>
+    <updated>2024-07-07T08:38:56.959210+00:00</updated>
+    <content type="html">ah.. i see, but its minor thing anyway :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7101"/>
+    <published>2024-07-05T18:22:52+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7100</id>
+    <title>@HughEverett on 2024-07-05 18:22:19+00:00 (#7100)</title>
+    <updated>2024-07-07T08:38:56.959200+00:00</updated>
     <content type="html">.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6864"/>
-    <published>2024-06-20T16:21:52+00:00</published>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7100"/>
+    <published>2024-07-05T18:22:19+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6863</id>
-    <title>@instw0 on 2024-06-20 16:21:39+00:00 (#6863)</title>
-    <updated>2024-06-21T04:17:12.036787+00:00</updated>
-    <content type="html">just processing rflags.tf should take place inside the try catch block, not in the debugger</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6863"/>
-    <published>2024-06-20T16:21:39+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7099</id>
+    <title>@HughEverett on 2024-07-05 18:20:59+00:00 (#7099)</title>
+    <updated>2024-07-07T08:38:56.959191+00:00</updated>
+    <content type="html">Yep, this is what I told here:</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7099"/>
+    <published>2024-07-05T18:20:59+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6862</id>
-    <title>@instw0 on 2024-06-20 16:19:22+00:00 (#6862)</title>
-    <updated>2024-06-21T04:17:12.036782+00:00</updated>
-    <content type="html">that is, the exception should be triggered immediately after the cpuid instruction?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6862"/>
-    <published>2024-06-20T16:19:22+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7098</id>
+    <title>@395437265 on 2024-07-05 18:00:52+00:00 (#7098)</title>
+    <updated>2024-07-07T08:38:56.959181+00:00</updated>
+    <content type="html">one thing, i have to run process for some while to get monitor completely removed, i cant remove and set new within one break</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7098"/>
+    <published>2024-07-05T18:00:52+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6861</id>
-    <title>@HughEverett on 2024-06-20 16:19:04+00:00 (#6861)</title>
-    <updated>2024-06-21T04:17:12.036777+00:00</updated>
-    <content type="html">Ah, unfortunately this feature is not working as expected. We previously had a discussion in this group and conclude that this feature is not working. You need to use a virtual serial device.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6861"/>
-    <published>2024-06-20T16:19:04+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7097</id>
+    <title>@395437265 on 2024-07-05 12:54:50+00:00 (#7097)</title>
+    <updated>2024-07-07T08:38:56.959172+00:00</updated>
+    <content type="html">thanks</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7097"/>
+    <published>2024-07-05T12:54:50+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6860</id>
-    <title>@instw0 on 2024-06-20 16:18:42+00:00 (#6860)</title>
-    <updated>2024-06-21T04:17:12.036772+00:00</updated>
-    <content type="html">Are we processing the trap inside now?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6860"/>
-    <published>2024-06-20T16:18:42+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7096</id>
+    <title>@HughEverett on 2024-07-05 12:36:54+00:00 (#7096)</title>
+    <updated>2024-07-07T08:38:56.959164+00:00</updated>
+    <content type="html">That's great. I merged it to the 'dev' branch now.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7096"/>
+    <published>2024-07-05T12:36:54+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6858</id>
-    <title>@HughEverett on 2024-06-20 16:17:04+00:00 (#6858)</title>
-    <updated>2024-06-21T04:17:12.036767+00:00</updated>
-    <content type="html">Yes, but it depends on when CPU gives us this #Db, the reason such a technique exists is because CPUID has precedence over #Db's exception bitmap vm-exit.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6858"/>
-    <published>2024-06-20T16:17:04+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7095</id>
+    <title>@395437265 on 2024-07-05 11:50:41+00:00 (#7095)</title>
+    <updated>2024-07-07T08:38:56.959155+00:00</updated>
+    <content type="html">VM also does not restart on .debug close when monitor removed</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7095"/>
+    <published>2024-07-05T11:50:41+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6857</id>
-    <title>@instw0 on 2024-06-20 16:16:34+00:00 (#6857)</title>
-    <updated>2024-06-21T04:17:12.036761+00:00</updated>
-    <content type="html">I'm trying</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6857"/>
-    <published>2024-06-20T16:16:34+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7094</id>
+    <title>@395437265 on 2024-07-05 11:48:07+00:00 (#7094)</title>
+    <updated>2024-07-07T08:38:56.959146+00:00</updated>
+    <content type="html">good! i can set monitor on same address again :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7094"/>
+    <published>2024-07-05T11:48:07+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6856</id>
-    <title>@HughEverett on 2024-06-20 16:15:41+00:00 (#6856)</title>
-    <updated>2024-06-21T04:17:12.036756+00:00</updated>
-    <content type="html">If I were in your shoes, I tried to make a simple application with your target technique (popfq TF), and I try to trigger the behavior in HyperDbg like showing a message using (LogInfo) without modifying anything. Once I was sure that this technique can be correctly detected (by seeing the message), then I try to modify the guest state. I think this is the best approach to handle this VMProtect technique.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6856"/>
-    <published>2024-06-20T16:15:41+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7093</id>
+    <title>@395437265 on 2024-07-05 09:27:41+00:00 (#7093)</title>
+    <updated>2024-07-07T08:38:56.959139+00:00</updated>
+    <content type="html">Ok, will test today</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7093"/>
+    <published>2024-07-05T09:27:41+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6855</id>
-    <title>@instw0 on 2024-06-20 16:13:05+00:00 (#6855)</title>
-    <updated>2024-06-21T04:17:12.036751+00:00</updated>
-    <content type="html">and is it being processed?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6855"/>
-    <published>2024-06-20T16:13:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7092</id>
+    <title>@HughEverett on 2024-07-05 08:35:14+00:00 (#7092)</title>
+    <updated>2024-07-07T08:38:56.959130+00:00</updated>
+    <content type="html">Once you've done testing it, please let me know so I'll merge it to the 'dev' branch.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7092"/>
+    <published>2024-07-05T08:35:14+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6854</id>
-    <title>@HughEverett on 2024-06-20 16:12:11+00:00 (#6854)</title>
-    <updated>2024-06-21T04:17:12.036745+00:00</updated>
-    <content type="html">Yes a trap flag generates a #Db.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6854"/>
-    <published>2024-06-20T16:12:11+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7091</id>
+    <title>@HughEverett on 2024-07-05 08:34:48+00:00 (#7091)</title>
+    <updated>2024-07-07T08:38:56.959122+00:00</updated>
+    <content type="html">Also please try to test it with different conditions and different ways if you can. At the moment it passed all of my tests but since the logic of clearing these kinds of events is changed, I might break it in some other ways, so performing a complete test would help a lot.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7091"/>
+    <published>2024-07-05T08:34:48+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6853</id>
-    <title>@395437265 on 2024-06-20 15:44:38+00:00 (#6853)</title>
-    <updated>2024-06-21T04:17:12.036740+00:00</updated>
-    <content type="html">im trying to stop app in particular state by modifying code to raise division exception, now app stops with unhandled exception and windows popup appears. i can take dump, state is intact, however, in traces i can see windows exception handler mechanism, so real trace is not accessible. actually i wanted to cause BSOD, but it seems its not so easy for usermode</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6853"/>
-    <published>2024-06-20T15:44:38+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7090</id>
+    <title>@HughEverett on 2024-07-05 08:33:00+00:00 (#7090)</title>
+    <updated>2024-07-07T08:38:56.959114+00:00</updated>
+    <content type="html">I changed the logic of clearing !monitor events.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7090"/>
+    <published>2024-07-05T08:33:00+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6852</id>
-    <title>@6306026391 on 2024-06-20 15:18:33+00:00 (#6852)</title>
-    <updated>2024-06-21T04:17:12.036735+00:00</updated>
-    <content type="html">I'm trying to do remote debugging with 2 physical machines over COM but the connection never seems to complete, the debugger stays on
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7089</id>
+    <title>@HughEverett on 2024-07-05 08:32:45+00:00 (#7089)</title>
+    <updated>2024-07-07T08:38:56.959106+00:00</updated>
+    <content type="html">Both of them should be fixed.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7089"/>
+    <published>2024-07-05T08:32:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7088</id>
+    <title>@HughEverett on 2024-07-05 08:32:38+00:00 (#7088)</title>
+    <updated>2024-07-07T08:38:56.959097+00:00</updated>
+    <content type="html">this one.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7088"/>
+    <published>2024-07-05T08:32:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7087</id>
+    <title>@HughEverett on 2024-07-05 08:32:22+00:00 (#7087)</title>
+    <updated>2024-07-07T08:38:56.959085+00:00</updated>
+    <content type="html">Test this one and ...</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7087"/>
+    <published>2024-07-05T08:32:22+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7086</id>
+    <title>@HughEverett on 2024-07-05 08:31:50+00:00 (#7086)</title>
+    <updated>2024-07-07T08:38:56.958997+00:00</updated>
+    <content type="html">Eduard Please switch to this branch and test it again:
+https://github.com/HyperDbg/HyperDbg/tree/fix-monitor-remove</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7086"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/tree/fix-monitor-remove"/>
+    <published>2024-07-05T08:31:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7085</id>
+    <title>@HughEverett on 2024-07-05 05:52:16+00:00 (#7085)</title>
+    <updated>2024-07-07T08:38:56.958988+00:00</updated>
+    <content type="html">Since this address is only valid in the target process memory, not HyperDbg's view of memory (cr3).</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7085"/>
+    <published>2024-07-05T05:52:16+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7084</id>
+    <title>@HughEverett on 2024-07-05 05:51:40+00:00 (#7084)</title>
+    <updated>2024-07-07T08:38:56.958977+00:00</updated>
+    <content type="html">It seems that it's because HyperDbg doesn't remove the !monitor hooks correctly when the address is not available in HyperDbg's address space. 🤔</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7084"/>
+    <published>2024-07-05T05:51:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7083</id>
+    <title>@HughEverett on 2024-07-05 05:50:37+00:00 (#7083)</title>
+    <updated>2024-07-07T08:38:56.958867+00:00</updated>
+    <content type="html">I was able to reproduce this error.
 
-HyperDbg&gt; .debug remote serial 115200 com1
-Waiting for debuggee to connect...
+https://github.com/HyperDbg/HyperDbg/issues/409</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7083"/>
+    <link href="https://tg-archive.hyperdbg.org/media/7083.jpg"/>
+    <published>2024-07-05T05:50:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7082</id>
+    <title>@HughEverett on 2024-07-04 17:18:38+00:00 (#7082)</title>
+    <updated>2024-07-07T08:38:56.958859+00:00</updated>
+    <content type="html">Sure</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7082"/>
+    <published>2024-07-04T17:18:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7081</id>
+    <title>@395437265 on 2024-07-04 17:05:38+00:00 (#7081)</title>
+    <updated>2024-07-07T08:38:56.958850+00:00</updated>
+    <content type="html">ok, no worries, but pls try to solve that monitor mystery :) actually after putting one monitor i shall restart vm (it restarts itself) and then put another one</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7081"/>
+    <published>2024-07-04T17:05:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7080</id>
+    <title>@HughEverett on 2024-07-04 16:07:07+00:00 (#7080)</title>
+    <updated>2024-07-07T08:38:56.958842+00:00</updated>
+    <content type="html">I think it's shared between all drivers. I see caaes where it's not shared but if I remember it correctly, it's generally shared between different processes (but not sure). 🤔</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7080"/>
+    <published>2024-07-04T16:07:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7079</id>
+    <title>@HughEverett on 2024-07-04 16:05:21+00:00 (#7079)</title>
+    <updated>2024-07-07T08:38:56.958833+00:00</updated>
+    <content type="html">Thanks for reporting it, I'll check it.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7079"/>
+    <published>2024-07-04T16:05:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7078</id>
+    <title>@HughEverett on 2024-07-04 16:04:11+00:00 (#7078)</title>
+    <updated>2024-07-07T08:38:56.958825+00:00</updated>
+    <content type="html">But sure, I'll add it to the future todo list.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7078"/>
+    <published>2024-07-04T16:04:11+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7077</id>
+    <title>@HughEverett on 2024-07-04 16:03:53+00:00 (#7077)</title>
+    <updated>2024-07-07T08:38:56.958817+00:00</updated>
+    <content type="html">It's just the matter of handling complex logic of hooks in different pages. I'm so lazy to think about it since the algorithm of handling multiple hooks and events could become complex. 😅</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7077"/>
+    <published>2024-07-04T16:03:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7076</id>
+    <title>@instw0 on 2024-07-04 05:48:39+00:00 (#7076)</title>
+    <updated>2024-07-07T08:38:56.958807+00:00</updated>
+    <content type="html">each kernel driver has its own stack and heap or is shared with the kernel?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7076"/>
+    <published>2024-07-04T05:48:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7075</id>
+    <title>@395437265 on 2024-07-03 20:06:42+00:00 (#7075)</title>
+    <updated>2024-07-07T08:38:56.958799+00:00</updated>
+    <content type="html">@HughEverett  one more bug about monitors - when i remove monitors and .debug close, vm restarts, i think its related to that bug where cant set monitor on same adderss</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7075"/>
+    <published>2024-07-03T20:06:42+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7074</id>
+    <title>@395437265 on 2024-07-03 18:21:55+00:00 (#7074)</title>
+    <updated>2024-07-07T08:38:56.958792+00:00</updated>
+    <content type="html">as you see those subs are pretty close to each other, so probably global variables might do the trick</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7074"/>
+    <published>2024-07-03T18:21:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7073</id>
+    <title>@395437265 on 2024-07-03 18:20:33+00:00 (#7073)</title>
+    <updated>2024-07-07T08:38:56.958779+00:00</updated>
+    <content type="html">and a bit more below</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7073"/>
+    <published>2024-07-03T18:20:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7072</id>
+    <title>@395437265 on 2024-07-03 18:20:26+00:00 (#7072)</title>
+    <updated>2024-07-07T08:38:56.958619+00:00</updated>
+    <content type="html">if i was allowed to use monitors on same page, it would help a lot :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7072"/>
+    <link href="https://tg-archive.hyperdbg.org/media/7072.jpg"/>
+    <published>2024-07-03T18:20:26+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7071</id>
+    <title>@HughEverett on 2024-07-03 18:19:25+00:00 (#7071)</title>
+    <updated>2024-07-07T08:38:56.958610+00:00</updated>
+    <content type="html">Maybe a combination of loops could help.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7071"/>
+    <published>2024-07-03T18:19:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7070</id>
+    <title>@395437265 on 2024-07-03 18:18:42+00:00 (#7070)</title>
+    <updated>2024-07-07T08:38:56.958601+00:00</updated>
+    <content type="html">yes, will see how it helps</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7070"/>
+    <published>2024-07-03T18:18:42+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7069</id>
+    <title>@395437265 on 2024-07-03 18:18:17+00:00 (#7069)</title>
+    <updated>2024-07-07T08:38:56.958592+00:00</updated>
+    <content type="html">there are bunch of them, like 30</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7069"/>
+    <published>2024-07-03T18:18:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7068</id>
+    <title>@HughEverett on 2024-07-03 18:18:05+00:00 (#7068)</title>
+    <updated>2024-07-07T08:38:56.958583+00:00</updated>
+    <content type="html">You can use global variables to check your $context with dynamic ranges.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7068"/>
+    <published>2024-07-03T18:18:05+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7067</id>
+    <title>@395437265 on 2024-07-03 18:17:58+00:00 (#7067)</title>
+    <updated>2024-07-07T08:38:56.958574+00:00</updated>
+    <content type="html">i want to do it automatically (e.g. all possible "end" calls)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7067"/>
+    <published>2024-07-03T18:17:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7066</id>
+    <title>@HughEverett on 2024-07-03 18:17:25+00:00 (#7066)</title>
+    <updated>2024-07-07T08:38:56.958565+00:00</updated>
+    <content type="html">This one again could be handled from the by the method I told you earlier (pause())</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7066"/>
+    <published>2024-07-03T18:17:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7065</id>
+    <title>@395437265 on 2024-07-03 18:16:39+00:00 (#7065)</title>
+    <updated>2024-07-07T08:38:56.958557+00:00</updated>
+    <content type="html">thanks for advice</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7065"/>
+    <published>2024-07-03T18:16:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7064</id>
+    <title>@395437265 on 2024-07-03 18:16:33+00:00 (#7064)</title>
+    <updated>2024-07-07T08:38:56.958549+00:00</updated>
+    <content type="html">yup, thats my idea for now :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7064"/>
+    <published>2024-07-03T18:16:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7063</id>
+    <title>@HughEverett on 2024-07-03 18:16:22+00:00 (#7063)</title>
+    <updated>2024-07-07T08:38:56.958541+00:00</updated>
+    <content type="html">Like put a !monitor on an entire page, and check for the $context.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7063"/>
+    <published>2024-07-03T18:16:22+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7062</id>
+    <title>@395437265 on 2024-07-03 18:16:08+00:00 (#7062)</title>
+    <updated>2024-07-07T08:38:56.958532+00:00</updated>
+    <content type="html">yea, going to do that</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7062"/>
+    <published>2024-07-03T18:16:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7061</id>
+    <title>@HughEverett on 2024-07-03 18:15:50+00:00 (#7061)</title>
+    <updated>2024-07-07T08:38:56.958524+00:00</updated>
+    <content type="html">Why don't you check ranges within if conditions?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7061"/>
+    <published>2024-07-03T18:15:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7060</id>
+    <title>@395437265 on 2024-07-03 18:15:10+00:00 (#7060)</title>
+    <updated>2024-07-07T08:38:56.958516+00:00</updated>
+    <content type="html">i will try to play with from/to params, but im afraid it will spam me with events though :(</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7060"/>
+    <published>2024-07-03T18:15:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7059</id>
+    <title>@395437265 on 2024-07-03 18:14:25+00:00 (#7059)</title>
+    <updated>2024-07-07T08:38:56.958508+00:00</updated>
+    <content type="html">0: kHyperDbg&gt; !monitor x 760658a0 l 4 script {
+&gt;
+&gt; printf("monitor");
+&gt; }
 
-And the debugee:
+0: kHyperDbg&gt; !monitor x 760658f0 l 4 script {
+&gt;
+&gt; printf("monitor");
+&gt; }
+err, the page modification is not applied, make sure that you don't put multiple EPT Hooks or Monitors on a single page (c0000026)
 
-HyperDbg&gt; .debug prepare serial 115200 com3
-current processor vendor is : GenuineIntel
-virtualization technology is vt-x
-vmx operation is supported by your processor
+0: kHyperDbg&gt;</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7059"/>
+    <published>2024-07-03T18:14:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7058</id>
+    <title>@395437265 on 2024-07-03 18:12:47+00:00 (#7058)</title>
+    <updated>2024-07-07T08:38:56.958498+00:00</updated>
+    <content type="html">first i put monitor here main:017CA56B                 call    dword ptr [eax+8] ; then inside script i want to do something like put monitor x eax+8 l 4 so it will follow function call, for example main:017C9D00, i know offest where  dword ptr [edx+0Ch] will be called, let say 017C9D00+58, so i will put new monitor again on 017C9D00+58 and then, when im in desired function - print disasembly</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7058"/>
+    <published>2024-07-03T18:12:47+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7057</id>
+    <title>@HughEverett on 2024-07-03 18:10:58+00:00 (#7057)</title>
+    <updated>2024-07-07T08:38:56.958490+00:00</updated>
+    <content type="html">Wait couldn't you put multiple !monitor hooks in one page? As long as I remember it was possible. 🤔🤔🤔
 
-I've tested the COM connection with PuTTY and all appears to be working fine there, any suggestions on what I can do to debug/fix the issue?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6852"/>
-    <published>2024-06-20T15:18:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6851</id>
-    <title>@instw0 on 2024-06-20 15:03:55+00:00 (#6851)</title>
-    <updated>2024-06-21T04:17:12.036727+00:00</updated>
-    <content type="html">EventinjectDebugBreakpoint is tf processing?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6851"/>
-    <published>2024-06-20T15:03:55+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6850</id>
-    <title>@instw0 on 2024-06-20 15:02:58+00:00 (#6850)</title>
-    <updated>2024-06-21T04:17:12.036672+00:00</updated>
-    <content type="html">Снимок экрана 2024-06-20 180238.png</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6850"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6850.png"/>
-    <published>2024-06-20T15:02:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6849</id>
-    <title>@instw0 on 2024-06-20 15:02:00+00:00 (#6849)</title>
-    <updated>2024-06-21T04:17:12.036667+00:00</updated>
-    <content type="html">debugger is frozen</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6849"/>
-    <published>2024-06-20T15:02:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6848</id>
-    <title>@HughEverett on 2024-06-20 15:01:24+00:00 (#6848)</title>
-    <updated>2024-06-21T04:17:12.036661+00:00</updated>
-    <content type="html">Just added a check? Any modification to the TF Flag?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6848"/>
-    <published>2024-06-20T15:01:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6847</id>
-    <title>@HughEverett on 2024-06-20 15:00:35+00:00 (#6847)</title>
-    <updated>2024-06-21T04:17:12.036656+00:00</updated>
-    <content type="html">Yes</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6847"/>
-    <published>2024-06-20T15:00:35+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6846</id>
-    <title>@HughEverett on 2024-06-20 15:00:11+00:00 (#6846)</title>
-    <updated>2024-06-21T04:17:12.036651+00:00</updated>
-    <content type="html">Not sure what you trying to do? The division by zero error you're trying produce is handled in VMX root-mode because all of the events (except !epthook2, not !epthook) execute assembly in VMX root-mode, so it's not handled by guest (Windows) IDT and it's passed to HyperDbg's HOST IDT exception handler.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6846"/>
-    <published>2024-06-20T15:00:11+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6845</id>
-    <title>@HughEverett on 2024-06-20 14:56:03+00:00 (#6845)</title>
-    <updated>2024-06-21T04:17:12.036645+00:00</updated>
-    <content type="html">Ah, this one is also mentioned by another person in issues. This one should be updated in the phnt repo that we used it as a submodule. We could also update HyperDbg's fork and comment it. I'll fix it.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6845"/>
-    <published>2024-06-20T14:56:03+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6844</id>
-    <title>@instw0 on 2024-06-20 03:53:47+00:00 (#6844)</title>
-    <updated>2024-06-21T04:17:12.036639+00:00</updated>
-    <content type="html">the debugger is frozen...</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6844"/>
-    <published>2024-06-20T03:53:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6843</id>
-    <title>@instw0 on 2024-06-20 03:41:59+00:00 (#6843)</title>
-    <updated>2024-06-21T04:17:12.036584+00:00</updated>
-    <content type="html">Снимок экрана 2024-06-20 063305.png</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6843"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6843.png"/>
-    <published>2024-06-20T03:41:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6842</id>
-    <title>@instw0 on 2024-06-20 03:41:45+00:00 (#6842)</title>
-    <updated>2024-06-21T04:17:12.036579+00:00</updated>
-    <content type="html">i add a check rflags.tf in !tsc, and:</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6842"/>
-    <published>2024-06-20T03:41:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6841</id>
-    <title>@instw0 on 2024-06-20 03:39:39+00:00 (#6841)</title>
-    <updated>2024-06-21T04:17:12.036574+00:00</updated>
-    <content type="html">thank you, did I understand correctly(in general):
-configuring vmxcs to be notified when an event occurs -&gt; processing in vmm?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6841"/>
-    <published>2024-06-20T03:39:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6840</id>
-    <title>@chadgpt on 2024-06-20 02:33:06+00:00 (#6840)</title>
-    <updated>2024-06-21T04:17:12.036568+00:00</updated>
-    <content type="html">没有</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6840"/>
-    <published>2024-06-20T02:33:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6839</id>
-    <title>@6190448061 on 2024-06-20 01:58:26+00:00 (#6839)</title>
-    <updated>2024-06-21T04:17:12.036561+00:00</updated>
-    <content type="html">有没有自己人？😁</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6839"/>
-    <published>2024-06-20T01:58:26+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6838</id>
-    <title>@395437265 on 2024-06-19 22:45:18+00:00 (#6838)</title>
-    <updated>2024-06-21T04:17:12.036555+00:00</updated>
-    <content type="html">another question, im trying to use firstchance exception handling, im executing !epthook  &lt;hidden&gt; code {31 c0 f7 f0} &lt;- division by zero. but debugger console stays in infinite loop</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6838"/>
-    <published>2024-06-19T22:45:18+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6837</id>
-    <title>@395437265 on 2024-06-19 20:46:54+00:00 (#6837)</title>
-    <updated>2024-06-21T04:17:12.036550+00:00</updated>
-    <content type="html">it conflicted with winnt.h</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6837"/>
-    <published>2024-06-19T20:46:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6836</id>
-    <title>@395437265 on 2024-06-19 20:44:19+00:00 (#6836)</title>
-    <updated>2024-06-21T04:17:12.036544+00:00</updated>
-    <content type="html">i commented out definitions in ntioapi.h, but i dont know if it is valid solution</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6836"/>
-    <published>2024-06-19T20:44:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6835</id>
-    <title>@395437265 on 2024-06-19 20:30:31+00:00 (#6835)</title>
-    <updated>2024-06-21T04:17:12.036538+00:00</updated>
-    <content type="html">have latest VS SDK and WDK</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6835"/>
-    <published>2024-06-19T20:30:31+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6834</id>
-    <title>@395437265 on 2024-06-19 20:30:16+00:00 (#6834)</title>
-    <updated>2024-06-21T04:17:12.036490+00:00</updated>
-    <content type="html">hey there, im trying to build solution and getting:</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6834"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6834.jpg"/>
-    <published>2024-06-19T20:30:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6833</id>
-    <title>@HughEverett on 2024-06-19 15:34:48+00:00 (#6833)</title>
-    <updated>2024-06-21T04:17:12.036475+00:00</updated>
-    <content type="html">VMCALL is unconditional, !dr needs configuration. Pls check this file as it's the file responsible for configuring events:
+Not a big deal BTW, you can handle it through the script.
 
-https://github.com/HyperDbg/HyperDbg/blob/master/hyperdbg/hprdbgkd/code/debugger/events/ApplyEvents.c</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6833"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/blob/master/hyperdbg/hprdbgkd/code/debugger/events/ApplyEvents.c"/>
-    <published>2024-06-19T15:34:48+00:00</published>
+E.g., check for your ranges within if conditions. $context pseudo-register contains the address of accessed memory address. However, I'm pretty sure we support multiple !monitor(s) on same page at some point. 🤔</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7057"/>
+    <published>2024-07-03T18:10:58+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6832</id>
-    <title>@instw0 on 2024-06-19 12:47:42+00:00 (#6832)</title>
-    <updated>2024-06-21T04:17:12.036470+00:00</updated>
-    <content type="html">accordingly !vmcall, !dr... they also cause the exit from the virtual machine (vmexit)</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6832"/>
-    <published>2024-06-19T12:47:42+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7056</id>
+    <title>@HughEverett on 2024-07-03 18:07:23+00:00 (#7056)</title>
+    <updated>2024-07-07T08:38:56.958482+00:00</updated>
+    <content type="html">E.g., !monitor .FromGlobalVar .FromGlobalVar+0x85 script { ... }</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7056"/>
+    <published>2024-07-03T18:07:23+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6831</id>
-    <title>@HughEverett on 2024-06-19 11:43:59+00:00 (#6831)</title>
-    <updated>2024-06-21T04:17:12.036464+00:00</updated>
-    <content type="html">Basically, hwdbg registers are like @hw_pin0, @hw_pin1, @hw_pin2, ..., @hw_pinX and @hw_port0, @hw_port1, @hw_port2, ..., @hw_portX. We need to find the best way of adding these registers (and new pseudo-registers) to the parser.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6831"/>
-    <published>2024-06-19T11:43:59+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7055</id>
+    <title>@395437265 on 2024-07-03 18:06:27+00:00 (#7055)</title>
+    <updated>2024-07-07T08:38:56.958472+00:00</updated>
+    <content type="html">ok, let me explain a bit</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7055"/>
+    <published>2024-07-03T18:06:27+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6830</id>
-    <title>@HughEverett on 2024-06-19 11:40:26+00:00 (#6830)</title>
-    <updated>2024-06-21T04:17:12.036456+00:00</updated>
-    <content type="html">@xmaple555 we need to think of the best way to parse scripts of the hwdbg debugger. The registers and pseudo-registers of the hwdbg is different from x64 registers. 🤔</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6830"/>
-    <published>2024-06-19T11:40:26+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7054</id>
+    <title>@HughEverett on 2024-07-03 18:05:43+00:00 (#7054)</title>
+    <updated>2024-07-07T08:38:56.958463+00:00</updated>
+    <content type="html">Which means you can calculate your addresses in global variables and use them as parameters to the !monitor.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7054"/>
+    <published>2024-07-03T18:05:43+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6829</id>
-    <title>@HughEverett on 2024-06-19 11:33:34+00:00 (#6829)</title>
-    <updated>2024-06-21T04:17:12.036361+00:00</updated>
-    <content type="html">photo_2024-06-19_11-33-34.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6829"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6829.jpg"/>
-    <published>2024-06-19T11:33:34+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7053</id>
+    <title>@395437265 on 2024-07-03 18:05:40+00:00 (#7053)</title>
+    <updated>2024-07-07T08:38:56.958454+00:00</updated>
+    <content type="html">if i put monitor on whole page, it will flood with calls...</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7053"/>
+    <published>2024-07-03T18:05:40+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6828</id>
-    <title>@HughEverett on 2024-06-19 11:33:34+00:00 (#6828)</title>
-    <updated>2024-06-21T04:17:12.036247+00:00</updated>
-    <content type="html">Development progress update: hwdbg has reached the point where it can run HyperDbg scripts (dslang) for chip/FPGA debugging. Still under development!
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7052</id>
+    <title>@HughEverett on 2024-07-03 18:04:47+00:00 (#7052)</title>
+    <updated>2024-07-07T08:38:56.958432+00:00</updated>
+    <content type="html">Not sure if I understand what you mean but !monitor receives (to/from) parameters from the script expressions:
 
-https://github.com/HyperDbg/HyperDbg/tree/dev/hwdbg</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6828"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6828.jpg"/>
-    <published>2024-06-19T11:33:34+00:00</published>
+https://github.com/HyperDbg/HyperDbg/blob/a691c1df3be48660907fcf93840302a8c4650ff4/hyperdbg/libhyperdbg/code/debugger/commands/extension-commands/monitor.cpp#L204</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7052"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/blob/a691c1df3be48660907fcf93840302a8c4650ff4/hyperdbg/libhyperdbg/code/debugger/commands/extension-commands/monitor.cpp"/>
+    <published>2024-07-03T18:04:47+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6826</id>
-    <title>@HughEverett on 2024-06-19 11:27:39+00:00 (#6826)</title>
-    <updated>2024-06-21T04:17:12.036240+00:00</updated>
-    <content type="html">Conditions checks for each extension command is basically software-side implemented. RDTSC/RDTSCP cause conditional VM-exits (not remember, either on primary or secondary proc-based VMCS controls).</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6826"/>
-    <published>2024-06-19T11:27:39+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7051</id>
+    <title>@395437265 on 2024-07-03 18:03:45+00:00 (#7051)</title>
+    <updated>2024-07-07T08:38:56.958426+00:00</updated>
+    <content type="html">lemme prepare sample</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7051"/>
+    <published>2024-07-03T18:03:45+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6825</id>
-    <title>@archercreat on 2024-06-19 08:14:41+00:00 (#6825)</title>
-    <updated>2024-06-21T04:17:12.036235+00:00</updated>
-    <content type="html">Ah yes, my bad. It actually cares 😀 https://github.com/jmpoep/vmprotect-3.5.1/blob/d8fcb7c0ffd4fb45a8cfbd770c8b117d7dbe52b5/runtime/core.cc#L306</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6825"/>
-    <published>2024-06-19T08:14:41+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7050</id>
+    <title>@HughEverett on 2024-07-03 18:02:09+00:00 (#7050)</title>
+    <updated>2024-07-07T08:38:56.958416+00:00</updated>
+    <content type="html">I thought it's possible. 🤔</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7050"/>
+    <published>2024-07-03T18:02:09+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6824</id>
-    <title>@instw0 on 2024-06-19 08:09:03+00:00 (#6824)</title>
-    <updated>2024-06-21T04:17:12.036230+00:00</updated>
-    <content type="html">RDTSC?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6824"/>
-    <published>2024-06-19T08:09:03+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7049</id>
+    <title>@HughEverett on 2024-07-03 18:01:56+00:00 (#7049)</title>
+    <updated>2024-07-07T08:38:56.958408+00:00</updated>
+    <content type="html">Wait, you cannot put two !monitors in one page?</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7049"/>
+    <published>2024-07-03T18:01:56+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6823</id>
-    <title>@archercreat on 2024-06-19 07:56:52+00:00 (#6823)</title>
-    <updated>2024-06-21T04:17:12.036223+00:00</updated>
-    <content type="html">Not related to hyperdbg, but vmprotect does not care if you break at cpuid or at the nop. https://github.com/jmpoep/vmprotect-3.5.1/blob/d8fcb7c0ffd4fb45a8cfbd770c8b117d7dbe52b5/runtime/core.cc#L771</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6823"/>
-    <published>2024-06-19T07:56:52+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7048</id>
+    <title>@395437265 on 2024-07-03 17:56:05+00:00 (#7048)</title>
+    <updated>2024-07-07T08:38:56.958400+00:00</updated>
+    <content type="html">so far i know  call    dword ptr [eax+8]  location, that is executed always</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7048"/>
+    <published>2024-07-03T17:56:05+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6822</id>
-    <title>@instw0 on 2024-06-19 07:36:56+00:00 (#6822)</title>
-    <updated>2024-06-21T04:17:12.036218+00:00</updated>
-    <content type="html">it's just that cpuid causes an unconditional vmexit anyway, and in the case of !rdtsc?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6822"/>
-    <published>2024-06-19T07:36:56+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7047</id>
+    <title>@395437265 on 2024-07-03 17:55:03+00:00 (#7047)</title>
+    <updated>2024-07-07T08:38:56.958392+00:00</updated>
+    <content type="html">so i need to calculate the target function at the very end of this</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7047"/>
+    <published>2024-07-03T17:55:03+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6821</id>
-    <title>@instw0 on 2024-06-19 07:34:27+00:00 (#6821)</title>
-    <updated>2024-06-21T04:17:12.036213+00:00</updated>
-    <content type="html">yes, I've read it, I just wanted to clarify that the debugger is at the event !cpuid, !rdtsc set conditions in the vmxsc structure? then vmm receives a notification(or vmexit)?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6821"/>
-    <published>2024-06-19T07:34:27+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7046</id>
+    <title>@395437265 on 2024-07-03 17:54:25+00:00 (#7046)</title>
+    <updated>2024-07-07T08:38:56.958378+00:00</updated>
+    <content type="html">so the chain actually is :  call    dword ptr [eax+8] -&gt; (  main:017C9D0E                 call    dword ptr [edx+0Ch] OR main:017C9BEE                 call    dword ptr [edx+0Ch])</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7046"/>
+    <published>2024-07-03T17:54:25+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6820</id>
-    <title>@HughEverett on 2024-06-19 06:09:16+00:00 (#6820)</title>
-    <updated>2024-06-21T04:17:12.036208+00:00</updated>
-    <content type="html">You need to provide more details. What is the generation of your processor? which version of Windows? and how to reproduce it?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6820"/>
-    <published>2024-06-19T06:09:16+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7045</id>
+    <title>@395437265 on 2024-07-03 17:53:36+00:00 (#7045)</title>
+    <updated>2024-07-07T08:38:56.958370+00:00</updated>
+    <content type="html">edx will point to different offsets</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7045"/>
+    <published>2024-07-03T17:53:36+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6819</id>
-    <title>@zhang_derek on 2024-06-19 05:57:16+00:00 (#6819)</title>
-    <updated>2024-06-21T04:17:12.036203+00:00</updated>
-    <content type="html">How to fix</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6819"/>
-    <published>2024-06-19T05:57:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6818</id>
-    <title>@zhang_derek on 2024-06-19 05:56:57+00:00 (#6818)</title>
-    <updated>2024-06-21T04:17:12.036197+00:00</updated>
-    <content type="html">win10 bluescreen，</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6818"/>
-    <published>2024-06-19T05:56:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6817</id>
-    <title>@HughEverett on 2024-06-19 04:43:13+00:00 (#6817)</title>
-    <updated>2024-06-21T04:17:12.036168+00:00</updated>
-    <content type="html">RDTSC is configured from VMCS, VMCALL is unconditional VM-exit and !msrread !msrwrite use MSR Bitmaps. Take a look at Hypervisor From Scratch, I think it gives you an idea how HyperDbg works internally: 
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7044</id>
+    <title>@395437265 on 2024-07-03 17:53:08+00:00 (#7044)</title>
+    <updated>2024-07-07T08:38:56.958360+00:00</updated>
+    <content type="html">something like
 
-https://rayanfam.com/tutorials/</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6817"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://rayanfam.com/tutorials/"/>
-    <published>2024-06-19T04:43:13+00:00</published>
+ main:017C9D0E                 call    dword ptr [edx+0Ch]
+and
+main:017C9BEE                 call    dword ptr [edx+0Ch]
+
+those are different subs, but stays within one page, so i cant put !monitors on both calls</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7044"/>
+    <published>2024-07-03T17:53:08+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6816</id>
-    <title>@instw0 on 2024-06-19 04:36:17+00:00 (#6816)</title>
-    <updated>2024-06-21T04:17:12.036162+00:00</updated>
-    <content type="html">read msr in vmxcs?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6816"/>
-    <published>2024-06-19T04:36:17+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7043</id>
+    <title>@HughEverett on 2024-07-03 17:50:23+00:00 (#7043)</title>
+    <updated>2024-07-07T08:38:56.958331+00:00</updated>
+    <content type="html">What do you mean by dynamic calls calculation? 🤨</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7043"/>
+    <published>2024-07-03T17:50:23+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6815</id>
-    <title>@instw0 on 2024-06-19 04:35:33+00:00 (#6815)</title>
-    <updated>2024-06-21T04:17:12.036154+00:00</updated>
-    <content type="html">how do you keep track of instructions that don't cause the VM to exit? example RDTCS, vmcall...</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6815"/>
-    <published>2024-06-19T04:35:33+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7042</id>
+    <title>@395437265 on 2024-07-03 17:50:07+00:00 (#7042)</title>
+    <updated>2024-07-07T08:38:56.958322+00:00</updated>
+    <content type="html">ok, i will create issue</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7042"/>
+    <published>2024-07-03T17:50:07+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6814</id>
-    <title>@HughEverett on 2024-06-19 04:32:31+00:00 (#6814)</title>
-    <updated>2024-06-21T04:17:12.036134+00:00</updated>
-    <content type="html">We process it as VM-exit, not interrupt.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6814"/>
-    <published>2024-06-19T04:32:31+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7041</id>
+    <title>@395437265 on 2024-07-03 17:49:16+00:00 (#7041)</title>
+    <updated>2024-07-07T08:38:56.958314+00:00</updated>
+    <content type="html">this is good to know.. bad thing those dynamic calls are calculated within one page :(</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7041"/>
+    <published>2024-07-03T17:49:16+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6813</id>
-    <title>@HughEverett on 2024-06-19 04:32:15+00:00 (#6813)</title>
-    <updated>2024-06-21T04:17:12.034154+00:00</updated>
-    <content type="html">For !tsc Yes, for !cpuid No. CPUID is unconditional VM-exit. Here is a list of instructions with unconditional VM-exit.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6813"/>
-    <link href="https://tg-archive.hyperdbg.org/media/6813.jpg"/>
-    <published>2024-06-19T04:32:15+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7040</id>
+    <title>@HughEverett on 2024-07-03 17:49:12+00:00 (#7040)</title>
+    <updated>2024-07-07T08:38:56.958306+00:00</updated>
+    <content type="html">You need to ask @xmaple555 to fix it, I don't know that much about the script engine parser. 🙂🙃</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7040"/>
+    <published>2024-07-03T17:49:12+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6812</id>
-    <title>@instw0 on 2024-06-18 13:32:00+00:00 (#6812)</title>
-    <updated>2024-06-21T04:17:12.034149+00:00</updated>
-    <content type="html">then we process it in vmm as a debugger interrupt?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6812"/>
-    <published>2024-06-18T13:32:00+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7039</id>
+    <title>@395437265 on 2024-07-03 17:47:37+00:00 (#7039)</title>
+    <updated>2024-07-07T08:38:56.958298+00:00</updated>
+    <content type="html">hm. in main script it told me there is error when i put return;</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7039"/>
+    <published>2024-07-03T17:47:37+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6811</id>
-    <title>@instw0 on 2024-06-18 13:30:09+00:00 (#6811)</title>
-    <updated>2024-06-21T04:17:12.034143+00:00</updated>
-    <content type="html">when we use events !cpuid, !rdtsc do we configure the vmxcs structure to vm-exit when an event occurs?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6811"/>
-    <published>2024-06-18T13:30:09+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7038</id>
+    <title>@HughEverett on 2024-07-03 17:47:34+00:00 (#7038)</title>
+    <updated>2024-07-07T08:38:56.958289+00:00</updated>
+    <content type="html">No, pause will pause the debugger immediately. Context is preserved.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7038"/>
+    <published>2024-07-03T17:47:34+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6810</id>
-    <title>@HughEverett on 2024-06-18 12:57:08+00:00 (#6810)</title>
-    <updated>2024-06-21T04:17:12.034137+00:00</updated>
-    <content type="html">Not sure if I correctly understand what you mean. 🤔
-What is event(!cpu)?</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6810"/>
-    <published>2024-06-18T12:57:08+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7037</id>
+    <title>@HughEverett on 2024-07-03 17:46:56+00:00 (#7037)</title>
+    <updated>2024-07-07T08:38:56.958260+00:00</updated>
+    <content type="html">https://docs.hyperdbg.org/commands/scripting-language/constants-and-functions</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7037"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/scripting-language/constants-and-functions"/>
+    <published>2024-07-03T17:46:56+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6809</id>
-    <title>@HughEverett on 2024-06-18 12:56:06+00:00 (#6809)</title>
-    <updated>2024-06-21T04:17:12.034128+00:00</updated>
-    <content type="html">NMI is not realted to step-in or step-over, HyperDbg just uses NMI to halt (pause) all cores in the Debugger Mode.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6809"/>
-    <published>2024-06-18T12:56:06+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7036</id>
+    <title>@HughEverett on 2024-07-03 17:46:39+00:00 (#7036)</title>
+    <updated>2024-07-07T08:38:56.958252+00:00</updated>
+    <content type="html">@xmaple555 implemented the functions logic, you can use it like a function.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7036"/>
+    <published>2024-07-03T17:46:39+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2024-06.html#6808</id>
-    <title>@HughEverett on 2024-06-18 12:54:33+00:00 (#6808)</title>
-    <updated>2024-06-21T04:17:12.034102+00:00</updated>
-    <content type="html">Only the 'i' command (instrumentation step-in) uses MTF (Monitor Trap Flag). Other stepping command like 't' is implemented same as WinDbg by using RFLAGS's TF.</content>
-    <link href="https://tg-archive.hyperdbg.org/2024-06.html#6808"/>
-    <published>2024-06-18T12:54:33+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7035</id>
+    <title>@395437265 on 2024-07-03 17:46:35+00:00 (#7035)</title>
+    <updated>2024-07-07T08:38:56.958243+00:00</updated>
+    <content type="html">i understand, but pause will loose context in this case..</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7035"/>
+    <published>2024-07-03T17:46:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7034</id>
+    <title>@395437265 on 2024-07-03 17:43:39+00:00 (#7034)</title>
+    <updated>2024-07-07T08:38:56.958233+00:00</updated>
+    <content type="html">yup</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7034"/>
+    <published>2024-07-03T17:43:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7033</id>
+    <title>@HughEverett on 2024-07-03 17:39:15+00:00 (#7033)</title>
+    <updated>2024-07-07T08:38:56.958222+00:00</updated>
+    <content type="html">Like a function return? 🤨</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7033"/>
+    <published>2024-07-03T17:39:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7032</id>
+    <title>@395437265 on 2024-07-03 17:35:25+00:00 (#7032)</title>
+    <updated>2024-07-07T08:38:56.958211+00:00</updated>
+    <content type="html">it would improve scripting a lot i think, no additional if branches</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7032"/>
+    <published>2024-07-03T17:35:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7031</id>
+    <title>@395437265 on 2024-07-03 17:34:58+00:00 (#7031)</title>
+    <updated>2024-07-07T08:38:56.958183+00:00</updated>
+    <content type="html">no.. sample from my script:
+
+  n = check_address(edx+c);
+  k = 0;
+  if (n == 1){
+    printf("%s %s DYN CALL TO %x\n",$date, $time, dd(edx+c));
+    k = 1;
+  } else {
+    printf("%s %s DYN CALL, BUT FAILED TO DECODE %x\n",$date, $time, edx+c);
+return here as memory is invalid, so no longer processing needed
+  }  
+  if (k == 1){....</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7031"/>
+    <published>2024-07-03T17:34:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7030</id>
+    <title>@HughEverett on 2024-07-03 17:30:04+00:00 (#7030)</title>
+    <updated>2024-07-07T08:38:56.957524+00:00</updated>
+    <content type="html">You can use them along with the $event_id pseudo-register.</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7030"/>
+    <link href="https://tg-archive.hyperdbg.org/media/7030.jpg"/>
+    <published>2024-07-03T17:30:04+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7029</id>
+    <title>@HughEverett on 2024-07-03 17:27:46+00:00 (#7029)</title>
+    <updated>2024-07-07T08:38:56.957436+00:00</updated>
+    <content type="html">There are a couple of functions for disabling/enabling and removing or short-circuiting events here:
+https://docs.hyperdbg.org/commands/scripting-language/functions/events</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7029"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/scripting-language/functions/events"/>
+    <published>2024-07-03T17:27:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7028</id>
+    <title>@HughEverett on 2024-07-03 17:24:37+00:00 (#7028)</title>
+    <updated>2024-07-07T08:38:56.957427+00:00</updated>
+    <content type="html">Exit script? What do you mean? Like disabling the event? 🤨</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7028"/>
+    <published>2024-07-03T17:24:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2024-07.html#7027</id>
+    <title>@HughEverett on 2024-07-03 17:24:07+00:00 (#7027)</title>
+    <updated>2024-07-07T08:38:56.957398+00:00</updated>
+    <content type="html">It's actually possible in the VMM module to apply events immediately, but it's not exported to the user this way. Because the script engine IR generator is in the user-mode. If you want to do it, you can directly modify the source code and apply the event using a custom function. But, it's a really cool feature I think. 🤔 
+I'll add it to the future to-do list but it probably won't be ready soon since it needs fundamental design changes.
+
+One way around it is by using:
+
+event (with a pause() function) + g + new event
+
+So, once your script is running, it continues the debuggee immediately after applying the first event and when your event executes the pause() function, the debugger is paused and the second event will be created. (If you didn't understand what I mean by this, please let me know, I could elaborate it more).</content>
+    <link href="https://tg-archive.hyperdbg.org/2024-07.html#7027"/>
+    <published>2024-07-03T17:24:07+00:00</published>
   </entry>
 </feed>
