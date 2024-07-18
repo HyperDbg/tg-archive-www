@@ -54,7 +54,7 @@
 		        			<li class="selected">
 		        				<a href="2024-07.html">
 		        					Jul 2024
-		        					<span class="count">(131)
+		        					<span class="count">(237)
 		        				</span></a>
 		        			</li>
 		        		
@@ -4766,7 +4766,7 @@
 					
 					
 						<li class="day" id="2024-07-07">
-							<span class="title">07 July 2024 <span class="count">(12 messages)</span></span>
+							<span class="title">07 July 2024 <span class="count">(19 messages)</span></span>
 						</li>
 					
 					<li class="message type-message" id="7115">
@@ -5213,6 +5213,3951 @@
 						</div>
 					</li>
 				
+					
+					
+					<li class="message type-message" id="7127">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7125">↶ Reply to #7125</a>
+								
+
+								<a class="id" href="#7127">#7127</a>
+
+								
+
+								<span class="date">08:48 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Not sure if I understand it correctly. Are you going to hook system-call handler using the &#39;!epthook&#39; command? 🤨
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7128">
+						<div class="avatar">
+							
+								<img src="media/avatar_1878373060.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/Some00ne" class="username" rel="noreferer nopener nofollow">
+									
+										@Some00ne
+									
+								</a>
+
+								
+									<a class="reply" href="2024-06_2.html#6989">↶ Reply to #6989</a>
+								
+
+								<a class="id" href="#7128">#7128</a>
+
+								
+
+								<span class="date">08:53 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Oh, I feel very stupid right now 😶.
+<br />
+<br />It&#39;s just I was going to apply your example that you did in this video about the epthook (that I&#39;m mentioning) but in VMI mode. I thought that it would be ok 😶.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7129">
+						<div class="avatar">
+							
+								<img src="media/avatar_1878373060.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/Some00ne" class="username" rel="noreferer nopener nofollow">
+									
+										@Some00ne
+									
+								</a>
+
+								
+
+								<a class="id" href="#7129">#7129</a>
+
+								
+
+								<span class="date">08:57 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									As I understand, the epthook will remove the execute permission on that page that holds the code for hooked API, so whenever the caller calls it, it will cause a vm-exit, then the Hypervisor will take control then execute my script then cause vm-continue and continue the execution normally to the guest. I don&#39;t know if I understand it right 😶.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7130">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7128">↶ Reply to #7128</a>
+								
+
+								<a class="id" href="#7130">#7130</a>
+
+								
+
+								<span class="date">09:03 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									This example doesn&#39;t need patchguard to be disabled. It&#39;s works even if PatchGuard is running in both the &#39;Debugger Mode&#39; and the &#39;VMI Mode&#39;.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7131">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7130">↶ Reply to #7130</a>
+								
+
+								<a class="id" href="#7131">#7131</a>
+
+								
+
+								<span class="date">09:06 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									No, actually this behavior is not for the &#39;!epthook&#39;. The one you mentioned is the scenario where you use the &#39;!monitor x&#39; command. For the &#39;!epthook&#39;, the execution bit is in effect while the &#39;read/write&#39; bits are cleared. There is a hidden breakpoint there (int3 or 0xCC) which will be triggered and handled in the hypervisor whenever the target function is executed. Please take a look at these document pages for more information:
+<br />
+<br />- <a href="https://docs.hyperdbg.org/design/features/vmm-module/design-of-epthook" rel="noopener">https://docs.hyperdbg.org/design/features/vmm-module/design-of-epthook</a>
+<br />- <a href="https://docs.hyperdbg.org/design/features/vmm-module/design-of-monitor" rel="noopener">https://docs.hyperdbg.org/design/features/vmm-module/design-of-monitor</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/design/features/vmm-module/design-of-epthook" rel="noreferer nopener nofollow">Design of !epthook | HyperDbg Documentation</a>
+										
+											<p>Design of !epthook command</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7132">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7132">#7132</a>
+
+								
+
+								<span class="date">10:50 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  <a href="https://github.com/HyperDbg/HyperDbg/issues/415" rel="noopener">https://github.com/HyperDbg/HyperDbg/issues/415</a> i cant clearly reproduce length issue, but reproducing subsequent call monitor is easy
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/issues/415" rel="noreferer nopener nofollow">Can&#39;t set monitors on subsequent calls. · Issue #415 · HyperDbg/HyperDbg</a>
+										
+											<p>0: kHyperDbg&gt; x ws2_32!send 00000000`75c658a0 ws2_32!send 0: kHyperDbg&gt; bp 75c658a0 0: kHyperDbg&gt; g debuggee is running... breakpoint 0x1 hit ws2_32!send: 00000000`75c658a0 8B FF mov edi, ...</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7133">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7132">↶ Reply to #7132</a>
+								
+
+								<a class="id" href="#7133">#7133</a>
+
+								
+
+								<span class="date">10:53 AM, 07 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Thanks, I&#39;ll fix it.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-08">
+							<span class="title">08 July 2024 <span class="count">(13 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7134">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7134">#7134</a>
+
+								
+
+								<span class="date">03:54 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									<a href="https://x.com/HyperDbg/status/1810158816136487361" rel="noopener">https://x.com/HyperDbg/status/1810158816136487361</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://x.com/HyperDbg/status/1810158816136487361" rel="noreferer nopener nofollow">HyperDbg (@HyperDbg) on X</a>
+										
+											<p>🔥 Summer&#39;s heating up, and so is the learning! 
+
+VMware Workstation is now free, making it the perfect time to dive into hypervisor-based reverse engineering.
+
+Check out the free HyperDbg tutorial at @OpenSecTraining:
+
+https://t.co/I1n3ggYlU9 (preferred)
+
+https://t.co/119iZNhSsA</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7135">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7134">↶ Reply to #7134</a>
+								
+
+								<a class="id" href="#7135">#7135</a>
+
+								
+
+								<span class="date">03:54 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									None
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7136">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7132">↶ Reply to #7132</a>
+								
+
+								<a class="id" href="#7136">#7136</a>
+
+								
+
+								<span class="date">06:26 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I was not able to reproduce the error using your scripts in the GitHub, but it was reproduced once using this script:
+<br />
+<br />.sym reload pid 3024
+<br />.process pid 3024
+<br />g
+<br />.process
+<br />!monitor x ws2_32!send l 3 script {
+<br />       printf(&#34;pre triggered\n&#34;);
+<br />}
+<br />--------------------------------------
+<br />g
+<br />event c all
+<br />g
+<br />.process pid 3024
+<br />g
+<br />.process
+<br />--------------------------------------
+<br />bp ws2_32!send
+<br />!monitor x ws2_32!send l 3 script {
+<br />       printf(&#34;pre triggered\n&#34;);
+<br />}
+<br />.process
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7137">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/fuckingIdiottt" class="username" rel="noreferer nopener nofollow">
+									
+										@fuckingIdiottt
+									
+								</a>
+
+								
+
+								<a class="id" href="#7137">#7137</a>
+
+								
+
+								<span class="date">06:27 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7138">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7136">↶ Reply to #7136</a>
+								
+
+								<a class="id" href="#7138">#7138</a>
+
+								
+
+								<span class="date">06:27 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									But, only one time! Couldn&#39;t reproduce it again. It seems to be race condition but in order to investigate it, it needs to be deterministically reproduced.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7139">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7132">↶ Reply to #7132</a>
+								
+
+								<a class="id" href="#7139">#7139</a>
+
+								
+
+								<span class="date">06:29 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;ll keep testing the same scripts to find a way for reproducing it, meanwhile if you find a reproduceable sequence of command, pls send it here.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7140">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7139">↶ Reply to #7139</a>
+								
+
+								<a class="id" href="#7140">#7140</a>
+
+								
+
+								<span class="date">07:00 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Okay, I found a sequence that reproduces the error: 
+<br />.sym reload pid 3024
+<br />.process pid 3024
+<br />g
+<br />.process
+<br />!monitor x ws2_32!send l 3 script {
+<br />       printf(&#34;pre triggered\n&#34;);
+<br />}
+<br />!monitor x 00354b67 l 3 script {
+<br />       printf(&#34;pre triggered\n&#34;);
+<br />}
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7141">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7141">#7141</a>
+
+								
+
+								<span class="date">07:04 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Maybe setting vm to use one core might help..
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7142">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7141">↶ Reply to #7141</a>
+								
+
+								<a class="id" href="#7142">#7142</a>
+
+								
+
+								<span class="date">08:53 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Fixed. Check the latest &#39;dev&#39; branch.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7143">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7143">#7143</a>
+
+								
+
+								<span class="date">08:56 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Will check later today
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7144">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6579281239" class="username" rel="noreferer nopener nofollow">
+									
+										@6579281239
+									
+								</a>
+
+								
+
+								<a class="id" href="#7144">#7144</a>
+
+								
+
+								<span class="date">09:05 AM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7145">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7145">#7145</a>
+
+								
+
+								<span class="date">05:09 PM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									all good
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7146">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/1005535509" class="username" rel="noreferer nopener nofollow">
+									
+										@1005535509
+									
+								</a>
+
+								
+
+								<a class="id" href="#7146">#7146</a>
+
+								
+
+								<span class="date">07:08 PM, 08 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-10">
+							<span class="title">10 July 2024 <span class="count">(5 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7147">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7147">#7147</a>
+
+								
+
+								<span class="date">07:09 AM, 10 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Eduard I fixed this issue, but I&#39;m not sure if I correctly fixed it and it didn&#39;t break anything. Once you have free time, please update your &#39;dev&#39; branch and make a comprehensive test on both the step-over &#39;p&#39; and the step-in &#39;t&#39;, and let me know if you find any problems.
+<br />
+<br />https://github.com/HyperDbg/HyperDbg/issues/406
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/issues/406" rel="noreferer nopener nofollow">Step over hangs, if process terminates/excepts within call instruction. · Issue #406 · HyperDbg/HyperDbg</a>
+										
+											<p>StepOverTst.zip Steps to reproduce: .start path C:\dbg\StepOverTst.exe 2: kHyperDbg&gt; bp 00007ff7`54c3156c 2: kHyperDbg&gt; g debuggee is running... breakpoint 0x3 hit 00007ff7`54c3156c E8 37 03 ...</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7148">
+						<div class="avatar">
+							
+								<img src="media/avatar_6190448061.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6190448061" class="username" rel="noreferer nopener nofollow">
+									
+										@6190448061
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7147">↶ Reply to #7147</a>
+								
+
+								<a class="id" href="#7148">#7148</a>
+
+								
+
+								<span class="date">11:25 AM, 10 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									You did a great job.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7149">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7149">#7149</a>
+
+								
+
+								<span class="date">06:58 PM, 10 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  no good :( it solved the issue i mentioned, i can quit waiting with ctrl+c, but introduced another - if i put bp on call instruction and when bp is trapped, when i press p it just continues execution
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7150">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7150">#7150</a>
+
+								
+
+								<span class="date">06:58 PM, 10 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									will prepare another test
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7151">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7151">#7151</a>
+
+								
+
+								<span class="date">07:49 PM, 10 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									sorry.. cant reproduce stable, but i hope in real debug i will understand something
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-11">
+							<span class="title">11 July 2024 <span class="count">(11 messages)</span></span>
+						</li>
+					
+					<li class="message type-user_joined" id="7152">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/tianwang99" class="username" rel="noreferer nopener nofollow">
+									
+										@tianwang99
+									
+								</a>
+
+								
+
+								<a class="id" href="#7152">#7152</a>
+
+								
+
+								<span class="date">04:51 AM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7153">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/tianwang99" class="username" rel="noreferer nopener nofollow">
+									
+										@tianwang99
+									
+								</a>
+
+								
+
+								<a class="id" href="#7153">#7153</a>
+
+								
+
+								<span class="date">04:52 AM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									这个调试器怎么用
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7154">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/tianwang99" class="username" rel="noreferer nopener nofollow">
+									
+										@tianwang99
+									
+								</a>
+
+								
+
+								<a class="id" href="#7154">#7154</a>
+
+								
+
+								<span class="date">04:52 AM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									有没有使用教程
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7155">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/DK_ZAG" class="username" rel="noreferer nopener nofollow">
+									
+										@DK_ZAG
+									
+								</a>
+
+								
+
+								<a class="id" href="#7155">#7155</a>
+
+								
+
+								<span class="date">06:26 AM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									没有
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7156">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/tianwang99" class="username" rel="noreferer nopener nofollow">
+									
+										@tianwang99
+									
+								</a>
+
+								
+
+								<a class="id" href="#7156">#7156</a>
+
+								
+
+								<span class="date">01:00 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									视频了
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7157">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7149">↶ Reply to #7149</a>
+								
+
+								<a class="id" href="#7157">#7157</a>
+
+								
+
+								<span class="date">03:05 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									You mean the patch (last commit) should be reverted? 🤨
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7158">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7151">↶ Reply to #7151</a>
+								
+
+								<a class="id" href="#7158">#7158</a>
+
+								
+
+								<span class="date">03:05 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Or it just sometimes cause errors?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7159">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7154">↶ Reply to #7154</a>
+								
+
+								<a class="id" href="#7159">#7159</a>
+
+								
+
+								<span class="date">03:08 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									<a href="https://www.youtube.com/playlist?list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY" rel="noopener">https://www.youtube.com/playlist?list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY</a>
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7160">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7157">↶ Reply to #7157</a>
+								
+
+								<a class="id" href="#7160">#7160</a>
+
+								
+
+								<span class="date">03:30 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									maybe put it to another branch for a while... something has changed, but i dont know exactly what
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7161">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7161">#7161</a>
+
+								
+
+								<span class="date">03:32 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									try, for example, put bp on any call, and when its trapped, execute p
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7162">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7162">#7162</a>
+
+								
+
+								<span class="date">03:33 PM, 11 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									its like sometimes it steps overs, sometimes it waits for a long time for no reason
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-12">
+							<span class="title">12 July 2024 <span class="count">(9 messages)</span></span>
+						</li>
+					
+					<li class="message type-user_joined" id="7163">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/7251314798" class="username" rel="noreferer nopener nofollow">
+									
+										@7251314798
+									
+								</a>
+
+								
+
+								<a class="id" href="#7163">#7163</a>
+
+								
+
+								<span class="date">04:07 AM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7164">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7160">↶ Reply to #7160</a>
+								
+
+								<a class="id" href="#7164">#7164</a>
+
+								
+
+								<span class="date">05:17 AM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s on the &#39;dev&#39; branch now. Sure we won&#39;t release (merge it to the master) if the problem is not yet fixed.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7165">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7162">↶ Reply to #7162</a>
+								
+
+								<a class="id" href="#7165">#7165</a>
+
+								
+
+								<span class="date">05:19 AM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;ll create a GitHub issue to further investigate it. Meanwhile, if you find a deterministic way of reproducing it, pls let me know.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7166">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7166">#7166</a>
+
+								
+
+								<span class="date">02:34 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									sure, no prob
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7167">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+
+								<a class="id" href="#7167">#7167</a>
+
+								
+
+								<span class="date">09:08 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									hi guys, I&#39;m trying to use visual studio kernel debug. But there is no current line shown (yellow arrow)  in source code when hitting breakpoint
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7167.jpg">
+											<img src="media/thumb_7167.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-07-12_21-08-49.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7168">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+
+								<a class="id" href="#7168">#7168</a>
+
+								
+
+								<span class="date">09:09 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									only show yellow arrow to the current line in asm
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7168.jpg">
+											<img src="media/thumb_7168.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-07-12_21-09-38.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7169">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+
+								<a class="id" href="#7169">#7169</a>
+
+								
+
+								<span class="date">09:10 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									any solution ? 😢
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7170">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/grootdxb" class="username" rel="noreferer nopener nofollow">
+									
+										@grootdxb
+									
+								</a>
+
+								
+
+								<a class="id" href="#7170">#7170</a>
+
+								
+
+								<span class="date">11:07 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Literally... if RSP is valid, (Assuming its some local var), then...the line you listed is simply moving 0 (zero) into the local var, and not invalid.  If RSP (the stack) is jacked up, then you&#39;ve got some problem elsewhere.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7171">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/grootdxb" class="username" rel="noreferer nopener nofollow">
+									
+										@grootdxb
+									
+								</a>
+
+								
+
+								<a class="id" href="#7171">#7171</a>
+
+								
+
+								<span class="date">11:07 PM, 12 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									As far as &#34;no line showing&#34; —- likely due to optimizations..add #pragma optimize(&#34;&#34;, off)  to the top of the C/CPP and compile/run again
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-13">
+							<span class="title">13 July 2024 <span class="count">(6 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7172">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+
+								<a class="id" href="#7172">#7172</a>
+
+								
+
+								<span class="date">04:57 AM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I use Debug mode to compile . I guess the optimization is off
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7173">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7170">↶ Reply to #7170</a>
+								
+
+								<a class="id" href="#7173">#7173</a>
+
+								
+
+								<span class="date">04:59 AM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									the rsp pointing to  mov dword ptr [rsp +40h],0 (UINT Index = 0)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7174">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/grootdxb" class="username" rel="noreferer nopener nofollow">
+									
+										@grootdxb
+									
+								</a>
+
+								
+
+								<a class="id" href="#7174">#7174</a>
+
+								
+
+								<span class="date">12:35 PM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Thats &#34;mov &gt;Q&lt;word&#34; — anyway, assuming RSP is not broken (corrupted or otherwise),
+<br />thats no different than.  uint64_t foo; foo=0; or uint64_t foo, uint64_t * bar=&amp;foo; *bar=0
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7175">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7175">#7175</a>
+
+								
+
+								<span class="date">08:24 PM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  sorry, i have no time currently, i think i can implement some deterministic test in asm, but it need me to remember asm :) i studied it almost 15 yrs ago, lot of thing have changed, chatgpt also not helping much, but i got some ideas already
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7176">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7176">#7176</a>
+
+								
+
+								<span class="date">08:25 PM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									in general, it seems, that p bug is related to threading
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7177">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7177">#7177</a>
+
+								
+
+								<span class="date">08:28 PM, 13 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									e.g. if new thread is spawn within call, then p cant detect ret properly, maybe some cpu optimizations, so thread is started and control flow now belongs to thread, so it wont return until thread is complete (if ever), but thats just assumptions
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-14">
+							<span class="title">14 July 2024 <span class="count">(4 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7178">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7177">↶ Reply to #7177</a>
+								
+
+								<a class="id" href="#7178">#7178</a>
+
+								
+
+								<span class="date">02:08 PM, 14 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Ok, got it. I&#39;ll check it with these new details. Thanks 👍
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7179">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7179">#7179</a>
+
+								
+
+								<span class="date">09:43 PM, 14 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  im back to debugging and need some advice:
+<br />main:00D6A4BD                 push    [ebp+arg_4]
+<br />main:00D6A4C0                 push    [ebp+arg_0]
+<br />main:00D6A4C3                 mov     eax, [ebp+var_8]
+<br />main:00D6A4C6                 movzx   eax, word ptr [eax]
+<br />main:00D6A4C9                 push    eax
+<br />main:00D6A4CA                 mov     eax, [ebp+var_8]
+<br />main:00D6A4CD                 inc     eax
+<br />main:00D6A4CE                 inc     eax
+<br />main:00D6A4CF                 push    eax
+<br />main:00D6A4D0                 mov     ecx, [ebp+var_8]
+<br />main:00D6A4D0
+<br />main:00D6A4D3                 call    sub_D6A5E0      ; add c3 
+<br />main:00D6A4D8                 mov     esp, ebp
+<br />main:00D6A4DA                 pop     ebp
+<br />main:00D6A4DB                 retn    8
+<br />main:00D6A4DE
+<br />
+<br />i want to main:00D6A4D3                 call    sub_D6A5E0      ; add c3  call 5 times instead of one with some interval, now i have:
+<br />
+<br />!monitor x 0D6A4D0 l 2 core 0 stage post script {
+<br />  if ($context == 0D6A4D0){
+<br />      for (i = 0; i &lt; 5; i++){
+<br />        @eip = 00D6A4D3;
+<br />      }      
+<br />      printf(&#34;NOW WILL CALL %x\n&#34;,eip);
+<br />  }
+<br />}  
+<br />
+<br />but it fails even on first time, when parameters are adequate (instant crash)
+<br />
+<br />i tried to use code {....} but it fails with page fault, any ideas how to do this?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7180">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7179">↶ Reply to #7179</a>
+								
+
+								<a class="id" href="#7180">#7180</a>
+
+								
+
+								<span class="date">11:32 PM, 14 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									This doesn&#39;t work as expected. You&#39;re trying to change @eip 5 times in one single execution. Doesn&#39;t make sense. 🤔
+<br />
+<br />So, it probably needs to be changed to:
+<br />
+<br />!monitor x 0D6A4D0 l 2 core 0 stage post script {
+<br />  if ($context == 0D6A4D0){
+<br />      @eip = 00D6A4D3;
+<br />      printf(&#34;NOW WILL CALL %x\n&#34;,eip);
+<br />  }
+<br />}
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7181">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7179">↶ Reply to #7179</a>
+								
+
+								<a class="id" href="#7181">#7181</a>
+
+								
+
+								<span class="date">11:33 PM, 14 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									But, that&#39;s definitely not a reason for the crash. Is it a crash of HyperDbg (BSOD)? or the target program crashes through SEH?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-15">
+							<span class="title">15 July 2024 <span class="count">(34 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7182">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/grootdxb" class="username" rel="noreferer nopener nofollow">
+									
+										@grootdxb
+									
+								</a>
+
+								
+
+								<a class="id" href="#7182">#7182</a>
+
+								
+
+								<span class="date">12:20 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Why the hell is it &#34;EIP&#34; — 32 bit!? PLLLEASE STOP with 32-bit for the love of all thats Holy and precious.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7183">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7181">↶ Reply to #7181</a>
+								
+
+								<a class="id" href="#7183">#7183</a>
+
+								
+
+								<span class="date">04:44 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									App crash, hyberdbg is just fine. Yea, just got it that changing eip within one execution is pointless. Is there another way to call some code from script? Like xdbg script .asm sections?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7184">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7182">↶ Reply to #7182</a>
+								
+
+								<a class="id" href="#7184">#7184</a>
+
+								
+
+								<span class="date">04:45 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s 32 bit app I&#39;m trying to reverse )
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7185">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7185">#7185</a>
+
+								
+
+								<span class="date">05:32 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Starting from v0.10 (the next version), HyperDbg uses @keystone_engine as its assembler. ❤️
+<br />
+<br />Thanks to our new team member @Reverser69 for adding it.
+<br />
+<br />The following commands are added to assemble virtual and physical memory:
+<br />
+<br />- <a href="https://docs.hyperdbg.org/commands/debugging-commands/a" rel="noopener">https://docs.hyperdbg.org/commands/debugging-commands/a</a>
+<br />
+<br />- <a href="https://docs.hyperdbg.org/commands/extension-commands/a" rel="noopener">https://docs.hyperdbg.org/commands/extension-commands/a</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/commands/debugging-commands/a" rel="noreferer nopener nofollow">a (assemble virtual address) | HyperDbg Documentation</a>
+										
+											<p>Description of the &#39;a&#39; command in HyperDbg.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7186">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7185">↶ Reply to #7185</a>
+								
+
+								<a class="id" href="#7186">#7186</a>
+
+								
+
+								<span class="date">05:32 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									None
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7187">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7183">↶ Reply to #7183</a>
+								
+
+								<a class="id" href="#7187">#7187</a>
+
+								
+
+								<span class="date">05:35 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									No, actually if you wanna call something within an event, it&#39;ll be called from VMX root-mode. Though, not sure if it&#39;s because you&#39;re using it in the post stage or not.
+<br />
+<br />Can you put the &#39;!monitor&#39; check into the next address (the address after the current @eip) and use it in the regular &#39;pre&#39; stage?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7188">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7188">#7188</a>
+
+								
+
+								<span class="date">06:57 AM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I actually want to call next instruction after monitored address.. I used stage post, because on monitored instruction parameter for call was set, so it will be set up properly..
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7189">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7188">↶ Reply to #7188</a>
+								
+
+								<a class="id" href="#7189">#7189</a>
+
+								
+
+								<span class="date">05:27 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I was thinking about it. The thing is, after executing a call (pre stage), an MTF is set to bring the results back (post stage).
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7190">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7189">↶ Reply to #7189</a>
+								
+
+								<a class="id" href="#7190">#7190</a>
+
+								
+
+								<span class="date">05:28 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									This MTF will be executed exactly after one instruction. It doesn&#39;t work like a step-over, it&#39;s like a step-in.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7191">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7191">#7191</a>
+
+								
+
+								<span class="date">05:29 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									So, I don&#39;t have any idea what&#39;s going on inside HyperDbg with a post stage !monitor to a CALL instruction. 🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7192">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7192">#7192</a>
+
+								
+
+								<span class="date">05:31 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									The thing that you wanna do, seems more reasonable to be done by using an !epthook. But as probably you&#39;re dealing with an executable with lots of anti debugging methods, maybe modifying the stack and putting the return address of a CALL gadget works for this case?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7193">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7193">#7193</a>
+
+								
+
+								<span class="date">05:43 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									yes, thinking about playing with stack, its a pity, that code {} execution is in vmx-root...
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7194">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7194">#7194</a>
+
+								
+
+								<span class="date">05:45 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									epthooks are always detected.. not instantly, but after some time
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7195">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7193">↶ Reply to #7193</a>
+								
+
+								<a class="id" href="#7195">#7195</a>
+
+								
+
+								<span class="date">05:46 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									FYI, @Reverser69 is now working on bringing the support for assembly codes (keystone) within code {} statements, along with its classic hex format.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7196">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7196">#7196</a>
+
+								
+
+								<span class="date">05:47 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									thats good, but seems wont fix my situation :)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7197">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7197">#7197</a>
+
+								
+
+								<span class="date">05:48 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									i will give a try to call eb within script, maybe antidebug wont detect it instantly, so i will manage o put code back :) but there are aligment problems for sure
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7198">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7198">#7198</a>
+
+								
+
+								<span class="date">05:57 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett i also wanted to ask - is it possible to implement sleep(x) in script, so it pauses execution for x miliseconds?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7199">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7199">#7199</a>
+
+								
+
+								<span class="date">05:58 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									like pause() wait some time and resume
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7200">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7198">↶ Reply to #7198</a>
+								
+
+								<a class="id" href="#7200">#7200</a>
+
+								
+
+								<span class="date">06:01 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Don&#39;t have any idea how it&#39;s implemented in the OS-level functions or how we can implement it in VMX root-mode. 🤔
+<br />Does it need a timer configuration? 🤨
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7201">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7201">#7201</a>
+
+								
+
+								<span class="date">06:02 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									ah... but i need it only for one process, so it wont stop execution of whole vm
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7202">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7202">#7202</a>
+
+								
+
+								<span class="date">06:03 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									about timer - kernel32!GetTickCount might help
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7203">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7203">#7203</a>
+
+								
+
+								<span class="date">06:03 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									(i dont know 64bit windows call)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7204">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7204">#7204</a>
+
+								
+
+								<span class="date">06:04 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									in assembly its quite simple to do :D
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7205">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7205">#7205</a>
+
+								
+
+								<span class="date">06:05 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									call kernel32!SleepEx(time,0). it will break current process for time milis
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7206">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7205">↶ Reply to #7205</a>
+								
+
+								<a class="id" href="#7206">#7206</a>
+
+								
+
+								<span class="date">06:08 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									HyperDbg is in VMX root-mode, not user-mode 😕
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7207">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7207">#7207</a>
+
+								
+
+								<span class="date">06:08 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									i mean use sleep implementation as reference
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7208">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7201">↶ Reply to #7201</a>
+								
+
+								<a class="id" href="#7208">#7208</a>
+
+								
+
+								<span class="date">06:08 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									There are tons of way to do this. Let me find an example from OST2 videos
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7209">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7209">#7209</a>
+
+								
+
+								<span class="date">06:09 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									yes, maybe i missed something when watched
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7210">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7210">#7210</a>
+
+								
+
+								<span class="date">06:10 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									<a href="https://youtu.be/Z6HAO4btkCM?si=UXqIFckLW2fpeIIv" rel="noopener">https://youtu.be/Z6HAO4btkCM?si=UXqIFckLW2fpeIIv</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://youtu.be/Z6HAO4btkCM?si=UXqIFckLW2fpeIIv" rel="noreferer nopener nofollow">Dbg3301: HyperDbg 10 08 Ignoring Events</a>
+										
+											<p>View the full free MOOC at https://ost2.fyi/Dbg3301. This course is an introductory guide to HyperDbg debugger, guiding you through the initial steps of using HyperDbg, covering essential concepts, principles, debugging functionalities, along with practical examples and numerous reverse engineering methods that are unique to HyperDbg. Whether you have an interest in reverse engineering or seek to elevate your reverse engineering skills with hypervisor-assisted approaches, this course provides a solid foundation for starting your journey.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7211">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7210">↶ Reply to #7210</a>
+								
+
+								<a class="id" href="#7211">#7211</a>
+
+								
+
+								<span class="date">06:11 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									This one. You can use the short-circuiting mechanisom along with the !monitor&#39;s X attribute to pause the target process.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7212">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7212">#7212</a>
+
+								
+
+								<span class="date">06:12 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									i just thought about sc :)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7214">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7212">↶ Reply to #7212</a>
+								
+
+								<a class="id" href="#7214">#7214</a>
+
+								
+
+								<span class="date">06:12 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Another option is using the newly added !mode command+event_sc:
+<br />
+<br />https://docs.hyperdbg.org/commands/extension-commands/mode
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/commands/extension-commands/mode" rel="noreferer nopener nofollow">!mode (detect kernel-to-user and user-to-kernel transitions) | HyperDbg Documentation</a>
+										
+											<p>Description of the &#39;!mode&#39; command in HyperDbg.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7215">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7208">↶ Reply to #7208</a>
+								
+
+								<a class="id" href="#7215">#7215</a>
+
+								
+
+								<span class="date">06:16 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									ah.. i thought its related to timer somehow, of course i used monitors for pid with sc :)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7216">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7216">#7216</a>
+
+								
+
+								<span class="date">07:54 PM, 15 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  looks like i found solution about timer - can you pls add $timeD that returns time as milis, but not string, then by using global vars i can manage timing easily
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-16">
+							<span class="title">16 July 2024 <span class="count">(8 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7217">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7216">↶ Reply to #7216</a>
+								
+
+								<a class="id" href="#7217">#7217</a>
+
+								
+
+								<span class="date">01:57 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Only time in milis doesn&#39;t make sense since it will change each time you try to get it and it takes a long time to be ready (like some functions needed to be called) which makes it not a suitable case.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7218">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7218">#7218</a>
+
+								
+
+								<span class="date">01:57 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									What about a function for RDTSC/P? 🤨
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7219">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7217">↶ Reply to #7217</a>
+								
+
+								<a class="id" href="#7219">#7219</a>
+
+								
+
+								<span class="date">03:52 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									i understand, my solutions would be something like:
+<br />
+<br />if ($time - .oldTime &gt; 200){
+<br />  .oldTime = $time;
+<br />} else {eventsc(1))
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7220">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7220">#7220</a>
+
+								
+
+								<span class="date">03:52 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									i dont need high precision in my case
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7221">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7218">↶ Reply to #7218</a>
+								
+
+								<a class="id" href="#7221">#7221</a>
+
+								
+
+								<span class="date">03:53 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									looks interesting, i can execute it from code{} part, right ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7222">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7222">#7222</a>
+
+								
+
+								<span class="date">07:02 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett for now, my goal is achieved :) thanks once again for this great tool. i will continue to explore this app so i can find even more exploits
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7223">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7223">#7223</a>
+
+								
+
+								<span class="date">07:05 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									? .count = 0;
+<br />? ._ecx = 0;
+<br />? ._eax = 0;
+<br />? ._ebp = 0;
+<br />? ._esp = 0;
+<br />? .run = 0;
+<br />!monitor x D6A5E0 00D6A7AD script {
+<br />  
+<br />
+<br />  if ($context == D6A5E0){
+<br />    ptr = dd(esp+4);
+<br />    v0 = db(ptr);
+<br />    v2 = db(ptr+2);        
+<br />    if ((v0 == c1) &amp;&amp; (v2 == b7)) {
+<br />      printf(&#34;process pid %x ctx %x \n&#34;,$pid,$context );
+<br />      ._esp = esp;
+<br />      ._ecx = ecx;
+<br />      if (.count &lt; 5){
+<br />        printf(&#34;count less than 5, duplicating \n&#34;);
+<br />        .run = 1;
+<br />      } else {
+<br />        printf(&#34;count is 5, stop duplicating \n&#34;);
+<br />        .run = 0;
+<br />        .count = 0;
+<br />      }
+<br />    }
+<br />  }
+<br />  
+<br />  if ($context == 00D6A7AD &amp;&amp; .run == 1){
+<br />    printf(&#34;process pid %x %x TURBO\n&#34;,$pid, .count);
+<br />    //eax = ._eax;
+<br />    ecx = ._ecx;
+<br />    //ebp = ._ebp;
+<br />    //esp = ._esp;
+<br />    eip = D6A5E0;
+<br />    .count = .count + 1;
+<br />    event_sc(1);
+<br />  }
+<br />}
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7224">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7224">#7224</a>
+
+								
+
+								<span class="date">07:05 PM, 16 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									it recursively calls same sub 00D6A7AD in this case 5 times, and then exits
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-17">
+							<span class="title">17 July 2024 <span class="count">(7 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7225">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7221">↶ Reply to #7221</a>
+								
+
+								<a class="id" href="#7225">#7225</a>
+
+								
+
+								<span class="date">04:08 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									No, I mean a function in the script engine.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7226">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7222">↶ Reply to #7222</a>
+								
+
+								<a class="id" href="#7226">#7226</a>
+
+								
+
+								<span class="date">04:09 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Oh, the problem is solved now?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7227">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7227">#7227</a>
+
+								
+
+								<span class="date">04:56 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									Timer problem not, but recursive call is
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7228">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7227">↶ Reply to #7227</a>
+								
+
+								<a class="id" href="#7228">#7228</a>
+
+								
+
+								<span class="date">05:18 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									No problem, I could implement that, but just to confirm it with you, do you expect to sleep() and halt the entire core for a couple of seconds or do you want to make sleep() only the target thread?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7229">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7228">↶ Reply to #7228</a>
+								
+
+								<a class="id" href="#7229">#7229</a>
+
+								
+
+								<span class="date">06:10 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									mm depends whats simplier :)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7230">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7230">#7230</a>
+
+								
+
+								<span class="date">06:10 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									im fine with both variants
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7231">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7231">#7231</a>
+
+								
+
+								<span class="date">06:11 PM, 17 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									maybe for single thread will be more useful
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-07-18">
+							<span class="title">18 July 2024 <span class="count">(2 messages)</span></span>
+						</li>
+					
+					<li class="message type-user_joined" id="7232">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/7370627757" class="username" rel="noreferer nopener nofollow">
+									
+										@7370627757
+									
+								</a>
+
+								
+
+								<a class="id" href="#7232">#7232</a>
+
+								
+
+								<span class="date">03:03 AM, 18 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7233">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-07.html#7231">↶ Reply to #7231</a>
+								
+
+								<a class="id" href="#7233">#7233</a>
+
+								
+
+								<span class="date">04:21 AM, 18 Jul 2024</span>
+							</div>
+							<div class="text">
+								
+									I think for the thread variant it&#39;s better to patch the execution flow (e.g. some assembly codes at @rip or somewhere else), but for the VMX-root variant, I&#39;ll try to see what&#39;s the best method of adding such a function.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
 			</ul>
 
 			
@@ -5260,7 +9205,67 @@
 				
 					<li class="day-2024-07-07">
 						<a href="2024-07.html#2024-07-07">
-							07 Jul 2024 <span class="count">(12)</span>
+							07 Jul 2024 <span class="count">(19)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-08">
+						<a href="2024-07.html#2024-07-08">
+							08 Jul 2024 <span class="count">(13)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-10">
+						<a href="2024-07.html#2024-07-10">
+							10 Jul 2024 <span class="count">(5)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-11">
+						<a href="2024-07.html#2024-07-11">
+							11 Jul 2024 <span class="count">(11)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-12">
+						<a href="2024-07.html#2024-07-12">
+							12 Jul 2024 <span class="count">(9)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-13">
+						<a href="2024-07.html#2024-07-13">
+							13 Jul 2024 <span class="count">(6)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-14">
+						<a href="2024-07.html#2024-07-14">
+							14 Jul 2024 <span class="count">(4)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-15">
+						<a href="2024-07.html#2024-07-15">
+							15 Jul 2024 <span class="count">(34)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-16">
+						<a href="2024-07.html#2024-07-16">
+							16 Jul 2024 <span class="count">(8)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-17">
+						<a href="2024-07.html#2024-07-17">
+							17 Jul 2024 <span class="count">(7)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-07-18">
+						<a href="2024-07.html#2024-07-18">
+							18 Jul 2024 <span class="count">(2)</span>
 						</a>
 					</li>
 				
