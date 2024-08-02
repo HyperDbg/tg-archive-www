@@ -6,842 +6,843 @@
     <description>Public archive of HyperDbg Telegram messages.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>tg-archive 1.1.3</generator>
-    <lastBuildDate>Thu, 18 Jul 2024 04:23:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Aug 2024 05:15:43 +0000</lastBuildDate>
     <item>
-      <title>@HughEverett on 2024-07-18 04:21:16+00:00 (#7233)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7233</link>
-      <description>I think for the thread variant it's better to patch the execution flow (e.g. some assembly codes at @rip or somewhere else), but for the VMX-root variant, I'll try to see what's the best method of adding such a function.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7233</guid>
-      <pubDate>Thu, 18 Jul 2024 04:21:16 +0000</pubDate>
+      <title>@HyperDbgBot on 2024-08-01 19:13:48+00:00 (#7429)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7429</link>
+      <description>[discord] &lt;ohault&gt; [reply]: https://github.com/KVM-VMI/nitro/blob/master/doc/source/architecture.rst</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7429</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/KVM-VMI/nitro/blob/master/doc/source/architecture.rst" length="0" type="application/octet-stream"/>
+      <pubDate>Thu, 01 Aug 2024 19:13:48 +0000</pubDate>
     </item>
     <item>
-      <title>@7370627757 on 2024-07-18 03:03:37+00:00 (#7232)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7232</link>
+      <title>@HughEverett on 2024-08-01 18:56:45+00:00 (#7428)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7428</link>
+      <description>Nitro? 🤨</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7428</guid>
+      <pubDate>Thu, 01 Aug 2024 18:56:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-08-01 18:37:17+00:00 (#7427)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7427</link>
+      <description>[discord] &lt;ohault&gt; That’s really interesting. It is somehow similar to Nitro backends</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7427</guid>
+      <pubDate>Thu, 01 Aug 2024 18:37:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-08-01 18:01:06+00:00 (#7426)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7426</link>
+      <description>We can add Windows stuff to HyperDbg, but we've tried to keep HyperDbg as OS-independent as possible so we can easily port it to other systems in the future. (Though we did end up using a lot of Windows semantics in it.) Right now, we're planning to move those OS-specific parts to the script engine and create standard libraries to handle different symbols and structures there. @xmaple555 is currently working on adding types to the script engine. Once that's done, we'll start making standard functions to analyze, view, or modify the Windows-specific stuff in the scriptsl libraries.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7426</guid>
+      <pubDate>Thu, 01 Aug 2024 18:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>@hostar222 on 2024-08-01 17:52:25+00:00 (#7425)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7425</link>
       <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7232</guid>
-      <pubDate>Thu, 18 Jul 2024 03:03:37 +0000</pubDate>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7425</guid>
+      <pubDate>Thu, 01 Aug 2024 17:52:25 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-17 18:11:18+00:00 (#7231)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7231</link>
-      <description>maybe for single thread will be more useful</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7231</guid>
-      <pubDate>Wed, 17 Jul 2024 18:11:18 +0000</pubDate>
+      <title>@HyperDbgBot on 2024-08-01 17:24:23+00:00 (#7424)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7424</link>
+      <description>[discord] &lt;ohault&gt; Would it be possible to map the Windows semantics about well known topics like file, registry, process, network interface, …. towards whatever external monitor agents?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7424</guid>
+      <pubDate>Thu, 01 Aug 2024 17:24:23 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-17 18:10:53+00:00 (#7230)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7230</link>
-      <description>im fine with both variants</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7230</guid>
-      <pubDate>Wed, 17 Jul 2024 18:10:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-17 18:10:14+00:00 (#7229)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7229</link>
-      <description>mm depends whats simplier :)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7229</guid>
-      <pubDate>Wed, 17 Jul 2024 18:10:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-17 17:18:54+00:00 (#7228)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7228</link>
-      <description>No problem, I could implement that, but just to confirm it with you, do you expect to sleep() and halt the entire core for a couple of seconds or do you want to make sleep() only the target thread?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7228</guid>
-      <pubDate>Wed, 17 Jul 2024 17:18:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-17 16:56:08+00:00 (#7227)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7227</link>
-      <description>Timer problem not, but recursive call is</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7227</guid>
-      <pubDate>Wed, 17 Jul 2024 16:56:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-17 16:09:01+00:00 (#7226)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7226</link>
-      <description>Oh, the problem is solved now?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7226</guid>
-      <pubDate>Wed, 17 Jul 2024 16:09:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-17 16:08:41+00:00 (#7225)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7225</link>
-      <description>No, I mean a function in the script engine.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7225</guid>
-      <pubDate>Wed, 17 Jul 2024 16:08:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 19:05:36+00:00 (#7224)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7224</link>
-      <description>it recursively calls same sub 00D6A7AD in this case 5 times, and then exits</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7224</guid>
-      <pubDate>Tue, 16 Jul 2024 19:05:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 19:05:06+00:00 (#7223)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7223</link>
-      <description>? .count = 0;
-? ._ecx = 0;
-? ._eax = 0;
-? ._ebp = 0;
-? ._esp = 0;
-? .run = 0;
-!monitor x D6A5E0 00D6A7AD script {
-  
+      <title>@HughEverett on 2024-08-01 17:15:15+00:00 (#7423)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7423</link>
+      <description>You have plenty of options as long as you know the functions that are trying to communicate with the filesystem.
 
-  if ($context == D6A5E0){
-    ptr = dd(esp+4);
-    v0 = db(ptr);
-    v2 = db(ptr+2);        
-    if ((v0 == c1) &amp;&amp; (v2 == b7)) {
-      printf("process pid %x ctx %x \n",$pid,$context );
-      ._esp = esp;
-      ._ecx = ecx;
-      if (.count &lt; 5){
-        printf("count less than 5, duplicating \n");
-        .run = 1;
-      } else {
-        printf("count is 5, stop duplicating \n");
-        .run = 0;
-        .count = 0;
-      }
-    }
-  }
-  
-  if ($context == 00D6A7AD &amp;&amp; .run == 1){
-    printf("process pid %x %x TURBO\n",$pid, .count);
-    //eax = ._eax;
-    ecx = ._ecx;
-    //ebp = ._ebp;
-    //esp = ._esp;
-    eip = D6A5E0;
-    .count = .count + 1;
-    event_sc(1);
-  }
-}</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7223</guid>
-      <pubDate>Tue, 16 Jul 2024 19:05:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 19:02:54+00:00 (#7222)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7222</link>
-      <description>@HughEverett for now, my goal is achieved :) thanks once again for this great tool. i will continue to explore this app so i can find even more exploits</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7222</guid>
-      <pubDate>Tue, 16 Jul 2024 19:02:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 15:53:31+00:00 (#7221)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7221</link>
-      <description>looks interesting, i can execute it from code{} part, right ?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7221</guid>
-      <pubDate>Tue, 16 Jul 2024 15:53:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 15:52:36+00:00 (#7220)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7220</link>
-      <description>i dont need high precision in my case</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7220</guid>
-      <pubDate>Tue, 16 Jul 2024 15:52:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-16 15:52:13+00:00 (#7219)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7219</link>
-      <description>i understand, my solutions would be something like:
+Probably the easiest one is using a simple '!epthook' to monitor your target function.
 
-if ($time - .oldTime &gt; 200){
-  .oldTime = $time;
-} else {eventsc(1))</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7219</guid>
-      <pubDate>Tue, 16 Jul 2024 15:52:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-16 13:57:30+00:00 (#7218)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7218</link>
-      <description>What about a function for RDTSC/P? 🤨</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7218</guid>
-      <pubDate>Tue, 16 Jul 2024 13:57:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-16 13:57:10+00:00 (#7217)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7217</link>
-      <description>Only time in milis doesn't make sense since it will change each time you try to get it and it takes a long time to be ready (like some functions needed to be called) which makes it not a suitable case.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7217</guid>
-      <pubDate>Tue, 16 Jul 2024 13:57:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 19:54:35+00:00 (#7216)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7216</link>
-      <description>@HughEverett  looks like i found solution about timer - can you pls add $timeD that returns time as milis, but not string, then by using global vars i can manage timing easily</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7216</guid>
-      <pubDate>Mon, 15 Jul 2024 19:54:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:16:50+00:00 (#7215)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7215</link>
-      <description>ah.. i thought its related to timer somehow, of course i used monitors for pid with sc :)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7215</guid>
-      <pubDate>Mon, 15 Jul 2024 18:16:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 18:12:47+00:00 (#7214)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7214</link>
-      <description>Another option is using the newly added !mode command+event_sc:
+Please see:
+https://youtu.be/tjsFRBFGis4?si=llWvBcDxY8-31qMO
 
-https://docs.hyperdbg.org/commands/extension-commands/mode</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7214</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/extension-commands/mode" length="0" type="application/octet-stream"/>
-      <pubDate>Mon, 15 Jul 2024 18:12:47 +0000</pubDate>
+Or if you want to monitor the PCIe buffer accesses for the filesystem, you could use the '!monitor' command as well.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7423</guid>
+      <pubDate>Thu, 01 Aug 2024 17:15:15 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-15 18:12:02+00:00 (#7212)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7212</link>
-      <description>i just thought about sc :)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7212</guid>
-      <pubDate>Mon, 15 Jul 2024 18:12:02 +0000</pubDate>
+      <title>@HyperDbgBot on 2024-08-01 16:48:40+00:00 (#7422)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-08.html#7422</link>
+      <description>[discord] &lt;ohault&gt; I wonder what could be the best way to monitor the filesystem access of a VM through HyperDbg?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-08.html#7422</guid>
+      <pubDate>Thu, 01 Aug 2024 16:48:40 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-15 18:11:21+00:00 (#7211)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7211</link>
-      <description>This one. You can use the short-circuiting mechanisom along with the !monitor's X attribute to pause the target process.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7211</guid>
-      <pubDate>Mon, 15 Jul 2024 18:11:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 18:10:24+00:00 (#7210)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7210</link>
-      <description>https://youtu.be/Z6HAO4btkCM?si=UXqIFckLW2fpeIIv</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7210</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/https://youtu.be/Z6HAO4btkCM?si=UXqIFckLW2fpeIIv" length="0" type="application/octet-stream"/>
-      <pubDate>Mon, 15 Jul 2024 18:10:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:09:21+00:00 (#7209)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7209</link>
-      <description>yes, maybe i missed something when watched</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7209</guid>
-      <pubDate>Mon, 15 Jul 2024 18:09:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 18:08:52+00:00 (#7208)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7208</link>
-      <description>There are tons of way to do this. Let me find an example from OST2 videos</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7208</guid>
-      <pubDate>Mon, 15 Jul 2024 18:08:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:08:44+00:00 (#7207)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7207</link>
-      <description>i mean use sleep implementation as reference</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7207</guid>
-      <pubDate>Mon, 15 Jul 2024 18:08:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 18:08:17+00:00 (#7206)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7206</link>
-      <description>HyperDbg is in VMX root-mode, not user-mode 😕</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7206</guid>
-      <pubDate>Mon, 15 Jul 2024 18:08:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:05:07+00:00 (#7205)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7205</link>
-      <description>call kernel32!SleepEx(time,0). it will break current process for time milis</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7205</guid>
-      <pubDate>Mon, 15 Jul 2024 18:05:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:04:17+00:00 (#7204)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7204</link>
-      <description>in assembly its quite simple to do :D</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7204</guid>
-      <pubDate>Mon, 15 Jul 2024 18:04:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:03:39+00:00 (#7203)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7203</link>
-      <description>(i dont know 64bit windows call)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7203</guid>
-      <pubDate>Mon, 15 Jul 2024 18:03:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:03:20+00:00 (#7202)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7202</link>
-      <description>about timer - kernel32!GetTickCount might help</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7202</guid>
-      <pubDate>Mon, 15 Jul 2024 18:03:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 18:02:53+00:00 (#7201)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7201</link>
-      <description>ah... but i need it only for one process, so it wont stop execution of whole vm</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7201</guid>
-      <pubDate>Mon, 15 Jul 2024 18:02:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 18:01:09+00:00 (#7200)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7200</link>
-      <description>Don't have any idea how it's implemented in the OS-level functions or how we can implement it in VMX root-mode. 🤔
-Does it need a timer configuration? 🤨</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7200</guid>
-      <pubDate>Mon, 15 Jul 2024 18:01:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:58:11+00:00 (#7199)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7199</link>
-      <description>like pause() wait some time and resume</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7199</guid>
-      <pubDate>Mon, 15 Jul 2024 17:58:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:57:56+00:00 (#7198)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7198</link>
-      <description>@HughEverett i also wanted to ask - is it possible to implement sleep(x) in script, so it pauses execution for x miliseconds?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7198</guid>
-      <pubDate>Mon, 15 Jul 2024 17:57:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:48:55+00:00 (#7197)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7197</link>
-      <description>i will give a try to call eb within script, maybe antidebug wont detect it instantly, so i will manage o put code back :) but there are aligment problems for sure</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7197</guid>
-      <pubDate>Mon, 15 Jul 2024 17:48:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:47:57+00:00 (#7196)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7196</link>
-      <description>thats good, but seems wont fix my situation :)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7196</guid>
-      <pubDate>Mon, 15 Jul 2024 17:47:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 17:46:26+00:00 (#7195)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7195</link>
-      <description>FYI, @Reverser69 is now working on bringing the support for assembly codes (keystone) within code {} statements, along with its classic hex format.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7195</guid>
-      <pubDate>Mon, 15 Jul 2024 17:46:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:45:05+00:00 (#7194)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7194</link>
-      <description>epthooks are always detected.. not instantly, but after some time</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7194</guid>
-      <pubDate>Mon, 15 Jul 2024 17:45:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 17:43:59+00:00 (#7193)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7193</link>
-      <description>yes, thinking about playing with stack, its a pity, that code {} execution is in vmx-root...</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7193</guid>
-      <pubDate>Mon, 15 Jul 2024 17:43:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 17:31:43+00:00 (#7192)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7192</link>
-      <description>The thing that you wanna do, seems more reasonable to be done by using an !epthook. But as probably you're dealing with an executable with lots of anti debugging methods, maybe modifying the stack and putting the return address of a CALL gadget works for this case?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7192</guid>
-      <pubDate>Mon, 15 Jul 2024 17:31:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 17:29:03+00:00 (#7191)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7191</link>
-      <description>So, I don't have any idea what's going on inside HyperDbg with a post stage !monitor to a CALL instruction. 🤔</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7191</guid>
-      <pubDate>Mon, 15 Jul 2024 17:29:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 17:28:11+00:00 (#7190)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7190</link>
-      <description>This MTF will be executed exactly after one instruction. It doesn't work like a step-over, it's like a step-in.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7190</guid>
-      <pubDate>Mon, 15 Jul 2024 17:28:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 17:27:21+00:00 (#7189)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7189</link>
-      <description>I was thinking about it. The thing is, after executing a call (pre stage), an MTF is set to bring the results back (post stage).</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7189</guid>
-      <pubDate>Mon, 15 Jul 2024 17:27:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-15 06:57:53+00:00 (#7188)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7188</link>
-      <description>I actually want to call next instruction after monitored address.. I used stage post, because on monitored instruction parameter for call was set, so it will be set up properly..</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7188</guid>
-      <pubDate>Mon, 15 Jul 2024 06:57:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 05:35:59+00:00 (#7187)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7187</link>
-      <description>No, actually if you wanna call something within an event, it'll be called from VMX root-mode. Though, not sure if it's because you're using it in the post stage or not.
-
-Can you put the '!monitor' check into the next address (the address after the current @eip) and use it in the regular 'pre' stage?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7187</guid>
-      <pubDate>Mon, 15 Jul 2024 05:35:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-15 05:32:36+00:00 (#7186)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7186</link>
+      <title>@nsky99 on 2024-07-30 17:33:57+00:00 (#7421)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7421</link>
       <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7186</guid>
-      <pubDate>Mon, 15 Jul 2024 05:32:36 +0000</pubDate>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7421</guid>
+      <pubDate>Tue, 30 Jul 2024 17:33:57 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-15 05:32:28+00:00 (#7185)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7185</link>
-      <description>Starting from v0.10 (the next version), HyperDbg uses @keystone_engine as its assembler. ❤️
+      <title>@darw1n on 2024-07-29 22:25:52+00:00 (#7420)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7420</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7420</guid>
+      <pubDate>Mon, 29 Jul 2024 22:25:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>@7125764635 on 2024-07-29 20:52:54+00:00 (#7419)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7419</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7419</guid>
+      <pubDate>Mon, 29 Jul 2024 20:52:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-29 16:29:09+00:00 (#7418)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7418</link>
+      <description>Dump of all page tables?
 
-Thanks to our new team member @Reverser69 for adding it.
+HyperDbg already shows the page table entries, but won't dump them. You could use a combination of the '!pte' command + the '.dump' command to perform that.
 
-The following commands are added to assemble virtual and physical memory:
+https://docs.hyperdbg.org/commands/extension-commands/pte
 
+https://docs.hyperdbg.org/commands/meta-commands/.dump</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7418</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/extension-commands/pte" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 29 Jul 2024 16:29:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-29 16:27:03+00:00 (#7417)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7417</link>
+      <description>What do you mean by inspecting kernel structures? 
+
+Is it anything other than the 'struct' command?
+
+https://docs.hyperdbg.org/commands/debugging-commands/struct</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7417</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/debugging-commands/struct" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 29 Jul 2024 16:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-07-29 05:29:44+00:00 (#7416)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7416</link>
+      <description>[discord] &lt;oi_its_me&gt; Test</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7416</guid>
+      <pubDate>Mon, 29 Jul 2024 05:29:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>@supermanfranky on 2024-07-29 05:28:42+00:00 (#7415)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7415</link>
+      <description>Also, is there desire to be able to print the dump the page table for a process?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7415</guid>
+      <pubDate>Mon, 29 Jul 2024 05:28:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>@supermanfranky on 2024-07-29 05:26:09+00:00 (#7414)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7414</link>
+      <description>Is there any desire to detect and inspect undocumented windows kerbel structures.
+
+Such as these: https://www.vergiliusproject.com/kernels/x64</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7414</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://www.vergiliusproject.com/kernels/x64" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 29 Jul 2024 05:26:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-29 04:59:13+00:00 (#7413)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7413</link>
+      <description>there is no copy of the source code left(((</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7413</guid>
+      <pubDate>Mon, 29 Jul 2024 04:59:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-29 04:34:16+00:00 (#7412)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7412</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7412</guid>
+      <pubDate>Mon, 29 Jul 2024 04:34:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-29 04:34:09+00:00 (#7411)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7411</link>
+      <description>Hi everyone!
+
+We've updated the list of things for which we need contributions from the community in HyperDbg!
+
+If you have some free time, you're more than welcome to join and contribute to the HyperDbg debugger. 😊✨
+
+Check it out:
+
+https://github.com/HyperDbg/HyperDbg/blob/dev/CONTRIBUTING.md</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7411</guid>
+      <pubDate>Mon, 29 Jul 2024 04:34:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-28 17:39:26+00:00 (#7410)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7410</link>
+      <description>I don't remember what I did on that branch, did you clone it somewhere in your computer?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7410</guid>
+      <pubDate>Sun, 28 Jul 2024 17:39:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-28 17:38:48+00:00 (#7409)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7409</link>
+      <description>It seems that it's deleted.
+
+https://stackoverflow.com/questions/2613903/does-deleting-a-branch-in-git-remove-it-from-the-history</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7409</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://stackoverflow.com/questions/2613903/does-deleting-a-branch-in-git-remove-it-from-the-history" length="0" type="application/octet-stream"/>
+      <pubDate>Sun, 28 Jul 2024 17:38:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-28 04:25:22+00:00 (#7407)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7407</link>
+      <description>there was a solution to this problem in the cpuid_flags_tf branch https://howtohypervise .blogspot.com/2019/01/a-common-missight-in-most-hypervisors.html . Is it possible to return this branch?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7407</guid>
+      <pubDate>Sun, 28 Jul 2024 04:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@nitcat on 2024-07-28 00:04:53+00:00 (#7406)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7406</link>
+      <description>Why are you everywhere @invlpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7406</guid>
+      <pubDate>Sun, 28 Jul 2024 00:04:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>@invlpg on 2024-07-27 17:49:42+00:00 (#7405)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7405</link>
+      <description>@HughEverett ^^</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7405</guid>
+      <pubDate>Sat, 27 Jul 2024 17:49:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>@nitcat on 2024-07-27 02:29:45+00:00 (#7401)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7401</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7401</guid>
+      <pubDate>Sat, 27 Jul 2024 02:29:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 18:17:53+00:00 (#7400)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7400</link>
+      <description>It's also accessible through the script engine using @rflag register.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7400</guid>
+      <pubDate>Fri, 26 Jul 2024 18:17:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 18:17:25+00:00 (#7399)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7399</link>
+      <description>In the Debugger Mode, if the debugee is paused, you could view/modify the trap flag using the 'r' command.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7399</guid>
+      <pubDate>Fri, 26 Jul 2024 18:17:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 17:59:35+00:00 (#7398)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7398</link>
+      <description>Can it be returned?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7398</guid>
+      <pubDate>Fri, 26 Jul 2024 17:59:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 17:59:18+00:00 (#7397)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7397</link>
+      <description>emote project</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7397</guid>
+      <pubDate>Fri, 26 Jul 2024 17:59:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>@7058036947 on 2024-07-26 17:57:51+00:00 (#7396)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7396</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7396</guid>
+      <pubDate>Fri, 26 Jul 2024 17:57:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 17:18:05+00:00 (#7395)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7395</link>
+      <description>What do you mean by return trap flag from cpuid? 🤨</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7395</guid>
+      <pubDate>Fri, 26 Jul 2024 17:18:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 17:17:25+00:00 (#7394)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7394</link>
+      <description>Ah, it seems to be deleted. 😔</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7394</guid>
+      <pubDate>Fri, 26 Jul 2024 17:17:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 13:16:45+00:00 (#7393)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7393</link>
+      <description>is there a way to return the cpuid with trap.flag?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7393</guid>
+      <pubDate>Fri, 26 Jul 2024 13:16:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@243494329 on 2024-07-26 11:36:03+00:00 (#7392)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7392</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7392</guid>
+      <pubDate>Fri, 26 Jul 2024 11:36:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 08:10:55+00:00 (#7391)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7391</link>
+      <description>there seemed to be a cpuid-trapflag project...</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7391</guid>
+      <pubDate>Fri, 26 Jul 2024 08:10:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 08:10:22+00:00 (#7390)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7390</link>
+      <description>photo_2024-07-26_08-10-22.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7390</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/7390.jpg" length="97641" type="image/jpeg"/>
+      <pubDate>Fri, 26 Jul 2024 08:10:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 08:08:23+00:00 (#7389)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7389</link>
+      <description>Forgot to say that #HyperDbg v0.10 also supports event forwarding to external binary (DLLs) modules.
+
+- If you want to use HyperDbg events in your function, check out the guide:
+https://docs.hyperdbg.org/tips-and-tricks/misc/event-forwarding
+
+- Rust/C++ implementations are available here: 
+https://github.com/HyperDbg/event-forwarding-examples</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7389</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/tips-and-tricks/misc/event-forwarding" length="0" type="application/octet-stream"/>
+      <pubDate>Fri, 26 Jul 2024 08:08:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 08:08:14+00:00 (#7388)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7388</link>
+      <description>Is it deleted? 🤨</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7388</guid>
+      <pubDate>Fri, 26 Jul 2024 08:08:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 07:57:04+00:00 (#7387)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7387</link>
+      <description>there was a flag-cpuid branch, can it be returned somehow?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7387</guid>
+      <pubDate>Fri, 26 Jul 2024 07:57:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 07:50:06+00:00 (#7386)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7386</link>
+      <description>I spent time on finding the issue but it seems that it needs more investigation, I added it to the contributing list (to-do) list.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7386</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/7386.jpg" length="78141" type="image/jpeg"/>
+      <pubDate>Fri, 26 Jul 2024 07:50:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-26 07:49:11+00:00 (#7385)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7385</link>
+      <description>If you mean v0.10, then unfortunately no! ☹️</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7385</guid>
+      <pubDate>Fri, 26 Jul 2024 07:49:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>@instw0 on 2024-07-26 04:59:12+00:00 (#7384)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7384</link>
+      <description>hyperdbg v 1.0 support trapflag in cpuid?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7384</guid>
+      <pubDate>Fri, 26 Jul 2024 04:59:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>@5920057923 on 2024-07-25 11:38:15+00:00 (#7383)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7383</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7383</guid>
+      <pubDate>Thu, 25 Jul 2024 11:38:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HanFei1777 on 2024-07-25 10:53:12+00:00 (#7382)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7382</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7382</guid>
+      <pubDate>Thu, 25 Jul 2024 10:53:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Karen_Webe on 2024-07-24 18:30:11+00:00 (#7381)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7381</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7381</guid>
+      <pubDate>Wed, 24 Jul 2024 18:30:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>@SavithaBalaj on 2024-07-24 18:14:54+00:00 (#7380)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7380</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7380</guid>
+      <pubDate>Wed, 24 Jul 2024 18:14:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Devansh_Mittai on 2024-07-24 17:37:56+00:00 (#7379)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7379</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7379</guid>
+      <pubDate>Wed, 24 Jul 2024 17:37:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>@6169881296 on 2024-07-24 17:13:06+00:00 (#7378)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7378</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7378</guid>
+      <pubDate>Wed, 24 Jul 2024 17:13:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HAMISHEGI on 2024-07-24 14:00:53+00:00 (#7377)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7377</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7377</guid>
+      <pubDate>Wed, 24 Jul 2024 14:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Chesssecond on 2024-07-24 12:31:15+00:00 (#7376)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7376</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7376</guid>
+      <pubDate>Wed, 24 Jul 2024 12:31:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Yosefso on 2024-07-24 07:15:46+00:00 (#7375)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7375</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7375</guid>
+      <pubDate>Wed, 24 Jul 2024 07:15:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>@ChellamRamesh on 2024-07-24 00:55:18+00:00 (#7374)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7374</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7374</guid>
+      <pubDate>Wed, 24 Jul 2024 00:55:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-23 11:13:18+00:00 (#7359)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7359</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7359</guid>
+      <pubDate>Tue, 23 Jul 2024 11:13:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>@piranidev on 2024-07-23 09:03:08+00:00 (#7357)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7357</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7357</guid>
+      <pubDate>Tue, 23 Jul 2024 09:03:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>@6388720268 on 2024-07-23 08:31:49+00:00 (#7356)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7356</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7356</guid>
+      <pubDate>Tue, 23 Jul 2024 08:31:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>@badberake on 2024-07-23 08:20:22+00:00 (#7355)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7355</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7355</guid>
+      <pubDate>Tue, 23 Jul 2024 08:20:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@b00tkitism on 2024-07-23 08:20:06+00:00 (#7354)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7354</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7354</guid>
+      <pubDate>Tue, 23 Jul 2024 08:20:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Rootasuser on 2024-07-23 08:18:27+00:00 (#7353)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7353</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7353</guid>
+      <pubDate>Tue, 23 Jul 2024 08:18:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 18:04:22+00:00 (#7352)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7352</link>
+      <description>This would be super cool! 👌🤔</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7352</guid>
+      <pubDate>Mon, 22 Jul 2024 18:04:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 18:04:07+00:00 (#7351)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7351</link>
+      <description>This way, we could add lots of cool functions for modifying Windows as a standard library (say Windows.ds), and then import it and use it in the scripts.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7351</guid>
+      <pubDate>Mon, 22 Jul 2024 18:04:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 18:03:02+00:00 (#7350)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7350</link>
+      <description>I think some functionalities like Windows-specific routines (and in the future other functions) that needs interaction with symbols (structure offsets and function addresses) are better to be implemented in the script-engine.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7350</guid>
+      <pubDate>Mon, 22 Jul 2024 18:03:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>@xmaple555 on 2024-07-22 17:59:58+00:00 (#7349)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7349</link>
+      <description>😅, the current grammar of the script-engine is free ambiguous, so it is not difficult like C to implement it</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7349</guid>
+      <pubDate>Mon, 22 Jul 2024 17:59:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:59:38+00:00 (#7348)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7348</link>
+      <description>We could start implementing standard script functions.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7348</guid>
+      <pubDate>Mon, 22 Jul 2024 17:59:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:58:45+00:00 (#7347)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7347</link>
+      <description>Not sure if it's possible 🤔</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7347</guid>
+      <pubDate>Mon, 22 Jul 2024 17:58:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:58:28+00:00 (#7346)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7346</link>
+      <description>But, .ds files might be good if we could implement functions in it and import it to other .ds files.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7346</guid>
+      <pubDate>Mon, 22 Jul 2024 17:58:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:57:39+00:00 (#7345)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7345</link>
+      <description>C files needs compiler which is really hard to do.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7345</guid>
+      <pubDate>Mon, 22 Jul 2024 17:57:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:57:10+00:00 (#7344)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7344</link>
+      <description>No, I think he means include of .ds files.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7344</guid>
+      <pubDate>Mon, 22 Jul 2024 17:57:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>@xmaple555 on 2024-07-22 17:56:44+00:00 (#7343)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7343</link>
+      <description>if you mean include the C file to the script-engine, that must be really difficult to do it</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7343</guid>
+      <pubDate>Mon, 22 Jul 2024 17:56:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:56:08+00:00 (#7342)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7342</link>
+      <description>This way, we could even pre-load a bunch of standard scripts.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7342</guid>
+      <pubDate>Mon, 22 Jul 2024 17:56:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:55:40+00:00 (#7341)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7341</link>
+      <description>My first idea is passing a pointer to a buffer where links for the buffers of scripts are stored.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7341</guid>
+      <pubDate>Mon, 22 Jul 2024 17:55:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 17:54:33+00:00 (#7340)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7340</link>
+      <description>This one is really something if it could be added! @xmaple555  🤔</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7340</guid>
+      <pubDate>Mon, 22 Jul 2024 17:54:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>@S4l3H on 2024-07-22 17:53:24+00:00 (#7339)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7339</link>
+      <description>I just wonder whether there is any plan for adding something like import or #include to the dslang scripts?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7339</guid>
+      <pubDate>Mon, 22 Jul 2024 17:53:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>@frendguo on 2024-07-22 15:07:22+00:00 (#7337)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7337</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7337</guid>
+      <pubDate>Mon, 22 Jul 2024 15:07:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@supermanfranky on 2024-07-22 13:12:59+00:00 (#7336)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7336</link>
+      <description>Congrats on the release!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7336</guid>
+      <pubDate>Mon, 22 Jul 2024 13:12:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>@supermanfranky on 2024-07-22 13:08:35+00:00 (#7335)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7335</link>
+      <description>Thanks!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7335</guid>
+      <pubDate>Mon, 22 Jul 2024 13:08:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 07:40:51+00:00 (#7334)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7334</link>
+      <description>cc @supermanfranky</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7334</guid>
+      <pubDate>Mon, 22 Jul 2024 07:40:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 07:40:31+00:00 (#7333)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7333</link>
+      <description>Here is an updated list of tasks that needs contributions from the community members:
+
+https://github.com/HyperDbg/HyperDbg/blob/dev/CONTRIBUTING.md</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7333</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/blob/dev/CONTRIBUTING.md" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 22 Jul 2024 07:40:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 05:09:45+00:00 (#7332)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7332</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7332</guid>
+      <pubDate>Mon, 22 Jul 2024 05:09:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Reverser69 on 2024-07-22 04:50:46+00:00 (#7331)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7331</link>
+      <description>Right on</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7331</guid>
+      <pubDate>Mon, 22 Jul 2024 04:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 04:49:39+00:00 (#7330)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7330</link>
+      <description>Thanks to @xmaple555 and @Reverser69 for their great contributions in this release. ❤️</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7330</guid>
+      <pubDate>Mon, 22 Jul 2024 04:49:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 04:48:56+00:00 (#7329)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7329</link>
+      <description># Changelog
+
+## Added
+- Support using assembly conditions and codes in all events 
+- Added the assembler command 'a' for virtual memory 
+- Added the assembler command '!a' for physical memory 
+- Providing a unified SDK API for reading memory in the VMI Mode and the Debugger Mode
+- Export SDK APIs for reading/writing into registers in the Debugger Mode
+- Export SDK API for writing memory in the VMI Mode and the Debugger Mode
+- Export SDK API for getting kernel base address
+- Export SDK API for connecting to the debugger and from debuggee in the Debugger Mode
+- Export SDK API for starting a new process
+- Add and export SDK API for unsetting message callback
+- Event commands are coming with more examples regarding scripts and assembly codes
+- Add message callback using shared memory
+- Add maximum execution limitation to the script IRs (#435) 
+
+## Changed
+- Fix clearing '!monitor' hooks on a different process or if the process is closed (#409) 
+- Fix triggering multiple '!monitor' hooks with different contexts (#415) 
+- Fix the problem of repeating commands once kHyperDbg is disconnected
+- Fix step-over hangs if the process terminates/excepts within call instruction (#406) 
+- Fix crash on editing invalid physical addresses (#424) 
+- Fix exporting VMM module load and install it in the SDK
+- Fix function interpretation issues and update the parser and the code execution (#435)</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7329</guid>
+      <pubDate>Mon, 22 Jul 2024 04:48:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-07-22 04:47:05+00:00 (#7327)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7327</link>
+      <description>Happy to announce @HyperDbg v0.10! 🎉🎊✨
+
+This version comes with numerous bug fixes and stability improvements, plus new features like running assembly code directly in the events (VMX root-mode) and two new commands. 
+
+Check out the latest version: https://github.com/HyperDbg/HyperDbg/releases
+
+For more information,
+
+Assembly codes in conditions:
+- https://docs.hyperdbg.org/using-hyperdbg/prerequisites/how-to-create-a-condition
+
+Assembly codes in code sections:
+- https://docs.hyperdbg.org/using-hyperdbg/prerequisites/how-to-create-an-action
+
+Assemble virtual address:
 - https://docs.hyperdbg.org/commands/debugging-commands/a
 
+Assemble physical address:
 - https://docs.hyperdbg.org/commands/extension-commands/a</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7185</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/debugging-commands/a" length="0" type="application/octet-stream"/>
-      <pubDate>Mon, 15 Jul 2024 05:32:28 +0000</pubDate>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7327</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/releases" length="0" type="application/octet-stream"/>
+      <pubDate>Mon, 22 Jul 2024 04:47:05 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-15 04:45:09+00:00 (#7184)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7184</link>
-      <description>It's 32 bit app I'm trying to reverse )</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7184</guid>
-      <pubDate>Mon, 15 Jul 2024 04:45:09 +0000</pubDate>
+      <title>@395437265 on 2024-07-21 18:57:47+00:00 (#7326)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7326</link>
+      <description>sure</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7326</guid>
+      <pubDate>Sun, 21 Jul 2024 18:57:47 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-15 04:44:48+00:00 (#7183)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7183</link>
-      <description>App crash, hyberdbg is just fine. Yea, just got it that changing eip within one execution is pointless. Is there another way to call some code from script? Like xdbg script .asm sections?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7183</guid>
-      <pubDate>Mon, 15 Jul 2024 04:44:48 +0000</pubDate>
+      <title>@supermanfranky on 2024-07-21 18:24:42+00:00 (#7325)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7325</link>
+      <description>Thanks! Good timing on my part lol!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7325</guid>
+      <pubDate>Sun, 21 Jul 2024 18:24:42 +0000</pubDate>
     </item>
     <item>
-      <title>@grootdxb on 2024-07-15 00:20:29+00:00 (#7182)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7182</link>
-      <description>Why the hell is it "EIP" — 32 bit!? PLLLEASE STOP with 32-bit for the love of all thats Holy and precious.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7182</guid>
-      <pubDate>Mon, 15 Jul 2024 00:20:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-14 23:33:38+00:00 (#7181)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7181</link>
-      <description>But, that's definitely not a reason for the crash. Is it a crash of HyperDbg (BSOD)? or the target program crashes through SEH?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7181</guid>
-      <pubDate>Sun, 14 Jul 2024 23:33:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-14 23:32:23+00:00 (#7180)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7180</link>
-      <description>This doesn't work as expected. You're trying to change @eip 5 times in one single execution. Doesn't make sense. 🤔
+      <title>@HughEverett on 2024-07-21 18:23:26+00:00 (#7324)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7324</link>
+      <description>Eduard please don't forget to check this as well.
 
-So, it probably needs to be changed to:
+https://github.com/HyperDbg/HyperDbg/issues/417
 
-!monitor x 0D6A4D0 l 2 core 0 stage post script {
-  if ($context == 0D6A4D0){
-      @eip = 00D6A4D3;
-      printf("NOW WILL CALL %x\n",eip);
-  }
-}</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7180</guid>
-      <pubDate>Sun, 14 Jul 2024 23:32:23 +0000</pubDate>
+If it's solved, please close this issue.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7324</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/issues/417" length="0" type="application/octet-stream"/>
+      <pubDate>Sun, 21 Jul 2024 18:23:26 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-14 21:43:27+00:00 (#7179)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7179</link>
-      <description>@HughEverett  im back to debugging and need some advice:
-main:00D6A4BD                 push    [ebp+arg_4]
-main:00D6A4C0                 push    [ebp+arg_0]
-main:00D6A4C3                 mov     eax, [ebp+var_8]
-main:00D6A4C6                 movzx   eax, word ptr [eax]
-main:00D6A4C9                 push    eax
-main:00D6A4CA                 mov     eax, [ebp+var_8]
-main:00D6A4CD                 inc     eax
-main:00D6A4CE                 inc     eax
-main:00D6A4CF                 push    eax
-main:00D6A4D0                 mov     ecx, [ebp+var_8]
-main:00D6A4D0
-main:00D6A4D3                 call    sub_D6A5E0      ; add c3 
-main:00D6A4D8                 mov     esp, ebp
-main:00D6A4DA                 pop     ebp
-main:00D6A4DB                 retn    8
-main:00D6A4DE
-
-i want to main:00D6A4D3                 call    sub_D6A5E0      ; add c3  call 5 times instead of one with some interval, now i have:
-
-!monitor x 0D6A4D0 l 2 core 0 stage post script {
-  if ($context == 0D6A4D0){
-      for (i = 0; i &lt; 5; i++){
-        @eip = 00D6A4D3;
-      }      
-      printf("NOW WILL CALL %x\n",eip);
-  }
-}  
-
-but it fails even on first time, when parameters are adequate (instant crash)
-
-i tried to use code {....} but it fails with page fault, any ideas how to do this?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7179</guid>
-      <pubDate>Sun, 14 Jul 2024 21:43:27 +0000</pubDate>
+      <title>@HughEverett on 2024-07-21 18:20:45+00:00 (#7323)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7323</link>
+      <description>Hi and welcome to the group. 🤗
+Tomorrow, we'll release HyperDbg v0.10.
+Along with that, I'll create a list of potential tasks that you (and anyone else) could add to the HyperDbg. I'll notify you when the list is ready (hopefully tomorrow).</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7323</guid>
+      <pubDate>Sun, 21 Jul 2024 18:20:45 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-14 14:08:23+00:00 (#7178)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7178</link>
-      <description>Ok, got it. I'll check it with these new details. Thanks 👍</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7178</guid>
-      <pubDate>Sun, 14 Jul 2024 14:08:23 +0000</pubDate>
+      <title>@supermanfranky on 2024-07-21 18:04:40+00:00 (#7322)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7322</link>
+      <description>Hey! Junior Vulnerability Researcher and Reverse Engineer here who's been really liking HyperDbg! Any way I could help contribute!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7322</guid>
+      <pubDate>Sun, 21 Jul 2024 18:04:40 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-13 20:28:39+00:00 (#7177)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7177</link>
-      <description>e.g. if new thread is spawn within call, then p cant detect ret properly, maybe some cpu optimizations, so thread is started and control flow now belongs to thread, so it wont return until thread is complete (if ever), but thats just assumptions</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7177</guid>
-      <pubDate>Sat, 13 Jul 2024 20:28:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-13 20:25:54+00:00 (#7176)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7176</link>
-      <description>in general, it seems, that p bug is related to threading</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7176</guid>
-      <pubDate>Sat, 13 Jul 2024 20:25:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-13 20:24:36+00:00 (#7175)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7175</link>
-      <description>@HughEverett  sorry, i have no time currently, i think i can implement some deterministic test in asm, but it need me to remember asm :) i studied it almost 15 yrs ago, lot of thing have changed, chatgpt also not helping much, but i got some ideas already</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7175</guid>
-      <pubDate>Sat, 13 Jul 2024 20:24:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>@grootdxb on 2024-07-13 12:35:04+00:00 (#7174)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7174</link>
-      <description>Thats "mov &gt;Q&lt;word" — anyway, assuming RSP is not broken (corrupted or otherwise),
-thats no different than.  uint64_t foo; foo=0; or uint64_t foo, uint64_t * bar=&amp;foo; *bar=0</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7174</guid>
-      <pubDate>Sat, 13 Jul 2024 12:35:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2024-07-13 04:59:09+00:00 (#7173)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7173</link>
-      <description>the rsp pointing to  mov dword ptr [rsp +40h],0 (UINT Index = 0)</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7173</guid>
-      <pubDate>Sat, 13 Jul 2024 04:59:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2024-07-13 04:57:39+00:00 (#7172)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7172</link>
-      <description>I use Debug mode to compile . I guess the optimization is off</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7172</guid>
-      <pubDate>Sat, 13 Jul 2024 04:57:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>@grootdxb on 2024-07-12 23:07:46+00:00 (#7171)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7171</link>
-      <description>As far as "no line showing" —- likely due to optimizations..add #pragma optimize("", off)  to the top of the C/CPP and compile/run again</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7171</guid>
-      <pubDate>Fri, 12 Jul 2024 23:07:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>@grootdxb on 2024-07-12 23:07:02+00:00 (#7170)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7170</link>
-      <description>Literally... if RSP is valid, (Assuming its some local var), then...the line you listed is simply moving 0 (zero) into the local var, and not invalid.  If RSP (the stack) is jacked up, then you've got some problem elsewhere.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7170</guid>
-      <pubDate>Fri, 12 Jul 2024 23:07:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2024-07-12 21:10:08+00:00 (#7169)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7169</link>
-      <description>any solution ? 😢</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7169</guid>
-      <pubDate>Fri, 12 Jul 2024 21:10:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2024-07-12 21:09:38+00:00 (#7168)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7168</link>
-      <description>only show yellow arrow to the current line in asm</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7168</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/7168.jpg" length="44030" type="image/jpeg"/>
-      <pubDate>Fri, 12 Jul 2024 21:09:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>@xmaple555 on 2024-07-12 21:08:49+00:00 (#7167)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7167</link>
-      <description>hi guys, I'm trying to use visual studio kernel debug. But there is no current line shown (yellow arrow)  in source code when hitting breakpoint</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7167</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/7167.jpg" length="56496" type="image/jpeg"/>
-      <pubDate>Fri, 12 Jul 2024 21:08:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-12 14:34:45+00:00 (#7166)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7166</link>
-      <description>sure, no prob</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7166</guid>
-      <pubDate>Fri, 12 Jul 2024 14:34:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-12 05:19:15+00:00 (#7165)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7165</link>
-      <description>I'll create a GitHub issue to further investigate it. Meanwhile, if you find a deterministic way of reproducing it, pls let me know.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7165</guid>
-      <pubDate>Fri, 12 Jul 2024 05:19:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-12 05:17:57+00:00 (#7164)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7164</link>
-      <description>It's on the 'dev' branch now. Sure we won't release (merge it to the master) if the problem is not yet fixed.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7164</guid>
-      <pubDate>Fri, 12 Jul 2024 05:17:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>@7251314798 on 2024-07-12 04:07:29+00:00 (#7163)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7163</link>
+      <title>@supermanfranky on 2024-07-21 17:59:15+00:00 (#7321)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7321</link>
       <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7163</guid>
-      <pubDate>Fri, 12 Jul 2024 04:07:29 +0000</pubDate>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7321</guid>
+      <pubDate>Sun, 21 Jul 2024 17:59:15 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-11 15:33:09+00:00 (#7162)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7162</link>
-      <description>its like sometimes it steps overs, sometimes it waits for a long time for no reason</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7162</guid>
-      <pubDate>Thu, 11 Jul 2024 15:33:09 +0000</pubDate>
+      <title>@xmaple555 on 2024-07-21 17:55:57+00:00 (#7320)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7320</link>
+      <description>not a problem. BTW I plan the next update will be variable type, array, pointer, deference, and followed by struct</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7320</guid>
+      <pubDate>Sun, 21 Jul 2024 17:55:57 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-11 15:32:34+00:00 (#7161)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7161</link>
-      <description>try, for example, put bp on any call, and when its trapped, execute p</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7161</guid>
-      <pubDate>Thu, 11 Jul 2024 15:32:34 +0000</pubDate>
+      <title>@HughEverett on 2024-07-21 17:54:04+00:00 (#7319)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7319</link>
+      <description>You can add (+x) number to the time and read it using db, or dd. Like db($time+123)</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7319</guid>
+      <pubDate>Sun, 21 Jul 2024 17:54:04 +0000</pubDate>
     </item>
     <item>
-      <title>@395437265 on 2024-07-11 15:30:25+00:00 (#7160)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7160</link>
-      <description>maybe put it to another branch for a while... something has changed, but i dont know exactly what</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7160</guid>
-      <pubDate>Thu, 11 Jul 2024 15:30:25 +0000</pubDate>
+      <title>@HughEverett on 2024-07-21 17:52:17+00:00 (#7318)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7318</link>
+      <description>It would be great if we can have such a feature. You can use the Keystone disassembler that is recently added to the project.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7318</guid>
+      <pubDate>Sun, 21 Jul 2024 17:52:17 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-11 15:08:09+00:00 (#7159)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7159</link>
-      <description>https://www.youtube.com/playlist?list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7159</guid>
-      <pubDate>Thu, 11 Jul 2024 15:08:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-11 15:05:33+00:00 (#7158)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7158</link>
-      <description>Or it just sometimes cause errors?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7158</guid>
-      <pubDate>Thu, 11 Jul 2024 15:05:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-11 15:05:17+00:00 (#7157)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7157</link>
-      <description>You mean the patch (last commit) should be reverted? 🤨</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7157</guid>
-      <pubDate>Thu, 11 Jul 2024 15:05:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>@tianwang99 on 2024-07-11 13:00:07+00:00 (#7156)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7156</link>
-      <description>视频了</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7156</guid>
-      <pubDate>Thu, 11 Jul 2024 13:00:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>@DK_ZAG on 2024-07-11 06:26:46+00:00 (#7155)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7155</link>
-      <description>没有</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7155</guid>
-      <pubDate>Thu, 11 Jul 2024 06:26:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>@tianwang99 on 2024-07-11 04:52:36+00:00 (#7154)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7154</link>
-      <description>有没有使用教程</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7154</guid>
-      <pubDate>Thu, 11 Jul 2024 04:52:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>@tianwang99 on 2024-07-11 04:52:28+00:00 (#7153)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7153</link>
-      <description>这个调试器怎么用</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7153</guid>
-      <pubDate>Thu, 11 Jul 2024 04:52:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@tianwang99 on 2024-07-11 04:51:03+00:00 (#7152)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7152</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7152</guid>
-      <pubDate>Thu, 11 Jul 2024 04:51:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-10 19:49:20+00:00 (#7151)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7151</link>
-      <description>sorry.. cant reproduce stable, but i hope in real debug i will understand something</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7151</guid>
-      <pubDate>Wed, 10 Jul 2024 19:49:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-10 18:58:43+00:00 (#7150)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7150</link>
-      <description>will prepare another test</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7150</guid>
-      <pubDate>Wed, 10 Jul 2024 18:58:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-10 18:58:32+00:00 (#7149)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7149</link>
-      <description>@HughEverett  no good :( it solved the issue i mentioned, i can quit waiting with ctrl+c, but introduced another - if i put bp on call instruction and when bp is trapped, when i press p it just continues execution</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7149</guid>
-      <pubDate>Wed, 10 Jul 2024 18:58:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6190448061 on 2024-07-10 11:25:38+00:00 (#7148)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7148</link>
-      <description>You did a great job.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7148</guid>
-      <pubDate>Wed, 10 Jul 2024 11:25:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-10 07:09:43+00:00 (#7147)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7147</link>
-      <description>Eduard I fixed this issue, but I'm not sure if I correctly fixed it and it didn't break anything. Once you have free time, please update your 'dev' branch and make a comprehensive test on both the step-over 'p' and the step-in 't', and let me know if you find any problems.
+      <title>@395437265 on 2024-07-21 17:26:38+00:00 (#7317)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7317</link>
+      <description>just thinking how to deal with this situation
 
-https://github.com/HyperDbg/HyperDbg/issues/406</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7147</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/issues/406" length="0" type="application/octet-stream"/>
-      <pubDate>Wed, 10 Jul 2024 07:09:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>@1005535509 on 2024-07-08 19:08:11+00:00 (#7146)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7146</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7146</guid>
-      <pubDate>Mon, 08 Jul 2024 19:08:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-08 17:09:13+00:00 (#7145)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7145</link>
-      <description>all good</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7145</guid>
-      <pubDate>Mon, 08 Jul 2024 17:09:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6579281239 on 2024-07-08 09:05:00+00:00 (#7144)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7144</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7144</guid>
-      <pubDate>Mon, 08 Jul 2024 09:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-08 08:56:23+00:00 (#7143)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7143</link>
-      <description>Will check later today</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7143</guid>
-      <pubDate>Mon, 08 Jul 2024 08:56:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-08 08:53:16+00:00 (#7142)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7142</link>
-      <description>Fixed. Check the latest 'dev' branch.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7142</guid>
-      <pubDate>Mon, 08 Jul 2024 08:53:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>@395437265 on 2024-07-08 07:04:24+00:00 (#7141)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7141</link>
-      <description>Maybe setting vm to use one core might help..</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7141</guid>
-      <pubDate>Mon, 08 Jul 2024 07:04:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-08 07:00:52+00:00 (#7140)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7140</link>
-      <description>Okay, I found a sequence that reproduces the error: 
-.sym reload pid 3024
-.process pid 3024
-g
-.process
-!monitor x ws2_32!send l 3 script {
-       printf("pre triggered\n");
+!monitor .... code {
+this i executed in vm root, with kernel addressspace
+    push rdx; 
+    push rax;
+    rdtsc;
+    mov [vmx_root_offset_any], rax ;lo bits
+    mov [vmx_root_offset_any+8], rdx ;hi bits
+    ret
 }
-!monitor x 00354b67 l 3 script {
-       printf("pre triggered\n");
-}</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7140</guid>
-      <pubDate>Mon, 08 Jul 2024 07:00:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-08 06:29:10+00:00 (#7139)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7139</link>
-      <description>I'll keep testing the same scripts to find a way for reproducing it, meanwhile if you find a reproduceable sequence of command, pls send it here.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7139</guid>
-      <pubDate>Mon, 08 Jul 2024 06:29:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-08 06:27:53+00:00 (#7138)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7138</link>
-      <description>But, only one time! Couldn't reproduce it again. It seems to be race condition but in order to investigate it, it needs to be deterministically reproduced.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7138</guid>
-      <pubDate>Mon, 08 Jul 2024 06:27:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@fuckingIdiottt on 2024-07-08 06:27:29+00:00 (#7137)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7137</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7137</guid>
-      <pubDate>Mon, 08 Jul 2024 06:27:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-07-08 06:26:36+00:00 (#7136)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7136</link>
-      <description>I was not able to reproduce the error using your scripts in the GitHub, but it was reproduced once using this script:
+    script {
+this executed in process address space
+      n = dq(vmx_root_offset_any);
+      k = dq(vmx_root_offset_any+8);
+      rsp = rsp + 16; //move esp back
+      // do something
 
-.sym reload pid 3024
-.process pid 3024
-g
-.process
-!monitor x ws2_32!send l 3 script {
-       printf("pre triggered\n");
+    
+    }
+
+correct me if im using bad terminology :)</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7317</guid>
+      <pubDate>Sun, 21 Jul 2024 17:26:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>@395437265 on 2024-07-21 17:24:13+00:00 (#7316)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7316</link>
+      <description>but $time returns pointer to string.. of course i can modify hyperdbg source code as well</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7316</guid>
+      <pubDate>Sun, 21 Jul 2024 17:24:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>@395437265 on 2024-07-21 17:23:22+00:00 (#7315)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7315</link>
+      <description>it would be perfect actually :)</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7315</guid>
+      <pubDate>Sun, 21 Jul 2024 17:23:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>@xmaple555 on 2024-07-21 17:22:27+00:00 (#7314)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7314</link>
+      <description>I think I can include the inline asm to script-engine</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7314</guid>
+      <pubDate>Sun, 21 Jul 2024 17:22:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>@395437265 on 2024-07-21 17:21:21+00:00 (#7313)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7313</link>
+      <description>i also thought about another idea:
+
+is it possible to write some value inside memory and then read it from script, lets say:
+
+!monitor .... code {
+
+    push rdx; 
+    push rax;
+    rdtsc;
+    mov [vmx_root_offset_any], rax ;lo bits
+    mov [vmx_root_offset_any+8], rdx ;hi bits
+    ret
 }
---------------------------------------
-g
-event c all
-g
-.process pid 3024
-g
-.process
---------------------------------------
-bp ws2_32!send
-!monitor x ws2_32!send l 3 script {
-       printf("pre triggered\n");
-}
-.process</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7136</guid>
-      <pubDate>Mon, 08 Jul 2024 06:26:36 +0000</pubDate>
+    script {
+      n = dq(vmx_root_offset_any);
+      k = dq(vmx_root_offset_any+8);
+      rsp = rsp + 16; //move esp back
+      // do something
+
+    
+    }</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7313</guid>
+      <pubDate>Sun, 21 Jul 2024 17:21:21 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-08 03:54:27+00:00 (#7135)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7135</link>
-      <description></description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7135</guid>
-      <pubDate>Mon, 08 Jul 2024 03:54:27 +0000</pubDate>
+      <title>@HughEverett on 2024-07-21 17:15:33+00:00 (#7312)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7312</link>
+      <description>Also, dslang supports dereferencing (memory access) through &amp; operator.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7312</guid>
+      <pubDate>Sun, 21 Jul 2024 17:15:33 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-08 03:54:19+00:00 (#7134)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7134</link>
-      <description>https://x.com/HyperDbg/status/1810158816136487361</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7134</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/https://x.com/HyperDbg/status/1810158816136487361" length="0" type="application/octet-stream"/>
-      <pubDate>Mon, 08 Jul 2024 03:54:19 +0000</pubDate>
+      <title>@HughEverett on 2024-07-21 17:14:23+00:00 (#7311)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7311</link>
+      <description>I think you can use this $time for this purpose too. By default, it returns a pointer to a string.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7311</guid>
+      <pubDate>Sun, 21 Jul 2024 17:14:23 +0000</pubDate>
     </item>
     <item>
-      <title>@HughEverett on 2024-07-07 10:53:34+00:00 (#7133)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-07.html#7133</link>
-      <description>Thanks, I'll fix it.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7133</guid>
-      <pubDate>Sun, 07 Jul 2024 10:53:34 +0000</pubDate>
+      <title>@395437265 on 2024-07-21 16:49:08+00:00 (#7310)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7310</link>
+      <description>i thought maybe there is some vmware API, didnt studied that question deep</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7310</guid>
+      <pubDate>Sun, 21 Jul 2024 16:49:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>@395437265 on 2024-07-21 16:48:17+00:00 (#7309)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-07.html#7309</link>
+      <description>ok.. but I asked for $time register to return time as milis :) then by using global vars i can implement smth looking as sleep</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-07.html#7309</guid>
+      <pubDate>Sun, 21 Jul 2024 16:48:17 +0000</pubDate>
     </item>
   </channel>
 </rss>
