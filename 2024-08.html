@@ -51,10 +51,17 @@
 		        	<h3 class="year"><a href="2024-01.html">2024</a></h3>
 		        	<ul class="months">
 		        		
+		        			<li class="">
+		        				<a href="2024-09.html">
+		        					Sep 2024
+		        					<span class="count">(55)
+		        				</span></a>
+		        			</li>
+		        		
 		        			<li class="selected">
 		        				<a href="2024-08.html">
 		        					Aug 2024
-		        					<span class="count">(166)
+		        					<span class="count">(332)
 		        				</span></a>
 		        			</li>
 		        		
@@ -5126,7 +5133,7 @@ Please visit Build &amp; Install to configure the environment for running HyperD
 					
 					
 						<li class="day" id="2024-08-18">
-							<span class="title">18 August 2024 <span class="count">(44 messages)</span></span>
+							<span class="title">18 August 2024 <span class="count">(46 messages)</span></span>
 						</li>
 					
 					<li class="message type-message" id="7558">
@@ -6748,6 +6755,6439 @@ Please visit Build &amp; Install to configure the environment for running HyperD
 						</div>
 					</li>
 				
+					
+					
+					<li class="message type-message" id="7602">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7602">#7602</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">01:40 PM, 18 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: 🫡
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7603">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/saitama123a" class="username" rel="noreferer nopener nofollow">
+									
+										@saitama123a
+									
+								</a>
+
+								
+
+								<a class="id" href="#7603">#7603</a>
+
+								
+
+								<span class="date">02:27 PM, 18 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-19">
+							<span class="title">19 August 2024 <span class="count">(3 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7604">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7604">#7604</a>
+
+								
+
+								<span class="date">04:46 PM, 19 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									hey hey, any news about using asm in script body ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7605">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/ashnaghad" class="username" rel="noreferer nopener nofollow">
+									
+										@ashnaghad
+									
+								</a>
+
+								
+
+								<a class="id" href="#7605">#7605</a>
+
+								
+
+								<span class="date">07:55 PM, 19 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7606">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7606">#7606</a>
+
+								
+
+								<span class="date">08:51 PM, 19 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									some useful script - how to get current time as integers:
+<br />? {
+<br />  void  printTime() {
+<br />    printf(&#34;process pid %d \n&#34;,$pid);
+<br />    timePtr = $time;
+<br />    printf(&#34;TIME PTR %x\n&#34;, timePtr);
+<br />    
+<br />    yearPtr = timePtr - 10;
+<br />    year = (db(yearPtr+1) &lt;&lt; 8) | db(yearPtr);
+<br />    
+<br />    monthPtr = timePtr - E;
+<br />    month = (db(monthPtr+1) &lt;&lt; 8) | db(monthPtr);
+<br />    
+<br />    dayPtr = timePtr - C;
+<br />    day = (db(dayPtr+1) &lt;&lt; 8) | db(dayPtr);
+<br />    hourPtr = timePtr - A;
+<br />    hour = (db(hourPtr+1) &lt;&lt; 8) | db(hourPtr);
+<br />    minPtr = timePtr - 8;
+<br />    min = (db(minPtr+1) &lt;&lt; 8) | db(minPtr);
+<br />    secPtr = timePtr - 6;
+<br />    sec = (db(secPtr+1) &lt;&lt; 8) | db(secPtr);
+<br />    msecPtr = timePtr - 4;
+<br />    msec = (db(msecPtr+1) &lt;&lt; 8) | db(msecPtr);  
+<br />    printf(&#34;FULL TIME : %d %d %d %d %d %d %d\n&#34;, year, month, day, hour, min, sec, msec);
+<br />  }
+<br />  printTime();
+<br />}
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-20">
+							<span class="title">20 August 2024 <span class="count">(31 messages)</span></span>
+						</li>
+					
+					<li class="message type-user_joined" id="7608">
+						<div class="avatar">
+							
+								<img src="media/avatar_6926043556.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6926043556" class="username" rel="noreferer nopener nofollow">
+									
+										@6926043556
+									
+								</a>
+
+								
+
+								<a class="id" href="#7608">#7608</a>
+
+								
+
+								<span class="date">12:51 AM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7609">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7609">#7609</a>
+
+								
+
+								<span class="date">10:05 AM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									i see project hypervisor from scratch part 8.  Help me please for code... HvHandleCpuid(GuestRegs) - the function responsible for processing cpuid?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7610">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7604">↶ Reply to #7604</a>
+								
+
+								<a class="id" href="#7610">#7610</a>
+
+								
+
+								<span class="date">12:09 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Will be ready in future versions. @xmaple555 will notify us once he finds time to implement it.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7611">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7606">↶ Reply to #7606</a>
+								
+
+								<a class="id" href="#7611">#7611</a>
+
+								
+
+								<span class="date">12:09 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Great. Can you consider creating a PR and add it here? <a href="https://github.com/HyperDbg/scripts/tree/master/basics" rel="noopener">https://github.com/HyperDbg/scripts/tree/master/basics</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/scripts/tree/master/basics" rel="noreferer nopener nofollow">scripts/basics at master · HyperDbg/scripts</a>
+										
+											<p>A collection of useful HyperDbg scripts. Contribute to HyperDbg/scripts development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7612">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7609">↶ Reply to #7609</a>
+								
+
+								<a class="id" href="#7612">#7612</a>
+
+								
+
+								<span class="date">12:12 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s handled from this function:
+<br />https://github.com/HyperDbg/HyperDbg/blob/ceca0ae762b09ec9a8d55c94fcd62332e3657e04/hyperdbg/hyperhv/code/vmm/vmx/Vmexit.c#L168
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/blob/ceca0ae762b09ec9a8d55c94fcd62332e3657e04/hyperdbg/hyperhv/code/vmm/vmx/Vmexit.c" rel="noreferer nopener nofollow">HyperDbg/hyperdbg/hyperhv/code/vmm/vmx/Vmexit.c at ceca0ae762b09ec9a8d55c94fcd62332e3657e04 · HyperDbg/HyperDbg</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7613">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7613">#7613</a>
+
+								
+
+								<span class="date">12:17 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett how do i stop breaking on popfq call ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7614">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7613">↶ Reply to #7613</a>
+								
+
+								<a class="id" href="#7614">#7614</a>
+
+								
+
+								<span class="date">12:18 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Stop on execution of popfq?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7615">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7615">#7615</a>
+
+								
+
+								<span class="date">12:19 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									i mean it automatically stops, i want prevent it
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7616">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7615">↶ Reply to #7615</a>
+								
+
+								<a class="id" href="#7616">#7616</a>
+
+								
+
+								<span class="date">12:19 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Does it enable a trap flag from the stack?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7617">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7611">↶ Reply to #7611</a>
+								
+
+								<a class="id" href="#7617">#7617</a>
+
+								
+
+								<span class="date">12:21 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									PR created
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7618">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7616">↶ Reply to #7616</a>
+								
+
+								<a class="id" href="#7618">#7618</a>
+
+								
+
+								<span class="date">12:21 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									mm i dont know,
+<br />i even dont have any monitor, but vm stops all of sudden:
+<br />
+<br />3: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0971da4c    9D                                  popfq
+<br />
+<br />3: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0971da4d    C3                                  ret
+<br />
+<br />3: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0b81daff    F1                                  int1
+<br />
+<br />4: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0b81db01    81 24 24 FF FE FF FF                and dword ptr ss:[rsp], 0xFFFFFEFF
+<br />
+<br />4: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0b81db08    9D                                  popfq
+<br />
+<br />4: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`0b81db09    C3                                  ret
+<br />
+<br />4: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ffff8104`096926ff    F1                                  int1
+<br />
+<br />5: kHyperDbg&gt; g
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7619">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7618">↶ Reply to #7618</a>
+								
+
+								<a class="id" href="#7619">#7619</a>
+
+								
+
+								<span class="date">12:22 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Check the trap flag before continuing the debuggee.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7620">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7620">#7620</a>
+
+								
+
+								<span class="date">12:22 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									like:
+<br />r @tf
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7621">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7621">#7621</a>
+
+								
+
+								<span class="date">12:23 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									ok.. will wait until next stop and check
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7622">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7622">#7622</a>
+
+								
+
+								<span class="date">12:23 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It seems to be an anti-debugging method.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7623">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7623">#7623</a>
+
+								
+
+								<span class="date">12:23 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									If it&#39;s because of a trap flag, then you have plenty of options for masking it.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7624">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7624">#7624</a>
+
+								
+
+								<span class="date">12:25 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									i noticed, that it appears when im connecting to vm by RDP
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7625">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7624">↶ Reply to #7624</a>
+								
+
+								<a class="id" href="#7625">#7625</a>
+
+								
+
+								<span class="date">12:30 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									🤨🤨
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7626">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7626">#7626</a>
+
+								
+
+								<span class="date">12:36 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									i will let you know, when it stops again, its not so easy to reproduce
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7627">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7612">↶ Reply to #7612</a>
+								
+
+								<a class="id" href="#7627">#7627</a>
+
+								
+
+								<span class="date">12:54 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									__vmx_vmwrite(GUEST_RIP, (ULONG64)g_VirtualGuestMemoryAddress) - g_VirtualGuestMemoryAddress - addres starting guest code?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7628">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7628">#7628</a>
+
+								
+
+								<span class="date">06:29 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  got it again:
+<br />0: kHyperDbg&gt; r @tf
+<br />tf=0000000000000001
+<br />
+<br />0: kHyperDbg&gt; g
+<br />debuggee is running...
+<br />ntkrnlmp!KiSystemCall64+0x3:
+<br />fffff803`6e811d03    65 48 89 24 25 10 00 00 00          mov qword ptr gs:[0x0000000000000010], rsp
+<br />
+<br />0: kHyperDbg&gt; r @tf
+<br />tf=0000000000000001
+<br />
+<br />0: kHyperDbg&gt;
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7629">
+						<div class="avatar">
+							
+								<img src="media/avatar_6190448061.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6190448061" class="username" rel="noreferer nopener nofollow">
+									
+										@6190448061
+									
+								</a>
+
+								
+
+								<a class="id" href="#7629">#7629</a>
+
+								
+
+								<span class="date">06:35 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									😘
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7630">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7627">↶ Reply to #7627</a>
+								
+
+								<a class="id" href="#7630">#7630</a>
+
+								
+
+								<span class="date">06:40 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									yes
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7631">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7628">↶ Reply to #7628</a>
+								
+
+								<a class="id" href="#7631">#7631</a>
+
+								
+
+								<span class="date">06:43 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Ah, as I told you, it seems to be a anti-debugging method. You have plenty of options here. You can completely disable trap flags (#DBs) and later activate it by using &#39;test trap off&#39;
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7632">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7631">↶ Reply to #7631</a>
+								
+
+								<a class="id" href="#7632">#7632</a>
+
+								
+
+								<span class="date">06:44 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									or you can write a simple &#39;!epthook&#39; that either masks the trap flag &#39;@tf = 0;&#39; in a script or change the stack value that will be poped later and mask the trap flag.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7633">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7632">↶ Reply to #7632</a>
+								
+
+								<a class="id" href="#7633">#7633</a>
+
+								
+
+								<span class="date">06:51 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									can you help with epthook? on which action hook shall execute ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7634">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7633">↶ Reply to #7633</a>
+								
+
+								<a class="id" href="#7634">#7634</a>
+
+								
+
+								<span class="date">06:52 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I think it needs to be executed after &#39;popfq&#39;. 🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7635">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7635">#7635</a>
+
+								
+
+								<span class="date">06:54 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Or if you want to modify stack (since the &#39;popfq&#39; instruction pops the rflags value from stack) then it should be on the &#39;popfq&#39; instruction itself. or the instruction before the &#39;popfq&#39;.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7636">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7636">#7636</a>
+
+								
+
+								<span class="date">06:56 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									im not sure whether popfq comes from debuggable process
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7637">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7636">↶ Reply to #7636</a>
+								
+
+								<a class="id" href="#7637">#7637</a>
+
+								
+
+								<span class="date">06:57 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									debuggable process? HyperDbg doesn&#39;t care which process you gonna debug, you can put hooks on whatever system component that you want.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7638">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7638">#7638</a>
+
+								
+
+								<span class="date">06:58 PM, 20 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									ok.. looks like more info needed, i didnt note address which calls popfq
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-21">
+							<span class="title">21 August 2024 <span class="count">(75 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7639">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7612">↶ Reply to #7612</a>
+								
+
+								<a class="id" href="#7639">#7639</a>
+
+								
+
+								<span class="date">04:31 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									and in the new version, there is a trap(rflag.tf) processing when executing cpuid?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7640">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/2125395524" class="username" rel="noreferer nopener nofollow">
+									
+										@2125395524
+									
+								</a>
+
+								
+
+								<a class="id" href="#7640">#7640</a>
+
+								
+
+								<span class="date">04:46 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7641">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7639">↶ Reply to #7639</a>
+								
+
+								<a class="id" href="#7641">#7641</a>
+
+								
+
+								<span class="date">10:25 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									We didn&#39;t discover a good solution for it yet!
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7642">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7557">↶ Reply to #7557</a>
+								
+
+								<a class="id" href="#7642">#7642</a>
+
+								
+
+								<span class="date">10:27 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Regarding this one, I changed the implementation to use &#39;MmMapIoSpaceEx&#39;. Though, there seem to be a problem in the current implementation as the resulting memory is not equal to WinDbg&#39;s memory.
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7642.jpg">
+											<img src="media/thumb_7642.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-27-10.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7643">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7641">↶ Reply to #7641</a>
+								
+
+								<a class="id" href="#7643">#7643</a>
+
+								
+
+								<span class="date">10:28 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									as far as I remember, it is necessary to check for the trap flag in vmexit (cpuid), handle the exception, and then the cpuid
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7644">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7643">↶ Reply to #7643</a>
+								
+
+								<a class="id" href="#7644">#7644</a>
+
+								
+
+								<span class="date">10:30 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									But last time that we implemented it, it didn&#39;t work, if I remember correctly? 🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7645">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7642">↶ Reply to #7642</a>
+								
+
+								<a class="id" href="#7645">#7645</a>
+
+								
+
+								<span class="date">10:31 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									This is the new implementation of physical memory reading. Though, the above problem exists. 
+<br />https://github.com/HyperDbg/HyperDbg/blob/4b41b42d6c356820803322ad0ed30f63384260e0/hyperdbg/hyperhv/code/memory/MemoryManager.c#L174
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/blob/4b41b42d6c356820803322ad0ed30f63384260e0/hyperdbg/hyperhv/code/memory/MemoryManager.c" rel="noreferer nopener nofollow">HyperDbg/hyperdbg/hyperhv/code/memory/MemoryManager.c at 4b41b42d6c356820803322ad0ed30f63384260e0 · HyperDbg/HyperDbg</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7646">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7645">↶ Reply to #7645</a>
+								
+
+								<a class="id" href="#7646">#7646</a>
+
+								
+
+								<span class="date">10:31 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@honorary_bot do you have any idea regarding this? Is it correctly implemented?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7647">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7642">↶ Reply to #7642</a>
+								
+
+								<a class="id" href="#7647">#7647</a>
+
+								
+
+								<span class="date">10:32 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									The result of reading physical memory is different from WinDbg&#39;s MMIO space.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7648">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7644">↶ Reply to #7644</a>
+								
+
+								<a class="id" href="#7648">#7648</a>
+
+								
+
+								<span class="date">10:32 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									it worked, but periodically the hypervisor began to crash
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7649">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7647">↶ Reply to #7647</a>
+								
+
+								<a class="id" href="#7649">#7649</a>
+
+								
+
+								<span class="date">10:33 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It works fine with the regular (non-MMIO memory) but for MMIO, the result is invalid.
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7649.jpg">
+											<img src="media/thumb_7649.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-33-48.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7650">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7648">↶ Reply to #7648</a>
+								
+
+								<a class="id" href="#7650">#7650</a>
+
+								
+
+								<span class="date">10:34 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									What was the crash error?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7651">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7650">↶ Reply to #7650</a>
+								
+
+								<a class="id" href="#7651">#7651</a>
+
+								
+
+								<span class="date">10:36 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7651.jpg">
+											<img src="media/thumb_7651.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-36-22.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7652">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7651">↶ Reply to #7651</a>
+								
+
+								<a class="id" href="#7652">#7652</a>
+
+								
+
+								<span class="date">10:37 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Did you find its patch? Where did we change last time to detect it?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7653">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7652">↶ Reply to #7652</a>
+								
+
+								<a class="id" href="#7653">#7653</a>
+
+								
+
+								<span class="date">10:38 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									there is no source code left ;((( I thought the branch would exist on github
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7654">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7646">↶ Reply to #7646</a>
+								
+
+								<a class="id" href="#7654">#7654</a>
+
+								
+
+								<span class="date">10:45 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									PAGE_NOCACHE needed for uncached mappings
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7655">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7655">#7655</a>
+
+								
+
+								<span class="date">10:45 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									PVOID VirtualAddress = MmMapIoSpaceEx(PhysicalAddressTemp, BufferSize, PAGE_READWRITE);
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7656">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7656">#7656</a>
+
+								
+
+								<span class="date">10:45 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Try PAGE_READWRITE | PAGE_NOCACHE
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7657">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7654">↶ Reply to #7654</a>
+								
+
+								<a class="id" href="#7657">#7657</a>
+
+								
+
+								<span class="date">10:49 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Same result:
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7657.jpg">
+											<img src="media/thumb_7657.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-49-34.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7658">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7658">#7658</a>
+
+								
+
+								<span class="date">10:49 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7658.jpg">
+											<img src="media/thumb_7658.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-49-48.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7659">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7653">↶ Reply to #7653</a>
+								
+
+								<a class="id" href="#7659">#7659</a>
+
+								
+
+								<span class="date">10:50 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;ll try to rewrite it for you today.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7660">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7660">#7660</a>
+
+								
+
+								<span class="date">10:51 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									FFFFFFFF is a correct result for an unmapped mmio space
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7661">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7661">#7661</a>
+
+								
+
+								<span class="date">10:51 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Where did you get this addres from?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7662">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7659">↶ Reply to #7659</a>
+								
+
+								<a class="id" href="#7662">#7662</a>
+
+								
+
+								<span class="date">10:52 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									That&#39;s great.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7663">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7661">↶ Reply to #7661</a>
+								
+
+								<a class="id" href="#7663">#7663</a>
+
+								
+
+								<span class="date">10:54 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7663.jpg">
+											<img src="media/thumb_7663.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-54-03.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7664">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7660">↶ Reply to #7660</a>
+								
+
+								<a class="id" href="#7664">#7664</a>
+
+								
+
+								<span class="date">10:54 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									So, you mean the WinDbg&#39;s result is incorrect in this case?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7665">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7665">#7665</a>
+
+								
+
+								<span class="date">10:55 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Oh, it&#39;s a GFX device, MMIO BAR
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7666">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7666">#7666</a>
+
+								
+
+								<span class="date">10:55 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									No, windbg is right then
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7667">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7667">#7667</a>
+
+								
+
+								<span class="date">10:56 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Can you read 41000000 + 800000 just to make sure?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7668">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7668">#7668</a>
+
+								
+
+								<span class="date">10:56 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I don&#39;t remember if this BAR starts with GTT or MMIO space
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7669">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7669">#7669</a>
+
+								
+
+								<span class="date">10:57 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Oh wait, wait
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7670">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7670">#7670</a>
+
+								
+
+								<span class="date">10:58 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I think I know what&#39;s happening
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7671">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7667">↶ Reply to #7667</a>
+								
+
+								<a class="id" href="#7671">#7671</a>
+
+								
+
+								<span class="date">10:58 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7671.jpg">
+											<img src="media/thumb_7671.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-58-09.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7672">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7672">#7672</a>
+
+								
+
+								<span class="date">10:58 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;m confusing the GFX BARs
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7673">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7673">#7673</a>
+
+								
+
+								<span class="date">10:58 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Can you read 500000000 instead? The other BAR?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7674">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7673">↶ Reply to #7673</a>
+								
+
+								<a class="id" href="#7674">#7674</a>
+
+								
+
+								<span class="date">10:58 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									50000000
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7675">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7674">↶ Reply to #7674</a>
+								
+
+								<a class="id" href="#7675">#7675</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7675.jpg">
+											<img src="media/thumb_7675.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_10-59-01.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7676">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7676">#7676</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									So! It works
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7677">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7677">#7677</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It should be a framebuffer
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7678">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7678">#7678</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Unless the OS driver is loaded
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7679">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7676">↶ Reply to #7676</a>
+								
+
+								<a class="id" href="#7679">#7679</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Then why WinDbg is different in that case?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7680">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7680">#7680</a>
+
+								
+
+								<span class="date">10:59 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7681">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7681">#7681</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I would suggest you to test BARs from a different device
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7682">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7682">#7682</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;m very well awware of GFX devices (it&#39;s my job, hehe)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7684">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7684">#7684</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It would take a lot of time to explain why GFX MMIO is a bad target for testing
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7685">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7681">↶ Reply to #7681</a>
+								
+
+								<a class="id" href="#7685">#7685</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									50000000?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7686">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7684">↶ Reply to #7684</a>
+								
+
+								<a class="id" href="#7686">#7686</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Ah, got it
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7687">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7687">#7687</a>
+
+								
+
+								<span class="date">11:00 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It behaves very different depending on a platform state
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7688">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7688">#7688</a>
+
+								
+
+								<span class="date">11:01 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									okay, I&#39;ll test it with another MMIO physical address and will let you know.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7689">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7689">#7689</a>
+
+								
+
+								<span class="date">11:01 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Try one of network adapters (preferrably not the root complex one)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7690">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7689">↶ Reply to #7689</a>
+								
+
+								<a class="id" href="#7690">#7690</a>
+
+								
+
+								<span class="date">11:01 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Not on bus 0
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7691">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7689">↶ Reply to #7689</a>
+								
+
+								<a class="id" href="#7691">#7691</a>
+
+								
+
+								<span class="date">11:03 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7691.jpg">
+											<img src="media/thumb_7691.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_11-03-50.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7692">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7692">#7692</a>
+
+								
+
+								<span class="date">11:04 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Still FFFFFFF.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7693">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7690">↶ Reply to #7690</a>
+								
+
+								<a class="id" href="#7693">#7693</a>
+
+								
+
+								<span class="date">11:05 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s on PCIe bus 2
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7693.jpg">
+											<img src="media/thumb_7693.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_11-05-20.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7694">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7694">#7694</a>
+
+								
+
+								<span class="date">11:05 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Well, MmCopyMemory(UserBuffer, CopyAddress, Size, MM_COPY_MEMORY_PHYSICAL, ReturnSize)  will succeed, right? Try removing it
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7695">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7695">#7695</a>
+
+								
+
+								<span class="date">11:06 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Also, can&#39;t find what CheckAddressPhysical does
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7696">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7695">↶ Reply to #7695</a>
+								
+
+								<a class="id" href="#7696">#7696</a>
+
+								
+
+								<span class="date">11:08 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7696.jpg">
+											<img src="media/thumb_7696.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_11-08-56.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7697">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7695">↶ Reply to #7695</a>
+								
+
+								<a class="id" href="#7697">#7697</a>
+
+								
+
+								<span class="date">11:08 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7697.jpg">
+											<img src="media/thumb_7697.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_11-08-56.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7698">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7694">↶ Reply to #7694</a>
+								
+
+								<a class="id" href="#7698">#7698</a>
+
+								
+
+								<span class="date">11:09 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									The same.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7699">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7699">#7699</a>
+
+								
+
+								<span class="date">11:14 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Is your underlying EPT PTE is also non-cached?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7700">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7700">#7700</a>
+
+								
+
+								<span class="date">11:14 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Coz I don&#39;t see any obvious mistake here
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7701">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7701">#7701</a>
+
+								
+
+								<span class="date">11:15 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Other than EPT discrepancy
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7702">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7699">↶ Reply to #7699</a>
+								
+
+								<a class="id" href="#7702">#7702</a>
+
+								
+
+								<span class="date">11:15 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Not sure. So, you mean I need to read it through a VMCALL in VMX-root mode to bypass EPT?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7703">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7703">#7703</a>
+
+								
+
+								<span class="date">11:15 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									FFFFFFFF is usually an invalid MMIO space
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7704">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7702">↶ Reply to #7702</a>
+								
+
+								<a class="id" href="#7704">#7704</a>
+
+								
+
+								<span class="date">11:16 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I&#39;m not sure about your implementation details, but yeah, sounds like worth trying
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7705">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+
+								<a class="id" href="#7705">#7705</a>
+
+								
+
+								<span class="date">11:19 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@instw0 check this new branch: <a href="https://github.com/HyperDbg/HyperDbg/tree/cpuid-trap" rel="noopener">https://github.com/HyperDbg/HyperDbg/tree/cpuid-trap</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/tree/cpuid-trap" rel="noreferer nopener nofollow">GitHub - HyperDbg/HyperDbg at cpuid-trap</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7706">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7704">↶ Reply to #7704</a>
+								
+
+								<a class="id" href="#7706">#7706</a>
+
+								
+
+								<span class="date">11:30 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I tried VMCALL, still the same result. But, it&#39;s kinda expected since even WinDbg is under the hypervisor, so if the problem was because of EPT caching policies, it should produce the same result for WinDbg too.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7707">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7707">#7707</a>
+
+								
+
+								<span class="date">11:30 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									I see, then I&#39;m not quite sure what&#39;s going on
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7708">
+						<div class="avatar">
+							
+								<img src="media/avatar_129554661.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/honorary_bot" class="username" rel="noreferer nopener nofollow">
+									
+										@honorary_bot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7708">#7708</a>
+
+								
+
+								<span class="date">11:30 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									sorry
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7709">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7707">↶ Reply to #7707</a>
+								
+
+								<a class="id" href="#7709">#7709</a>
+
+								
+
+								<span class="date">11:30 AM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									No worries, if I find the problem, I&#39;ll let you know.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7710">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/MHDZ1403" class="username" rel="noreferer nopener nofollow">
+									
+										@MHDZ1403
+									
+								</a>
+
+								
+
+								<a class="id" href="#7710">#7710</a>
+
+								
+
+								<span class="date">12:57 PM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7711">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7705">↶ Reply to #7705</a>
+								
+
+								<a class="id" href="#7711">#7711</a>
+
+								
+
+								<span class="date">01:05 PM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									ia32-doc/out/ia32.h: No such file or directory
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7712">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7712">#7712</a>
+
+								
+
+								<span class="date">01:06 PM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									v142
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7713">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7711">↶ Reply to #7711</a>
+								
+
+								<a class="id" href="#7713">#7713</a>
+
+								
+
+								<span class="date">01:13 PM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									You forgot &#39;--recursive&#39; in the git clone.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7714">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7713">↶ Reply to #7713</a>
+								
+
+								<a class="id" href="#7714">#7714</a>
+
+								
+
+								<span class="date">08:47 PM, 21 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									what could be the reason for this error?
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7714.jpg">
+											<img src="media/thumb_7714.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-21_20-47-54.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-22">
+							<span class="title">22 August 2024 <span class="count">(8 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7715">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7714">↶ Reply to #7714</a>
+								
+
+								<a class="id" href="#7715">#7715</a>
+
+								
+
+								<span class="date">03:39 AM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									reclone it like:
+<br />git clone -b cpuid-trap --recursive <a href="https://github.com/HyperDbg/HyperDbg.git" rel="noopener">https://github.com/HyperDbg/HyperDbg.git</a>
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7716">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7714">↶ Reply to #7714</a>
+								
+
+								<a class="id" href="#7716">#7716</a>
+
+								
+
+								<span class="date">04:29 AM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									recent commits deleted the submodule in the branch dev.  <a href="https://github.com/HyperDbg/HyperDbg/commit/27359df8faced23b40ac4cc05a57d891fa9b78d4" rel="noopener">https://github.com/HyperDbg/HyperDbg/commit/27359df8faced23b40ac4cc05a57d891fa9b78d4</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/commit/27359df8faced23b40ac4cc05a57d891fa9b78d4" rel="noreferer nopener nofollow">Fix script-engine-test submodule bug · HyperDbg/HyperDbg@27359df</a>
+										
+											<p>Remove the script-engine-test from incorrect path</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7717">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7716">↶ Reply to #7716</a>
+								
+
+								<a class="id" href="#7717">#7717</a>
+
+								
+
+								<span class="date">04:34 AM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s actually not removed, still available here:
+<br />https://github.com/HyperDbg/HyperDbg/tree/dev/hyperdbg/tests
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/tree/dev/hyperdbg/tests" rel="noreferer nopener nofollow">HyperDbg/hyperdbg/tests at dev · HyperDbg/HyperDbg</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7718">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7716">↶ Reply to #7716</a>
+								
+
+								<a class="id" href="#7718">#7718</a>
+
+								
+
+								<span class="date">04:36 AM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									But there was an error, since I moved it from another folder to this directory, it was not correctly modified. That&#39;s why Behrooz manually fixed it to avoid errors in the CI/CD.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7719">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7719">#7719</a>
+
+								
+
+								<span class="date">05:56 PM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@HughEverett  20:55:24.297 - core : 3 - vmx-root? yes)        [+] Information (DebuggerPerformRunScript:1740) | err, exceeding the max execution count - where i can find this error in code ?i dont see DebuggerPerformRunScript class...
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7720">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+
+								<a class="id" href="#7720">#7720</a>
+
+								
+
+								<span class="date">06:14 PM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@xmaple555 maybe you know the answer ^^^^ ? :)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7721">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7720">↶ Reply to #7720</a>
+								
+
+								<a class="id" href="#7721">#7721</a>
+
+								
+
+								<span class="date">07:01 PM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									<a href="https://github.com/HyperDbg/HyperDbg/blob/ceca0ae762b09ec9a8d55c94fcd62332e3657e04/hyperdbg/include/SDK/Headers/Constants.h#L570" rel="noopener">https://github.com/HyperDbg/HyperDbg/blob/ceca0ae762b09ec9a8d55c94fcd62332e3657e04/hyperdbg/include/SDK/Headers/Constants.h#L570</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/blob/ceca0ae762b09ec9a8d55c94fcd62332e3657e04/hyperdbg/include/SDK/Headers/Constants.h" rel="noreferer nopener nofollow">HyperDbg/hyperdbg/include/SDK/Headers/Constants.h at ceca0ae762b09ec9a8d55c94fcd62332e3657e04 · HyperDbg/HyperDbg</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7722">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7722">#7722</a>
+
+								
+
+								<span class="date">08:02 PM, 22 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									and there is a function to track the start of the process (for example !cpuid pid ...., but the process has not started yet and I do not know the pid)
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-24">
+							<span class="title">24 August 2024 <span class="count">(3 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7724">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/xmaple555" class="username" rel="noreferer nopener nofollow">
+									
+										@xmaple555
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7722">↶ Reply to #7722</a>
+								
+
+								<a class="id" href="#7724">#7724</a>
+
+								
+
+								<span class="date">10:45 AM, 24 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									!epthook kernel32!BaseThreadInitThunk script{
+<br />  if (strcmp(&#34;notepad.exe&#34;, $pname)==0){
+<br />    pause();
+<br />  }
+<br />}
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7725">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7725">#7725</a>
+
+								
+
+								<span class="date">07:35 PM, 24 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									// Injects interruption to a guest
+<br />VOID EventInjectInterruption(INTERRUPT_TYPE InterruptionType, EXCEPTION_VECTORS Vector, BOOLEAN DeliverErrorCode, ULONG32 ErrorCode)
+<br />{
+<br /> INTERRUPT_INFO Inject = { 0 };
+<br /> Inject.Valid = TRUE;
+<br /> Inject.InterruptType = InterruptionType;
+<br /> Inject.Vector = Vector;
+<br /> Inject.DeliverCode = DeliverErrorCode;
+<br /> __vmx_vmwrite(VM_ENTRY_INTR_INFO, Inject.Flags);
+<br />
+<br /> if (DeliverErrorCode) {
+<br />  __vmx_vmwrite(VM_ENTRY_EXCEPTION_ERROR_CODE, ErrorCode);
+<br /> }
+<br />}
+<br />there is such an interrupt handling function... what should be written to __vmx_vm write so that processing is forwarded to the operating system?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7726">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/395437265" class="username" rel="noreferer nopener nofollow">
+									
+										@395437265
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7721">↶ Reply to #7721</a>
+								
+
+								<a class="id" href="#7726">#7726</a>
+
+								
+
+								<span class="date">08:04 PM, 24 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									can you pls explain in short how that counter works? does it just gets increased when event is triggered or there is some more complex logic underneath ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-25">
+							<span class="title">25 August 2024 <span class="count">(5 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7727">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7725">↶ Reply to #7725</a>
+								
+
+								<a class="id" href="#7727">#7727</a>
+
+								
+
+								<span class="date">04:43 AM, 25 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									There are a couple of functions for injecting different interrupts/exceptions/faults in this file, you can use it: 
+<br />https://github.com/HyperDbg/HyperDbg/blob/master/hyperdbg/hyperhv/code/vmm/vmx/Events.c
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://github.com/HyperDbg/HyperDbg/blob/master/hyperdbg/hyperhv/code/vmm/vmx/Events.c" rel="noreferer nopener nofollow">HyperDbg/hyperdbg/hyperhv/code/vmm/vmx/Events.c at master · HyperDbg/HyperDbg</a>
+										
+											<p>State-of-the-art native debugging tools. Contribute to HyperDbg/HyperDbg development by creating an account on GitHub.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7728">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7725">↶ Reply to #7725</a>
+								
+
+								<a class="id" href="#7728">#7728</a>
+
+								
+
+								<span class="date">04:45 AM, 25 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It will be injected immediately after the processor resumes in the vmx non-root mode.
+<br />
+<br />Other than that, the ability to inject is also exported in the script engine as functions with/without error code, you can use these function:
+<br />
+<br />https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject
+<br />
+<br />and 
+<br />
+<br />https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject_error_code
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/commands/scripting-language/functions/events/event_inject" rel="noreferer nopener nofollow">event_inject | HyperDbg Documentation</a>
+										
+											<p>Description of the &#39;event_inject&#39; function in HyperDbg Scripts</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7729">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7728">↶ Reply to #7728</a>
+								
+
+								<a class="id" href="#7729">#7729</a>
+
+								
+
+								<span class="date">05:59 AM, 25 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Thanks for the answer! This is your example of hypervisor from scratch 8. Does it send interrupt handling to the operating system by default?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7730">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7729">↶ Reply to #7729</a>
+								
+
+								<a class="id" href="#7730">#7730</a>
+
+								
+
+								<span class="date">05:05 PM, 25 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It will be injected by processor to the target guest. And it&#39;s handled by the operating system.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7731">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7730">↶ Reply to #7730</a>
+								
+
+								<a class="id" href="#7731">#7731</a>
+
+								
+
+								<span class="date">05:23 PM, 25 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									so the parameters in the project are set correctly and nothing needs to be changed? analog operation in hyperdbg &#34;trap flag off&#34;
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-26">
+							<span class="title">26 August 2024 <span class="count">(1 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7732">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7732">#7732</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">01:19 PM, 26 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;kanrab&gt; Hey. I’d like to contribute but I’m a bit of a newbie when it comes to contributing to large projects. I hope you don’t mind some newbie questions and I’m happy to be here :)!
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-27">
+							<span class="title">27 August 2024 <span class="count">(3 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7733">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7732">↶ Reply to #7732</a>
+								
+
+								<a class="id" href="#7733">#7733</a>
+
+								
+
+								<span class="date">11:26 AM, 27 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Ah, sorry for the very late response. That&#39;s really cool. You can start with Hypervisor From Scratch to know about the starting points and internals:
+<br />https://rayanfam.com/tutorials/
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://rayanfam.com/tutorials/" rel="noreferer nopener nofollow">Tutorials</a>
+										
+											<p>We write about Windows Internals, Hypervisors, Linux, and Networks.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7734">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7731">↶ Reply to #7731</a>
+								
+
+								<a class="id" href="#7734">#7734</a>
+
+								
+
+								<span class="date">11:27 AM, 27 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Yes. The parameters in the HyperDbg&#39;s VMX event handler are correctly configured.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7735">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/denys_volodarskyi" class="username" rel="noreferer nopener nofollow">
+									
+										@denys_volodarskyi
+									
+								</a>
+
+								
+
+								<a class="id" href="#7735">#7735</a>
+
+								
+
+								<span class="date">06:44 PM, 27 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-28">
+							<span class="title">28 August 2024 <span class="count">(3 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7737">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7737">#7737</a>
+
+								
+
+								<span class="date">09:55 AM, 28 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									test trap off - disables the trap flag. is there any way to disable the processing of all debugging interrupts?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7738">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7738">#7738</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">05:22 PM, 28 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; Dear HyperDbg Team,
+<br />
+<br />I have two questions regarding the !monitor command:
+<br />
+<br />How can I set two different Debug Scripts (DS) with !monitor, one for write and one for read operations? When I try to use !monitor r and !monitor w to set two different scripts, I receive an error indicating that the same address cannot be set twice.
+<br />
+<br />How can I unhook an address that is being monitored by !monitor?
+<br />
+<br />Thank you for your assistance.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7739">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7739">#7739</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">06:23 PM, 28 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: When using the !monitor command, I found that it incorrectly identifies the correct MMIO address as invalid.
+<br />https://cdn.discordapp.com/attachments/962350355839066130/1278419624672628756/image.png?ex=66d0bc8e&amp;is=66cf6b0e&amp;hm=2fb65cf2d3cfd3139427d8e3d292b2c2bd79aabb7ab9e0c990c2656bf3b91f0a&amp;
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/https://cdn.discordapp.com/attachments/962350355839066130/1278419624672628756/image.png?ex=66d0bc8e&amp;is=66cf6b0e&amp;hm=2fb65cf2d3cfd3139427d8e3d292b2c2bd79aabb7ab9e0c990c2656bf3b91f0a&amp;">None</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-29">
+							<span class="title">29 August 2024 <span class="count">(8 messages)</span></span>
+						</li>
+					
+					<li class="message type-user_joined" id="7740">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/ddedyad1" class="username" rel="noreferer nopener nofollow">
+									
+										@ddedyad1
+									
+								</a>
+
+								
+
+								<a class="id" href="#7740">#7740</a>
+
+								
+
+								<span class="date">07:18 AM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7741">
+						<div class="avatar">
+							
+								<img src="media/avatar_6101209375.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/SicSteep" class="username" rel="noreferer nopener nofollow">
+									
+										@SicSteep
+									
+								</a>
+
+								
+
+								<a class="id" href="#7741">#7741</a>
+
+								
+
+								<span class="date">07:21 AM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									@ddedyad1  Hello
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7742">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7737">↶ Reply to #7737</a>
+								
+
+								<a class="id" href="#7742">#7742</a>
+
+								
+
+								<span class="date">12:49 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									What do you mean by &#39;debugging interrupts&#39;? 🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7743">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7738">↶ Reply to #7738</a>
+								
+
+								<a class="id" href="#7743">#7743</a>
+
+								
+
+								<span class="date">12:55 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									You can have as many !monitor hooks as you want but only one hook within a 4 KB boundary of a page. For example, if you put a hook 0x12345678, you cannot put any more hooks on 0x12345000 to 0x12345fff (within a page boundary). For using multiple hooks you can hook an entire range and then manage the occurrence of each hook using its script (by checking with the $context pseudo-register).
+<br />
+<br />&gt; How can I unhook an address that is being monitored by !monitor?
+<br />
+<br />The !monitor hook as well as almost all of the features of HyperDbg are exported as events. Events can be disabled/removed using the &#39;events&#39; command.
+<br />
+<br />https://docs.hyperdbg.org/commands/debugging-commands/events
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/commands/debugging-commands/events" rel="noreferer nopener nofollow">events (show and modify active/disabled events) | HyperDbg Documentation</a>
+										
+											<p>Description of the &#39;event&#39; command in HyperDbg.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7744">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7739">↶ Reply to #7739</a>
+								
+
+								<a class="id" href="#7744">#7744</a>
+
+								
+
+								<span class="date">12:56 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s probably because the way that we check for the validity of the address is not working for MMIOs. Could you please open an issue on GitHub? So, it will be fixed.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7745">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7738">↶ Reply to #7738</a>
+								
+
+								<a class="id" href="#7745">#7745</a>
+
+								
+
+								<span class="date">12:58 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									For more information regarding the first question, you can take a look at this video: 
+<br />
+<br />https://www.youtube.com/watch?v=PX38N5F3SL8&amp;list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY&amp;index=34
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://www.youtube.com/watch?v=PX38N5F3SL8&amp;list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY&amp;index=34" rel="noreferer nopener nofollow">Dbg3301: HyperDbg 05 03 Memory Monitor</a>
+										
+											<p>View the full free MOOC at https://ost2.fyi/Dbg3301. This course is an introductory guide to HyperDbg debugger, guiding you through the initial steps of using HyperDbg, covering essential concepts, principles, debugging functionalities, along with practical examples and numerous reverse engineering methods that are unique to HyperDbg. Whether you have an interest in reverse engineering or seek to elevate your reverse engineering skills with hypervisor-assisted approaches, this course provides a solid foundation for starting your journey.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7746">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7742">↶ Reply to #7742</a>
+								
+
+								<a class="id" href="#7746">#7746</a>
+
+								
+
+								<span class="date">03:38 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									int1, int3.... is it possible to disable them somehow like &#34;trap flag off&#34;
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7747">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+
+								<a class="id" href="#7747">#7747</a>
+
+								
+
+								<span class="date">03:40 PM, 29 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									and if use command !exteption how to find out the interrupt number?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-30">
+							<span class="title">30 August 2024 <span class="count">(7 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7748">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7748">#7748</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">12:08 AM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: I use separate write and read scripts because I don&#39;t know how to distinguish between read and write operations in DS. For MMIO, it would be very unreasonable to use a 4K page as the basic unit for EPTHOOK2. Of course, it would be best if DS could distinguish between write and read operations.
+<br />
+<br />In my scenario, most of what I want to achieve is similar to the mmiotrace provided by the Linux kernel.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7750">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7750">#7750</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">12:09 AM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: ok
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7751">
+						<div class="avatar">
+							
+								<img src="media/avatar_1041869783.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/vyshky" class="username" rel="noreferer nopener nofollow">
+									
+										@vyshky
+									
+								</a>
+
+								
+
+								<a class="id" href="#7751">#7751</a>
+
+								
+
+								<span class="date">08:50 AM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7752">
+						<div class="avatar">
+							
+								<img src="media/avatar_6152749020.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6152749020" class="username" rel="noreferer nopener nofollow">
+									
+										@6152749020
+									
+								</a>
+
+								
+
+								<a class="id" href="#7752">#7752</a>
+
+								
+
+								<span class="date">06:54 PM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7753">
+						<div class="avatar">
+							
+								<img src="media/avatar_6152749020.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6152749020" class="username" rel="noreferer nopener nofollow">
+									
+										@6152749020
+									
+								</a>
+
+								
+
+								<a class="id" href="#7753">#7753</a>
+
+								
+
+								<span class="date">07:00 PM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Hello, going through the opensecurity2 training right now , and really want to use usermode for debugger instead of just kernel. I know I have to build the hyperdbg and I am getting errors , I have tried building on release and debug. I have VS 2022 , C++ package and windows 11 SDK installed .. I then installed the latest 10.026 SDK and WDK. I am using windows 10 for both host and VM , VM using vmware workstation 17
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7754">
+						<div class="avatar">
+							
+								<img src="media/avatar_6152749020.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6152749020" class="username" rel="noreferer nopener nofollow">
+									
+										@6152749020
+									
+								</a>
+
+								
+
+								<a class="id" href="#7754">#7754</a>
+
+								
+
+								<span class="date">07:42 PM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Also using the same build for hyperDbg-cli on host and guest but get failed to load driver on guest
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7755">
+						<div class="avatar">
+							
+								<img src="media/avatar_6152749020.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/6152749020" class="username" rel="noreferer nopener nofollow">
+									
+										@6152749020
+									
+								</a>
+
+								
+
+								<a class="id" href="#7755">#7755</a>
+
+								
+
+								<span class="date">07:43 PM, 30 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Do I have to build it on guest too ?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+						<li class="day" id="2024-08-31">
+							<span class="title">31 August 2024 <span class="count">(17 messages)</span></span>
+						</li>
+					
+					<li class="message type-message" id="7756">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7746">↶ Reply to #7746</a>
+								
+
+								<a class="id" href="#7756">#7756</a>
+
+								
+
+								<span class="date">04:52 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									INT1 is #DB which you can disable or enable it by using:
+<br />test trap off
+<br />test trap on
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7757">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7746">↶ Reply to #7746</a>
+								
+
+								<a class="id" href="#7757">#7757</a>
+
+								
+
+								<span class="date">04:53 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									For INT3 which is #BP, you can use
+<br />test breakpoint off 
+<br />test breakpoint on
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7758">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7747">↶ Reply to #7747</a>
+								
+
+								<a class="id" href="#7758">#7758</a>
+
+								
+
+								<span class="date">04:55 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									If you&#39;re using the script engine the &#39;$context&#39; shows the vector number.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7760">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7747">↶ Reply to #7747</a>
+								
+
+								<a class="id" href="#7760">#7760</a>
+
+								
+
+								<span class="date">04:55 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="media/7760.jpg">
+											<img src="media/thumb_7760.jpg" class="thumb" /><br />
+											<span class="filename">photo_2024-08-31_04-55-50.jpg</span>
+										</a>
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7761">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7748">↶ Reply to #7748</a>
+								
+
+								<a class="id" href="#7761">#7761</a>
+
+								
+
+								<span class="date">05:00 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Right now, the !monitor command cannot distinguish between read/write/execute but that&#39;s a really good feature to be added to it. I&#39;ll add it to the todo list.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7762">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7748">↶ Reply to #7748</a>
+								
+
+								<a class="id" href="#7762">#7762</a>
+
+								
+
+								<span class="date">05:02 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Some solution that came to my mind about distinguishing between read/write is checking it with the target instruction (current @rip). Basically, you need read the @rip using memcpy in the script engine and make a basic instruction disassembler for MOV commands.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7763">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7753">↶ Reply to #7753</a>
+								
+
+								<a class="id" href="#7763">#7763</a>
+
+								
+
+								<span class="date">05:04 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									It&#39;s not just kernel, HyperDbg support both user mode and kernel mode in the Debugger Mode:
+<br />
+<br />https://docs.hyperdbg.org/using-hyperdbg/prerequisites/operation-modes
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/using-hyperdbg/prerequisites/operation-modes" rel="noreferer nopener nofollow">Operation Modes | HyperDbg Documentation</a>
+										
+											<p>Different Modes of Operation in HyperDbg</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7764">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7755">↶ Reply to #7755</a>
+								
+
+								<a class="id" href="#7764">#7764</a>
+
+								
+
+								<span class="date">05:05 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									What&#39;s the error? Didn&#39;t fully understand what&#39;s going wrong there 🤔
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7765">
+						<div class="avatar">
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/instw0" class="username" rel="noreferer nopener nofollow">
+									
+										@instw0
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7760">↶ Reply to #7760</a>
+								
+
+								<a class="id" href="#7765">#7765</a>
+
+								
+
+								<span class="date">05:09 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									thank you! Very match
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7766">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7766">#7766</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">11:18 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: Using 8B 89 to distinguish between read and write is indeed a solution, but since the source data comes from different registers, it seems a bit tricky.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7767">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7767">#7767</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">11:21 AM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: It would be very beneficial to provide additional context, such as Read/Write flags, Address, and Value.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7768">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7766">↶ Reply to #7766</a>
+								
+
+								<a class="id" href="#7768">#7768</a>
+
+								
+
+								<span class="date">12:17 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Do you want to see what&#39;s modified (the modification result)?
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7769">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7767">↶ Reply to #7767</a>
+								
+
+								<a class="id" href="#7769">#7769</a>
+
+								
+
+								<span class="date">12:18 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Yes, agree. It would be added to the future versions.
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7770">
+						<div class="avatar">
+							
+								<img src="media/avatar_5309049512.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HyperDbgBot" class="username" rel="noreferer nopener nofollow">
+									
+										@HyperDbgBot
+									
+								</a>
+
+								
+
+								<a class="id" href="#7770">#7770</a>
+
+								
+									
+										<span class="tags">b</span>
+									
+										<span class="tags">o</span>
+									
+										<span class="tags">t</span>
+									
+								
+
+								<span class="date">02:39 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									[discord] &lt;.wxg&gt; [reply]: read value
+<br />write newValue
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7771">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7770">↶ Reply to #7770</a>
+								
+
+								<a class="id" href="#7771">#7771</a>
+
+								
+
+								<span class="date">03:16 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									You can use event calling stages for it. Check the first example of the !monitor command here:
+<br />
+<br />https://docs.hyperdbg.org/tips-and-tricks/misc/event-calling-stage
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://docs.hyperdbg.org/tips-and-tricks/misc/event-calling-stage" rel="noreferer nopener nofollow">Event calling stage | HyperDbg Documentation</a>
+										
+											<p>The event calling stage in HyperDbg</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-message" id="7772">
+						<div class="avatar">
+							
+								<img src="media/avatar_841901735.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/HughEverett" class="username" rel="noreferer nopener nofollow">
+									
+										@HughEverett
+									
+								</a>
+
+								
+									<a class="reply" href="2024-08.html#7770">↶ Reply to #7770</a>
+								
+
+								<a class="id" href="#7772">#7772</a>
+
+								
+
+								<span class="date">03:17 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									Also check this video: <a href="https://youtu.be/rlNALkSacbs?si=WfM_abZzpk5kqSVF" rel="noopener">https://youtu.be/rlNALkSacbs?si=WfM_abZzpk5kqSVF</a>
+								
+							</div>
+
+							
+								<div class="media">
+									
+										<a href="https://youtu.be/rlNALkSacbs?si=WfM_abZzpk5kqSVF" rel="noreferer nopener nofollow">Dbg3301: HyperDbg 10 10 Event Calling Stages</a>
+										
+											<p>View the full free MOOC at https://ost2.fyi/Dbg3301. This course is an introductory guide to HyperDbg debugger, guiding you through the initial steps of using HyperDbg, covering essential concepts, principles, debugging functionalities, along with practical examples and numerous reverse engineering methods that are unique to HyperDbg. Whether you have an interest in reverse engineering or seek to elevate your reverse engineering skills with hypervisor-assisted approaches, this course provides a solid foundation for starting your journey.</p>
+										
+									
+								</div>
+							
+						</div>
+					</li>
+				
+					
+					
+					<li class="message type-user_joined" id="7773">
+						<div class="avatar">
+							
+								<img src="media/avatar_105553468.jpg" alt="" />
+							
+						</div>
+
+						<div class="body">
+							<div class="meta">
+								<a href="https://t.me/Poormand_f" class="username" rel="noreferer nopener nofollow">
+									
+										@Poormand_f
+									
+								</a>
+
+								
+
+								<a class="id" href="#7773">#7773</a>
+
+								
+
+								<span class="date">05:20 PM, 31 Aug 2024</span>
+							</div>
+							<div class="text">
+								
+									
+										Joined.
+									
+								
+							</div>
+
+							
+						</div>
+					</li>
+				
 			</ul>
 
 			
@@ -6849,7 +13289,79 @@ Please visit Build &amp; Install to configure the environment for running HyperD
 				
 					<li class="day-2024-08-18">
 						<a href="2024-08.html#2024-08-18">
-							18 Aug 2024 <span class="count">(44)</span>
+							18 Aug 2024 <span class="count">(46)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-19">
+						<a href="2024-08.html#2024-08-19">
+							19 Aug 2024 <span class="count">(3)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-20">
+						<a href="2024-08.html#2024-08-20">
+							20 Aug 2024 <span class="count">(31)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-21">
+						<a href="2024-08.html#2024-08-21">
+							21 Aug 2024 <span class="count">(75)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-22">
+						<a href="2024-08.html#2024-08-22">
+							22 Aug 2024 <span class="count">(8)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-24">
+						<a href="2024-08.html#2024-08-24">
+							24 Aug 2024 <span class="count">(3)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-25">
+						<a href="2024-08.html#2024-08-25">
+							25 Aug 2024 <span class="count">(5)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-26">
+						<a href="2024-08.html#2024-08-26">
+							26 Aug 2024 <span class="count">(1)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-27">
+						<a href="2024-08.html#2024-08-27">
+							27 Aug 2024 <span class="count">(3)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-28">
+						<a href="2024-08.html#2024-08-28">
+							28 Aug 2024 <span class="count">(3)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-29">
+						<a href="2024-08.html#2024-08-29">
+							29 Aug 2024 <span class="count">(8)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-30">
+						<a href="2024-08.html#2024-08-30">
+							30 Aug 2024 <span class="count">(7)</span>
+						</a>
+					</li>
+				
+					<li class="day-2024-08-31">
+						<a href="2024-08.html#2024-08-31">
+							31 Aug 2024 <span class="count">(17)</span>
 						</a>
 					</li>
 				
