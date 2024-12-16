@@ -6,7 +6,503 @@
     <description>Public archive of HyperDbg Telegram messages.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>tg-archive 1.2.1</generator>
-    <lastBuildDate>Wed, 20 Nov 2024 16:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Dec 2024 11:00:04 +0000</lastBuildDate>
+    <item>
+      <title>@honorary_bot on 2024-12-15 18:18:19+00:00 (#8413)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8413</link>
+      <description>There are indeed separate page tables on Linux and Windows, and that's the reason you trap CR3 writes in the hypervisor as well</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8413</guid>
+      <pubDate>Sun, 15 Dec 2024 18:18:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>@honorary_bot on 2024-12-15 18:17:18+00:00 (#8412)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8412</link>
+      <description>But my take is hypervisor doesn't know anything about the guest, whether it is linux, dos or etc. Hypervisor's purpose is to virtualize the execution environment.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8412</guid>
+      <pubDate>Sun, 15 Dec 2024 18:17:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>@honorary_bot on 2024-12-15 18:15:38+00:00 (#8411)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8411</link>
+      <description>Oh, that's a question for the author then, hehe</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8411</guid>
+      <pubDate>Sun, 15 Dec 2024 18:15:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-15 18:10:51+00:00 (#8410)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8410</link>
+      <description>[discord] &lt;jamlee7879&gt; I'm currently reading "hypervisor-from-scratch-part-4". The architecture diagram of the shadow page table in it doesn't quite match the Linux memory management logic that I knew before, so I'm a bit confused.
+
+My understanding is the same as that shown in this diagram.
+https://www.ryanstan.com/mmu-virtualization-shadow-page-tables.html
+https://cdn.discordapp.com/attachments/962350355839066130/1317916799718785165/shadow-page-tables-diagram.png?ex=67606d2a&amp;is=675f1baa&amp;hm=2465f1cf56627b2a46e465caf83e28c81d27045ecfaa3609840c7d26023dabf0&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8410</guid>
+      <pubDate>Sun, 15 Dec 2024 18:10:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>@honorary_bot on 2024-12-15 18:03:18+00:00 (#8409)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8409</link>
+      <description>I don't know which material you're researching, but it looks like a description of a hypervisor for a pre-EPT era. Hypervisor would trap page faults and mask CR3 register, so that it would replace needed pages for the guest OS on the fly. Indeed, you would have to mask all related page tables (for every related process). However, it's more like an implementation detail, that's why it's probably out of scope for your material.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8409</guid>
+      <pubDate>Sun, 15 Dec 2024 18:03:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-15 17:58:06+00:00 (#8408)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8408</link>
+      <description>[discord] &lt;jamlee7879&gt; Many diagrams are drawn in this way, but I don't understand why only one page table is drawn for the guest. Clearly, there should be multiple page tables (one for each process).
+https://cdn.discordapp.com/attachments/962350355839066130/1317913591650713721/703cb802dfdf67ea4295e3fdd8d6d9fe.png?ex=67606a2d&amp;is=675f18ad&amp;hm=eca03a1625753c826ceccd0c301c338ab31ceb44e9db6e09fac291f1a87e4e46&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8408</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1317913591650713721/703cb802dfdf67ea4295e3fdd8d6d9fe.png?ex=67606a2d&amp;is=675f18ad&amp;hm=eca03a1625753c826ceccd0c301c338ab31ceb44e9db6e09fac291f1a87e4e46&amp;" length="0" type="text/html"/>
+      <pubDate>Sun, 15 Dec 2024 17:58:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-15 17:54:57+00:00 (#8407)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8407</link>
+      <description>[discord] &lt;jamlee7879&gt; In Linux, each process has its own page table. However, according to the concept of shadow page tables, it seems that there is only one page table for the guest. This seems very strange.
+https://cdn.discordapp.com/attachments/962350355839066130/1317912800395399219/shadow-page-tables-1.png?ex=67606971&amp;is=675f17f1&amp;hm=1a24bfdbcdcae67675e731575ebe01ef151b97f61fd90ba7a7f6eb7c27301627&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8407</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1317912800395399219/shadow-page-tables-1.png?ex=67606971&amp;is=675f17f1&amp;hm=1a24bfdbcdcae67675e731575ebe01ef151b97f61fd90ba7a7f6eb7c27301627&amp;" length="0" type="text/html"/>
+      <pubDate>Sun, 15 Dec 2024 17:54:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>@zzzzzzzzzzw111 on 2024-12-15 11:45:46+00:00 (#8406)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8406</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8406</guid>
+      <pubDate>Sun, 15 Dec 2024 11:45:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>@afkuvzrkar on 2024-12-14 03:23:56+00:00 (#8405)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8405</link>
+      <description>document_2024-12-14_03-23-56.mp4</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8405</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8405.mp4" length="643248" type="video/mp4"/>
+      <pubDate>Sat, 14 Dec 2024 03:23:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-12-13 22:13:55+00:00 (#8404)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8404</link>
+      <description>Great. Thanks for fixing it.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8404</guid>
+      <pubDate>Fri, 13 Dec 2024 22:13:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-12-13 22:13:42+00:00 (#8403)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8403</link>
+      <description>Merged! 👍</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8403</guid>
+      <pubDate>Fri, 13 Dec 2024 22:13:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-13 17:31:02+00:00 (#8402)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8402</link>
+      <description>[discord] &lt;jamlee7879&gt; Checked in successfully for 'hypervisor-from-scratch-part-2'
+https://cdn.discordapp.com/attachments/962350355839066130/1317182006190280714/image.png?ex=675dc0d6&amp;is=675c6f56&amp;hm=91e6ccffd96bea431c7a7874768e590b9379d3dcdb86319ac7097608203ae61b&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8402</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1317182006190280714/image.png?ex=675dc0d6&amp;is=675c6f56&amp;hm=91e6ccffd96bea431c7a7874768e590b9379d3dcdb86319ac7097608203ae61b&amp;" length="0" type="text/html"/>
+      <pubDate>Fri, 13 Dec 2024 17:31:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-13 14:25:39+00:00 (#8401)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8401</link>
+      <description>[discord] &lt;jamlee7879&gt; @HyperDbgBridge https://github.com/rayanfam/rayanfam.github.io/pull/2 Do you have time to review it?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8401</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/rayanfam/rayanfam.github.io/pull/2" length="0" type="text/html"/>
+      <pubDate>Fri, 13 Dec 2024 14:25:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-12-12 16:57:23+00:00 (#8400)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8400</link>
+      <description>Nice catch. You can send your patch to the blog using this repo:
+https://github.com/rayanfam/rayanfam.github.io/tree/main/_posts</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8400</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://github.com/rayanfam/rayanfam.github.io/tree/main/_posts" length="0" type="text/html"/>
+      <pubDate>Thu, 12 Dec 2024 16:57:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>@LG_Preset on 2024-12-12 16:27:03+00:00 (#8399)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8399</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8399</guid>
+      <pubDate>Thu, 12 Dec 2024 16:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-11 17:09:07+00:00 (#8398)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8398</link>
+      <description>[discord] &lt;jamlee7879&gt; you could consider patching the article. 😄 
+https://rayanfam.com/topics/hypervisor-from-scratch-part-2/#viewing-debugging-messages-in-dbgview</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8398</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://rayanfam.com/topics/hypervisor-from-scratch-part-2/" length="0" type="text/html"/>
+      <pubDate>Wed, 11 Dec 2024 17:09:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-11 17:03:02+00:00 (#8397)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8397</link>
+      <description>[discord] &lt;jamlee7879&gt; it works for me.  my win version is  10.0.16299
+https://cdn.discordapp.com/attachments/962350355839066130/1316450184007385099/image.png?ex=675b1746&amp;is=6759c5c6&amp;hm=519cbc2fcbf829fa164e17084e0366b7e0c0e5074fb3be8a911d086e4e590392&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8397</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1316450184007385099/image.png?ex=675b1746&amp;is=6759c5c6&amp;hm=519cbc2fcbf829fa164e17084e0366b7e0c0e5074fb3be8a911d086e4e590392&amp;" length="0" type="text/html"/>
+      <pubDate>Wed, 11 Dec 2024 17:03:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-12-11 16:59:12+00:00 (#8395)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8395</link>
+      <description>[discord] &lt;jamlee7879&gt; @HyperDbgBridge 
+Is Rayanfam in the group? Things aren't working properly here. The registry entries for DbgView aren't working properly either. It took me about an hour to figure out the correct way to do it. Here's what you should do:
+Save the following content as dgbview.reg.
+Double-click on dgbview.reg.
+
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Debug Print Filter]
+"DEFAULT"=dword:0000000f
+```
+https://cdn.discordapp.com/attachments/962350355839066130/1316449218633928724/image.png?ex=675b1660&amp;is=6759c4e0&amp;hm=828c61954ef4c4123a50b78220337f9999819a81292ad551763e8655a98fcedb&amp;</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8395</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1316449218633928724/image.png?ex=675b1660&amp;is=6759c4e0&amp;hm=828c61954ef4c4123a50b78220337f9999819a81292ad551763e8655a98fcedb&amp;" length="0" type="text/html"/>
+      <pubDate>Wed, 11 Dec 2024 16:59:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-12-11 15:10:04+00:00 (#8394)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8394</link>
+      <description>photo_2024-12-11_15-10-04.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8394</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8394.jpg" length="131127" type="image/jpeg"/>
+      <pubDate>Wed, 11 Dec 2024 15:10:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-12-11 15:10:04+00:00 (#8393)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8393</link>
+      <description>Starting from the next version (v0.12), HyperDbg will support the '!pcitree' command. You can use it from the 'dev' branch now.
+
+https://docs.hyperdbg.org/commands/extension-commands/pcitree</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8393</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8393.jpg" length="195492" type="image/jpeg"/>
+      <pubDate>Wed, 11 Dec 2024 15:10:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>@xssaint on 2024-12-08 22:04:39+00:00 (#8390)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8390</link>
+      <description>sticker.webm</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8390</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8390.webm" length="65692" type="video/webm"/>
+      <pubDate>Sun, 08 Dec 2024 22:04:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>@Fly_Dragon_Fly on 2024-12-07 05:28:24+00:00 (#8388)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8388</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8388</guid>
+      <pubDate>Sat, 07 Dec 2024 05:28:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>@7806029674 on 2024-12-06 16:10:15+00:00 (#8387)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8387</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8387</guid>
+      <pubDate>Fri, 06 Dec 2024 16:10:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>@282877022 on 2024-12-06 06:40:20+00:00 (#8386)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8386</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8386</guid>
+      <pubDate>Fri, 06 Dec 2024 06:40:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>@DoubleFetch on 2024-12-06 05:55:52+00:00 (#8385)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8385</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8385</guid>
+      <pubDate>Fri, 06 Dec 2024 05:55:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgChannel on 2024-12-03 16:28:49+00:00 (#8384)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8384</link>
+      <description>photo_2024-12-03_16-28-49.jpg</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8384</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8384.jpg" length="95831" type="image/jpeg"/>
+      <pubDate>Tue, 03 Dec 2024 16:28:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgChannel on 2024-12-03 16:28:49+00:00 (#8383)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-12.html#8383</link>
+      <description>HyperDbg v0.11 is released! ✨
+
+This version comes with bug fixes, improvements, and two new commands for viewing Local APIC (XAPIC/X2APIC) and IO APIC.
+
+Big shoutout to Björn Ruytenberg for joining the team for bringing PCIe support to HyperDbg!
+
+https://github.com/HyperDbg/HyperDbg/releases/tag/v0.11.0
+
+Check it out: 
+https://docs.hyperdbg.org/commands/extension-commands/apic
+
+https://docs.hyperdbg.org/commands/extension-commands/ioapic</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-12.html#8383</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/8383.jpg" length="129534" type="image/jpeg"/>
+      <pubDate>Tue, 03 Dec 2024 16:28:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>@6817320794 on 2024-11-30 20:18:31+00:00 (#8382)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8382</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8382</guid>
+      <pubDate>Sat, 30 Nov 2024 20:18:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-29 10:07:46+00:00 (#8381)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8381</link>
+      <description>[discord] &lt;jamlee7879&gt; https://tenor.com/view/high-five-patrick-star-spongebob-squarepants-the-patrick-star-show-yes-gif-2201400520488940521</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8381</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://tenor.com/view/high-five-patrick-star-spongebob-squarepants-the-patrick-star-show-yes-gif-2201400520488940521" length="0" type="text/html"/>
+      <pubDate>Fri, 29 Nov 2024 10:07:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-29 10:07:34+00:00 (#8380)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8380</link>
+      <description>[discord] &lt;jamlee7879&gt; Next, I'll go on to read "Hypervisor From Scratch" in more depth.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8380</guid>
+      <pubDate>Fri, 29 Nov 2024 10:07:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-29 10:05:23+00:00 (#8379)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8379</link>
+      <description>[discord] &lt;jamlee7879&gt; Yes, this is exactly the answer I was looking for. Actually, I asked ChatGPT to write example code like this before, but I can't be 100% sure that the MSR registers are shareable. I didn't have a deep enough understanding of virtualization before. Thank you. You've been a great help.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8379</guid>
+      <pubDate>Fri, 29 Nov 2024 10:05:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>@honorary_bot on 2024-11-29 09:57:38+00:00 (#8378)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8378</link>
+      <description>It’s the same cpu all the time, it just has different modes of operation. Depending on the mode of execution the CPU has either additional features or otherwise a reduced set of them. VMX root mode pretty much just allows the execution of VMX instructions. VMX guest mode allows auxiliary control structures (like vmcs) to back up its execution. The whole idea of trapping various events in the guest mode is to allow the hypervisor to properly emulate the platform. MSRs for example are shared between all modes, but you don’t want the guest to mess with MsRs that could affect VMX root mode, right? That’s why you have the ability to intercept them and manually handle in the root mode. If that’s your question.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8378</guid>
+      <pubDate>Fri, 29 Nov 2024 09:57:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-29 09:44:55+00:00 (#8377)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8377</link>
+      <description>[discord] &lt;jamlee7879&gt; Yes, I've briefly read through the "Hypervisor From Scratch" series, but I didn't quite understand it. I can't imagine what a bluepill style hypervisor program is like. Here's what I know:
+1. When the Virtual Machine Monitor (VMM) enters the VMX (Virtual Machine eXtensions) mode, it has already set up the conversions for the Virtual Machine Control Structure (VMCS) and Extended Page Table (EPT).
+2. The state of the CPU that enters the operation will be stored in the VMCS. At this time, the virtualized CPU is being used.
+3. Then it exits the VMX mode. The code runs on the physical CPU again.
+
+The CPU running in VT (Virtualization Technology) and the physical CPU are like two completely different worlds. Why is it related to the MSR (Model Specific Register) hook? I must have missed some crucial information.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8377</guid>
+      <pubDate>Fri, 29 Nov 2024 09:44:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-29 08:49:14+00:00 (#8375)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8375</link>
+      <description>If you're curious about these topics, you might be interested in checking Hypervisor From Scratch series which describes how HyperDbg works internally:
+
+https://rayanfam.com/tutorials/</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8375</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://rayanfam.com/tutorials/" length="0" type="text/html"/>
+      <pubDate>Fri, 29 Nov 2024 08:49:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-29 08:48:01+00:00 (#8374)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8374</link>
+      <description>Generally, VT-x is consist of some instructions, which gives you (VMM) the ability to control critical CPU components (like memory, interrupts, IO ports, PCIe bars) by triggering VM-exits.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8374</guid>
+      <pubDate>Fri, 29 Nov 2024 08:48:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-29 08:45:10+00:00 (#8373)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8373</link>
+      <description>EPT Violation is a form of VM-exit.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8373</guid>
+      <pubDate>Fri, 29 Nov 2024 08:45:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-29 08:44:16+00:00 (#8372)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8372</link>
+      <description>HyperDbg is a bluepill style hypervisor, which means it virtualizes and already running system. Think of it as a system that is running and then you virtualize all system resources (starting from kernel).</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8372</guid>
+      <pubDate>Fri, 29 Nov 2024 08:44:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-28 18:21:35+00:00 (#8371)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8371</link>
+      <description>[discord] &lt;jamlee7879&gt; https://tenor.com/view/hot-summer-scary-scared-creepy-gif-17494278817868935582</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8371</guid>
+      <enclosure url="https://tg-archive.hyperdbg.org/media/https://tenor.com/view/hot-summer-scary-scared-creepy-gif-17494278817868935582" length="0" type="text/html"/>
+      <pubDate>Thu, 28 Nov 2024 18:21:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-28 18:20:47+00:00 (#8370)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8370</link>
+      <description>[discord] &lt;jamlee7879&gt; How does an EPT violation trigger a VM Exit event? Windows isn't running in a virtual machine. Can't it be handled directly in a driver?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8370</guid>
+      <pubDate>Thu, 28 Nov 2024 18:20:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-28 18:19:16+00:00 (#8369)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8369</link>
+      <description>[discord] &lt;jamlee7879&gt; Hi. What's the working principle of the EPT classic hook? I really can't figure out why a Windows running on a physical machine can also trigger an EPT violation.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8369</guid>
+      <pubDate>Thu, 28 Nov 2024 18:19:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>@roboltelegram on 2024-11-28 08:01:16+00:00 (#8368)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8368</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8368</guid>
+      <pubDate>Thu, 28 Nov 2024 08:01:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>@8014109179 on 2024-11-26 11:58:19+00:00 (#8367)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8367</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8367</guid>
+      <pubDate>Tue, 26 Nov 2024 11:58:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-24 15:36:25+00:00 (#8366)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8366</link>
+      <description>Nope, unfortunately HyperDbg only uses its custom protocol, not gdb stub.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8366</guid>
+      <pubDate>Sun, 24 Nov 2024 15:36:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-24 15:35:26+00:00 (#8365)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8365</link>
+      <description>Great. 👍</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8365</guid>
+      <pubDate>Sun, 24 Nov 2024 15:35:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-24 14:03:03+00:00 (#8364)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8364</link>
+      <description>[discord] &lt;adam235513&gt; Did you ever thought to put a gdb server into it ? So one can easily attach with IDA?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8364</guid>
+      <pubDate>Sun, 24 Nov 2024 14:03:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-24 14:02:08+00:00 (#8363)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8363</link>
+      <description>[discord] &lt;adam235513&gt; Thanks a lot</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8363</guid>
+      <pubDate>Sun, 24 Nov 2024 14:02:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-24 14:02:05+00:00 (#8362)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8362</link>
+      <description>[discord] &lt;adam235513&gt; Test trap works. Now I can attach to the process and break on a Windows API.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8362</guid>
+      <pubDate>Sun, 24 Nov 2024 14:02:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:14:37+00:00 (#8361)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8361</link>
+      <description>Sure thing. Let me know about the results. If it didn't work, probably there are other options like ignoring exceptions (using the !exception command).</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8361</guid>
+      <pubDate>Sat, 23 Nov 2024 18:14:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-23 18:13:05+00:00 (#8360)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8360</link>
+      <description>[discord] &lt;adam235513&gt; Ok, I will give it a try tomorrow. Thanks</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8360</guid>
+      <pubDate>Sat, 23 Nov 2024 18:13:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:11:43+00:00 (#8359)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8359</link>
+      <description>If you need to disable intercepting traps (single stepping) like #DB, you could use this command:
+
+test trap off</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8359</guid>
+      <pubDate>Sat, 23 Nov 2024 18:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:10:41+00:00 (#8357)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8357</link>
+      <description>You can disable triggering (intercepting breakpoints by HyperDbg) using this command:
+
+test breakpoint off</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8357</guid>
+      <pubDate>Sat, 23 Nov 2024 18:10:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-23 18:10:10+00:00 (#8356)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8356</link>
+      <description>[discord] &lt;adam235513&gt; Like a page guard is set on the memory page and hyprdbg is catching the exception</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8356</guid>
+      <pubDate>Sat, 23 Nov 2024 18:10:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-23 18:09:45+00:00 (#8355)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8355</link>
+      <description>[discord] &lt;adam235513&gt; Yes, exactly. After each instruction is executed it breaks. So hyperdbg becomes useless</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8355</guid>
+      <pubDate>Sat, 23 Nov 2024 18:09:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:08:54+00:00 (#8354)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8354</link>
+      <description>What do you mean by "breaks HyperDbg"? Is it something like triggering infinite number of breakpoints?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8354</guid>
+      <pubDate>Sat, 23 Nov 2024 18:08:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-23 18:06:52+00:00 (#8353)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8353</link>
+      <description>[discord] &lt;adam235513&gt; No, because it directly breaks in HyperDbg even when I don't launch it through hyperdbg. Can modify the code, already compiled it myself</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8353</guid>
+      <pubDate>Sat, 23 Nov 2024 18:06:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:06:20+00:00 (#8352)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8352</link>
+      <description>Or another option that you have is putting some hooks in some APIs or system-calls and intercept it this way. It's probably a better approach.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8352</guid>
+      <pubDate>Sat, 23 Nov 2024 18:06:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-23 18:05:21+00:00 (#8351)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8351</link>
+      <description>It's actually possible but if you could modify the source code (and recompile HyperDbg), but could you run the PE and then attach to it? It would be easier.</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8351</guid>
+      <pubDate>Sat, 23 Nov 2024 18:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-23 01:52:10+00:00 (#8350)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8350</link>
+      <description>[discord] &lt;adam235513&gt; Yeah, it has TLS. Can I disable the behavior? It doesn't have to break at the EP. I can set a breakpoint on one of the Windows APIs</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8350</guid>
+      <pubDate>Sat, 23 Nov 2024 01:52:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HughEverett on 2024-11-22 22:29:20+00:00 (#8349)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8349</link>
+      <description>Once you press 'g' it stops at the PE entrypoint, unless there is an anti debugging method (maybe TLS?) that breaks the debugging?</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8349</guid>
+      <pubDate>Fri, 22 Nov 2024 22:29:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>@HyperDbgBot on 2024-11-22 04:48:49+00:00 (#8348)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8348</link>
+      <description>[discord] &lt;adam235513&gt; Hi, Im trying to debug a process with anti debug. So I thought I use HyperDbg to avoid being detecting. So when I start the process in the VM HyperDbg will directly break in the process. When I press `g` it will break on the next instruction ... Is there a way to disable the behavior or at least some kind of logging to see why HyperDbg is breaking ? Is it page guard?!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8348</guid>
+      <pubDate>Fri, 22 Nov 2024 04:48:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>@7975887634 on 2024-11-21 15:57:14+00:00 (#8347)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8347</link>
+      <description></description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8347</guid>
+      <pubDate>Thu, 21 Nov 2024 15:57:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>@333224414 on 2024-11-20 18:19:45+00:00 (#8346)</title>
+      <link>https://tg-archive.hyperdbg.org/2024-11.html#8346</link>
+      <description>Amazing project! Keep it up!</description>
+      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8346</guid>
+      <pubDate>Wed, 20 Nov 2024 18:19:45 +0000</pubDate>
+    </item>
     <item>
       <title>@HyperDbgChannel on 2024-11-20 15:55:34+00:00 (#8345)</title>
       <link>https://tg-archive.hyperdbg.org/2024-11.html#8345</link>
@@ -285,470 +781,6 @@ https://docs.hyperdbg.org/commands/extension-commands/ioapic</description>
       <description>Intel(R) Core(TM) i9-14900K   3.20 GHz</description>
       <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8308</guid>
       <pubDate>Wed, 13 Nov 2024 14:34:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:34:09+00:00 (#8307)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8307</link>
-      <description>no, it is 14900k</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8307</guid>
-      <pubDate>Wed, 13 Nov 2024 14:34:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:33:40+00:00 (#8306)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8306</link>
-      <description>Okay, but on the Windows 10 where it didn't work. Is it a very old (before meltdown) processor?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8306</guid>
-      <pubDate>Wed, 13 Nov 2024 14:33:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:32:25+00:00 (#8305)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8305</link>
-      <description>Currently, it can work on Win11</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8305</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8305.jpg" length="8155" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:32:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:26:01+00:00 (#8304)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8304</link>
-      <description>Wait a moment, I'll try Win11</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8304</guid>
-      <pubDate>Wed, 13 Nov 2024 14:26:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:25:40+00:00 (#8303)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8303</link>
-      <description>Maybe you should try my exe</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8303</guid>
-      <pubDate>Wed, 13 Nov 2024 14:25:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:24:05+00:00 (#8302)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8302</link>
-      <description>I test this code one hundred time, it's still valid on my system. It's really weird.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8302</guid>
-      <pubDate>Wed, 13 Nov 2024 14:24:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:24:05+00:00 (#8301)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8301</link>
-      <description>I switched to Win11 and tried again</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8301</guid>
-      <pubDate>Wed, 13 Nov 2024 14:24:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:23:14+00:00 (#8300)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8300</link>
-      <description>🤔🤔</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8300</guid>
-      <pubDate>Wed, 13 Nov 2024 14:23:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:22:22+00:00 (#8299)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8299</link>
-      <description>photo_2024-11-13_14-22-22.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8299</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8299.jpg" length="45603" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:22:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:22:00+00:00 (#8298)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8298</link>
-      <description>Did you add _getch() to your code?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8298</guid>
-      <pubDate>Wed, 13 Nov 2024 14:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:21:26+00:00 (#8297)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8297</link>
-      <description>i do nothing</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8297</guid>
-      <pubDate>Wed, 13 Nov 2024 14:21:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:21:21+00:00 (#8296)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8296</link>
-      <description>photo_2024-11-13_14-21-21.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8296</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8296.jpg" length="67750" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:21:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:20:52+00:00 (#8295)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8295</link>
-      <description>I just restarted the system in VMware</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8295</guid>
-      <pubDate>Wed, 13 Nov 2024 14:20:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:20:28+00:00 (#8294)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8294</link>
-      <description>I don't know what happened</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8294</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8294.jpg" length="107034" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:20:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:15:19+00:00 (#8293)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8293</link>
-      <description>let me try again</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8293</guid>
-      <pubDate>Wed, 13 Nov 2024 14:15:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:15:02+00:00 (#8292)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8292</link>
-      <description>emmm.....</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8292</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8292.jpg" length="48118" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:15:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:06:29+00:00 (#8291)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8291</link>
-      <description>Alternatively, I can rewrite a clean demo</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8291</guid>
-      <pubDate>Wed, 13 Nov 2024 14:06:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:06:11+00:00 (#8290)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8290</link>
-      <description>of course</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8290</guid>
-      <pubDate>Wed, 13 Nov 2024 14:06:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:05:28+00:00 (#8289)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8289</link>
-      <description>The only difference between your code and my code is that I commented the 'help' function. Could you add a '_getch()' before the help function and try it again?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8289</guid>
-      <pubDate>Wed, 13 Nov 2024 14:05:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:04:25+00:00 (#8288)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8288</link>
-      <description>photo_2024-11-13_14-04-25.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8288</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8288.jpg" length="56322" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:04:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 14:04:25+00:00 (#8287)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8287</link>
-      <description>photo_2024-11-13_14-04-25.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8287</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8287.jpg" length="134853" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:04:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:00:21+00:00 (#8286)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8286</link>
-      <description>😂</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8286</guid>
-      <pubDate>Wed, 13 Nov 2024 14:00:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 14:00:08+00:00 (#8285)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8285</link>
-      <description>Maybe we'll have to test it later, con't connect to github.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8285</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8285.jpg" length="16194" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 14:00:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:54:22+00:00 (#8284)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8284</link>
-      <description>There is no problem with using&amp;for functions</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8284</guid>
-      <pubDate>Wed, 13 Nov 2024 13:54:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:53:58+00:00 (#8283)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8283</link>
-      <description>I don't know how to say this</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8283</guid>
-      <pubDate>Wed, 13 Nov 2024 13:53:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:52:53+00:00 (#8282)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8282</link>
-      <description>Why these two variables are the same? Is there any optimization? 😳</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8282</guid>
-      <pubDate>Wed, 13 Nov 2024 13:52:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:52:04+00:00 (#8281)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8281</link>
-      <description>photo_2024-11-13_13-52-04.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8281</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8281.jpg" length="7519" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:52:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:51:56+00:00 (#8280)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8280</link>
-      <description>Fixed?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8280</guid>
-      <pubDate>Wed, 13 Nov 2024 13:51:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:51:24+00:00 (#8279)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8279</link>
-      <description>🤣</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8279</guid>
-      <pubDate>Wed, 13 Nov 2024 13:51:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:51:20+00:00 (#8278)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8278</link>
-      <description>image_2024-11-13_21-51-19.png</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8278</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8278.png" length="19852" type="image/png"/>
-      <pubDate>Wed, 13 Nov 2024 13:51:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:50:28+00:00 (#8277)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8277</link>
-      <description>photo_2024-11-13_13-50-28.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8277</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8277.jpg" length="19352" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:50:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:49:46+00:00 (#8276)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8276</link>
-      <description>i test remove &amp;, but I don't think this has anything to do with it</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8276</guid>
-      <pubDate>Wed, 13 Nov 2024 13:49:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:49:18+00:00 (#8275)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8275</link>
-      <description>ok</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8275</guid>
-      <pubDate>Wed, 13 Nov 2024 13:49:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:48:54+00:00 (#8274)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8274</link>
-      <description>Could you check it as well?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8274</guid>
-      <pubDate>Wed, 13 Nov 2024 13:48:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:48:40+00:00 (#8273)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8273</link>
-      <description>Because you're creating a reference to the address of the 'test'. It's not the address of the 'test'. Am I right?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8273</guid>
-      <pubDate>Wed, 13 Nov 2024 13:48:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:48:04+00:00 (#8272)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8272</link>
-      <description>I mean I removed the the '&amp;'.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8272</guid>
-      <pubDate>Wed, 13 Nov 2024 13:48:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:47:53+00:00 (#8271)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8271</link>
-      <description>Other than that, shouldn't it be like this?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8271</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8271.jpg" length="7195" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:47:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:47:38+00:00 (#8270)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8270</link>
-      <description>ok, i do it now</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8270</guid>
-      <pubDate>Wed, 13 Nov 2024 13:47:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:47:03+00:00 (#8269)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8269</link>
-      <description>You can remove your modifications and recompile HyperDbg.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8269</guid>
-      <pubDate>Wed, 13 Nov 2024 13:47:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:46:30+00:00 (#8268)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8268</link>
-      <description>Perhaps I accidentally modified the hyperhv code</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8268</guid>
-      <pubDate>Wed, 13 Nov 2024 13:46:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:46:22+00:00 (#8267)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8267</link>
-      <description>It's probably because at some points the pCode is no longer valid.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8267</guid>
-      <pubDate>Wed, 13 Nov 2024 13:46:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:45:41+00:00 (#8266)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8266</link>
-      <description>Yes, I think so too</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8266</guid>
-      <pubDate>Wed, 13 Nov 2024 13:45:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:45:17+00:00 (#8265)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8265</link>
-      <description>I think the problem is not because of HyperDbg as it works for me.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8265</guid>
-      <pubDate>Wed, 13 Nov 2024 13:45:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:44:59+00:00 (#8264)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8264</link>
-      <description>photo_2024-11-13_13-44-59.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8264</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8264.jpg" length="59635" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:44:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:44:59+00:00 (#8263)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8263</link>
-      <description>photo_2024-11-13_13-44-59.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8263</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8263.jpg" length="146227" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:44:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:44:15+00:00 (#8262)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8262</link>
-      <description>Can you reproduce this phenomenon?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8262</guid>
-      <pubDate>Wed, 13 Nov 2024 13:44:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:40:17+00:00 (#8261)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8261</link>
-      <description>I don't think it has anything to do with functions</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8261</guid>
-      <pubDate>Wed, 13 Nov 2024 13:40:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:40:06+00:00 (#8260)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8260</link>
-      <description>Thanks, lemme check it</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8260</guid>
-      <pubDate>Wed, 13 Nov 2024 13:40:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:39:51+00:00 (#8259)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8259</link>
-      <description>int main()
-{
-  {
-    BYTE* pCode = (BYTE*)&amp;test;
-    cout &lt;&lt; "pid:0x" &lt;&lt; std::hex &lt;&lt; GetCurrentProcessId() &lt;&lt; ", proc:0x" &lt;&lt; (PVOID)pCode &lt;&lt; endl;
-    help();
-  }</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8259</guid>
-      <pubDate>Wed, 13 Nov 2024 13:39:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:39:39+00:00 (#8258)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8258</link>
-      <description>int test()
-{
-  cout &lt;&lt; "\tinput text, and messagebox" &lt;&lt; endl;
-  string str;
-  cin &gt;&gt; str;
-  return MessageBoxA(0, str.c_str(), 0, 0);
-}</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8258</guid>
-      <pubDate>Wed, 13 Nov 2024 13:39:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:39:28+00:00 (#8257)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8257</link>
-      <description>test() and main()</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8257</guid>
-      <pubDate>Wed, 13 Nov 2024 13:39:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:39:15+00:00 (#8256)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8256</link>
-      <description>functions?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8256</guid>
-      <pubDate>Wed, 13 Nov 2024 13:39:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:38:40+00:00 (#8255)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8255</link>
-      <description>I'm gonna test it.</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8255</guid>
-      <pubDate>Wed, 13 Nov 2024 13:38:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:38:34+00:00 (#8254)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8254</link>
-      <description>Could you please copy-paste these two functions here?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8254</guid>
-      <pubDate>Wed, 13 Nov 2024 13:38:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:37:59+00:00 (#8253)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8253</link>
-      <description>photo_2024-11-13_13-37-59.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8253</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8253.jpg" length="14327" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:37:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:37:12+00:00 (#8252)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8252</link>
-      <description>what is &amp;test?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8252</guid>
-      <pubDate>Wed, 13 Nov 2024 13:37:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:35:57+00:00 (#8251)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8251</link>
-      <description>this is my demo</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8251</guid>
-      <pubDate>Wed, 13 Nov 2024 13:35:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:35:44+00:00 (#8250)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8250</link>
-      <description>photo_2024-11-13_13-35-44.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8250</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8250.jpg" length="17742" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:35:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:34:38+00:00 (#8249)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8249</link>
-      <description>Is there any anti-debugging method in your target application that leads to this behavior?</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8249</guid>
-      <pubDate>Wed, 13 Nov 2024 13:34:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:34:05+00:00 (#8248)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8248</link>
-      <description>photo_2024-11-13_13-34-05.jpg</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8248</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8248.jpg" length="53828" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:34:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>@HughEverett on 2024-11-13 13:33:49+00:00 (#8247)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8247</link>
-      <description>I test it with a custom application:</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8247</guid>
-      <enclosure url="https://tg-archive.hyperdbg.org/media/8247.jpg" length="121792" type="image/jpeg"/>
-      <pubDate>Wed, 13 Nov 2024 13:33:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>@6695510551 on 2024-11-13 13:31:20+00:00 (#8246)</title>
-      <link>https://tg-archive.hyperdbg.org/2024-11.html#8246</link>
-      <description>👍</description>
-      <guid isPermaLink="false">https://tg-archive.hyperdbg.org/2024-11.html#8246</guid>
-      <pubDate>Wed, 13 Nov 2024 13:31:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
