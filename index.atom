@@ -2,824 +2,886 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tg-archive.hyperdbg.org</id>
   <title>@hyperdbg - Telegram group archive</title>
-  <updated>2025-03-20T00:20:08.662552+00:00</updated>
+  <updated>2025-05-17T17:14:31.495022+00:00</updated>
   <link href="https://tg-archive.hyperdbg.org" rel="alternate"/>
   <generator>tg-archive 1.2.1</generator>
   <subtitle>Public archive of HyperDbg Telegram messages.</subtitle>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9248</id>
-    <title>@6176993302 on 2025-03-20 00:12:56+00:00 (#9248)</title>
-    <updated>2025-03-20T00:20:08.665403+00:00</updated>
-    <content type="html">it somehow implements the same idea to monitor page tables (he will set page table entries to "read only" according to him"</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9248"/>
-    <published>2025-03-20T00:12:56+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9714</id>
+    <title>@HughEverett on 2025-05-17 17:01:03+00:00 (#9714)</title>
+    <updated>2025-05-17T17:14:31.496595+00:00</updated>
+    <content type="html">https://rayanfam.com/topics/hypervisor-from-scratch-part-8/#whats-a-spinlock</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9714"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://rayanfam.com/topics/hypervisor-from-scratch-part-8/"/>
+    <published>2025-05-17T17:01:03+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9247</id>
-    <title>@6176993302 on 2025-03-20 00:12:05+00:00 (#9247)</title>
-    <updated>2025-03-20T00:20:08.665364+00:00</updated>
-    <content type="html">https://hypervsir.blogspot.com/2014/11/monitor-trap-flag-mtf-usage-in-ept.html</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9247"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://hypervsir.blogspot.com/2014/11/monitor-trap-flag-mtf-usage-in-ept.html"/>
-    <published>2025-03-20T00:12:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9713</id>
+    <title>@HughEverett on 2025-05-17 17:00:28+00:00 (#9713)</title>
+    <updated>2025-05-17T17:14:31.496588+00:00</updated>
+    <content type="html">So, it's like you put a spinlock and lock it, another thread (or core) also needs to lock the spinlock and because it's already locked, the new thread couldn't lock it and it prevent the modification by two (or more) threads or cores.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9713"/>
+    <published>2025-05-17T17:00:28+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9246</id>
-    <title>@6176993302 on 2025-03-20 00:12:04+00:00 (#9246)</title>
-    <updated>2025-03-20T00:20:08.665351+00:00</updated>
-    <content type="html">i found this article</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9246"/>
-    <published>2025-03-20T00:12:04+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9712</id>
+    <title>@HughEverett on 2025-05-17 16:59:11+00:00 (#9712)</title>
+    <updated>2025-05-17T17:14:31.496520+00:00</updated>
+    <content type="html">Here is a very basic example of using a spinlock in a C code. The same concept applies to HyperDbg's script engine spinlock function (you need to use it like this.).</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9712"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9712.jpg"/>
+    <published>2025-05-17T16:59:11+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9245</id>
-    <title>@6176993302 on 2025-03-20 00:11:41+00:00 (#9245)</title>
-    <updated>2025-03-20T00:20:08.665340+00:00</updated>
-    <content type="html">mmmmm however we should solve the puzzle of this PML4E xd</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9245"/>
-    <published>2025-03-20T00:11:41+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9711</id>
+    <title>@honorary_bot on 2025-05-17 16:54:54+00:00 (#9711)</title>
+    <updated>2025-05-17T17:14:31.496514+00:00</updated>
+    <content type="html">And since physical address space is sort of huge, you can save some memory for EPT tables using large or even huge EPT</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9711"/>
+    <published>2025-05-17T16:54:54+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9244</id>
-    <title>@HughEverett on 2025-03-20 00:09:17+00:00 (#9244)</title>
-    <updated>2025-03-20T00:20:08.665330+00:00</updated>
-    <content type="html">yes</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9244"/>
-    <published>2025-03-20T00:09:17+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9710</id>
+    <title>@HughEverett on 2025-05-17 16:54:29+00:00 (#9710)</title>
+    <updated>2025-05-17T17:14:31.496502+00:00</updated>
+    <content type="html">This is the entire MTRR logic of HyperDbg: https://github.com/HyperDbg/HyperDbg/blob/6a1da349effc8879770eadd14e928964d1257d81/hyperdbg/hyperhv/code/vmm/ept/Ept.c#L156</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9710"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/blob/6a1da349effc8879770eadd14e928964d1257d81/hyperdbg/hyperhv/code/vmm/ept/Ept.c"/>
+    <published>2025-05-17T16:54:29+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9243</id>
-    <title>@6176993302 on 2025-03-20 00:09:15+00:00 (#9243)</title>
-    <updated>2025-03-20T00:20:08.665319+00:00</updated>
-    <content type="html">got it got it got it</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9243"/>
-    <published>2025-03-20T00:09:15+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9709</id>
+    <title>@HughEverett on 2025-05-17 16:54:01+00:00 (#9709)</title>
+    <updated>2025-05-17T17:14:31.496429+00:00</updated>
+    <content type="html">Yes, you're right.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9709"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9709.jpg"/>
+    <published>2025-05-17T16:54:01+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9242</id>
-    <title>@6176993302 on 2025-03-20 00:09:09+00:00 (#9242)</title>
-    <updated>2025-03-20T00:20:08.665309+00:00</updated>
-    <content type="html">so : not setting hook = Setting RWX bits)</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9242"/>
-    <published>2025-03-20T00:09:09+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9708</id>
+    <title>@honorary_bot on 2025-05-17 16:53:54+00:00 (#9708)</title>
+    <updated>2025-05-17T17:14:31.496424+00:00</updated>
+    <content type="html">The only thing that limits it is a width of a physical address</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9708"/>
+    <published>2025-05-17T16:53:54+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9241</id>
-    <title>@HughEverett on 2025-03-20 00:09:04+00:00 (#9241)</title>
-    <updated>2025-03-20T00:20:08.665298+00:00</updated>
-    <content type="html">No, you need to configure it like:
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9707</id>
+    <title>@honorary_bot on 2025-05-17 16:53:37+00:00 (#9707)</title>
+    <updated>2025-05-17T17:14:31.496418+00:00</updated>
+    <content type="html">You can point your MMIO BAR to almost anywhere on the physical address space. If there is no dram, it will just go to DMI decode</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9707"/>
+    <published>2025-05-17T16:53:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9706</id>
+    <title>@honorary_bot on 2025-05-17 16:52:46+00:00 (#9706)</title>
+    <updated>2025-05-17T17:14:31.496409+00:00</updated>
+    <content type="html">Something something DEF MSR, don’t remember the name now</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9706"/>
+    <published>2025-05-17T16:52:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9705</id>
+    <title>@honorary_bot on 2025-05-17 16:52:29+00:00 (#9705)</title>
+    <updated>2025-05-17T17:14:31.496403+00:00</updated>
+    <content type="html">Default one</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9705"/>
+    <published>2025-05-17T16:52:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9704</id>
+    <title>@HughEverett on 2025-05-17 16:52:19+00:00 (#9704)</title>
+    <updated>2025-05-17T17:14:31.496396+00:00</updated>
+    <content type="html">def one?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9704"/>
+    <published>2025-05-17T16:52:19+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9703</id>
+    <title>@honorary_bot on 2025-05-17 16:51:40+00:00 (#9703)</title>
+    <updated>2025-05-17T17:14:31.496383+00:00</updated>
+    <content type="html">MTRRs don’t cover the whole physical address space, there is a def one, right? The regions that are not described on MTRRs just default to MTRR def MSR.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9703"/>
+    <published>2025-05-17T16:51:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9702</id>
+    <title>@HughEverett on 2025-05-17 16:50:49+00:00 (#9702)</title>
+    <updated>2025-05-17T17:14:31.496377+00:00</updated>
+    <content type="html">I mean, is it like that remapping causes to create something out of the range of MTRRs?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9702"/>
+    <published>2025-05-17T16:50:49+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9701</id>
+    <title>@HughEverett on 2025-05-17 16:50:14+00:00 (#9701)</title>
+    <updated>2025-05-17T17:14:31.496371+00:00</updated>
+    <content type="html">Well, we build everything based on available MTRRs for the entire address space of MTRRs. Does the remapping change it at some point?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9701"/>
+    <published>2025-05-17T16:50:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9700</id>
+    <title>@HyperDbgBot on 2025-05-17 16:46:41+00:00 (#9700)</title>
+    <updated>2025-05-17T17:14:31.496366+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; Yep, i can try that now.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9700"/>
+    <published>2025-05-17T16:46:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9699</id>
+    <title>@honorary_bot on 2025-05-17 16:46:27+00:00 (#9699)</title>
+    <updated>2025-05-17T17:14:31.496360+00:00</updated>
+    <content type="html">This is a bad advice for setting up your bios params, this is just for testing</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9699"/>
+    <published>2025-05-17T16:46:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9698</id>
+    <title>@honorary_bot on 2025-05-17 16:45:57+00:00 (#9698)</title>
+    <updated>2025-05-17T17:14:31.496355+00:00</updated>
+    <content type="html">Can you try setting up bios settings to "Use above 4g decode - no and/or remap 4g - no" just to test this theory?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9698"/>
+    <published>2025-05-17T16:45:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9697</id>
+    <title>@honorary_bot on 2025-05-17 16:44:57+00:00 (#9697)</title>
+    <updated>2025-05-17T17:14:31.496349+00:00</updated>
+    <content type="html">@HughEverett do you build EPT pages for the whole physical address space? My random guess would be that those dirvers use MMIO which is remapped above the top of addressable dram memory and possible that area is not covered by your EPT</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9697"/>
+    <published>2025-05-17T16:44:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9696</id>
+    <title>@HyperDbgBot on 2025-05-17 16:41:23+00:00 (#9696)</title>
+    <updated>2025-05-17T17:14:31.496343+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; Running env is baremetal windows 11</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9696"/>
+    <published>2025-05-17T16:41:23+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9695</id>
+    <title>@HyperDbgBot on 2025-05-17 16:40:08+00:00 (#9695)</title>
+    <updated>2025-05-17T17:14:31.496337+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; [reply]: It could be my drivers, i use Logi with default windows usb drivers since i saw `USBXHCI!Bulk_Stage_MapIntoRing+0x6df` in the stack trace, then installed Logi+ Native drivers then the stack trace changed to `igdkmdn64+0x4447e1` then i updated intel drivers then it changed to `nvlddmkm+0xd710a3` kicking off the EPT violation. Unfortunately im on the latest nvidia drivers so. 
 
-MonitorDetails.SetHookForRead  = FALSE;
- MonitorDetails.SetHookForWrite = TRUE;
- MonitorDetails.SetHookForExec  = FALSE;</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9241"/>
-    <published>2025-03-20T00:09:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9240</id>
-    <title>@6176993302 on 2025-03-20 00:08:47+00:00 (#9240)</title>
-    <updated>2025-03-20T00:20:08.665287+00:00</updated>
-    <content type="html">okaaay</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9240"/>
-    <published>2025-03-20T00:08:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9239</id>
-    <title>@HughEverett on 2025-03-20 00:08:10+00:00 (#9239)</title>
-    <updated>2025-03-20T00:20:08.665276+00:00</updated>
-    <content type="html">Setting hook = Not (Setting RWX bits)</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9239"/>
-    <published>2025-03-20T00:08:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9238</id>
-    <title>@6176993302 on 2025-03-20 00:08:06+00:00 (#9238)</title>
-    <updated>2025-03-20T00:20:08.665265+00:00</updated>
-    <content type="html">will trigger write access only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9238"/>
-    <published>2025-03-20T00:08:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9237</id>
-    <title>@6176993302 on 2025-03-20 00:07:56+00:00 (#9237)</title>
-    <updated>2025-03-20T00:20:08.665254+00:00</updated>
-    <content type="html">MonitorDetails.SetHookForRead  = TRUE;
- MonitorDetails.SetHookForWrite = FALSE;
- MonitorDetails.SetHookForExec  = TRUE;</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9237"/>
-    <published>2025-03-20T00:07:56+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9236</id>
-    <title>@6176993302 on 2025-03-20 00:07:40+00:00 (#9236)</title>
-    <updated>2025-03-20T00:20:08.665242+00:00</updated>
-    <content type="html">so im not wrong</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9236"/>
-    <published>2025-03-20T00:07:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9235</id>
-    <title>@6176993302 on 2025-03-20 00:07:35+00:00 (#9235)</title>
-    <updated>2025-03-20T00:20:08.665228+00:00</updated>
-    <content type="html">defintion of access from code perspective</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9235"/>
-    <published>2025-03-20T00:07:35+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9234</id>
-    <title>@6176993302 on 2025-03-20 00:07:18+00:00 (#9234)</title>
-    <updated>2025-03-20T00:20:08.665209+00:00</updated>
-    <content type="html">im just confused about the</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9234"/>
-    <published>2025-03-20T00:07:18+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9233</id>
-    <title>@HughEverett on 2025-03-20 00:06:41+00:00 (#9233)</title>
-    <updated>2025-03-20T00:20:08.665152+00:00</updated>
-    <content type="html">So, what's the problem Poikourditchy78 ? HyperDbg certainly support this one on its current design.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9233"/>
-    <published>2025-03-20T00:06:41+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9232</id>
-    <title>@HughEverett on 2025-03-20 00:05:44+00:00 (#9232)</title>
-    <updated>2025-03-20T00:20:08.665141+00:00</updated>
-    <content type="html">I mean this one, but in terms of setting hook, it's NOT(Page bits).</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9232"/>
-    <published>2025-03-20T00:05:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9231</id>
-    <title>@HughEverett on 2025-03-20 00:05:10+00:00 (#9231)</title>
-    <updated>2025-03-20T00:20:08.665124+00:00</updated>
-    <content type="html">Oh, yes</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9231"/>
-    <published>2025-03-20T00:05:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9230</id>
-    <title>@HughEverett on 2025-03-20 00:05:04+00:00 (#9230)</title>
-    <updated>2025-03-20T00:20:08.665114+00:00</updated>
-    <content type="html">well, let me double check the code. I think we're mixing set write to FALSE with set hook to FALSE.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9230"/>
-    <published>2025-03-20T00:05:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9229</id>
-    <title>@honorary_bot on 2025-03-20 00:05:00+00:00 (#9229)</title>
-    <updated>2025-03-20T00:20:08.665103+00:00</updated>
-    <content type="html">R = 1, W = 0</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9229"/>
-    <published>2025-03-20T00:05:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9228</id>
-    <title>@honorary_bot on 2025-03-20 00:04:54+00:00 (#9228)</title>
-    <updated>2025-03-20T00:20:08.665091+00:00</updated>
-    <content type="html">But it's the other way round</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9228"/>
-    <published>2025-03-20T00:04:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9227</id>
-    <title>@honorary_bot on 2025-03-20 00:04:49+00:00 (#9227)</title>
-    <updated>2025-03-20T00:20:08.665080+00:00</updated>
-    <content type="html">R = 0, W = 1 is invalid</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9227"/>
-    <published>2025-03-20T00:04:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9226</id>
-    <title>@honorary_bot on 2025-03-20 00:04:40+00:00 (#9226)</title>
-    <updated>2025-03-20T00:20:08.665070+00:00</updated>
-    <content type="html">You can</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9226"/>
-    <published>2025-03-20T00:04:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9225</id>
-    <title>@HughEverett on 2025-03-20 00:04:03+00:00 (#9225)</title>
-    <updated>2025-03-20T00:20:08.665056+00:00</updated>
-    <content type="html">You can't set hook for write without having it for reads.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9225"/>
-    <published>2025-03-20T00:04:03+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9224</id>
-    <title>@honorary_bot on 2025-03-20 00:03:39+00:00 (#9224)</title>
-    <updated>2025-03-20T00:20:08.665045+00:00</updated>
-    <content type="html">In EPT</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9224"/>
-    <published>2025-03-20T00:03:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9223</id>
-    <title>@honorary_bot on 2025-03-20 00:03:33+00:00 (#9223)</title>
-    <updated>2025-03-20T00:20:08.665033+00:00</updated>
-    <content type="html">That means R is 1, but W is 0</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9223"/>
-    <published>2025-03-20T00:03:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9222</id>
-    <title>@honorary_bot on 2025-03-20 00:03:24+00:00 (#9222)</title>
-    <updated>2025-03-20T00:20:08.665023+00:00</updated>
-    <content type="html">He needs a EPT violation only on writes</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9222"/>
-    <published>2025-03-20T00:03:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9221</id>
-    <title>@HughEverett on 2025-03-20 00:03:08+00:00 (#9221)</title>
-    <updated>2025-03-20T00:20:08.665010+00:00</updated>
-    <content type="html">again, not possible.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9221"/>
-    <published>2025-03-20T00:03:08+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9220</id>
-    <title>@6176993302 on 2025-03-20 00:02:58+00:00 (#9220)</title>
-    <updated>2025-03-20T00:20:08.664998+00:00</updated>
-    <content type="html">MonitorDetails.SetHookForRead  = FALSE;
- MonitorDetails.SetHookForWrite = TRUE;
- MonitorDetails.SetHookForExec  = TRUE;</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9220"/>
-    <published>2025-03-20T00:02:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9219</id>
-    <title>@6176993302 on 2025-03-20 00:02:49+00:00 (#9219)</title>
-    <updated>2025-03-20T00:20:08.664987+00:00</updated>
-    <content type="html">so something like</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9219"/>
-    <published>2025-03-20T00:02:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9218</id>
-    <title>@HughEverett on 2025-03-20 00:02:23+00:00 (#9218)</title>
-    <updated>2025-03-20T00:20:08.664976+00:00</updated>
-    <content type="html">Not possible, using this combination is not allowed in Intel.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9218"/>
-    <published>2025-03-20T00:02:23+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9217</id>
-    <title>@6176993302 on 2025-03-20 00:01:42+00:00 (#9217)</title>
-    <updated>2025-03-20T00:20:08.664965+00:00</updated>
-    <content type="html">MonitorDetails.SetHookForRead  = FALSE;
- MonitorDetails.SetHookForWrite = TRUE;
- MonitorDetails.SetHookForExec  = FALSE;</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9217"/>
-    <published>2025-03-20T00:01:42+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9216</id>
-    <title>@6176993302 on 2025-03-20 00:01:35+00:00 (#9216)</title>
-    <updated>2025-03-20T00:20:08.664954+00:00</updated>
-    <content type="html">we should</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9216"/>
-    <published>2025-03-20T00:01:35+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9215</id>
-    <title>@6176993302 on 2025-03-20 00:01:32+00:00 (#9215)</title>
-    <updated>2025-03-20T00:20:08.664942+00:00</updated>
-    <content type="html">only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9215"/>
-    <published>2025-03-20T00:01:32+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9214</id>
-    <title>@6176993302 on 2025-03-20 00:01:31+00:00 (#9214)</title>
-    <updated>2025-03-20T00:20:08.664931+00:00</updated>
-    <content type="html">in order to monitor write access</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9214"/>
-    <published>2025-03-20T00:01:31+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9213</id>
-    <title>@6176993302 on 2025-03-20 00:01:21+00:00 (#9213)</title>
-    <updated>2025-03-20T00:20:08.664919+00:00</updated>
-    <content type="html">so</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9213"/>
-    <published>2025-03-20T00:01:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9212</id>
-    <title>@HughEverett on 2025-03-20 00:01:20+00:00 (#9212)</title>
-    <updated>2025-03-20T00:20:08.664906+00:00</updated>
-    <content type="html">Got it. That's reasonable.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9212"/>
-    <published>2025-03-20T00:01:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9211</id>
-    <title>@HughEverett on 2025-03-20 00:00:50+00:00 (#9211)</title>
-    <updated>2025-03-20T00:20:08.664890+00:00</updated>
-    <content type="html">You can't do it, Intel won't allow it. That's why HyperDbg automatically configures the (read to FALSE) bit.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9211"/>
-    <published>2025-03-20T00:00:50+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9210</id>
-    <title>@HughEverett on 2025-03-19 23:59:34+00:00 (#9210)</title>
-    <updated>2025-03-20T00:20:08.664793+00:00</updated>
-    <content type="html">HyperDbg allows all of the possible combination. The only thing that is not allowed is a page that you want to intercept its reads but not writes. (It automatically sets the write to FALSE) because it's not supported in Intel processors (you'll get a VM error if you configure it like this).</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9210"/>
-    <published>2025-03-19T23:59:34+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9209</id>
-    <title>@honorary_bot on 2025-03-19 23:59:31+00:00 (#9209)</title>
-    <updated>2025-03-20T00:20:08.664782+00:00</updated>
-    <content type="html">Ohh, but that's a manual page walk with an actual pte access</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9209"/>
-    <published>2025-03-19T23:59:31+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9208</id>
-    <title>@6176993302 on 2025-03-19 23:58:16+00:00 (#9208)</title>
-    <updated>2025-03-20T00:20:08.664769+00:00</updated>
-    <content type="html">many of the addresses that caused the EPT violation are related to the memory manager code</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9208"/>
-    <published>2025-03-19T23:58:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9207</id>
-    <title>@6176993302 on 2025-03-19 23:57:47+00:00 (#9207)</title>
-    <updated>2025-03-20T00:20:08.664639+00:00</updated>
-    <content type="html">photo_2025-03-19_23-57-47.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9207"/>
-    <link href="https://tg-archive.hyperdbg.org/media/9207.jpg"/>
-    <published>2025-03-19T23:57:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9206</id>
-    <title>@honorary_bot on 2025-03-19 23:57:13+00:00 (#9206)</title>
-    <updated>2025-03-20T00:20:08.664625+00:00</updated>
-    <content type="html">That's what I deduce from the the discussion, it makes sense. Though I haven't tried myself</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9206"/>
-    <published>2025-03-19T23:57:13+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9205</id>
-    <title>@6176993302 on 2025-03-19 23:56:30+00:00 (#9205)</title>
-    <updated>2025-03-20T00:20:08.664457+00:00</updated>
-    <content type="html">photo_2025-03-19_23-56-30.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9205"/>
-    <link href="https://tg-archive.hyperdbg.org/media/9205.jpg"/>
-    <published>2025-03-19T23:56:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9204</id>
-    <title>@HughEverett on 2025-03-19 23:56:13+00:00 (#9204)</title>
-    <updated>2025-03-20T00:20:08.664446+00:00</updated>
-    <content type="html">Do you mean that each translation of a page (VA to PA), will create EPT violation?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9204"/>
-    <published>2025-03-19T23:56:13+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9202</id>
-    <title>@HughEverett on 2025-03-19 23:54:36+00:00 (#9202)</title>
-    <updated>2025-03-20T00:20:08.664435+00:00</updated>
-    <content type="html">what is the exit reason? can you print that?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9202"/>
-    <published>2025-03-19T23:54:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9201</id>
-    <title>@HughEverett on 2025-03-19 23:53:58+00:00 (#9201)</title>
-    <updated>2025-03-20T00:20:08.664424+00:00</updated>
-    <content type="html">yes</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9201"/>
-    <published>2025-03-19T23:53:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9200</id>
-    <title>@6176993302 on 2025-03-19 23:03:28+00:00 (#9200)</title>
-    <updated>2025-03-20T00:20:08.664413+00:00</updated>
-    <content type="html">this will help really improve the performance since usually we are intersted in write access events from a malware detection perspective</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9200"/>
-    <published>2025-03-19T23:03:28+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9199</id>
-    <title>@6176993302 on 2025-03-19 23:02:38+00:00 (#9199)</title>
-    <updated>2025-03-20T00:20:08.664402+00:00</updated>
-    <content type="html">i think we should have a fork of hyperdbg that ignore read access when the user specify write access only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9199"/>
-    <published>2025-03-19T23:02:38+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9198</id>
-    <title>@6176993302 on 2025-03-19 23:01:42+00:00 (#9198)</title>
-    <updated>2025-03-20T00:20:08.664390+00:00</updated>
-    <content type="html">well if that was the case</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9198"/>
-    <published>2025-03-19T23:01:42+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9197</id>
-    <title>@honorary_bot on 2025-03-19 23:01:08+00:00 (#9197)</title>
-    <updated>2025-03-20T00:20:08.664378+00:00</updated>
-    <content type="html">Applicable for every pte type</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9197"/>
-    <published>2025-03-19T23:01:08+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9196</id>
-    <title>@honorary_bot on 2025-03-19 23:00:54+00:00 (#9196)</title>
-    <updated>2025-03-20T00:20:08.664291+00:00</updated>
-    <content type="html">photo_2025-03-19_23-00-54.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9196"/>
-    <link href="https://tg-archive.hyperdbg.org/media/9196.jpg"/>
-    <published>2025-03-19T23:00:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9195</id>
-    <title>@6176993302 on 2025-03-19 23:00:21+00:00 (#9195)</title>
-    <updated>2025-03-20T00:20:08.664281+00:00</updated>
-    <content type="html">@HughEverett i think sina have more details about the implementation</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9195"/>
-    <published>2025-03-19T23:00:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9194</id>
-    <title>@6176993302 on 2025-03-19 22:59:56+00:00 (#9194)</title>
-    <updated>2025-03-20T00:20:08.664270+00:00</updated>
-    <content type="html">thats the first time i hear about</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9194"/>
-    <published>2025-03-19T22:59:56+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9193</id>
-    <title>@6176993302 on 2025-03-19 22:59:46+00:00 (#9193)</title>
-    <updated>2025-03-20T00:20:08.664259+00:00</updated>
-    <content type="html">but for the write only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9193"/>
-    <published>2025-03-19T22:59:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9192</id>
-    <title>@6176993302 on 2025-03-19 22:59:32+00:00 (#9192)</title>
-    <updated>2025-03-20T00:20:08.664248+00:00</updated>
-    <content type="html">im aware of the execute only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9192"/>
-    <published>2025-03-19T22:59:32+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9191</id>
-    <title>@honorary_bot on 2025-03-19 22:59:18+00:00 (#9191)</title>
-    <updated>2025-03-20T00:20:08.664237+00:00</updated>
-    <content type="html">I'm just an Intel guy</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9191"/>
-    <published>2025-03-19T22:59:18+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9190</id>
-    <title>@honorary_bot on 2025-03-19 22:59:00+00:00 (#9190)</title>
-    <updated>2025-03-20T00:20:08.664223+00:00</updated>
-    <content type="html">Oh, that's hyperdbg specifics then )</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9190"/>
-    <published>2025-03-19T22:59:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9189</id>
-    <title>@honorary_bot on 2025-03-19 22:58:52+00:00 (#9189)</title>
-    <updated>2025-03-20T00:20:08.664109+00:00</updated>
-    <content type="html">photo_2025-03-19_22-58-52.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9189"/>
-    <link href="https://tg-archive.hyperdbg.org/media/9189.jpg"/>
-    <published>2025-03-19T22:58:52+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9188</id>
-    <title>@6176993302 on 2025-03-19 22:58:51+00:00 (#9188)</title>
-    <updated>2025-03-20T00:20:08.664096+00:00</updated>
-    <content type="html">even if the user specified the write only</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9188"/>
-    <published>2025-03-19T22:58:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9187</id>
-    <title>@6176993302 on 2025-03-19 22:58:38+00:00 (#9187)</title>
-    <updated>2025-03-20T00:20:08.664085+00:00</updated>
-    <content type="html">add always the read</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9187"/>
-    <published>2025-03-19T22:58:38+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9186</id>
-    <title>@6176993302 on 2025-03-19 22:58:27+00:00 (#9186)</title>
-    <updated>2025-03-20T00:20:08.664074+00:00</updated>
-    <content type="html">because if im not wrong the current hyperdbg implementation</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9186"/>
-    <published>2025-03-19T22:58:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9185</id>
-    <title>@6176993302 on 2025-03-19 22:58:04+00:00 (#9185)</title>
-    <updated>2025-03-20T00:20:08.664063+00:00</updated>
-    <content type="html">really?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9185"/>
-    <published>2025-03-19T22:58:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9184</id>
-    <title>@honorary_bot on 2025-03-19 22:57:39+00:00 (#9184)</title>
-    <updated>2025-03-20T00:20:08.664053+00:00</updated>
-    <content type="html">EPT protection definitely allows write-only, as well as execute-only on later (IVB+) cpus</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9184"/>
-    <published>2025-03-19T22:57:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9183</id>
-    <title>@6176993302 on 2025-03-19 22:56:17+00:00 (#9183)</title>
-    <updated>2025-03-20T00:20:08.664042+00:00</updated>
-    <content type="html">because if im not wrong you cannot set up write alone?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9183"/>
-    <published>2025-03-19T22:56:17+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9182</id>
-    <title>@6176993302 on 2025-03-19 22:56:02+00:00 (#9182)</title>
-    <updated>2025-03-20T00:20:08.664031+00:00</updated>
-    <content type="html">in order to minitor the write only what config i need to set up</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9182"/>
-    <published>2025-03-19T22:56:02+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9181</id>
-    <title>@honorary_bot on 2025-03-19 22:52:19+00:00 (#9181)</title>
-    <updated>2025-03-20T00:20:08.664020+00:00</updated>
-    <content type="html">Monitoring all page table accesses doesn't make sense</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9181"/>
-    <published>2025-03-19T22:52:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9180</id>
-    <title>@honorary_bot on 2025-03-19 22:51:50+00:00 (#9180)</title>
-    <updated>2025-03-20T00:20:08.664009+00:00</updated>
-    <content type="html">Also, if you need to monitor page table changes, why don't you trap just writes?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9180"/>
-    <published>2025-03-19T22:51:50+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9179</id>
-    <title>@honorary_bot on 2025-03-19 22:47:32+00:00 (#9179)</title>
-    <updated>2025-03-20T00:20:08.663998+00:00</updated>
-    <content type="html">Obviously instruction fetch also causes ept violation btw, so every instruction would cause a EPT violation</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9179"/>
-    <published>2025-03-19T22:47:32+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9178</id>
-    <title>@6176993302 on 2025-03-19 22:45:50+00:00 (#9178)</title>
-    <updated>2025-03-20T00:20:08.663987+00:00</updated>
-    <content type="html">wait i will make some screen and show you</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9178"/>
-    <published>2025-03-19T22:45:50+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9177</id>
-    <title>@honorary_bot on 2025-03-19 22:43:51+00:00 (#9177)</title>
-    <updated>2025-03-20T00:20:08.663976+00:00</updated>
-    <content type="html">what's in the logs?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9177"/>
-    <published>2025-03-19T22:43:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9176</id>
-    <title>@6176993302 on 2025-03-19 22:42:34+00:00 (#9176)</title>
-    <updated>2025-03-20T00:20:08.663964+00:00</updated>
-    <content type="html">however i dont see this output in the current logs displayed</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9176"/>
-    <published>2025-03-19T22:42:34+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9175</id>
-    <title>@6176993302 on 2025-03-19 22:42:02+00:00 (#9175)</title>
-    <updated>2025-03-20T00:20:08.663953+00:00</updated>
-    <content type="html">like : LogInfo("Guest RIP : 0x%llx tries to read the page at : 0x%llx", HvGetRip(), PhysicalAddress);</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9175"/>
-    <published>2025-03-19T22:42:02+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9174</id>
-    <title>@6176993302 on 2025-03-19 22:41:59+00:00 (#9174)</title>
-    <updated>2025-03-20T00:20:08.663943+00:00</updated>
-    <content type="html">in such way that it will display the details of the access</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9174"/>
-    <published>2025-03-19T22:41:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9173</id>
-    <title>@6176993302 on 2025-03-19 22:41:25+00:00 (#9173)</title>
-    <updated>2025-03-20T00:20:08.663932+00:00</updated>
-    <content type="html">EptHookHandleHookedPage</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9173"/>
-    <published>2025-03-19T22:41:25+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9172</id>
-    <title>@6176993302 on 2025-03-19 22:41:09+00:00 (#9172)</title>
-    <updated>2025-03-20T00:20:08.663920+00:00</updated>
-    <content type="html">is that i modified the EPT hook handler function</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9172"/>
-    <published>2025-03-19T22:41:09+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9171</id>
-    <title>@6176993302 on 2025-03-19 22:40:58+00:00 (#9171)</title>
-    <updated>2025-03-20T00:20:08.663909+00:00</updated>
-    <content type="html">but what i dont understand now</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9171"/>
-    <published>2025-03-19T22:40:58+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9170</id>
-    <title>@6176993302 on 2025-03-19 22:40:47+00:00 (#9170)</title>
-    <updated>2025-03-20T00:20:08.663898+00:00</updated>
-    <content type="html">got your point bro it seems logic</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9170"/>
-    <published>2025-03-19T22:40:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9169</id>
-    <title>@honorary_bot on 2025-03-19 22:36:43+00:00 (#9169)</title>
-    <updated>2025-03-20T00:20:08.663888+00:00</updated>
-    <content type="html">so consulted with the cache entry anyway</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9169"/>
-    <published>2025-03-19T22:36:43+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9168</id>
-    <title>@honorary_bot on 2025-03-19 22:36:30+00:00 (#9168)</title>
-    <updated>2025-03-20T00:20:08.663877+00:00</updated>
-    <content type="html">in fact if it's not in the cache, it is fetched into the cache first</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9168"/>
-    <published>2025-03-19T22:36:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9167</id>
-    <title>@honorary_bot on 2025-03-19 22:36:09+00:00 (#9167)</title>
-    <updated>2025-03-20T00:20:08.663866+00:00</updated>
-    <content type="html">yeah, no matter if it's cached or fetched from the memory</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9167"/>
-    <published>2025-03-19T22:36:09+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9166</id>
-    <title>@6176993302 on 2025-03-19 22:35:47+00:00 (#9166)</title>
-    <updated>2025-03-20T00:20:08.663855+00:00</updated>
-    <content type="html">in other words the ept violation will happen for sure right</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9166"/>
-    <published>2025-03-19T22:35:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9165</id>
-    <title>@honorary_bot on 2025-03-19 22:31:06+00:00 (#9165)</title>
-    <updated>2025-03-20T00:20:08.663844+00:00</updated>
-    <content type="html">Oh, I got it, tlb cache entries actually hold ept rwxu bits, so even if they are cached in tlb, they are still consulted for a possible ept violation exit</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9165"/>
-    <published>2025-03-19T22:31:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9164</id>
-    <title>@6176993302 on 2025-03-19 22:29:53+00:00 (#9164)</title>
-    <updated>2025-03-20T00:20:08.663829+00:00</updated>
-    <content type="html">and when i applied the monitor rw hook on the PML4E it generate an infinite loop of MFT exit events</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9164"/>
-    <published>2025-03-19T22:29:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9163</id>
-    <title>@6176993302 on 2025-03-19 22:29:24+00:00 (#9163)</title>
-    <updated>2025-03-20T00:20:08.663817+00:00</updated>
-    <content type="html">at the start of EptHookHandleMonitorTrapFlag</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9163"/>
-    <published>2025-03-19T22:29:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9162</id>
-    <title>@6176993302 on 2025-03-19 22:29:12+00:00 (#9162)</title>
-    <updated>2025-03-20T00:20:08.663803+00:00</updated>
-    <content type="html">i have modified the code of the MFT handler by adding a debug  message :  LogInfo("Inside the MonitorTrapFlag handler again ");</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9162"/>
-    <published>2025-03-19T22:29:12+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9161</id>
-    <title>@honorary_bot on 2025-03-19 22:28:52+00:00 (#9161)</title>
-    <updated>2025-03-20T00:20:08.663775+00:00</updated>
-    <content type="html">Well, too bad :)</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9161"/>
-    <published>2025-03-19T22:28:52+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9160</id>
-    <title>@6176993302 on 2025-03-19 22:27:51+00:00 (#9160)</title>
-    <updated>2025-03-20T00:20:08.663296+00:00</updated>
-    <content type="html">photo_2025-03-19_22-27-51.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9160"/>
-    <link href="https://tg-archive.hyperdbg.org/media/9160.jpg"/>
-    <published>2025-03-19T22:27:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9159</id>
-    <title>@6176993302 on 2025-03-19 22:27:41+00:00 (#9159)</title>
-    <updated>2025-03-20T00:20:08.663285+00:00</updated>
-    <content type="html">thats a strange world</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9159"/>
-    <published>2025-03-19T22:27:41+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9158</id>
-    <title>@6176993302 on 2025-03-19 22:27:37+00:00 (#9158)</title>
-    <updated>2025-03-20T00:20:08.663273+00:00</updated>
-    <content type="html">well each time we discover some strange behavior in virtualization xd</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9158"/>
-    <published>2025-03-19T22:27:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9157</id>
-    <title>@honorary_bot on 2025-03-19 21:41:20+00:00 (#9157)</title>
-    <updated>2025-03-20T00:20:08.663263+00:00</updated>
-    <content type="html">But that's interesting, never thought of this use case</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9157"/>
-    <published>2025-03-19T21:41:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9156</id>
-    <title>@honorary_bot on 2025-03-19 21:40:37+00:00 (#9156)</title>
-    <updated>2025-03-20T00:20:08.663252+00:00</updated>
-    <content type="html">Do you actually get VM-exits logged on PML4 lookups? Because those are supposed to be cached in TLB all the time</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9156"/>
-    <published>2025-03-19T21:40:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9155</id>
-    <title>@honorary_bot on 2025-03-19 21:39:17+00:00 (#9155)</title>
-    <updated>2025-03-20T00:20:08.663241+00:00</updated>
-    <content type="html">Got it, EPT violation due to dirty bits update?</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9155"/>
-    <published>2025-03-19T21:39:17+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9154</id>
-    <title>@6176993302 on 2025-03-19 21:31:45+00:00 (#9154)</title>
-    <updated>2025-03-20T00:20:08.663230+00:00</updated>
-    <content type="html">mmmmmmm my assumption was that probably the PML4 table is heavily accessed since thats the start point of translating addresses and when you try to put any monitor point on some specific  PML4E it will end up triggering any read/write in the table since its seize is exactly 0x1000 bytes</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9154"/>
-    <published>2025-03-19T21:31:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9153</id>
-    <title>@honorary_bot on 2025-03-19 21:06:21+00:00 (#9153)</title>
-    <updated>2025-03-20T00:20:08.663219+00:00</updated>
-    <content type="html">Dirty bit don't cause VM-exits</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9153"/>
-    <published>2025-03-19T21:06:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9152</id>
-    <title>@honorary_bot on 2025-03-19 21:05:54+00:00 (#9152)</title>
-    <updated>2025-03-20T00:20:08.663207+00:00</updated>
-    <content type="html">Can you elaborate more on this dirty bit problem? I didn't catch the exact problem</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9152"/>
-    <published>2025-03-19T21:05:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9151</id>
-    <title>@HughEverett on 2025-03-19 20:52:46+00:00 (#9151)</title>
-    <updated>2025-03-20T00:20:08.663196+00:00</updated>
-    <content type="html">The 'dirty' bit is an example, there might be other bits as well.</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9151"/>
-    <published>2025-03-19T20:52:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9150</id>
-    <title>@HughEverett on 2025-03-19 20:52:13+00:00 (#9150)</title>
-    <updated>2025-03-20T00:20:08.663183+00:00</updated>
-    <content type="html">I encountered this problem a few years ago. The problem is not because of the HyperDbg's implementation. My conclusion was that there are some bits (like dirty bit in the page table) that cause a VM-exit once they're applied by CPU. But, we couldn't re-apply them to the memory as they don't have an instruction for applying the dirty bit and it's the processor that applies it. I think the reason why HyperDbg hangs is because of this (but I'm not sure and I couldn't verify the assumption).</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9150"/>
-    <published>2025-03-19T20:52:13+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9149</id>
-    <title>@6176993302 on 2025-03-18 21:51:43+00:00 (#9149)</title>
-    <updated>2025-03-20T00:20:08.663164+00:00</updated>
-    <content type="html">hyperdbg 0.13</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9149"/>
-    <published>2025-03-18T21:51:43+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2025-03.html#9148</id>
-    <title>@6176993302 on 2025-03-18 21:50:11+00:00 (#9148)</title>
-    <updated>2025-03-20T00:20:08.663098+00:00</updated>
-    <content type="html">to be more specific the system freez "sometimes" and sometimes it continue working</content>
-    <link href="https://tg-archive.hyperdbg.org/2025-03.html#9148"/>
-    <published>2025-03-18T21:50:11+00:00</published>
+Not sure why its kicking off ept violations since i didnt set anything up, i just did `.connect local` and `load vmm` and thats when it BSOD's. Computer is new as well.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9695"/>
+    <published>2025-05-17T16:40:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9694</id>
+    <title>@HughEverett on 2025-05-17 16:39:54+00:00 (#9694)</title>
+    <updated>2025-05-17T17:14:31.496330+00:00</updated>
+    <content type="html">I don't understand the logic behind this code. Adding _lock to a variable name doesn't have to do anything with locking it from modification by another core.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9694"/>
+    <published>2025-05-17T16:39:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9693</id>
+    <title>@HughEverett on 2025-05-17 16:34:06+00:00 (#9693)</title>
+    <updated>2025-05-17T17:14:31.496324+00:00</updated>
+    <content type="html">It seems that it's because of an unexpected EPT violation. But why EPT violation? Did you run any command like !monitor or !epthook?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9693"/>
+    <published>2025-05-17T16:34:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9692</id>
+    <title>@HughEverett on 2025-05-17 16:33:00+00:00 (#9692)</title>
+    <updated>2025-05-17T17:14:31.496316+00:00</updated>
+    <content type="html">What is the running environment? Is it a baremetal machine or VMware workstation?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9692"/>
+    <published>2025-05-17T16:33:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9691</id>
+    <title>@xatat26 on 2025-05-17 05:48:02+00:00 (#9691)</title>
+    <updated>2025-05-17T17:14:31.496255+00:00</updated>
+    <content type="html">photo_2025-05-17_05-48-02.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9691"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9691.jpg"/>
+    <published>2025-05-17T05:48:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9690</id>
+    <title>@xatat26 on 2025-05-17 05:47:49+00:00 (#9690)</title>
+    <updated>2025-05-17T17:14:31.496250+00:00</updated>
+    <content type="html">Hi regarding spinlock_lock() functionality:
+Even though I locked global variable on core 2 using spinlock_lock() , core 3 was able to print its value without it being unlocked using spinlock_unlock(). Why?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9690"/>
+    <published>2025-05-17T05:47:49+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9689</id>
+    <title>@HyperDbgBot on 2025-05-17 05:15:29+00:00 (#9689)</title>
+    <updated>2025-05-17T17:14:31.496244+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; hyperhv+0x10343 is this, not sure why this would trigger an exception
+
+```
+180010343  32c0               xor     al, al  {0x0}
+```
+
+Actually looks like this is the problem, since this is the stack trace 10343 is the next addr to go to so i looked at 10342 and saw
+
+```
+1800102e7                if (!(uint32_t)sub_180009a40(*(uint32_t*)((char*)arg1 + 0x30), var_18, temp0))
+1800102ec                {
+1800102fb                    int64_t var_20 = *(uint64_t*)((char*)arg1 + 0x40);
+180010300                    int32_t var_28 = 0x407;
+18001030f                    void* const var_30 = "EptHandleEptViolation";
+180010336                    sub_180009780(3, 1, 1, 1, "[!] Error (%s:%d) | Err, unexpec…");
+180010342                    breakpoint();
+```</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9689"/>
+    <published>2025-05-17T05:15:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9688</id>
+    <title>@HyperDbgBot on 2025-05-17 05:11:30+00:00 (#9688)</title>
+    <updated>2025-05-17T17:14:31.496238+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; ```
+ffffae8f`989aee60 ffffae8f`00000003     : 00000000`00000d01 00000080`00203001 00000000`00000001 fffff803`a4482a30 : hyperhv+0x10343
+ffffae8f`989aee68 00000000`00000d01     : 00000080`00203001 00000000`00000001 fffff803`a4482a30 fffff803`a4482a10 : 0xffffae8f`00000003
+ffffae8f`989aee70 00000080`00203001     : 00000000`00000001 fffff803`a4482a30 fffff803`a4482a10 00000000`00000407 : 0xd01
+ffffae8f`989aee78 00000000`00000001     : fffff803`a4482a30 fffff803`a4482a10 00000000`00000407 fffff803`9c2b630f : 0x00000080`00203001
+ffffae8f`989aee80 fffff803`a4482a30     : fffff803`a4482a10 00000000`00000407 fffff803`9c2b630f 00000000`00000d82 : 0x1
+ffffae8f`989aee88 fffff803`a4482a10     : 00000000`00000407 fffff803`9c2b630f 00000000`00000d82 00000080`0020301c : hyperhv+0x22a30
+ffffae8f`989aee90 00000000`00000407     : fffff803`9c2b630f 00000000`00000d82 00000080`0020301c 00000000`00000000 : hyperhv+0x22a10
+ffffae8f`989aee98 fffff803`9c2b630f     : 00000000`00000d82 00000080`0020301c 00000000`00000000 fffff803`a44761c3 : 0x407
+ffffae8f`989aeea0 00000000`00000000     : 00000000`00001c20 00000000`00000001 00000000`00000002 00000000`00000000 : USBXHCI!Bulk_Stage_MapIntoRing+0x6df
+```</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9688"/>
+    <published>2025-05-17T05:11:30+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9687</id>
+    <title>@HyperDbgBot on 2025-05-17 05:11:25+00:00 (#9687)</title>
+    <updated>2025-05-17T17:14:31.496233+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; Got the stack trace by opening up the minidump in windbg
+
+```
+ffffc181`e70a55e8 fffff803`e9e73a3d     : 00000000`000001aa ffffae8f`989aee60 00000000`00000003 ffffc181`e70a58d0 : nt!KeBugCheckEx
+ffffc181`e70a55f0 fffff803`e9c98e83     : 00000000`00000000 ffffae8f`989aecd0 00000000`00000000 00000000`00000001 : nt!RtlpGetStackLimitsEx+0x5d
+ffffc181`e70a5640 fffff803`e9ddd501     : ffffae8f`989aeaf0 ffffc181`e70a5dd0 ffffae8f`989aeaf0 fffff780`00000708 : nt!RtlDispatchException+0xe3
+ffffc181`e70a58a0 fffff803`ea0a52b2     : cccccccc`ccccffff 6c894808`245c8948 57182474`89481024 57415641`55415441 : nt!KiDispatchException+0xac1
+ffffc181`e70a5fb0 fffff803`ea0a5280     : fffff803`ea0b913e 00000000`00000000 00000000`00000000 00000000`00000000 : nt!KxExceptionDispatchOnExceptionStack+0x12
+ffffae8f`989aeae8 fffff803`ea0b913e     : 00000000`00000000 00000000`00000000 00000000`00000000 00000000`00000000 : nt!KiExceptionDispatchOnExceptionStackContinue
+ffffae8f`989aeaf0 fffff803`ea0b139b     : ffffae8f`98836000 00000000`00000003 ffffae8f`989aee88 fffff803`a5d71607 : nt!KiExceptionDispatch+0x13e
+ffffae8f`989aecd0 fffff803`a4470343     : ffffae8f`00000003 00000000`00000d01 00000080`00203001 00000000`00000001 : nt!KiBreakpointTrap+0x35b
+```</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9687"/>
+    <published>2025-05-17T05:11:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9686</id>
+    <title>@HyperDbgBot on 2025-05-17 04:07:07+00:00 (#9686)</title>
+    <updated>2025-05-17T17:14:31.496227+00:00</updated>
+    <content type="html">[discord] &lt;unrustled.jimmies&gt; I disable hyperv/hvci, boot using efiguard, disable dse and then load hyperdbg but i get exception on invalid stack. Anything im missing (will look into the logs later but just wanted to check if anyone has any ideas of what i could be doing dumb or if there are any logs generated i can look at)</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9686"/>
+    <published>2025-05-17T04:07:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9683</id>
+    <title>@anna_junet on 2025-05-14 06:25:46+00:00 (#9683)</title>
+    <updated>2025-05-17T17:14:31.496217+00:00</updated>
+    <content type="html">got it.thank your very much</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9683"/>
+    <published>2025-05-14T06:25:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9682</id>
+    <title>@HughEverett on 2025-05-14 05:52:34+00:00 (#9682)</title>
+    <updated>2025-05-17T17:14:31.496206+00:00</updated>
+    <content type="html">The equivalent to attaching to a process in the debugger mode is the '.process' or the '.thread' command:
+
+https://docs.hyperdbg.org/commands/meta-commands/.process</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9682"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/meta-commands/.process"/>
+    <published>2025-05-14T05:52:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9681</id>
+    <title>@anna_junet on 2025-05-14 01:48:07+00:00 (#9681)</title>
+    <updated>2025-05-17T17:14:31.496141+00:00</updated>
+    <content type="html">photo_2025-05-14_01-48-07.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9681"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9681.jpg"/>
+    <published>2025-05-14T01:48:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9680</id>
+    <title>@anna_junet on 2025-05-14 01:48:03+00:00 (#9680)</title>
+    <updated>2025-05-17T17:14:31.496129+00:00</updated>
+    <content type="html">I got this error when i use debugger model.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9680"/>
+    <published>2025-05-14T01:48:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9679</id>
+    <title>@HughEverett on 2025-05-13 10:36:26+00:00 (#9679)</title>
+    <updated>2025-05-17T17:14:31.496119+00:00</updated>
+    <content type="html">You need to follow steps mentioned in this page:
+
+https://docs.hyperdbg.org/getting-started/build-and-install
+
+If you prefer to see these steps in a video, you should check:
+
+https://youtu.be/MDZ9zYfqo50
+
+And here for attaching to HyperDbg over the Debugger Mode:
+https://docs.hyperdbg.org/getting-started/attach-to-hyperdbg/debug</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9679"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/getting-started/build-and-install"/>
+    <published>2025-05-13T10:36:26+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9678</id>
+    <title>@anna_junet on 2025-05-13 10:30:43+00:00 (#9678)</title>
+    <updated>2025-05-17T17:14:31.496114+00:00</updated>
+    <content type="html">My application run in windows10. How to switching to Debugger mode?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9678"/>
+    <published>2025-05-13T10:30:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9677</id>
+    <title>@anna_junet on 2025-05-13 10:29:57+00:00 (#9677)</title>
+    <updated>2025-05-17T17:14:31.496108+00:00</updated>
+    <content type="html">thank your for your reply. How to operate it?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9677"/>
+    <published>2025-05-13T10:29:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9676</id>
+    <title>@HughEverett on 2025-05-13 10:26:08+00:00 (#9676)</title>
+    <updated>2025-05-17T17:14:31.496101+00:00</updated>
+    <content type="html">The support for attaching in the VMI mode is not stable yet. You should use HyperDbg in the Debugger mode for switching into processes.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9676"/>
+    <published>2025-05-13T10:26:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9675</id>
+    <title>@anna_junet on 2025-05-13 10:23:45+00:00 (#9675)</title>
+    <updated>2025-05-17T17:14:31.496095+00:00</updated>
+    <content type="html">hi everyone, how to build the hyperdbg-cli support --debugger args. I want to attach a process in VMI Mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9675"/>
+    <published>2025-05-13T10:23:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9674</id>
+    <title>@HughEverett on 2025-05-12 19:26:25+00:00 (#9674)</title>
+    <updated>2025-05-17T17:14:31.496039+00:00</updated>
+    <content type="html">👍</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9674"/>
+    <published>2025-05-12T19:26:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9673</id>
+    <title>@t0r0_ru on 2025-05-12 19:19:36+00:00 (#9673)</title>
+    <updated>2025-05-17T17:14:31.496033+00:00</updated>
+    <content type="html">I’m sorry.
+The debugger seems to work. In the bundle the host computer - VmWare.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9673"/>
+    <published>2025-05-12T19:19:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9672</id>
+    <title>@HughEverett on 2025-05-08 06:38:32+00:00 (#9672)</title>
+    <updated>2025-05-17T17:14:31.496027+00:00</updated>
+    <content type="html">For example, if you have a PCIe card to serial, it doesn't work with HyperDbg because the interface of communication is over PCIe BARs or custom PCIe IO ports which HyperDbg is not aware of.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9672"/>
+    <published>2025-05-08T06:38:32+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9671</id>
+    <title>@HughEverett on 2025-05-08 06:36:38+00:00 (#9671)</title>
+    <updated>2025-05-17T17:14:31.496022+00:00</updated>
+    <content type="html">HyperDbg communicates with IO ports for serial debugging. I'm not sure if the interface of these serial emulators are the same.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9671"/>
+    <published>2025-05-08T06:36:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9670</id>
+    <title>@HughEverett on 2025-05-08 06:35:17+00:00 (#9670)</title>
+    <updated>2025-05-17T17:14:31.496015+00:00</updated>
+    <content type="html">Yes. I told you earlier, the '.start' command only works in Debugger mode (not in VMI mode).</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9670"/>
+    <published>2025-05-08T06:35:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9669</id>
+    <title>@t0r0_ru on 2025-05-08 06:27:51+00:00 (#9669)</title>
+    <updated>2025-05-17T17:14:31.496009+00:00</updated>
+    <content type="html">HyperDbg "sees" these ports, but works exactly the same. That is, it does not work :)</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9669"/>
+    <published>2025-05-08T06:27:51+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9668</id>
+    <title>@t0r0_ru on 2025-05-08 06:20:15+00:00 (#9668)</title>
+    <updated>2025-05-17T17:14:31.496003+00:00</updated>
+    <content type="html">By the way, both VMware virtual machines communicate perfectly via Serial ports, thanks to this program.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9668"/>
+    <published>2025-05-08T06:20:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9667</id>
+    <title>@t0r0_ru on 2025-05-08 06:17:15+00:00 (#9667)</title>
+    <updated>2025-05-17T17:14:31.495992+00:00</updated>
+    <content type="html">I tried the emulator https://www.serial-over-ethernet.com/downloads.
+This emulator can create a virtual port.
+Without success...</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9667"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://www.serial-over-ethernet.com/downloads/"/>
+    <published>2025-05-08T06:17:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9666</id>
+    <title>@getting458 on 2025-05-07 13:37:54+00:00 (#9666)</title>
+    <updated>2025-05-17T17:14:31.495977+00:00</updated>
+    <content type="html">@t0r0_ru Did you find an alternative?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9666"/>
+    <published>2025-05-07T13:37:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9665</id>
+    <title>@getting458 on 2025-05-07 11:48:36+00:00 (#9665)</title>
+    <updated>2025-05-17T17:14:31.495968+00:00</updated>
+    <content type="html">@HughEverett I use vmi mode on my local machine, and it can't even use the startup command.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9665"/>
+    <published>2025-05-07T11:48:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9664</id>
+    <title>@5922425685 on 2025-05-07 09:43:40+00:00 (#9664)</title>
+    <updated>2025-05-17T17:14:31.495959+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9664"/>
+    <published>2025-05-07T09:43:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9663</id>
+    <title>@HughEverett on 2025-05-06 22:37:23+00:00 (#9663)</title>
+    <updated>2025-05-17T17:14:31.495951+00:00</updated>
+    <content type="html">Other than that, everything is the same (e.g. you can scripts and trigger custom scripts in case of events) in the VMI Mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9663"/>
+    <published>2025-05-06T22:37:23+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9662</id>
+    <title>@HughEverett on 2025-05-06 22:36:15+00:00 (#9662)</title>
+    <updated>2025-05-17T17:14:31.495945+00:00</updated>
+    <content type="html">VMI Mode contains all the features of the Debugger mode except you cannot put breakpoints, break to debugger in case of triggering an event, and step through the instructions. All of these capabilities are available in the Debugger Mode (not local VMI mode).</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9662"/>
+    <published>2025-05-06T22:36:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9661</id>
+    <title>@HughEverett on 2025-05-06 22:34:40+00:00 (#9661)</title>
+    <updated>2025-05-17T17:14:31.495940+00:00</updated>
+    <content type="html">If you want to use HyperDbg in a full-featured mode, you need to run it in the Debugger Mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9661"/>
+    <published>2025-05-06T22:34:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9660</id>
+    <title>@HughEverett on 2025-05-06 22:33:43+00:00 (#9660)</title>
+    <updated>2025-05-17T17:14:31.495934+00:00</updated>
+    <content type="html">Because I see sometimes VMWare doesn't properly handle serial connections over two VMs. But, Guest to host is perfectly fine.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9660"/>
+    <published>2025-05-06T22:33:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9659</id>
+    <title>@HughEverett on 2025-05-06 22:33:00+00:00 (#9659)</title>
+    <updated>2025-05-17T17:14:31.495929+00:00</updated>
+    <content type="html">This might be bug with HyperDbg. Did you also have the same problem with running it from host?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9659"/>
+    <published>2025-05-06T22:33:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9658</id>
+    <title>@getting458 on 2025-05-06 11:25:12+00:00 (#9658)</title>
+    <updated>2025-05-17T17:14:31.495924+00:00</updated>
+    <content type="html">OK</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9658"/>
+    <published>2025-05-06T11:25:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9657</id>
+    <title>@t0r0_ru on 2025-05-06 11:25:03+00:00 (#9657)</title>
+    <updated>2025-05-17T17:14:31.495915+00:00</updated>
+    <content type="html">If you succeed, please tell me how you did it.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9657"/>
+    <published>2025-05-06T11:25:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9656</id>
+    <title>@getting458 on 2025-05-06 11:25:03+00:00 (#9656)</title>
+    <updated>2025-05-17T17:14:31.495910+00:00</updated>
+    <content type="html">I will try to compile the code again,</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9656"/>
+    <published>2025-05-06T11:25:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9655</id>
+    <title>@getting458 on 2025-05-06 11:24:54+00:00 (#9655)</title>
+    <updated>2025-05-17T17:14:31.495904+00:00</updated>
+    <content type="html">I think it should work if it is in a virtual machine.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9655"/>
+    <published>2025-05-06T11:24:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9654</id>
+    <title>@t0r0_ru on 2025-05-06 11:23:51+00:00 (#9654)</title>
+    <updated>2025-05-17T17:14:31.495899+00:00</updated>
+    <content type="html">Although I read the documentation and watched the video and did everything as it is written and shown there. Maybe you can do it...</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9654"/>
+    <published>2025-05-06T11:23:51+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9653</id>
+    <title>@getting458 on 2025-05-06 11:23:14+00:00 (#9653)</title>
+    <updated>2025-05-17T17:14:31.495893+00:00</updated>
+    <content type="html">😂</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9653"/>
+    <published>2025-05-06T11:23:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9652</id>
+    <title>@getting458 on 2025-05-06 11:23:11+00:00 (#9652)</title>
+    <updated>2025-05-17T17:14:31.495887+00:00</updated>
+    <content type="html">It has so many problems. So what is its meaning?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9652"/>
+    <published>2025-05-06T11:23:11+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9651</id>
+    <title>@t0r0_ru on 2025-05-06 11:22:38+00:00 (#9651)</title>
+    <updated>2025-05-17T17:14:31.495881+00:00</updated>
+    <content type="html">It just freezes and that's it.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9651"/>
+    <published>2025-05-06T11:22:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9650</id>
+    <title>@t0r0_ru on 2025-05-06 11:22:02+00:00 (#9650)</title>
+    <updated>2025-05-17T17:14:31.495867+00:00</updated>
+    <content type="html">Moreover - I tried to connect two VMWare. The server "sees" the client, but after connection the server does not respond to keystrokes.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9650"/>
+    <published>2025-05-06T11:22:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9649</id>
+    <title>@t0r0_ru on 2025-05-06 11:19:56+00:00 (#9649)</title>
+    <updated>2025-05-17T17:14:31.495862+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9649"/>
+    <published>2025-05-06T11:19:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9648</id>
+    <title>@getting458 on 2025-05-06 11:14:57+00:00 (#9648)</title>
+    <updated>2025-05-17T17:14:31.495856+00:00</updated>
+    <content type="html">Is that right? It doesn't support local mode?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9648"/>
+    <published>2025-05-06T11:14:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9647</id>
+    <title>@getting458 on 2025-05-06 11:14:29+00:00 (#9647)</title>
+    <updated>2025-05-17T17:14:31.495850+00:00</updated>
+    <content type="html">But you said it doesn't support local mode?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9647"/>
+    <published>2025-05-06T11:14:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9646</id>
+    <title>@getting458 on 2025-05-06 11:14:10+00:00 (#9646)</title>
+    <updated>2025-05-17T17:14:31.495844+00:00</updated>
+    <content type="html">I want to make it my own epthook.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9646"/>
+    <published>2025-05-06T11:14:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9645</id>
+    <title>@getting458 on 2025-05-06 11:13:38+00:00 (#9645)</title>
+    <updated>2025-05-17T17:14:31.495838+00:00</updated>
+    <content type="html">So that means it doesn't work?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9645"/>
+    <published>2025-05-06T11:13:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9644</id>
+    <title>@t0r0_ru on 2025-05-06 11:13:12+00:00 (#9644)</title>
+    <updated>2025-05-17T17:14:31.495833+00:00</updated>
+    <content type="html">After running the debugger you will get a BSOD. The current version of the debugger simply does not work in local mode at all.....</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9644"/>
+    <published>2025-05-06T11:13:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9643</id>
+    <title>@getting458 on 2025-05-06 11:13:08+00:00 (#9643)</title>
+    <updated>2025-05-17T17:14:31.495827+00:00</updated>
+    <content type="html">Yes, I'm doing it, thank you.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9643"/>
+    <published>2025-05-06T11:13:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9642</id>
+    <title>@t0r0_ru on 2025-05-06 11:11:21+00:00 (#9642)</title>
+    <updated>2025-05-17T17:14:31.495821+00:00</updated>
+    <content type="html">But anyway it's useless...</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9642"/>
+    <published>2025-05-06T11:11:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9641</id>
+    <title>@t0r0_ru on 2025-05-06 11:10:53+00:00 (#9641)</title>
+    <updated>2025-05-17T17:14:31.495814+00:00</updated>
+    <content type="html">Before compilation you must change /**
+ * @brief Activates the user-mode debugger
+ */
+#define ActivateUserModeDebugger FALSE
+ on #define ActivateUserModeDebugger TRUE</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9641"/>
+    <published>2025-05-06T11:10:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9640</id>
+    <title>@t0r0_ru on 2025-05-06 11:09:35+00:00 (#9640)</title>
+    <updated>2025-05-17T17:14:31.495805+00:00</updated>
+    <content type="html">You must compile the sources in Visual Studio 2022.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9640"/>
+    <published>2025-05-06T11:09:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9639</id>
+    <title>@getting458 on 2025-05-06 11:00:54+00:00 (#9639)</title>
+    <updated>2025-05-17T17:14:31.495797+00:00</updated>
+    <content type="html">I don't understand, what are the special instructions?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9639"/>
+    <published>2025-05-06T11:00:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9638</id>
+    <title>@getting458 on 2025-05-06 10:57:40+00:00 (#9638)</title>
+    <updated>2025-05-17T17:14:31.495737+00:00</updated>
+    <content type="html">photo_2025-05-06_10-57-40.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9638"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9638.jpg"/>
+    <published>2025-05-06T10:57:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9637</id>
+    <title>@getting458 on 2025-05-06 10:57:18+00:00 (#9637)</title>
+    <updated>2025-05-17T17:14:31.495553+00:00</updated>
+    <content type="html">photo_2025-05-06_10-57-18.jpg</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9637"/>
+    <link href="https://tg-archive.hyperdbg.org/media/9637.jpg"/>
+    <published>2025-05-06T10:57:18+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9636</id>
+    <title>@HughEverett on 2025-05-06 07:42:36+00:00 (#9636)</title>
+    <updated>2025-05-17T17:14:31.495543+00:00</updated>
+    <content type="html">You need to see open security training course on HyperDbg. Plenty of examples for starting the process are there:
+
+https://ost2.fyi/Dbg3301
+
+Or in YouTube:
+https://www.youtube.com/watch?v=RDlp0PCFgxI&amp;list=PLUFkSN0XLZ-kF1f143wlw8ujlH2A45nZY</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9636"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://ost2.fyi/Dbg3301"/>
+    <published>2025-05-06T07:42:36+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9635</id>
+    <title>@HughEverett on 2025-05-06 07:40:37+00:00 (#9635)</title>
+    <updated>2025-05-17T17:14:31.495538+00:00</updated>
+    <content type="html">HyperDbg doesn't use DEBUG FLAGs to start a process (to further enhance its transparency) instead it uses hypervisor tricks to intercept the execution of the first instruction. That's why it's not that easy to implement the similar approach in the VMI mode. Right now, it fully support process creation in the debugger mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9635"/>
+    <published>2025-05-06T07:40:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9634</id>
+    <title>@getting458 on 2025-05-06 07:36:12+00:00 (#9634)</title>
+    <updated>2025-05-17T17:14:31.495532+00:00</updated>
+    <content type="html">Or did I not enter the correct instructions? Do you have any examples?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9634"/>
+    <published>2025-05-06T07:36:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9633</id>
+    <title>@getting458 on 2025-05-06 07:35:19+00:00 (#9633)</title>
+    <updated>2025-05-17T17:14:31.495527+00:00</updated>
+    <content type="html">No matter what command I type, it always appears this prompt.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9633"/>
+    <published>2025-05-06T07:35:19+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9632</id>
+    <title>@getting458 on 2025-05-06 07:35:07+00:00 (#9632)</title>
+    <updated>2025-05-17T17:14:31.495521+00:00</updated>
+    <content type="html">Vmi mode can't even start a process?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9632"/>
+    <published>2025-05-06T07:35:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9631</id>
+    <title>@HughEverett on 2025-05-06 07:30:44+00:00 (#9631)</title>
+    <updated>2025-05-17T17:14:31.495516+00:00</updated>
+    <content type="html">If you want to debug a process (step through its instructions or start it from entry point or put breakpoints), you need to use HyperDbg in the debugger mode, not VMI mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9631"/>
+    <published>2025-05-06T07:30:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9630</id>
+    <title>@getting458 on 2025-05-06 07:24:09+00:00 (#9630)</title>
+    <updated>2025-05-17T17:14:31.495510+00:00</updated>
+    <content type="html">I can't use the local computer.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9630"/>
+    <published>2025-05-06T07:24:09+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9629</id>
+    <title>@getting458 on 2025-05-06 07:16:45+00:00 (#9629)</title>
+    <updated>2025-05-17T17:14:31.495501+00:00</updated>
+    <content type="html">Do you know why?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9629"/>
+    <published>2025-05-06T07:16:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9628</id>
+    <title>@getting458 on 2025-05-06 07:16:40+00:00 (#9628)</title>
+    <updated>2025-05-17T17:14:31.495495+00:00</updated>
+    <content type="html">@HughEverett</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9628"/>
+    <published>2025-05-06T07:16:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9627</id>
+    <title>@getting458 on 2025-05-06 06:23:41+00:00 (#9627)</title>
+    <updated>2025-05-17T17:14:31.495490+00:00</updated>
+    <content type="html">Doesn't it support using ivm mode in local machine?</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9627"/>
+    <published>2025-05-06T06:23:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9626</id>
+    <title>@getting458 on 2025-05-06 06:01:34+00:00 (#9626)</title>
+    <updated>2025-05-17T17:14:31.495485+00:00</updated>
+    <content type="html">this why？</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9626"/>
+    <published>2025-05-06T06:01:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9625</id>
+    <title>@getting458 on 2025-05-06 06:01:28+00:00 (#9625)</title>
+    <updated>2025-05-17T17:14:31.495479+00:00</updated>
+    <content type="html">the user-mode debugger in VMI Mode is still in the beta version and not stable. we decided to exclude it from this release and release it in future versions. if you want to test the user-mode debugger in VMI Mode, you should build HyperDbg with special instructions. But starting processes is fully supported in the Debugger Mode.
+(it's not recommended to use it in VMI Mode yet!)</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9625"/>
+    <published>2025-05-06T06:01:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9624</id>
+    <title>@getting458 on 2025-05-06 06:01:04+00:00 (#9624)</title>
+    <updated>2025-05-17T17:14:31.495473+00:00</updated>
+    <content type="html">the user-mode debugger in VMI Mode is still in the beta version and not stable. we decided to exclude it from this release and release it in future versions. if you want to test the user-mode debugger in VMI Mode, you should build HyperDbg with special instructions. But starting processes is fully supported in the Debugger Mode.
+(it's not recommended to use it in VMI Mode yet!)</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9624"/>
+    <published>2025-05-06T06:01:04+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9623</id>
+    <title>@johto89 on 2025-05-06 02:11:52+00:00 (#9623)</title>
+    <updated>2025-05-17T17:14:31.495468+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9623"/>
+    <published>2025-05-06T02:11:52+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9622</id>
+    <title>@t0int on 2025-05-05 11:53:26+00:00 (#9622)</title>
+    <updated>2025-05-17T17:14:31.495462+00:00</updated>
+    <content type="html">Thanks!</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9622"/>
+    <published>2025-05-05T11:53:26+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9621</id>
+    <title>@t0int on 2025-05-05 11:53:24+00:00 (#9621)</title>
+    <updated>2025-05-17T17:14:31.495456+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9621"/>
+    <published>2025-05-05T11:53:24+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9620</id>
+    <title>@HughEverett on 2025-05-05 11:52:55+00:00 (#9620)</title>
+    <updated>2025-05-17T17:14:31.495442+00:00</updated>
+    <content type="html">https://t.me/HyperDbg</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9620"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://t.me/HyperDbg"/>
+    <published>2025-05-05T11:52:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9619</id>
+    <title>@HyperDbgBot on 2025-05-05 10:49:44+00:00 (#9619)</title>
+    <updated>2025-05-17T17:14:31.495436+00:00</updated>
+    <content type="html">[discord] &lt;t0int&gt; Where can i join the telegram group</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9619"/>
+    <published>2025-05-05T10:49:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9618</id>
+    <title>@mojtaba_mostafavi on 2025-05-02 20:20:07+00:00 (#9618)</title>
+    <updated>2025-05-17T17:14:31.495430+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9618"/>
+    <published>2025-05-02T20:20:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9617</id>
+    <title>@1281068546 on 2025-05-02 13:15:39+00:00 (#9617)</title>
+    <updated>2025-05-17T17:14:31.495423+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9617"/>
+    <published>2025-05-02T13:15:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-05.html#9616</id>
+    <title>@8116887703 on 2025-05-02 11:03:12+00:00 (#9616)</title>
+    <updated>2025-05-17T17:14:31.495417+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2025-05.html#9616"/>
+    <published>2025-05-02T11:03:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-04.html#9615</id>
+    <title>@HughEverett on 2025-04-30 21:07:23+00:00 (#9615)</title>
+    <updated>2025-05-17T17:14:31.495410+00:00</updated>
+    <content type="html">Yes</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-04.html#9615"/>
+    <published>2025-04-30T21:07:23+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-04.html#9614</id>
+    <title>@HughEverett on 2025-04-30 21:07:06+00:00 (#9614)</title>
+    <updated>2025-05-17T17:14:31.495401+00:00</updated>
+    <content type="html">HyperDbg is highly privileged (hypervisor level), so it means you have control over the user mode applications and the OS kernel. Changing a register or a memory without knowing the consequences will definitely BSOD the guest kernel. You should know what you are trying to do.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-04.html#9614"/>
+    <published>2025-04-30T21:07:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2025-04.html#9613</id>
+    <title>@HughEverett on 2025-04-30 21:04:39+00:00 (#9613)</title>
+    <updated>2025-05-17T17:14:31.495348+00:00</updated>
+    <content type="html">If you're breaking the guest (doing something wrong that guest crashes), the kernel of the guest will BSOD the system and obviously HyperDbg couldn't pause (CTRL+C) the guest again.</content>
+    <link href="https://tg-archive.hyperdbg.org/2025-04.html#9613"/>
+    <published>2025-04-30T21:04:39+00:00</published>
   </entry>
 </feed>
