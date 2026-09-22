@@ -2,838 +2,887 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://tg-archive.hyperdbg.org</id>
   <title>@hyperdbg - Telegram group archive</title>
-  <updated>2026-06-29T01:03:09.744150+00:00</updated>
+  <updated>2026-09-22T17:40:55.891679+00:00</updated>
   <link href="https://tg-archive.hyperdbg.org" rel="alternate"/>
   <generator>tg-archive 1.3.1</generator>
   <subtitle>Public archive of HyperDbg Telegram messages.</subtitle>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12299</id>
-    <title>@HyperDbgBot on 2026-06-28 19:36:36+00:00 (#12299)</title>
-    <updated>2026-06-29T01:03:09.747215+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; https://apps.p.ost2.fyi/learning/course/course-v1:OpenSecurityTraining2+TC1101_IntroTPM+2024_v2/home</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12299"/>
-    <published>2026-06-28T19:36:36+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13048</id>
+    <title>@HughEverett on 2026-09-22 17:39:07+00:00 (#13048)</title>
+    <updated>2026-09-22T17:40:55.894615+00:00</updated>
+    <content type="html">Thank you for helping with this. 🙏</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13048"/>
+    <published>2026-09-22T17:39:07+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12298</id>
-    <title>@HyperDbgBot on 2026-06-28 19:36:19+00:00 (#12298)</title>
-    <updated>2026-06-29T01:03:09.747203+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; [reply]: yeah it actually really caught my attention and I picked up the ost2 course</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12298"/>
-    <published>2026-06-28T19:36:19+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12297</id>
-    <title>@HyperDbgBot on 2026-06-28 18:19:41+00:00 (#12297)</title>
-    <updated>2026-06-29T01:03:09.747197+00:00</updated>
-    <content type="html">[discord] &lt;jtaw.5649&gt; [reply]: tpm is also a very useful tool for reversing, it often gets overlooked in that regard</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12297"/>
-    <published>2026-06-28T18:19:41+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12296</id>
-    <title>@honorary_bot on 2026-06-28 15:08:27+00:00 (#12296)</title>
-    <updated>2026-06-29T01:03:09.747190+00:00</updated>
-    <content type="html">Hi! Good find, thanks!</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12296"/>
-    <published>2026-06-28T15:08:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12295</id>
-    <title>@HyperDbgBot on 2026-06-28 14:53:44+00:00 (#12295)</title>
-    <updated>2026-06-29T01:03:09.747178+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; my guess is that all you need is a TPM (which qemu, vmware and the like can also provide)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12295"/>
-    <published>2026-06-28T14:53:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12294</id>
-    <title>@HyperDbgBot on 2026-06-28 14:52:35+00:00 (#12294)</title>
-    <updated>2026-06-29T01:03:09.747130+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; In hyper-V, under security, disable secure boot but  **ENABLE TPM**
-https://cdn.discordapp.com/attachments/962350355839066130/1520804110113177690/29m5nv2.png?ex=6a4286b3&amp;is=6a413533&amp;hm=55dc91d780ceed5f400aca6774a32169536bc56f846ca043584627f0b0a84263&amp;</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12294"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1520804110113177690/29m5nv2.png?ex=6a4286b3&amp;is=6a413533&amp;hm=55dc91d780ceed5f400aca6774a32169536bc56f846ca043584627f0b0a84263&amp;"/>
-    <published>2026-06-28T14:52:35+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12293</id>
-    <title>@HyperDbgBot on 2026-06-28 14:51:37+00:00 (#12293)</title>
-    <updated>2026-06-29T01:03:09.747123+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; while doing other things I have also found the way to enable HVCI and kCET while allowing kernel debugging and custom modules</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12293"/>
-    <published>2026-06-28T14:51:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12292</id>
-    <title>@HyperDbgBot on 2026-06-28 14:50:37+00:00 (#12292)</title>
-    <updated>2026-06-29T01:03:09.747116+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; [reply]: hello</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12292"/>
-    <published>2026-06-28T14:50:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12291</id>
-    <title>@instw0 on 2026-06-28 07:29:06+00:00 (#12291)</title>
-    <updated>2026-06-29T01:03:09.747109+00:00</updated>
-    <content type="html">I'm having trouble intercepting the tsc and in instructions. Which .cpp file is responsible for handling !rdtsc and !in ?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12291"/>
-    <published>2026-06-28T07:29:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12290</id>
-    <title>@bannerTom on 2026-06-27 13:14:09+00:00 (#12290)</title>
-    <updated>2026-06-29T01:03:09.747102+00:00</updated>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13047</id>
+    <title>@xxxkkkggg on 2026-09-22 17:27:24+00:00 (#13047)</title>
+    <updated>2026-09-22T17:40:55.894609+00:00</updated>
     <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12290"/>
-    <published>2026-06-27T13:14:09+00:00</published>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13047"/>
+    <published>2026-09-22T17:27:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12289</id>
-    <title>@5192080494 on 2026-06-26 15:20:16+00:00 (#12289)</title>
-    <updated>2026-06-29T01:03:09.747092+00:00</updated>
-    <content type="html">_UNICODE_STRING is more like std::wstring in c rather than c strings</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12289"/>
-    <published>2026-06-26T15:20:16+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13046</id>
+    <title>@mhmd_nikzad on 2026-09-22 17:25:34+00:00 (#13046)</title>
+    <updated>2026-09-22T17:40:55.894603+00:00</updated>
+    <content type="html">I appreciate you brother, for your support, attention and helping other developers 🫂🙏🏼</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13046"/>
+    <published>2026-09-22T17:25:34+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12288</id>
-    <title>@staarblitz on 2026-06-26 14:32:10+00:00 (#12288)</title>
-    <updated>2026-06-29T01:03:09.747086+00:00</updated>
-    <content type="html">The buffer also doesn't have to be same size as string itself. It can be bigger (MaximumLength)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12288"/>
-    <published>2026-06-26T14:32:10+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13045</id>
+    <title>@HughEverett on 2026-09-22 17:11:37+00:00 (#13045)</title>
+    <updated>2026-09-22T17:40:55.894598+00:00</updated>
+    <content type="html">This release wouldn't have been possible without the help and outstanding work of  @xmaple555, @MaxRaulea, @mhmd_nikzad, @FallinBinary, @elprimo6393816. Thank you guys. 💪💪✨✨</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13045"/>
+    <published>2026-09-22T17:11:37+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12287</id>
-    <title>@staarblitz on 2026-06-26 14:31:40+00:00 (#12287)</title>
-    <updated>2026-06-29T01:03:09.747080+00:00</updated>
-    <content type="html">It's not null terminated unlike a C string</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12287"/>
-    <published>2026-06-26T14:31:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12286</id>
-    <title>@HyperDbgBot on 2026-06-26 13:56:43+00:00 (#12286)</title>
-    <updated>2026-06-29T01:03:09.747073+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; does anyone happen to know what are the advantages of `_UNICODE_STRING`? Why did microsoft choose to create this structure over a plain `wchar_t*`?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12286"/>
-    <published>2026-06-26T13:56:43+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12285</id>
-    <title>@honorary_bot on 2026-06-26 09:25:50+00:00 (#12285)</title>
-    <updated>2026-06-29T01:03:09.747067+00:00</updated>
-    <content type="html">Great! Keep it up!</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12285"/>
-    <published>2026-06-26T09:25:50+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12284</id>
-    <title>@HyperDbgBot on 2026-06-26 09:25:04+00:00 (#12284)</title>
-    <updated>2026-06-29T01:03:09.747060+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; yeah thats what im about to try to do</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12284"/>
-    <published>2026-06-26T09:25:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12283</id>
-    <title>@honorary_bot on 2026-06-26 09:23:24+00:00 (#12283)</title>
-    <updated>2026-06-29T01:03:09.747054+00:00</updated>
-    <content type="html">While I don't know the answer, that would be a good exercise for reverse engineering of ntoskrnl.exe ;)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12283"/>
-    <published>2026-06-26T09:23:24+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12282</id>
-    <title>@HyperDbgBot on 2026-06-26 09:20:44+00:00 (#12282)</title>
-    <updated>2026-06-29T01:03:09.747046+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; but why is it named that? and what does it do?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12282"/>
-    <published>2026-06-26T09:20:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12281</id>
-    <title>@HyperDbgBot on 2026-06-26 09:20:37+00:00 (#12281)</title>
-    <updated>2026-06-29T01:03:09.747037+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; that key doesnt seem to work</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12281"/>
-    <published>2026-06-26T09:20:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12280</id>
-    <title>@HyperDbgBot on 2026-06-26 09:20:30+00:00 (#12280)</title>
-    <updated>2026-06-29T01:03:09.747022+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; 
-https://cdn.discordapp.com/attachments/962350355839066130/1519995764246450286/fhxv6vm.png?ex=6a3f95de&amp;is=6a3e445e&amp;hm=5196cd9f051057c56e21ba41fd7cdd6775b8ef9def89043bab6ee6afcace13b1&amp;</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12280"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://cdn.discordapp.com/attachments/962350355839066130/1519995764246450286/fhxv6vm.png?ex=6a3f95de&amp;is=6a3e445e&amp;hm=5196cd9f051057c56e21ba41fd7cdd6775b8ef9def89043bab6ee6afcace13b1&amp;"/>
-    <published>2026-06-26T09:20:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12279</id>
-    <title>@honorary_bot on 2026-06-26 09:18:08+00:00 (#12279)</title>
-    <updated>2026-06-29T01:03:09.746985+00:00</updated>
-    <content type="html">I see. If you find the way, please message here as well</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12279"/>
-    <published>2026-06-26T09:18:08+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12278</id>
-    <title>@HyperDbgBot on 2026-06-26 09:17:52+00:00 (#12278)</title>
-    <updated>2026-06-29T01:03:09.746977+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; with all mitigations on</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12278"/>
-    <published>2026-06-26T09:17:52+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12277</id>
-    <title>@HyperDbgBot on 2026-06-26 09:17:37+00:00 (#12277)</title>
-    <updated>2026-06-29T01:03:09.746970+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; I want to load HEVD and do data only attacks</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12277"/>
-    <published>2026-06-26T09:17:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12276</id>
-    <title>@honorary_bot on 2026-06-26 09:17:21+00:00 (#12276)</title>
-    <updated>2026-06-29T01:03:09.746963+00:00</updated>
-    <content type="html">The other question is why do you want Secure Boot disabled? Custom EFI loader?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12276"/>
-    <published>2026-06-26T09:17:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12275</id>
-    <title>@HyperDbgBot on 2026-06-26 09:17:16+00:00 (#12275)</title>
-    <updated>2026-06-29T01:03:09.746957+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; there has to be a way cause I just read a blog post that gradually turns on every mitigation and runs an exploit against HEVD (toy unsigned driver used for learning kernel exploits)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12275"/>
-    <published>2026-06-26T09:17:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12274</id>
-    <title>@honorary_bot on 2026-06-26 09:16:51+00:00 (#12274)</title>
-    <updated>2026-06-29T01:03:09.746950+00:00</updated>
-    <content type="html">So it's not a technical limitation</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12274"/>
-    <published>2026-06-26T09:16:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12273</id>
-    <title>@honorary_bot on 2026-06-26 09:16:39+00:00 (#12273)</title>
-    <updated>2026-06-29T01:03:09.746944+00:00</updated>
-    <content type="html">I agree, secure boot is not a prerequisite for CET</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12273"/>
-    <published>2026-06-26T09:16:39+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12272</id>
-    <title>@HyperDbgBot on 2026-06-26 09:16:21+00:00 (#12272)</title>
-    <updated>2026-06-29T01:03:09.746936+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; thats weird</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12272"/>
-    <published>2026-06-26T09:16:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12271</id>
-    <title>@honorary_bot on 2026-06-26 09:16:00+00:00 (#12271)</title>
-    <updated>2026-06-29T01:03:09.746928+00:00</updated>
-    <content type="html">There is no way AFAIK. I'd love to know too though..</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12271"/>
-    <published>2026-06-26T09:16:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12270</id>
-    <title>@HyperDbgBot on 2026-06-26 09:15:29+00:00 (#12270)</title>
-    <updated>2026-06-29T01:03:09.746921+00:00</updated>
-    <content type="html">[discord] &lt;fexsped&gt; how can I enable VBS, HVCI and kCET without Secure boot / with untrusted drivers loaded in a Hyper-V VM?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12270"/>
-    <published>2026-06-26T09:15:29+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12269</id>
-    <title>@Gugap on 2026-06-25 12:10:10+00:00 (#12269)</title>
-    <updated>2026-06-29T01:03:09.746914+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12269"/>
-    <published>2026-06-25T12:10:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12268</id>
-    <title>@Cryptoaliyu on 2026-06-25 11:47:46+00:00 (#12268)</title>
-    <updated>2026-06-29T01:03:09.746908+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12268"/>
-    <published>2026-06-25T11:47:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12266</id>
-    <title>@how_w_123 on 2026-06-25 10:35:36+00:00 (#12266)</title>
-    <updated>2026-06-29T01:03:09.746901+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12266"/>
-    <published>2026-06-25T10:35:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12264</id>
-    <title>@Ablfzl4m on 2026-06-25 09:45:25+00:00 (#12264)</title>
-    <updated>2026-06-29T01:03:09.746895+00:00</updated>
-    <content type="html">Ok, thanks. I'll try it.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12264"/>
-    <published>2026-06-25T09:45:25+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12261</id>
-    <title>@HackerSecurity on 2026-06-25 08:58:20+00:00 (#12261)</title>
-    <updated>2026-06-29T01:03:09.746888+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12261"/>
-    <published>2026-06-25T08:58:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12260</id>
-    <title>@1487039534 on 2026-06-25 08:56:51+00:00 (#12260)</title>
-    <updated>2026-06-29T01:03:09.746879+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12260"/>
-    <published>2026-06-25T08:56:51+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12259</id>
-    <title>@Vostax on 2026-06-25 08:42:46+00:00 (#12259)</title>
-    <updated>2026-06-29T01:03:09.746872+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12259"/>
-    <published>2026-06-25T08:42:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12258</id>
-    <title>@azwdski on 2026-06-25 08:37:25+00:00 (#12258)</title>
-    <updated>2026-06-29T01:03:09.746865+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12258"/>
-    <published>2026-06-25T08:37:25+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12256</id>
-    <title>@HyperDbgBot on 2026-06-25 02:18:27+00:00 (#12256)</title>
-    <updated>2026-06-29T01:03:09.746855+00:00</updated>
-    <content type="html">[discord] &lt;unrustled.jimmies&gt; I think its caused by a signature change in a recent windows update. matti already fixed it but not sure if he still releases new builds for efiguard so you might have to build it yourself (if so, good luck).</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12256"/>
-    <published>2026-06-25T02:18:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12255</id>
-    <title>@Ablfzl4m on 2026-06-24 15:19:49+00:00 (#12255)</title>
-    <updated>2026-06-29T01:03:09.746767+00:00</updated>
-    <content type="html">Hi everyone, I'm trying to disable DSE using EfiGuard, but it fails with error 0xC0000225. Has anyone encountered this problem before? Any ideas on how to fix it?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12255"/>
-    <link href="https://tg-archive.hyperdbg.org/media/12255.jpg"/>
-    <published>2026-06-24T15:19:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12254</id>
-    <title>@8260666371 on 2026-06-22 17:13:14+00:00 (#12254)</title>
-    <updated>2026-06-29T01:03:09.746761+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12254"/>
-    <published>2026-06-22T17:13:14+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12252</id>
-    <title>@Rookielv on 2026-06-22 03:36:22+00:00 (#12252)</title>
-    <updated>2026-06-29T01:03:09.746753+00:00</updated>
-    <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12252"/>
-    <published>2026-06-22T03:36:22+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12251</id>
-    <title>@HyperDbgBot on 2026-06-21 14:02:27+00:00 (#12251)</title>
-    <updated>2026-06-29T01:03:09.746745+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Thanks 👍</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12251"/>
-    <published>2026-06-21T14:02:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12250</id>
-    <title>@HyperDbgBot on 2026-06-21 14:00:36+00:00 (#12250)</title>
-    <updated>2026-06-29T01:03:09.746733+00:00</updated>
-    <content type="html">[discord] &lt;gotthebestusername.&gt; [reply]: https://github.com/noahware/hyper-reV</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12250"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/noahware/hyper-reV"/>
-    <published>2026-06-21T14:00:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12249</id>
-    <title>@HyperDbgBot on 2026-06-21 13:59:00+00:00 (#12249)</title>
-    <updated>2026-06-29T01:03:09.746726+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Which project? Curious to know 🤔</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12249"/>
-    <published>2026-06-21T13:59:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12248</id>
-    <title>@HyperDbgBot on 2026-06-21 13:47:20+00:00 (#12248)</title>
-    <updated>2026-06-29T01:03:09.746717+00:00</updated>
-    <content type="html">[discord] &lt;gotthebestusername.&gt; i thought this was hooking hyper-v for some reason, confused it with another project</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12248"/>
-    <published>2026-06-21T13:47:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12247</id>
-    <title>@HyperDbgBot on 2026-06-21 13:46:57+00:00 (#12247)</title>
-    <updated>2026-06-29T01:03:09.746710+00:00</updated>
-    <content type="html">[discord] &lt;gotthebestusername.&gt; [reply]: oh my bad</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12247"/>
-    <published>2026-06-21T13:46:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12246</id>
-    <title>@868588287 on 2026-06-21 13:21:30+00:00 (#12246)</title>
-    <updated>2026-06-29T01:03:09.746701+00:00</updated>
-    <content type="html">👏</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12246"/>
-    <published>2026-06-21T13:21:30+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12245</id>
-    <title>@hyperdbg_io on 2026-06-21 12:53:47+00:00 (#12245)</title>
-    <updated>2026-06-29T01:03:09.746683+00:00</updated>
-    <content type="html">HyperDbg v0.20 is out! 🎉
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13044</id>
+    <title>@hyperdbg_io on 2026-09-22 17:09:00+00:00 (#13044)</title>
+    <updated>2026-09-22T17:40:55.894586+00:00</updated>
+    <content type="html">HyperDbg v0.24 is released!
 
-This release includes numerous bug fixes, continued progress on the Linux port, further advancements in Intel PT support, and a migration to Visual Studio 2026.
+It includes nine new commands, support for arrays as function parameters, char and wide-char arrays, fix kernel-mode builds on Linux, plus major bug fixes and refactoring.
 
 Check it out:
-https://github.com/HyperDbg/HyperDbg/releases/tag/v0.20-beta</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12245"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/releases/tag/v0.20-beta"/>
-    <published>2026-06-21T12:53:47+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12244</id>
-    <title>@HyperDbgBot on 2026-06-21 11:02:54+00:00 (#12244)</title>
-    <updated>2026-06-29T01:03:09.746673+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Hyper-V? 🤔</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12244"/>
-    <published>2026-06-21T11:02:54+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12243</id>
-    <title>@HyperDbgBot on 2026-06-21 06:05:44+00:00 (#12243)</title>
-    <updated>2026-06-29T01:03:09.746639+00:00</updated>
-    <content type="html">[discord] &lt;gotthebestusername.&gt; hi since this uses hypver-v, are there any plans to support a trimmed down version for amd?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12243"/>
-    <published>2026-06-21T06:05:44+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12242</id>
-    <title>@HyperDbgBot on 2026-06-20 22:28:53+00:00 (#12242)</title>
-    <updated>2026-06-29T01:03:09.746633+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Yes, @maxraulea is leading this project.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12242"/>
-    <published>2026-06-20T22:28:53+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12241</id>
-    <title>@HyperDbgBot on 2026-06-20 22:27:49+00:00 (#12241)</title>
-    <updated>2026-06-29T01:03:09.746626+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Both of them are the same. If you use WinDbg to bypass DSE, you have the advantage of detecting a crash IF HyperDbg crashed the system (which is a big IF 😅).</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12241"/>
-    <published>2026-06-20T22:27:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12240</id>
-    <title>@supermanfranky on 2026-06-20 22:25:37+00:00 (#12240)</title>
-    <updated>2026-06-29T01:03:09.746619+00:00</updated>
-    <content type="html">Is development active for the Linux version of HyperDbg?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12240"/>
-    <published>2026-06-20T22:25:37+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12239</id>
-    <title>@HyperDbgBot on 2026-06-20 21:45:57+00:00 (#12239)</title>
-    <updated>2026-06-29T01:03:09.746611+00:00</updated>
-    <content type="html">[discord] &lt;oi_its_me&gt; Thanks @rayanfam ! Was already doing that! The recommended route is WinDbg and not EFI Guard, correct?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12239"/>
-    <published>2026-06-20T21:45:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12238</id>
-    <title>@HyperDbgBot on 2026-06-20 20:48:13+00:00 (#12238)</title>
-    <updated>2026-06-29T01:03:09.746604+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; You can use this very simple batch file: ''' start "" "C:\Program Files (x86)\Windows Kits\10\Debuggers\x64\windbg.exe" -k net:port=50000,key=XXX '''</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12238"/>
-    <published>2026-06-20T20:48:13+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12237</id>
-    <title>@HyperDbgBot on 2026-06-20 20:47:46+00:00 (#12237)</title>
-    <updated>2026-06-29T01:03:09.746598+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; Yes that is the case.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12237"/>
-    <published>2026-06-20T20:47:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12236</id>
-    <title>@HyperDbgBot on 2026-06-20 13:01:59+00:00 (#12236)</title>
-    <updated>2026-06-29T01:03:09.746591+00:00</updated>
-    <content type="html">[discord] &lt;oi_its_me&gt; [reply]: Just to clarify. Instead of going into the debuggee and begin listening, you begin listening and then create a snapshot at that point.
+https://github.com/HyperDbg/HyperDbg/releases/tag/v0.24
 
-And then you have a script that launches WinDbg.
+---
 
-For subsequent debugging iterations, you just restore the snapshot.
+More information:
 
-Am I following?
+- dw, da, dds, dqs, dps
+https://docs.hyperdbg.org/commands/debugging-commands/d
 
-Also, I remember I ran into issues with EfiGuard and might be misremembering, but it requires secure boot to be off. I forgot the other issues?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12236"/>
-    <published>2026-06-20T13:01:59+00:00</published>
+- !dw, !da
+https://docs.hyperdbg.org/commands/extension-commands/d
+
+- uin:
+https://docs.hyperdbg.org/commands/debugging-commands/uin
+
+- uout:
+https://docs.hyperdbg.org/commands/debugging-commands/uout
+
+- Arrays as function parameters:
+https://docs.hyperdbg.org/commands/scripting-language/constants-and-functions#arrays-as-function-parameters
+
+- char &amp; wide-char arrays in the script engine:
+https://docs.hyperdbg.org/commands/scripting-language/structures-and-arrays#char-and-wide-char-wchar_t-arrays</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13044"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/releases/tag/v0.24"/>
+    <published>2026-09-22T17:09:00+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12235</id>
-    <title>@Ke3rNel on 2026-06-20 12:13:12+00:00 (#12235)</title>
-    <updated>2026-06-29T01:03:09.746584+00:00</updated>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13043</id>
+    <title>@DevTechke on 2026-09-22 08:59:44+00:00 (#13043)</title>
+    <updated>2026-09-22T17:40:55.894581+00:00</updated>
     <content type="html"/>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12235"/>
-    <published>2026-06-20T12:13:12+00:00</published>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13043"/>
+    <published>2026-09-22T08:59:44+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12234</id>
-    <title>@HughEverett on 2026-06-20 10:35:22+00:00 (#12234)</title>
-    <updated>2026-06-29T01:03:09.746576+00:00</updated>
-    <content type="html">Agree 👌</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12234"/>
-    <published>2026-06-20T10:35:22+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13042</id>
+    <title>@hanfeng2000 on 2026-09-22 07:25:02+00:00 (#13042)</title>
+    <updated>2026-09-22T17:40:55.894575+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13042"/>
+    <published>2026-09-22T07:25:02+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12233</id>
-    <title>@honorary_bot on 2026-06-20 10:34:36+00:00 (#12233)</title>
-    <updated>2026-06-29T01:03:09.746569+00:00</updated>
-    <content type="html">Yeah, Mark is a legend, agree</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12233"/>
-    <published>2026-06-20T10:34:36+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13039</id>
+    <title>@HughEverett on 2026-09-21 12:07:50+00:00 (#13039)</title>
+    <updated>2026-09-22T17:40:55.894569+00:00</updated>
+    <content type="html">Hey,
+Here we discuss hypervisors and Hyperdbg in general. Please avoid asking these types of questions and try to ask more specific ones.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13039"/>
+    <published>2026-09-21T12:07:50+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12232</id>
-    <title>@HughEverett on 2026-06-20 10:34:00+00:00 (#12232)</title>
-    <updated>2026-06-29T01:03:09.746563+00:00</updated>
-    <content type="html">Yeah, but for us it's still so impressive. 😅</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12232"/>
-    <published>2026-06-20T10:34:00+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13038</id>
+    <title>@8944485169 on 2026-09-21 11:59:24+00:00 (#13038)</title>
+    <updated>2026-09-22T17:40:55.894564+00:00</updated>
+    <content type="html">Hi
+Anyone experience in reverse engineering?
+I need have software to reve</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13038"/>
+    <published>2026-09-21T11:59:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12231</id>
-    <title>@honorary_bot on 2026-06-20 10:30:36+00:00 (#12231)</title>
-    <updated>2026-06-29T01:03:09.746553+00:00</updated>
-    <content type="html">You can't impress me with an unlocked CPU, haha</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12231"/>
-    <published>2026-06-20T10:30:36+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13037</id>
+    <title>@8944485169 on 2026-09-21 11:56:43+00:00 (#13037)</title>
+    <updated>2026-09-22T17:40:55.894558+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13037"/>
+    <published>2026-09-21T11:56:43+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12230</id>
-    <title>@HughEverett on 2026-06-20 10:14:40+00:00 (#12230)</title>
-    <updated>2026-06-29T01:03:09.746546+00:00</updated>
-    <content type="html">I think the coolest thing about old Intel processors are those Goldmont and Goldmont Plus Atom CPUs that are red unlcked 😅</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12230"/>
-    <published>2026-06-20T10:14:40+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13035</id>
+    <title>@8355945292 on 2026-09-21 03:22:36+00:00 (#13035)</title>
+    <updated>2026-09-22T17:40:55.894553+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13035"/>
+    <published>2026-09-21T03:22:36+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12229</id>
-    <title>@honorary_bot on 2026-06-20 10:09:41+00:00 (#12229)</title>
-    <updated>2026-06-29T01:03:09.746539+00:00</updated>
-    <content type="html">And then I bricked it - but that's a different story</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12229"/>
-    <published>2026-06-20T10:09:41+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13034</id>
+    <title>@Elpr0fessor999 on 2026-09-20 14:56:38+00:00 (#13034)</title>
+    <updated>2026-09-22T17:40:55.894547+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13034"/>
+    <published>2026-09-20T14:56:38+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12228</id>
-    <title>@honorary_bot on 2026-06-20 10:09:19+00:00 (#12228)</title>
-    <updated>2026-06-29T01:03:09.746530+00:00</updated>
-    <content type="html">So ended up ordering a kaby lake nuc from ebay</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12228"/>
-    <published>2026-06-20T10:09:19+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13033</id>
+    <title>@xuyao13140 on 2026-09-18 15:35:07+00:00 (#13033)</title>
+    <updated>2026-09-22T17:40:55.894541+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13033"/>
+    <published>2026-09-18T15:35:07+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12227</id>
-    <title>@honorary_bot on 2026-06-20 10:09:05+00:00 (#12227)</title>
-    <updated>2026-06-29T01:03:09.746523+00:00</updated>
-    <content type="html">The other day I needed to troubleshoot an insider Windows 10 32 bit build and I couldn't find a machine with CSM</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12227"/>
-    <published>2026-06-20T10:09:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13029</id>
+    <title>@quicaxd on 2026-09-17 11:09:41+00:00 (#13029)</title>
+    <updated>2026-09-22T17:40:55.894535+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13029"/>
+    <published>2026-09-17T11:09:41+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12226</id>
-    <title>@honorary_bot on 2026-06-20 10:08:34+00:00 (#12226)</title>
-    <updated>2026-06-29T01:03:09.746512+00:00</updated>
-    <content type="html">You what's cool about older gens? They were developed during transition from legacy BIOS to UEFI, so most of them had CSM (compatibility support module). So you could run both UEFI+GPT OSes and MBR 32 bit OSes.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12226"/>
-    <published>2026-06-20T10:08:34+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13028</id>
+    <title>@8910470745 on 2026-09-16 23:18:57+00:00 (#13028)</title>
+    <updated>2026-09-22T17:40:55.894530+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13028"/>
+    <published>2026-09-16T23:18:57+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12225</id>
-    <title>@HughEverett on 2026-06-20 10:06:57+00:00 (#12225)</title>
-    <updated>2026-06-29T01:03:09.746281+00:00</updated>
-    <content type="html">Supporting HyperDbg on very old CPUs reminds me of this meme 😅</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12225"/>
-    <link href="https://tg-archive.hyperdbg.org/media/12225.jpg"/>
-    <published>2026-06-20T10:06:57+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13027</id>
+    <title>@mhmd_nikzad on 2026-09-16 19:30:48+00:00 (#13027)</title>
+    <updated>2026-09-22T17:40:55.894523+00:00</updated>
+    <content type="html">Hello 👋🏼</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13027"/>
+    <published>2026-09-16T19:30:48+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12224</id>
-    <title>@honorary_bot on 2026-06-20 10:05:37+00:00 (#12224)</title>
-    <updated>2026-06-29T01:03:09.746274+00:00</updated>
-    <content type="html">I'm afraid not. If you trap and emulate, the performance hit will be huge anyway.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12224"/>
-    <published>2026-06-20T10:05:37+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13026</id>
+    <title>@prollygone on 2026-09-16 18:54:46+00:00 (#13026)</title>
+    <updated>2026-09-22T17:40:55.894494+00:00</updated>
+    <content type="html">Hello friends</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13026"/>
+    <published>2026-09-16T18:54:46+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12223</id>
-    <title>@pooo5558 on 2026-06-20 10:04:59+00:00 (#12223)</title>
-    <updated>2026-06-29T01:03:09.746265+00:00</updated>
-    <content type="html">on CPUs that don't support it</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12223"/>
-    <published>2026-06-20T10:04:59+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13025</id>
+    <title>@alex_wow90 on 2026-09-16 16:04:44+00:00 (#13025)</title>
+    <updated>2026-09-22T17:40:55.894489+00:00</updated>
+    <content type="html">It's possible... but we need ideas</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13025"/>
+    <published>2026-09-16T16:04:44+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12222</id>
-    <title>@pooo5558 on 2026-06-20 10:04:47+00:00 (#12222)</title>
-    <updated>2026-06-29T01:03:09.746233+00:00</updated>
-    <content type="html">I apologize if this question is stupid, Is there any way to run programs that rely on avx2</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12222"/>
-    <published>2026-06-20T10:04:47+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13024</id>
+    <title>@pianpian211 on 2026-09-16 15:30:20+00:00 (#13024)</title>
+    <updated>2026-09-22T17:40:55.894482+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13024"/>
+    <published>2026-09-16T15:30:20+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12221</id>
-    <title>@honorary_bot on 2026-06-20 10:04:08+00:00 (#12221)</title>
-    <updated>2026-06-29T01:03:09.746225+00:00</updated>
-    <content type="html">I have the opposite problem - I support Nehalem+, so I don't integrate fancy features. Very basic, just to keep it working...</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12221"/>
-    <published>2026-06-20T10:04:08+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13023</id>
+    <title>@LK5896 on 2026-09-16 13:55:21+00:00 (#13023)</title>
+    <updated>2026-09-22T17:40:55.894476+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13023"/>
+    <published>2026-09-16T13:55:21+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12220</id>
-    <title>@honorary_bot on 2026-06-20 10:03:25+00:00 (#12220)</title>
-    <updated>2026-06-29T01:03:09.746218+00:00</updated>
-    <content type="html">Yeah, I get that. Those are architectural decisions. You have to sacrifice something..</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12220"/>
-    <published>2026-06-20T10:03:25+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13022</id>
+    <title>@prollygone on 2026-09-16 09:08:29+00:00 (#13022)</title>
+    <updated>2026-09-22T17:40:55.894470+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13022"/>
+    <published>2026-09-16T09:08:29+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12219</id>
-    <title>@HughEverett on 2026-06-20 10:03:21+00:00 (#12219)</title>
-    <updated>2026-06-29T01:03:09.746210+00:00</updated>
-    <content type="html">Probably the best tested CPU is 9th gen or newer but still it might work on Kaby lake and Skylake (not sure).</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12219"/>
-    <published>2026-06-20T10:03:21+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13021</id>
+    <title>@mhmd_nikzad on 2026-09-15 14:49:47+00:00 (#13021)</title>
+    <updated>2026-09-22T17:40:55.894460+00:00</updated>
+    <content type="html">No
+I think it was one of the problems we discussed before, i mean not specifically usage of rdtsc but the connection between debugger and debuggee. when we try to debug remotely, after indication of successful connection we press ctrl+c in order to be able to send command to the target system, the target windows freezes which is normal, and if you want to regain access ( unfreeze ) the target windows, you should send G or continue using debugger (main windows) to the debuggee. But in case of your problem with RDTSC, you know what? If you think about it, its normal to experience such a thing, hooking RDTSC causes instability, slowness... And eventually freezing 🥶 
+I experienced that too with just a simple windows application like notepad, just imagine intercepting/emulating/(or any other related terms for it) rdtsc of a larger program 🌚 yikes 💀</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13021"/>
+    <published>2026-09-15T14:49:47+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12218</id>
-    <title>@HughEverett on 2026-06-20 10:02:21+00:00 (#12218)</title>
-    <updated>2026-06-29T01:03:09.746203+00:00</updated>
-    <content type="html">Well, the main problem with old CPUs in HyperDbg comes from the fact that we use MBEC (Mode-based Execution Controls), which is only available from Kaby Lake. However, at the same time, these processors with the KPTI patch for Meltdown require significant care if we want to access memory safely. Initially, we did support that type of memory access, but after some time, and since Windows 11 stopped supporting most of them, we haven't tested it on them. As a result, after some time, HyperDbg was added with so many features that never tested on 8th-gen and older CPUs which as a result can cause a BSOD if not treated correctly.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12218"/>
-    <published>2026-06-20T10:02:21+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13020</id>
+    <title>@hyperdbg_io on 2026-09-15 14:21:20+00:00 (#13020)</title>
+    <updated>2026-09-22T17:40:55.894225+00:00</updated>
+    <content type="html">It's been a while since we passed 4K GitHub stars ⭐️
+
+And more good news: HyperDbg's kernel-mode drivers now build on #Linux! 🐧
+
+After successfully getting the user-mode components compiled, thanks to @MaxRaulea, we're now moving on to debugging, implementing, and testing cross-platform functionality.
+
+Step by step, we’re getting closer to running HyperDbg on Linux!
+
+https://github.com/HyperDbg/HyperDbg/tree/dev/hyperdbg/linux</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13020"/>
+    <link href="https://tg-archive.hyperdbg.org/media/13020.jpg"/>
+    <published>2026-09-15T14:21:20+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12217</id>
-    <title>@honorary_bot on 2026-06-20 09:59:05+00:00 (#12217)</title>
-    <updated>2026-06-29T01:03:09.746196+00:00</updated>
-    <content type="html">don't worry about it, as long as we understand each other we're good</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12217"/>
-    <published>2026-06-20T09:59:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13019</id>
+    <title>@alex_wow90 on 2026-09-14 15:44:55+00:00 (#13019)</title>
+    <updated>2026-09-22T17:40:55.894218+00:00</updated>
+    <content type="html">Hello! Unfortunately, it doesn't work that way ... when hyperdbg hangs, it can not be stopped (ctrl+c) not turned off (exit). It's just that rdtsc lines are constantly coming</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13019"/>
+    <published>2026-09-14T15:44:55+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12216</id>
-    <title>@pooo5558 on 2026-06-20 09:57:51+00:00 (#12216)</title>
-    <updated>2026-06-29T01:03:09.746189+00:00</updated>
-    <content type="html">sorry for bad english</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12216"/>
-    <published>2026-06-20T09:57:51+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13018</id>
+    <title>@mhmd_nikzad on 2026-09-14 03:05:13+00:00 (#13018)</title>
+    <updated>2026-09-22T17:40:55.894213+00:00</updated>
+    <content type="html">@alex_wow90 
+Hi Alexander, i guess the freezing problem wasnt really a problem! if you press G or type`continue` in debugger (which is your main windows) you can unfreeze the debuggee (the system you connected to)</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13018"/>
+    <published>2026-09-14T03:05:13+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12215</id>
-    <title>@pooo5558 on 2026-06-20 09:57:34+00:00 (#12215)</title>
-    <updated>2026-06-29T01:03:09.746182+00:00</updated>
-    <content type="html">generation</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12215"/>
-    <published>2026-06-20T09:57:34+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13016</id>
+    <title>@honorary_bot on 2026-09-13 13:37:57+00:00 (#13016)</title>
+    <updated>2026-09-22T17:40:55.894207+00:00</updated>
+    <content type="html">It makes sense to ask the question before pinging someone</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13016"/>
+    <published>2026-09-13T13:37:57+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12214</id>
-    <title>@pooo5558 on 2026-06-20 09:57:29+00:00 (#12214)</title>
-    <updated>2026-06-29T01:03:09.746173+00:00</updated>
-    <content type="html">which cpus are supported by hyperdbg</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12214"/>
-    <published>2026-06-20T09:57:29+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13012</id>
+    <title>@HyperDbgBot on 2026-09-12 21:14:25+00:00 (#13012)</title>
+    <updated>2026-09-22T17:40:55.894202+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; Oki</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13012"/>
+    <published>2026-09-12T21:14:25+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12212</id>
-    <title>@honorary_bot on 2026-06-20 09:53:29+00:00 (#12212)</title>
-    <updated>2026-06-29T01:03:09.746165+00:00</updated>
-    <content type="html">I guess I divide ancient and not ancient CPUs by VTx version (pre EPT and post EPT)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12212"/>
-    <published>2026-06-20T09:53:29+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13011</id>
+    <title>@honorary_bot on 2026-09-12 19:26:34+00:00 (#13011)</title>
+    <updated>2026-09-22T17:40:55.894195+00:00</updated>
+    <content type="html">It is</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13011"/>
+    <published>2026-09-12T19:26:34+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12211</id>
-    <title>@honorary_bot on 2026-06-20 09:52:56+00:00 (#12211)</title>
-    <updated>2026-06-29T01:03:09.746141+00:00</updated>
-    <content type="html">But still, I have a sandy bridge mini pc at my desk. I’m debugging it successfully with a hypervisor, Windows XP target - so much fun.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12211"/>
-    <published>2026-06-20T09:52:56+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13010</id>
+    <title>@meowwwwwww13384 on 2026-09-12 19:26:24+00:00 (#13010)</title>
+    <updated>2026-09-22T17:40:55.894190+00:00</updated>
+    <content type="html">wasn't it like deprecated iirc?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13010"/>
+    <published>2026-09-12T19:26:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12210</id>
-    <title>@honorary_bot on 2026-06-20 09:52:05+00:00 (#12210)</title>
-    <updated>2026-06-29T01:03:09.746134+00:00</updated>
-    <content type="html">Darn you got me</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12210"/>
-    <published>2026-06-20T09:52:05+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13009</id>
+    <title>@HyperDbgBot on 2026-09-12 18:24:24+00:00 (#13009)</title>
+    <updated>2026-09-22T17:40:55.894184+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; eek thnx</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13009"/>
+    <published>2026-09-12T18:24:24+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12209</id>
-    <title>@HughEverett on 2026-06-20 09:51:43+00:00 (#12209)</title>
-    <updated>2026-06-29T01:03:09.746126+00:00</updated>
-    <content type="html">486 isn't vulnerable to spectre? Do they even have branch prediction and speculative execution?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12209"/>
-    <published>2026-06-20T09:51:43+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13008</id>
+    <title>@honorary_bot on 2026-09-12 18:24:10+00:00 (#13008)</title>
+    <updated>2026-09-22T17:40:55.894174+00:00</updated>
+    <content type="html">https://pulsedbg.com/vmx.html</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13008"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://pulsedbg.com/vmx.html"/>
+    <published>2026-09-12T18:24:10+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12208</id>
-    <title>@HughEverett on 2026-06-20 09:50:31+00:00 (#12208)</title>
-    <updated>2026-06-29T01:03:09.746117+00:00</updated>
-    <content type="html">Yeah, you can keep it and donate it to a museum soon. 😛</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12208"/>
-    <published>2026-06-20T09:50:31+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13007</id>
+    <title>@HyperDbgBot on 2026-09-12 18:24:08+00:00 (#13007)</title>
+    <updated>2026-09-22T17:40:55.894168+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; let me look it up</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13007"/>
+    <published>2026-09-12T18:24:08+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12207</id>
-    <title>@HughEverett on 2026-06-20 09:49:44+00:00 (#12207)</title>
-    <updated>2026-06-29T01:03:09.746111+00:00</updated>
-    <content type="html">You should test, maybe versions older than 0.10 support it (but I'm not sure).</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12207"/>
-    <published>2026-06-20T09:49:44+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13006</id>
+    <title>@HyperDbgBot on 2026-09-12 18:23:52+00:00 (#13006)</title>
+    <updated>2026-09-22T17:40:55.894163+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; some do i think</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13006"/>
+    <published>2026-09-12T18:23:52+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12206</id>
-    <title>@honorary_bot on 2026-06-20 09:49:42+00:00 (#12206)</title>
-    <updated>2026-06-29T01:03:09.746104+00:00</updated>
-    <content type="html">How do you call 486 then? :)</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12206"/>
-    <published>2026-06-20T09:49:42+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13005</id>
+    <title>@honorary_bot on 2026-09-12 18:22:54+00:00 (#13005)</title>
+    <updated>2026-09-22T17:40:55.894158+00:00</updated>
+    <content type="html">And no client CPU supports that</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13005"/>
+    <published>2026-09-12T18:22:54+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12205</id>
-    <title>@HughEverett on 2026-06-20 09:48:44+00:00 (#12205)</title>
-    <updated>2026-06-29T01:03:09.746097+00:00</updated>
-    <content type="html">A processor vulnerable to Meltdown and Spectre doesn't deserve the title of seniority! 😅</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12205"/>
-    <published>2026-06-20T09:48:44+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13004</id>
+    <title>@honorary_bot on 2026-09-12 18:22:35+00:00 (#13004)</title>
+    <updated>2026-09-22T17:40:55.894152+00:00</updated>
+    <content type="html">Well I assume it is based on sub page permissions capability</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13004"/>
+    <published>2026-09-12T18:22:35+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12204</id>
-    <title>@pooo5558 on 2026-06-20 09:44:51+00:00 (#12204)</title>
-    <updated>2026-06-29T01:03:09.746088+00:00</updated>
-    <content type="html">old is gold : DD</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12204"/>
-    <published>2026-06-20T09:44:51+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13003</id>
+    <title>@HyperDbgBot on 2026-09-12 18:21:37+00:00 (#13003)</title>
+    <updated>2026-09-22T17:40:55.894146+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; Sub-Page Permissions (SPP) Memory Monitor</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13003"/>
+    <published>2026-09-12T18:21:37+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12203</id>
-    <title>@pooo5558 on 2026-06-20 09:41:12+00:00 (#12203)</title>
-    <updated>2026-06-29T01:03:09.746081+00:00</updated>
-    <content type="html">thank you, but are these cpus supported by older hyperdbg versions?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12203"/>
-    <published>2026-06-20T09:41:12+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13002</id>
+    <title>@HyperDbgBot on 2026-09-12 18:21:23+00:00 (#13002)</title>
+    <updated>2026-09-22T17:40:55.894140+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; you mean point 1 or</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13002"/>
+    <published>2026-09-12T18:21:23+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12202</id>
-    <title>@honorary_bot on 2026-06-20 09:38:58+00:00 (#12202)</title>
-    <updated>2026-06-29T01:03:09.746072+00:00</updated>
-    <content type="html">Woah, woah, mate! Have some respect to senior CPUs :D</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12202"/>
-    <published>2026-06-20T09:38:58+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13001</id>
+    <title>@HyperDbgBot on 2026-09-12 18:20:33+00:00 (#13001)</title>
+    <updated>2026-09-22T17:40:55.894135+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; i was brainstorming on new ideas</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13001"/>
+    <published>2026-09-12T18:20:33+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12201</id>
-    <title>@HughEverett on 2026-06-20 09:38:03+00:00 (#12201)</title>
-    <updated>2026-06-29T01:03:09.746063+00:00</updated>
-    <content type="html">It's an ancient processor (from 2012) 😅. It's been a long time since we tested HyperDbg on Skylake and older processors, as they simply don't have the features that HyperDbg requires.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12201"/>
-    <published>2026-06-20T09:38:03+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#13000</id>
+    <title>@HyperDbgBot on 2026-09-12 18:19:50+00:00 (#13000)</title>
+    <updated>2026-09-22T17:40:55.894129+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; oh ok</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#13000"/>
+    <published>2026-09-12T18:19:50+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12200</id>
-    <title>@pooo5558 on 2026-06-20 09:30:33+00:00 (#12200)</title>
-    <updated>2026-06-29T01:03:09.746056+00:00</updated>
-    <content type="html">ivy bridge
-latest hyperdbg 
-stable</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12200"/>
-    <published>2026-06-20T09:30:33+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12999</id>
+    <title>@honorary_bot on 2026-09-12 18:19:25+00:00 (#12999)</title>
+    <updated>2026-09-22T17:40:55.894123+00:00</updated>
+    <content type="html">SPP is not worth it - there were only couple of cpus supporting it and it won't be supported in the future</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12999"/>
+    <published>2026-09-12T18:19:25+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12199</id>
-    <title>@HughEverett on 2026-06-20 09:28:30+00:00 (#12199)</title>
-    <updated>2026-06-29T01:03:09.746047+00:00</updated>
-    <content type="html">Hey, could you provide more details? Which generation of Intel processors do you use? Also, which version of HyperDbg are you using? Are you using a beta version or a stable version?</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12199"/>
-    <published>2026-06-20T09:28:30+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12998</id>
+    <title>@HyperDbgBot on 2026-09-12 18:17:53+00:00 (#12998)</title>
+    <updated>2026-09-22T17:40:55.894112+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; https://github.com/HyperDbg/HyperDbg/issues/690</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12998"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/HyperDbg/issues/690"/>
+    <published>2026-09-12T18:17:53+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12198</id>
-    <title>@HyperDbgBot on 2026-06-20 09:25:12+00:00 (#12198)</title>
-    <updated>2026-06-29T01:03:09.746030+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: You can EfiGuard if you don't want to use WinDbg. Also, I usually create an snapshot of the VM and I have a batch file in the host that opens windbg with parameters to debug VM. That saves me a lot of time.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12198"/>
-    <published>2026-06-20T09:25:12+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12997</id>
+    <title>@HyperDbgBot on 2026-09-12 18:17:34+00:00 (#12997)</title>
+    <updated>2026-09-22T17:40:55.894107+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; i'l been brianstorming for some more feartures</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12997"/>
+    <published>2026-09-12T18:17:34+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12197</id>
-    <title>@HyperDbgBot on 2026-06-20 09:23:12+00:00 (#12197)</title>
-    <updated>2026-06-29T01:03:09.745905+00:00</updated>
-    <content type="html">[discord] &lt;rayanfam&gt; [reply]: Instead of using these tricks, you can just use 'test breakpoint off' or 'test trap off' :
-https://docs.hyperdbg.org/commands/debugging-commands/test</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12197"/>
-    <link href="https://tg-archive.hyperdbg.org/media/https://docs.hyperdbg.org/commands/debugging-commands/test"/>
-    <published>2026-06-20T09:23:12+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12995</id>
+    <title>@HyperDbgBot on 2026-09-12 18:13:57+00:00 (#12995)</title>
+    <updated>2026-09-22T17:40:55.894101+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; eny dev here</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12995"/>
+    <published>2026-09-12T18:13:57+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12196</id>
-    <title>@8703653733 on 2026-06-20 07:09:23+00:00 (#12196)</title>
-    <updated>2026-06-29T01:03:09.745337+00:00</updated>
-    <content type="html">photo_2026-06-20_07-09-23.jpg</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12196"/>
-    <link href="https://tg-archive.hyperdbg.org/media/12196.jpg"/>
-    <published>2026-06-20T07:09:23+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12992</id>
+    <title>@HughEverett on 2026-09-12 16:35:28+00:00 (#12992)</title>
+    <updated>2026-09-22T17:40:55.894095+00:00</updated>
+    <content type="html">No worries. Let's continue this discussion in DM, so we won't be annoying for others in the group.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12992"/>
+    <published>2026-09-12T16:35:28+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12195</id>
-    <title>@HyperDbgBot on 2026-06-20 07:02:07+00:00 (#12195)</title>
-    <updated>2026-06-29T01:03:09.745327+00:00</updated>
-    <content type="html">[discord] &lt;nihaoshijie0178&gt; [reply]: I'm quite interested in this bug.
-If you could provide a video of the bug being triggered along with the full memory dump captured via DMA, I'd be more than happy to help you analyze it.</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12195"/>
-    <published>2026-06-20T07:02:07+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12991</id>
+    <title>@HyperDbgBot on 2026-09-12 16:34:43+00:00 (#12991)</title>
+    <updated>2026-09-22T17:40:55.894089+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; sorry for the mess</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12991"/>
+    <published>2026-09-12T16:34:43+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12194</id>
-    <title>@HyperDbgBot on 2026-06-20 06:52:50+00:00 (#12194)</title>
-    <updated>2026-06-29T01:03:09.745306+00:00</updated>
-    <content type="html">[discord] &lt;nihaoshijie0178&gt; [reply]: I'm using a dual-physical-machine debugging setup.
-Under normal circumstances, the Break breakpoint in WinDbg will be intercepted and handled by HyperDbg, which renders WinDbg unusable.
-To work around this, you need to replace WinDbg's Break breakpoint with INT 2D, so that the breakpoint will not be captured by HyperDbg.
-Hope my answer is of some help to you</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12194"/>
-    <published>2026-06-20T06:52:50+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12990</id>
+    <title>@HughEverett on 2026-09-12 16:34:14+00:00 (#12990)</title>
+    <updated>2026-09-22T17:40:55.894069+00:00</updated>
+    <content type="html">Yes, I could see it now, but apparently your other modification is also in this PR. Not just the symbol parser problem.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12990"/>
+    <published>2026-09-12T16:34:14+00:00</published>
   </entry>
   <entry>
-    <id>https://tg-archive.hyperdbg.org/2026-06.html#12193</id>
-    <title>@HyperDbgBot on 2026-06-20 03:59:32+00:00 (#12193)</title>
-    <updated>2026-06-29T01:03:09.745258+00:00</updated>
-    <content type="html">[discord] &lt;oi_its_me&gt; [reply]: kernel level local debugging isn’t supported for obvious reasons</content>
-    <link href="https://tg-archive.hyperdbg.org/2026-06.html#12193"/>
-    <published>2026-06-20T03:59:32+00:00</published>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12989</id>
+    <title>@HyperDbgBot on 2026-09-12 16:33:11+00:00 (#12989)</title>
+    <updated>2026-09-22T17:40:55.894063+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; how i change it</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12989"/>
+    <published>2026-09-12T16:33:11+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12988</id>
+    <title>@HyperDbgBot on 2026-09-12 16:32:03+00:00 (#12988)</title>
+    <updated>2026-09-22T17:40:55.894040+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; Review required
+At least 6 approving reviews are required by reviewers with write access.
+
+1 workflow awaiting approval
+This workflow requires approval from a maintainer. Learn more about approving workflows.
+
+Merging is blocked
+At least 6 approving reviews are required by reviewers with write access.
+You're not authorized to push to this branch. Visit https://docs.github.com/repositories/configuring-branches-and-</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12988"/>
+    <published>2026-09-12T16:32:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12987</id>
+    <title>@HyperDbgBot on 2026-09-12 16:32:00+00:00 (#12987)</title>
+    <updated>2026-09-22T17:40:55.894029+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; ok</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12987"/>
+    <published>2026-09-12T16:32:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12986</id>
+    <title>@HughEverett on 2026-09-12 16:30:44+00:00 (#12986)</title>
+    <updated>2026-09-22T17:40:55.894023+00:00</updated>
+    <content type="html">Could you send it to the 'dev' please?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12986"/>
+    <published>2026-09-12T16:30:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12985</id>
+    <title>@HyperDbgBot on 2026-09-12 16:30:09+00:00 (#12985)</title>
+    <updated>2026-09-22T17:40:55.894015+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; Fix kernel32 symbol loading- #688
+#688
+Open
+xssd84
+wants to merge 14 commits into
+HyperDbg:master
+from
+xssd84:fix-kernel32-symbol-loading</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12985"/>
+    <published>2026-09-12T16:30:09+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12984</id>
+    <title>@HyperDbgBot on 2026-09-12 16:23:02+00:00 (#12984)</title>
+    <updated>2026-09-22T17:40:55.894009+00:00</updated>
+    <content type="html">[discord] &lt;xssd&gt; sure gimme sec</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12984"/>
+    <published>2026-09-12T16:23:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12983</id>
+    <title>@HughEverett on 2026-09-12 16:22:35+00:00 (#12983)</title>
+    <updated>2026-09-22T17:40:55.894002+00:00</updated>
+    <content type="html">I see. That one is a bit hard to check all of it. Could you also send a separate PR for this specific issue?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12983"/>
+    <published>2026-09-12T16:22:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12982</id>
+    <title>@HyperDbgBot on 2026-09-12 16:21:25+00:00 (#12982)</title>
+    <updated>2026-09-22T17:40:55.893967+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; i sended i massive pr request</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12982"/>
+    <published>2026-09-12T16:21:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12981</id>
+    <title>@HughEverett on 2026-09-12 16:20:53+00:00 (#12981)</title>
+    <updated>2026-09-22T17:40:55.893962+00:00</updated>
+    <content type="html">Is it the one you sent a PR for it? Or is it different from the PR?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12981"/>
+    <published>2026-09-12T16:20:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12980</id>
+    <title>@HyperDbgBot on 2026-09-12 16:19:33+00:00 (#12980)</title>
+    <updated>2026-09-22T17:40:55.893956+00:00</updated>
+    <content type="html">[discord] &lt;kurd&gt; Stripped Public PDBs in pdbex (DIA SDK Integration)
+Problem: Microsoft's public symbols (such as kernel32.pdb) are stripped: they contain 0 UDTs (SymTagUDT) and 0 Enums (SymTagEnum), but contain thousands of SymTagPublicSymbol items (e.g. 5,945 in kernel32.pdb).
+Previously, pdbex only stored UDTs and Enums in its primary symbol maps (m_SymbolMap and m_SymbolNameMap). SymTagPublicSymbol entries were only examined for a comment output list if the -f flag was enabled, but were never indexed as first-class symbols. As a result:
+Wildcard query (*) returned 0 symbols.
+Single symbol query (CreateFileW) threw Symbol not found.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12980"/>
+    <published>2026-09-12T16:19:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12979</id>
+    <title>@HyperDbgBot on 2026-09-12 16:15:41+00:00 (#12979)</title>
+    <updated>2026-09-22T17:40:55.893951+00:00</updated>
+    <content type="html">[discord] &lt;kurd&gt; i think fix is incoming</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12979"/>
+    <published>2026-09-12T16:15:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12974</id>
+    <title>@HughEverett on 2026-09-12 14:13:56+00:00 (#12974)</title>
+    <updated>2026-09-22T17:40:55.893945+00:00</updated>
+    <content type="html">I don't know if it's a problem with Microsoft symbol parser or a problem with our code</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12974"/>
+    <published>2026-09-12T14:13:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12973</id>
+    <title>@HyperDbgBot on 2026-09-12 14:13:49+00:00 (#12973)</title>
+    <updated>2026-09-22T17:40:55.893940+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; i'm seeing it my self now</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12973"/>
+    <published>2026-09-12T14:13:49+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12972</id>
+    <title>@HyperDbgBot on 2026-09-12 14:13:32+00:00 (#12972)</title>
+    <updated>2026-09-22T17:40:55.893934+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; oh ok</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12972"/>
+    <published>2026-09-12T14:13:32+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12971</id>
+    <title>@HughEverett on 2026-09-12 14:13:12+00:00 (#12971)</title>
+    <updated>2026-09-22T17:40:55.893928+00:00</updated>
+    <content type="html">Yeah, this is a problem in HyperDbg. If you try to parse symbols. Sometimes it doesn't show function names for kernelbase.dll or kernel32.dll.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12971"/>
+    <published>2026-09-12T14:13:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12970</id>
+    <title>@HyperDbgBot on 2026-09-12 14:11:48+00:00 (#12970)</title>
+    <updated>2026-09-22T17:40:55.893922+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; or its just in general</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12970"/>
+    <published>2026-09-12T14:11:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12969</id>
+    <title>@HyperDbgBot on 2026-09-12 14:11:41+00:00 (#12969)</title>
+    <updated>2026-09-22T17:40:55.893916+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; Investigating why the symbols parser (DIA SDK) could not read symbols of the 'kernel32!*' can i have more info on this</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12969"/>
+    <published>2026-09-12T14:11:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12952</id>
+    <title>@HyperDbgBot on 2026-09-12 08:41:22+00:00 (#12952)</title>
+    <updated>2026-09-22T17:40:55.893910+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; In-Kernel Script VM Bytecode Evaluator (hyperdbg/script-eval/code/ScriptEngineEval.c)
+Arbitrary Memory Write / Stack Overflow in FUNC_PUSH and FUNC_CALL: ScriptGeneralRegisters-&gt;StackBuffer[ScriptGeneralRegisters-&gt;StackIndx] = SrcVal0; ScriptGeneralRegisters-&gt;StackIndx++; executes before verifying if StackIndx &gt;= MAX_STACK_BUFFER_COUNT (256). Allows an attacker or malformed script to overwrite adjacent non-paged pool memory in kernel mode.</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12952"/>
+    <published>2026-09-12T08:41:22+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12951</id>
+    <title>@HyperDbgBot on 2026-09-12 08:05:44+00:00 (#12951)</title>
+    <updated>2026-09-22T17:40:55.893904+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; where are you im from eu</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12951"/>
+    <published>2026-09-12T08:05:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12950</id>
+    <title>@HyperDbgBot on 2026-09-12 07:56:45+00:00 (#12950)</title>
+    <updated>2026-09-22T17:40:55.893892+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; https://github.com/orgs/HyperDbg/projects/2</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12950"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/orgs/HyperDbg/projects/2"/>
+    <published>2026-09-12T07:56:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12949</id>
+    <title>@HyperDbgBot on 2026-09-12 07:56:16+00:00 (#12949)</title>
+    <updated>2026-09-22T17:40:55.893886+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; nvm i found it</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12949"/>
+    <published>2026-09-12T07:56:16+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12948</id>
+    <title>@jjewehehe011rockbottom on 2026-09-12 07:35:31+00:00 (#12948)</title>
+    <updated>2026-09-22T17:40:55.893881+00:00</updated>
+    <content type="html">Hi</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12948"/>
+    <published>2026-09-12T07:35:31+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12947</id>
+    <title>@mhmd_nikzad on 2026-09-12 07:31:50+00:00 (#12947)</title>
+    <updated>2026-09-22T17:40:55.893875+00:00</updated>
+    <content type="html">Good morning 🌄</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12947"/>
+    <published>2026-09-12T07:31:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12946</id>
+    <title>@HyperDbgBot on 2026-09-12 07:30:27+00:00 (#12946)</title>
+    <updated>2026-09-22T17:40:55.893869+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; good morning all</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12946"/>
+    <published>2026-09-12T07:30:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12945</id>
+    <title>@MissRose_bot on 2026-09-12 04:12:53+00:00 (#12945)</title>
+    <updated>2026-09-22T17:40:55.893863+00:00</updated>
+    <content type="html">Reported Jeffrey Mendez [1088081389] to admins.​​​​​​​​​​​​</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12945"/>
+    <published>2026-09-12T04:12:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12944</id>
+    <title>@jjewehehe011rockbottom on 2026-09-12 04:12:53+00:00 (#12944)</title>
+    <updated>2026-09-22T17:40:55.893857+00:00</updated>
+    <content type="html">/report</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12944"/>
+    <published>2026-09-12T04:12:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12942</id>
+    <title>@billchasa on 2026-09-12 02:43:41+00:00 (#12942)</title>
+    <updated>2026-09-22T17:40:55.893851+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12942"/>
+    <published>2026-09-12T02:43:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12939</id>
+    <title>@HyperDbgBot on 2026-09-10 17:05:23+00:00 (#12939)</title>
+    <updated>2026-09-22T17:40:55.893845+00:00</updated>
+    <content type="html">[matrix] &lt;kurd&gt; im sorry</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12939"/>
+    <published>2026-09-10T17:05:23+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12916</id>
+    <title>@meowwwwwww13384 on 2026-09-10 08:06:49+00:00 (#12916)</title>
+    <updated>2026-09-22T17:40:55.893838+00:00</updated>
+    <content type="html">uhm, how this would be even possible, I mean, for most processes you have WinDBG TTD, but for drivers your best bet is HyperTrace(? (Intel PT + LBR/BTS and other tracing features VMX can support)</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12916"/>
+    <published>2026-09-10T08:06:49+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12915</id>
+    <title>@mhmd_nikzad on 2026-09-10 05:54:01+00:00 (#12915)</title>
+    <updated>2026-09-22T17:40:55.893832+00:00</updated>
+    <content type="html">you mean syscalls?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12915"/>
+    <published>2026-09-10T05:54:01+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12914</id>
+    <title>@jingshen95 on 2026-09-09 15:31:48+00:00 (#12914)</title>
+    <updated>2026-09-22T17:40:55.893822+00:00</updated>
+    <content type="html">When will nested virtualization be supported? I am currently debugging a malicious driver, and it loads VT‑x, which prevents me from using HyperDbg for debugging. Also, will there be a future feature that, when I double‑click on an executable (.exe) or a driver (.sys), records its complete call flow and its CPU instruction log for both x64 and x32 modes?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12914"/>
+    <published>2026-09-09T15:31:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12913</id>
+    <title>@8983805874 on 2026-09-09 14:33:13+00:00 (#12913)</title>
+    <updated>2026-09-22T17:40:55.893803+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12913"/>
+    <published>2026-09-09T14:33:13+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12910</id>
+    <title>@tryorelse on 2026-09-09 10:35:38+00:00 (#12910)</title>
+    <updated>2026-09-22T17:40:55.893798+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12910"/>
+    <published>2026-09-09T10:35:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12909</id>
+    <title>@linhlt on 2026-09-07 14:35:56+00:00 (#12909)</title>
+    <updated>2026-09-22T17:40:55.893791+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12909"/>
+    <published>2026-09-07T14:35:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12908</id>
+    <title>@mhmd_nikzad on 2026-09-07 06:03:27+00:00 (#12908)</title>
+    <updated>2026-09-22T17:40:55.893785+00:00</updated>
+    <content type="html">yup 😎
+thanks to all developers, specially @HughEverett</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12908"/>
+    <published>2026-09-07T06:03:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12907</id>
+    <title>@alex_wow90 on 2026-09-07 05:56:37+00:00 (#12907)</title>
+    <updated>2026-09-22T17:40:55.893779+00:00</updated>
+    <content type="html">Hyperdbg is a great product for reverse engineers</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12907"/>
+    <published>2026-09-07T05:56:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12906</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:52:05+00:00 (#12906)</title>
+    <updated>2026-09-22T17:40:55.893769+00:00</updated>
+    <content type="html">but notice that, i have that freezing problem in REMOTE debugging too! i guess all users must have the same problem, and its not specifically for !tsc command. but no worry, we're trying to fix that bro 🙌🏼</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12906"/>
+    <published>2026-09-07T05:52:05+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12905</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:40:58+00:00 (#12905)</title>
+    <updated>2026-09-22T17:40:55.893611+00:00</updated>
+    <content type="html">maybe the issue is with the way you wrote notepad! i mean, instead of writing it like this:
+Notepad.exe
+i used:
+notepad.exe
+exactly the same as it appears in task manager
+(its just my guess im not sure , maybe the reason i provide isnt logical at all 🌝😬😬😬)</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12905"/>
+    <link href="https://tg-archive.hyperdbg.org/media/12905.jpg"/>
+    <published>2026-09-07T05:40:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12904</id>
+    <title>@alex_wow90 on 2026-09-07 05:39:26+00:00 (#12904)</title>
+    <updated>2026-09-22T17:40:55.893606+00:00</updated>
+    <content type="html">It's very strange... today I'll check on another computer</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12904"/>
+    <published>2026-09-07T05:39:26+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12903</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:38:15+00:00 (#12903)</title>
+    <updated>2026-09-22T17:40:55.893600+00:00</updated>
+    <content type="html">im in vmware, local mode debugging, as you did before
+connect local
+load vmm</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12903"/>
+    <published>2026-09-07T05:38:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12902</id>
+    <title>@alex_wow90 on 2026-09-07 05:38:14+00:00 (#12902)</title>
+    <updated>2026-09-22T17:40:55.893594+00:00</updated>
+    <content type="html">Thank you!🙏 This is very important information for me...</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12902"/>
+    <published>2026-09-07T05:38:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12901</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:37:50+00:00 (#12901)</title>
+    <updated>2026-09-22T17:40:55.893587+00:00</updated>
+    <content type="html">its working properly, no freezing</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12901"/>
+    <published>2026-09-07T05:37:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12900</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:37:14+00:00 (#12900)</title>
+    <updated>2026-09-22T17:40:55.893578+00:00</updated>
+    <content type="html">nope</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12900"/>
+    <published>2026-09-07T05:37:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12899</id>
+    <title>@alex_wow90 on 2026-09-07 05:37:02+00:00 (#12899)</title>
+    <updated>2026-09-22T17:40:55.893563+00:00</updated>
+    <content type="html">Hello! ✋🤚Hyperdbg didn't hang?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12899"/>
+    <published>2026-09-07T05:37:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12898</id>
+    <title>@mhmd_nikzad on 2026-09-07 05:35:13+00:00 (#12898)</title>
+    <updated>2026-09-22T17:40:55.892378+00:00</updated>
+    <content type="html">hey alexander 🙌🏼
+do you think its working properly for me? just as expected?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12898"/>
+    <link href="https://tg-archive.hyperdbg.org/media/12898.jpg"/>
+    <published>2026-09-07T05:35:13+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12897</id>
+    <title>@S3V3R3D on 2026-09-06 21:38:21+00:00 (#12897)</title>
+    <updated>2026-09-22T17:40:55.892372+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12897"/>
+    <published>2026-09-06T21:38:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12896</id>
+    <title>@6846260707 on 2026-09-06 00:38:31+00:00 (#12896)</title>
+    <updated>2026-09-22T17:40:55.892365+00:00</updated>
+    <content type="html"/>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12896"/>
+    <published>2026-09-06T00:38:31+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12895</id>
+    <title>@HumbleMuns on 2026-09-04 22:27:25+00:00 (#12895)</title>
+    <updated>2026-09-22T17:40:55.892358+00:00</updated>
+    <content type="html">🫡</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12895"/>
+    <published>2026-09-04T22:27:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12894</id>
+    <title>@HughEverett on 2026-09-04 22:25:01+00:00 (#12894)</title>
+    <updated>2026-09-22T17:40:55.892342+00:00</updated>
+    <content type="html">Hey
+Yes. Thanks to @HumbleMuns https://github.com/HyperDbg/mcp</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12894"/>
+    <link href="https://tg-archive.hyperdbg.org/media/https://github.com/HyperDbg/mcp"/>
+    <published>2026-09-04T22:25:01+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12893</id>
+    <title>@getting458 on 2026-09-04 11:16:30+00:00 (#12893)</title>
+    <updated>2026-09-22T17:40:55.892335+00:00</updated>
+    <content type="html">It has a search memory function</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12893"/>
+    <published>2026-09-04T11:16:30+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12892</id>
+    <title>@7242493127 on 2026-09-04 10:33:14+00:00 (#12892)</title>
+    <updated>2026-09-22T17:40:55.892327+00:00</updated>
+    <content type="html">Hmm</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12892"/>
+    <published>2026-09-04T10:33:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12891</id>
+    <title>@getting458 on 2026-09-04 09:50:33+00:00 (#12891)</title>
+    <updated>2026-09-22T17:40:55.892317+00:00</updated>
+    <content type="html">Does this tool have an MCP?</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12891"/>
+    <published>2026-09-04T09:50:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12890</id>
+    <title>@alex_wow90 on 2026-09-03 09:09:09+00:00 (#12890)</title>
+    <updated>2026-09-22T17:40:55.892303+00:00</updated>
+    <content type="html">With !tsc is a complete trouble...(</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12890"/>
+    <published>2026-09-03T09:09:09+00:00</published>
+  </entry>
+  <entry>
+    <id>https://tg-archive.hyperdbg.org/2026-09.html#12889</id>
+    <title>@alex_wow90 on 2026-09-02 13:18:29+00:00 (#12889)</title>
+    <updated>2026-09-22T17:40:55.892271+00:00</updated>
+    <content type="html">Check, please🙂</content>
+    <link href="https://tg-archive.hyperdbg.org/2026-09.html#12889"/>
+    <published>2026-09-02T13:18:29+00:00</published>
   </entry>
 </feed>
